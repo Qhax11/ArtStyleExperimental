@@ -19,7 +19,7 @@ Oyun cozy bir hava taşır ve hediye olarak yapılıyor, satılmayacak. Karakter
 
 ## Yeni oturum için devam notu
 
-**Sıradaki iş:** Aşama 3, giydirme sistemi. Aşama 2'nin tamamlanma ölçütü karşılandı. Dış kıyafet uydurmaya başlamadan önce Şamil'den vücut oranlarının son hali teyit edilmeli.
+**Sıradaki iş:** Aşama 5, ilk içerik. Aşama 4'ün ölçütü karşılandı, vücut oranları sabit. Yüz ve ten rengi sona bırakıldı.
 
 **Çalışma kuralları:**
 
@@ -69,7 +69,7 @@ Oyun cozy bir hava taşır ve hediye olarak yapılıyor, satılmayacak. Karakter
 | Aksesuarlar | Socket'e bağlı Static Mesh | Bükülmeleri gerekmiyor |
 | Saç | Ayrı, değiştirilebilir bölge | Saç modeli oyuncunun seçimlerinden biri |
 | Çantalar | Tipine göre bağlantı noktası | Her çanta tipi vücutta farklı yerde durur |
-| Vücut gizleme | Bölge maskesi dokusu | Mesh'i parçalamak gerekmiyor |
+| Vücut gizleme | Vücudu bölge başına materyal bölümüne ayırmak | VRM4U materyaline ve eklentiye dokunmuyor, gerekirse maske dokusuna geçilebilir |
 | Temel katman | Vücut dokusundaki siyah üst ve şort | Çıplak başlangıcın teknik faydası yok, karakter de gerçek birine dayanıyor |
 | Kıyafet tarzı | Serbest | 90'lar tarzı yalnızca varsayılan avatar için kullanıldı, kıyafetleri sınırlamaz |
 | Kıyafet kaynağı | Önce VRoid | Ücretsiz ve vücuda en yakın, bkz. Kıyafet kaynakları |
@@ -109,9 +109,9 @@ Her bölge için baştan boş bir component bulunur. Takmak mesh atamak, çıkar
 
 ### Vücut gizleme
 
-Maske dokusu vücudu bölgelere ayırır: Göğüs, karın, kalça, üst kol, alt kol, uyluk, baldır, ayak. Kıyafet takılınca `HiddenBodyRegions` listesindeki bölgeler materyalde gizlenir.
+`split_body_regions.py` vücut mesh'ini her yüzün en güçlü kemiğine göre 10 bölgeye ayırır: `Chest`, `Belly`, `Hips`, `UpperArm`, `LowerArm`, `Hand`, `Neck`, `Thigh`, `Calf`, `Foot`. Sonuç `SK_BodyRegions`, her bölge bir materyal bölümü (`Region_*`). `RefreshBodyVisibility` tüm bölgeleri açar, sonra giyili parçaların `HiddenBodyRegions` listesindekileri `ShowMaterialSection` ile kapatır.
 
-Yedek plan: MToon'da maskeleme sorun çıkarırsa vücut, Blender'da materyal bölümlerine ayrılır.
+`SK_evrar_full` yalnızca yüzü gösterir ve lider iskelet olarak çalışır. Bölge sınırları poligon çözünürlüğündedir. Kısa kollu bir giysi `UpperArm` gizlememeli, yoksa kol ile kumaş arasında boşluk kalır.
 
 ### Saç
 
@@ -160,10 +160,10 @@ Blender, Şamil'in açmasına gerek olmadan Python script'leriyle arka planda ç
 - [x] VRoid'de temel modeli oluştur
 - [x] VRM4U'yu kur
 - [x] Modeli Unreal'a aktar
-- [ ] Vücut oranlarını sabitle (boy, beden)
-- [ ] Yüz benzerliğini finalize et: perçem, ağız, kaşlar (en sona bırakıldı)
+- [x] Vücut oranlarını sabitle (Şamil onayladı, 2026-11-05)
+- [ ] Yüz benzerliğini ve ten rengini finalize et: perçem, ağız, kaşlar (en sona bırakıldı)
 
-Vücut oranları değişirse kıyafetler yeniden uydurulur, bu yüzden erken sabitlenmeli. Yüz değişiklikleri kıyafetleri etkilemez.
+Yüz ve ten için son adımda: `evrar_full.vrm` yeniden dışa aktarılır ("Delete Transparent Meshes" kapalı), `make_body_texture_opaque.py` çalışır, vücut ve yüz Unreal'da yenilenir. `HiddenBodySections` numaraları ve kafa boyutu değiştiyse saç oturuşu kontrol edilir.
 
 ### 2. Teknik deneme
 
@@ -194,22 +194,26 @@ En riskli adım, sistemden önce doğrulanır.
 
 ### 3. Giydirme sistemi
 
-- [ ] Bölge listesi ve veri türleri
-- [ ] `DA_Item` ve `DA_CharacterBody`
-- [ ] `OutfitComponent`
-- [ ] `BP_DressUpCharacter`
-- [ ] Bölge engelleme kuralları
+- [x] Bölge listesi ve veri türleri (`PDA_Item`, `PDA_CharacterBody`; slot metin anahtarı, çünkü araçlar enum oluşturamıyor)
+- [x] Parça kayıtları `/Game/DressUp/Data` altında (`DA_*`)
+- [x] `BP_OutfitComponent`: `Equip`, `UnequipSlot`, `GetEquipped`, `ResetToDefault`, `OnOutfitChanged`
+- [x] `BP_DressUpCharacter`
+- [x] Bölge engelleme kuralları (iki yönlü: elbise üstü çıkarır, üst de elbiseyi çıkarır)
+- [ ] Kombin kaydetme ve yükleme
+- [ ] Renk seçenekleri (alan var, mantık yok; Aşama 5)
+- [ ] `OnOutfitChanged` henüz test edilmedi, arayüz bağlanınca doğrulanacak. Fonksiyonun adı `GetEquippedItem` oldu, testte çalıştı.
 
-**Tamamlanma ölçütü:** Arayüz olmadan `Equip` ve `Unequip` çağrılarıyla parçalar değişiyor, elbise üst ve altı çıkarıyor.
+**Tamamlanma ölçütü:** Arayüz olmadan `Equip` ve `Unequip` çağrılarıyla parçalar değişiyor, elbise üst ve altı çıkarıyor. Karşılandı; test sürücüsü `/Game/DressUp/Core/Test/BP_OutfitTestDriver`.
 
 ### 4. Vücut maskesi
 
-- [ ] Bölge maskesi dokusunu hazırla
-- [ ] MToon materyaline bölge gizleme ekle
-- [ ] `OutfitComponent` ile bağla
-- [ ] Maskenin başka bir VRoid modelinde çalıştığını test et
+- [x] Vücudu bölgelere ayır (`SK_BodyRegions`)
+- [x] `OutfitComponent` ile bağla (`RefreshBodyVisibility`)
+- [x] Kayıtlara `HiddenBodyRegions` yaz
+- [x] Tişört, şort ve kapüşonluyla önden test et, kapüşonluyu arkadan ve yandan da kontrol et
+- [ ] Başka bir VRoid modelinde dene (script kemik adlarına bağlı, gerçek ihtiyaç doğarsa)
 
-**Tamamlanma ölçütü:** Uzun ve kısa kıyafette deri kumaştan dışarı taşmıyor, kıyafet çıkınca bölge geri geliyor.
+**Tamamlanma ölçütü:** Uzun ve kısa kıyafette deri kumaştan dışarı taşmıyor, kıyafet çıkınca bölge geri geliyor. Test pozunda karşılandı.
 
 ### 5. İlk içerik
 
@@ -276,7 +280,6 @@ En riskli adım, sistemden önce doğrulanır.
 
 | Soru | Kim | Ne zaman |
 |---|---|---|
-| Vücut oranları son halinde mi? | Şamil | Dış kıyafet uydurmadan önce |
 | Kıyafet için bütçe var mı? | Şamil | Aşama 5 öncesi |
 | 15-20 parçalık kıyafet listesi | Şamil | Aşama 5 öncesi |
 | Oyun hangi bilgisayarda oynanacak? | Şamil | Aşama 10 öncesi |
@@ -290,7 +293,6 @@ En riskli adım, sistemden önce doğrulanır.
 | Örnek model kıyafetleri alınamayabilir veya şartlar uygun olmayabilir | Kıyafet çeşitliliği azalır | VRoid'in kıyafet sekmesi ve dış kaynaklar |
 | Başka bedenden gelen kıyafet oturmayabilir | Her parça elle düzeltme ister | Blender'da uydurma ve tek poz için düzeltme |
 | Vücut oranları sonradan değişir | Kıyafetler yeniden uydurulur | Oranları erken sabitle, uydurmayı script ile yap |
-| Maske başka modelde uymayabilir | Model değişince maske yenilenir | Aşama 4'te test et |
-| MToon'da maskeleme sorun çıkarabilir | Bölge gizleme çalışmaz | Vücudu materyal bölümlerine ayır |
+| Bölge sınırı kıyafet kenarına uymayabilir | Küçük boşluk veya taşma | Parça bazlı `HiddenBodyRegions`, gerekirse bölge ekle |
 | Katmanlı giysiler iç içe girebilir | Görsel kusur | Bölge engelleme ve parça bazlı uydurma |
 | Hedef bilgisayar zayıf olabilir | Düşük performans | Teslimden önce test et |
