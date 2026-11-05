@@ -19,7 +19,7 @@ Oyun cozy bir hava taşır ve hediye olarak yapılıyor, satılmayacak. Karakter
 
 ## Yeni oturum için devam notu
 
-**Sıradaki iş:** Aşama 5, ilk içerik. Aşama 4'ün ölçütü karşılandı, vücut oranları sabit. Yüz ve ten rengi sona bırakıldı.
+**Sıradaki iş:** Şamil `LVL_DressUp` içinde Play ile arayüzü fareyle dener. Sonra arayüz cilası ve Aşama 8. Yüz ve ten rengi sona bırakıldı.
 
 **Çalışma kuralları:**
 
@@ -52,9 +52,11 @@ Oyun cozy bir hava taşır ve hediye olarak yapılıyor, satılmayacak. Karakter
 - Model VRoid Studio ile hazırlandı (`evrar.vroid`, Şamil kaydetti), benzerlik ayarları henüz bitmedi
 - VRM dosyası: `SourceAssets/VRoid/evrar.vrm`
 - Model `/Game/DressUp/Character` altına MToon materyalleriyle aktarıldı (ana mesh: `SK_evrar`, iskelet: `SKEL_evrar`)
-- Tişört, şort, ayakkabı ve saç ayrıldı, test asset'leri `/Game/DressUp/Items` altında (`SK_*_Test`). Test Blueprint'i: `/Game/DressUp/Core/BP_LeaderPoseTest`
+- Tişört, şort, ayakkabı ve saç ayrıldı, `/Game/DressUp/Items` altında (`SK_Top_Tshirt`, `SK_Bottom_Shorts`, `SK_Shoes_Sneakers`, `SK_Hair_Default`). G'nin kıyafetleri: `SK_Top_HoodieG`, `SK_Bottom_ShortsG`, materyalleri `Items/SampleG` altında.
+- Testlikler `Core/Test` ve `Data/Test` altında. Eski karakter `/Game/DressUp/_Archive/Character_Old` altında, hiçbir şey kullanmıyor.
 - **Tam vücut:** `SK_evrar_full` (`SKEL_evrar_full`, kaynak `SourceAssets/VRoid/evrar_full.vrm`). Parçalar ve test pozu bu iskelete bağlı. Kıyafetler ise `evrar.vrm`'den geliyor, çünkü tam vücut dosyasında kıyafetler de fazladan gizli geometri taşıyor.
-- **Geçici durumlar:** `SK_evrar_full` hâlâ kıyafet bölümleri içeriyor, Blueprint bunları gizliyor. VRM4U asset'leri `/Game/DressUp` köküne düştü, klasöre taşınmalı. Eski `/Game/DressUp/Character` artık kullanılmıyor, silinmesi Şamil'e sorulmalı.
+- **Vücut asset'leri:** `/Game/DressUp/Character` altında (`Materials`, `Textures` alt klasörleri), `SK_BodyRegions` dahil.
+- **Geçici durum:** `SK_evrar_full` hâlâ kıyafet bölümleri içeriyor, Blueprint bunları gizliyor.
 - Yüzdeki tırtıklı gölge biliniyor, ışık kurulurken çözülecek
 
 ## Kararlar
@@ -66,7 +68,7 @@ Oyun cozy bir hava taşır ve hediye olarak yapılıyor, satılmayacak. Karakter
 | Hareket | Sadece hafif idle ve final pozu | Oyunda karakter yürümüyor |
 | Fizik | Yok | Karakter yerinde durduğu için gereksiz |
 | Giysiler | Child Skeletal Mesh + Leader Pose | Kıyafet vücudun pozunu ve idle'ını otomatik alır |
-| Aksesuarlar | Socket'e bağlı Static Mesh | Bükülmeleri gerekmiyor |
+| Aksesuarlar | VRoid'den gelen gözlük ve şapka Skeletal Mesh, dışarıdan gelecekler socket'e bağlı Static Mesh | VRoid aksesuarları kafa kemiğine bağlı gelip vücuda zaten oturuyor |
 | Saç | Ayrı, değiştirilebilir bölge | Saç modeli oyuncunun seçimlerinden biri |
 | Çantalar | Tipine göre bağlantı noktası | Her çanta tipi vücutta farklı yerde durur |
 | Vücut gizleme | Vücudu bölge başına materyal bölümüne ayırmak | VRM4U materyaline ve eklentiye dokunmuyor, gerekirse maske dokusuna geçilebilir |
@@ -217,27 +219,30 @@ En riskli adım, sistemden önce doğrulanır.
 
 ### 5. İlk içerik
 
-- [ ] 3 giysi ve 1 elbise
-- [ ] 2 saç modeli
-- [ ] Gözlük ve küpe
-- [ ] 1 omuz çantası ve 1 el çantası
-- [ ] Renk seçenekleri
+- [x] Tişört, kapüşonlu, 2 şort ve siyah elbise (`DA_Dress_BlackO`, örnek O)
+- [x] 2 saç modeli (`DA_Hair_Default`, `DA_Hair_Long`)
+- [x] 2 ayakkabı ve çorap (`DA_Shoes_MaryJaneO`, `DA_Socks_O`)
+- [x] Gözlük ve şapka (`DA_Glasses_Thin`, `DA_Hat_Cap`, VRoid aksesuar sekmesinden)
+- [x] Renk değiştirme: `SetSlotColor` (kayıtlardaki `ColorOptions` henüz boş, parça değişince renk sıfırlanır)
+- [ ] Küpe, kolye, çanta: VRoid'de yok. Şamil şimdilik VRoid'le devam dedi, `Earrings`, `Necklace`, `Bag` bölgeleri boş.
 
-**Tamamlanma ölçütü:** Her parça türü en az bir örnekle sistemde çalışıyor.
+**Tamamlanma ölçütü:** Her parça türü en az bir örnekle sistemde çalışıyor. Çantalar ve küpe, kolye hariç karşılandı.
 
 ### 6. Sahne
 
-- [ ] `LVL_DressUp`: Boş level, sabit kamera, karakter bir yanda
-- [ ] Sıcak ışık kurulumu, yüzdeki gölge sorununu çöz
-- [ ] Idle animasyon: Kaynağını Şamil ile seç (hazır animasyon veya Unreal'da elle)
-- [ ] Oyun başlangıcında varsayılan kıyafet
+- [x] `LVL_DressUp`: sabit kamera, karakter sağda. Başlangıç `BP_DressUpBoot` aktöründe (kamera, fare, arayüz). `BP_DressUpGM` kontrolcü ayarı oyuna yansımadı, varsayılan kontrolcü kullanılıyor, varsayılan pawn Boot tarafından siliniyor.
+- [ ] Sıcak ışık kurulumu ve cozy dekor, yüzdeki gölge sorununu çöz (şu an şablon zemin ve gökyüzü)
+- [ ] Idle animasyon: Kaynağını Şamil ile seç. Şimdilik hareketsiz duruş pozu (`SK_StandPose_Anim`).
+- [x] Oyun başlangıcında varsayılan kıyafet
 
 ### 7. Arayüz
 
-- [ ] Bölge sekmeleri ve ikonlu parça listesi
-- [ ] Otomatik ikon üretimi
-- [ ] Renk seçimi
-- [ ] Sıfırlama ve "Bitir" düğmeleri
+- [x] İlk arayüz: `WBP_DressUp`, tek listede tüm parçalar, tekrar tıklayınca çıkarır (`WBP_ItemButton`)
+- [x] Renk seçimi: son seçilen parçaya 6 renk (`WBP_ColorButton`), fareyle denenmedi
+- [x] Sıfırlama düğmesi
+- [ ] Gerçek fare tıklaması Şamil tarafından doğrulanacak. MCP Slate tıklaması oyun arayüzüne ulaşmıyor; `HandleClick` doğrudan çağrılarak test edildi.
+- [ ] Bölge sekmeleri, ikonlar ve görsel tasarım
+- [ ] "Bitir" düğmesi
 
 ### 8. Finalize ekranı
 

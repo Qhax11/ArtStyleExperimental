@@ -15,7 +15,9 @@ from mathutils import Matrix
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from vroid_fbx_common import prepare_armature  # noqa: E402
 
-out_path = sys.argv[sys.argv.index("--") + 1]
+cli = sys.argv[sys.argv.index("--") + 1:]
+out_path = cli[0]
+stand_only = len(cli) > 1 and cli[1] == "stand"  # Arms down only: a neutral standing pose.
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
 armature = prepare_armature()
@@ -29,6 +31,9 @@ ROTATIONS = {
     "J_Bip_L_UpperLeg": ("X", 35),
     "J_Bip_L_LowerLeg": ("X", -45),
 }
+
+if stand_only:
+    ROTATIONS = {"J_Bip_L_UpperArm": ("Y", 72), "J_Bip_R_UpperArm": ("Y", -72)}
 
 scene = bpy.context.scene
 scene.frame_start, scene.frame_end = 1, 2
