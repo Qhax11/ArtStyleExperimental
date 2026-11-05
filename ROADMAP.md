@@ -19,7 +19,7 @@ Oyun cozy bir hava taşır ve hediye olarak yapılıyor, satılmayacak. Karakter
 
 ## Yeni oturum için devam notu
 
-**Sıradaki iş:** Şamil `LVL_DressUp` içinde Play ile arayüzü fareyle dener. Sonra arayüz cilası ve Aşama 8. Yüz ve ten rengi sona bırakıldı.
+**Sıradaki iş:** Oyun `LVL_DressUp` içinde oynanabilir, Şamil fareyle doğruladı. Sırada arayüz cilası, cozy sahne ve Aşama 8. Yüz ve ten rengi sona bırakıldı.
 
 **Çalışma kuralları:**
 
@@ -240,7 +240,7 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] İlk arayüz: `WBP_DressUp`, tek listede tüm parçalar, tekrar tıklayınca çıkarır (`WBP_ItemButton`)
 - [x] Renk seçimi: son seçilen parçaya 6 renk (`WBP_ColorButton`), fareyle denenmedi
 - [x] Sıfırlama düğmesi
-- [ ] Gerçek fare tıklaması Şamil tarafından doğrulanacak. MCP Slate tıklaması oyun arayüzüne ulaşmıyor; `HandleClick` doğrudan çağrılarak test edildi.
+- [x] Fareyle test: Şamil oyunda denedi, çalışıyor (2026-11-05). MCP Slate tıklaması oyun arayüzüne ulaşmıyor; otomatik testte `HandleClick` doğrudan çağrılır.
 - [ ] Bölge sekmeleri, ikonlar ve görsel tasarım
 - [ ] "Bitir" düğmesi
 
