@@ -94,14 +94,15 @@ private:
 	TObjectPtr<UOutfitComponent> Outfit;
 };
 
-/** A wardrobe tab header. Selecting it shows that tab's items in the panel. */
+/** A text chip with a selected state: wardrobe tab headers and idle pose choices. */
 UCLASS(Abstract)
 class ARTSTYLEEXPERIMENTAL_API UDressUpTabButton : public UUserWidget
 {
 	GENERATED_BODY()
 
 public:
-	void Setup(int32 InIndex, const FText& InName, UDressUpPanel* InPanel);
+	/** OnChosen receives InIndex when the chip is clicked. */
+	void Setup(int32 InIndex, const FText& InName, TFunction<void(int32)> InOnChosen);
 	void SetSelected(bool bSelected);
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Look")
@@ -126,9 +127,7 @@ private:
 	int32 Index = INDEX_NONE;
 	FText Name;
 	bool bIsSelected = false;
-
-	UPROPERTY()
-	TObjectPtr<UDressUpPanel> Panel;
+	TFunction<void(int32)> OnChosen;
 };
 
 /** The wardrobe panel: tabs, the current tab's item tiles, colour swatches and a reset button. */
@@ -143,6 +142,9 @@ public:
 
 	/** Shows the items of one tab. */
 	void SelectTab(int32 TabIndex);
+
+	/** Loops one of the catalog's idle options on the character. */
+	void SelectIdle(int32 IdleIndex);
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up")
 	TSoftClassPtr<UDressUpItemButton> ItemButtonClass = TSoftClassPtr<UDressUpItemButton>(FSoftObjectPath(TEXT("/Game/DressUp/UI/WBP_ItemButton.WBP_ItemButton_C")));
@@ -170,9 +172,21 @@ protected:
 	UPROPERTY(meta = (BindWidget))
 	TObjectPtr<UButton> ResetBtn;
 
+	/** Holds the idle pose chips. */
+	UPROPERTY(meta = (BindWidgetOptional))
+	TObjectPtr<UPanelWidget> Poses;
+
+	UPROPERTY(meta = (BindWidgetOptional))
+	TObjectPtr<UButton> FinishBtn;
+
 private:
 	UFUNCTION()
 	void HandleReset();
+
+	UFUNCTION()
+	void HandleFinish();
+
+	void BuildPoseChips(UClass* ChipClass);
 
 	UPROPERTY()
 	TObjectPtr<UOutfitComponent> Outfit;
@@ -182,6 +196,9 @@ private:
 
 	UPROPERTY()
 	TArray<TObjectPtr<UDressUpTabButton>> TabButtons;
+
+	UPROPERTY()
+	TArray<TObjectPtr<UDressUpTabButton>> PoseButtons;
 
 	TArray<FDressUpTab> TabDefs;
 	int32 CurrentTab = INDEX_NONE;

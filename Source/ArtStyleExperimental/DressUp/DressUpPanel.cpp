@@ -4,7 +4,9 @@
 #include "Components/Image.h"
 #include "Components/PanelWidget.h"
 #include "Components/TextBlock.h"
+#include "DressUp/DressUpCharacter.h"
 #include "DressUp/DressUpData.h"
+#include "DressUp/DressUpGameMode.h"
 #include "DressUp/OutfitComponent.h"
 
 // --- Item button ---
@@ -96,11 +98,11 @@ void UDressUpColorButton::HandleClicked()
 
 // --- Tab button ---
 
-void UDressUpTabButton::Setup(int32 InIndex, const FText& InName, UDressUpPanel* InPanel)
+void UDressUpTabButton::Setup(int32 InIndex, const FText& InName, TFunction<void(int32)> InOnChosen)
 {
 	Index = InIndex;
 	Name = InName;
-	Panel = InPanel;
+	OnChosen = MoveTemp(InOnChosen);
 }
 
 void UDressUpTabButton::NativeConstruct()
@@ -126,9 +128,9 @@ void UDressUpTabButton::SetSelected(bool bSelected)
 
 void UDressUpTabButton::HandleClicked()
 {
-	if (Panel)
+	if (OnChosen)
 	{
-		Panel->SelectTab(Index);
+		OnChosen(Index);
 	}
 }
 
@@ -164,7 +166,13 @@ void UDressUpPanel::Setup(UOutfitComponent* InOutfit, UDressUpCatalog* InCatalog
 	for (int32 Index = 0; Index < TabDefs.Num(); ++Index)
 	{
 		UDressUpTabButton* Button = CreateWidget<UDressUpTabButton>(this, TabClass);
-		Button->Setup(Index, TabDefs[Index].Name, this);
+		Button->Setup(Index, TabDefs[Index].Name, [WeakThis = TWeakObjectPtr<UDressUpPanel>(this)](int32 Chosen)
+		{
+			if (WeakThis.IsValid())
+			{
+				WeakThis->SelectTab(Chosen);
+			}
+		});
 		Tabs->AddChild(Button);
 		TabButtons.Add(Button);
 	}
@@ -177,7 +185,48 @@ void UDressUpPanel::Setup(UOutfitComponent* InOutfit, UDressUpCatalog* InCatalog
 		Colors->AddChild(Swatch);
 	}
 
+	BuildPoseChips(TabClass);
 	SelectTab(0);
+}
+
+void UDressUpPanel::BuildPoseChips(UClass* ChipClass)
+{
+	PoseButtons.Reset();
+	if (!Poses)
+	{
+		return;
+	}
+	Poses->ClearChildren();
+	const ADressUpCharacter* Character = Outfit ? Cast<ADressUpCharacter>(Outfit->GetOwner()) : nullptr;
+	for (int32 Index = 0; Index < Catalog->IdleOptions.Num(); ++Index)
+	{
+		const FDressUpPoseOption& Option = Catalog->IdleOptions[Index];
+		UDressUpTabButton* Chip = CreateWidget<UDressUpTabButton>(this, ChipClass);
+		Chip->Setup(Index, Option.Name, [WeakThis = TWeakObjectPtr<UDressUpPanel>(this)](int32 Chosen)
+		{
+			if (WeakThis.IsValid())
+			{
+				WeakThis->SelectIdle(Chosen);
+			}
+		});
+		Chip->SetSelected(Character && Character->GetIdle() == Option.Anim);
+		Poses->AddChild(Chip);
+		PoseButtons.Add(Chip);
+	}
+}
+
+void UDressUpPanel::SelectIdle(int32 IdleIndex)
+{
+	ADressUpCharacter* Character = Outfit ? Cast<ADressUpCharacter>(Outfit->GetOwner()) : nullptr;
+	if (!Character || !Catalog || !Catalog->IdleOptions.IsValidIndex(IdleIndex))
+	{
+		return;
+	}
+	Character->SetIdle(Catalog->IdleOptions[IdleIndex].Anim);
+	for (int32 Index = 0; Index < PoseButtons.Num(); ++Index)
+	{
+		PoseButtons[Index]->SetSelected(Index == IdleIndex);
+	}
 }
 
 void UDressUpPanel::SelectTab(int32 TabIndex)
@@ -210,6 +259,18 @@ void UDressUpPanel::NativeConstruct()
 {
 	Super::NativeConstruct();
 	ResetBtn->OnClicked.AddUniqueDynamic(this, &UDressUpPanel::HandleReset);
+	if (FinishBtn)
+	{
+		FinishBtn->OnClicked.AddUniqueDynamic(this, &UDressUpPanel::HandleFinish);
+	}
+}
+
+void UDressUpPanel::HandleFinish()
+{
+	if (ADressUpPlayerController* Controller = Cast<ADressUpPlayerController>(GetOwningPlayer()))
+	{
+		Controller->Finish();
+	}
 }
 
 void UDressUpPanel::HandleReset()

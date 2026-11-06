@@ -5,6 +5,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "DressUp/DressUpData.h"
 #include "DressUp/OutfitComponent.h"
+#include "TimerManager.h"
 
 namespace
 {
@@ -58,7 +59,8 @@ void ADressUpCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (UDressUpBody* BodyData = Body.LoadSynchronous())
+	LoadedBody = Body.LoadSynchronous();
+	if (UDressUpBody* BodyData = LoadedBody)
 	{
 		BodyMesh->SetSkinnedAssetAndUpdate(BodyData->BodyMesh, true);
 		for (int32 Section : BodyData->HiddenBodySections)
@@ -67,10 +69,7 @@ void ADressUpCharacter::BeginPlay()
 		}
 		BodyRegions->SetSkinnedAssetAndUpdate(BodyData->RegionMesh, false);
 		BodyRegions->SetLeaderPoseComponent(BodyMesh);
-		if (BodyData->IdleAnim)
-		{
-			BodyMesh->PlayAnimation(BodyData->IdleAnim, true);
-		}
+		SetIdle(BodyData->IdleAnim);
 	}
 	LoadedCatalog = Catalog.LoadSynchronous();
 
@@ -84,4 +83,44 @@ void ADressUpCharacter::BeginPlay()
 		Outfit->DefaultItems = LoadedCatalog->DefaultItems;
 	}
 	Outfit->ResetToDefault();
+}
+
+void ADressUpCharacter::SetIdle(UAnimationAsset* Anim)
+{
+	CurrentIdle = Anim;
+	ReturnToIdle();
+}
+
+void ADressUpCharacter::ReturnToIdle()
+{
+	GetWorldTimerManager().ClearTimer(PoseTimer);
+	BodyMesh->bPauseAnims = false;
+	if (CurrentIdle)
+	{
+		BodyMesh->PlayAnimation(CurrentIdle, true);
+	}
+}
+
+void ADressUpCharacter::PlayFinalPose(const FDressUpFinalPose& Pose)
+{
+	if (!Pose.Anim)
+	{
+		return;
+	}
+	GetWorldTimerManager().ClearTimer(PoseTimer);
+	BodyMesh->bPauseAnims = false;
+	BodyMesh->PlayAnimation(Pose.Anim, false);
+	if (Pose.HoldTime >= 0.0f)
+	{
+		GetWorldTimerManager().SetTimer(PoseTimer, this, &ADressUpCharacter::FreezePose, FMath::Max(Pose.HoldTime, 0.01f), false);
+	}
+	else
+	{
+		GetWorldTimerManager().SetTimer(PoseTimer, this, &ADressUpCharacter::ReturnToIdle, Pose.Anim->GetPlayLength(), false);
+	}
+}
+
+void ADressUpCharacter::FreezePose()
+{
+	BodyMesh->bPauseAnims = true;
 }

@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "DressUpTypes.generated.h"
 
+class UAnimationAsset;
 class UDressUpItem;
 
 /** Where an item is worn. Each slot holds at most one item. */
@@ -92,6 +93,52 @@ struct FDressUpTab
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dress Up")
 	TArray<EDressUpSlot> Slots;
+};
+
+/** An idle loop the player can pick while dressing. */
+USTRUCT(BlueprintType)
+struct FDressUpPoseOption
+{
+	GENERATED_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dress Up")
+	FText Name;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dress Up")
+	TObjectPtr<UAnimationAsset> Anim = nullptr;
+};
+
+/** A pose played when the outfit is finished. */
+USTRUCT(BlueprintType)
+struct FDressUpFinalPose
+{
+	GENERATED_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dress Up")
+	TObjectPtr<UAnimationAsset> Anim = nullptr;
+
+	/** Seconds into Anim where the pose freezes for the photo. Negative plays it through, then returns to the idle. */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dress Up")
+	float HoldTime = -1.0f;
+};
+
+/**
+ * A closing message. It can be shown when every listed item is worn and every listed
+ * slot is filled. Messages without conditions are used when no conditional one fits.
+ */
+USTRUCT(BlueprintType)
+struct FDressUpMessage
+{
+	GENERATED_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dress Up", meta = (MultiLine = true))
+	FText Text;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dress Up")
+	TArray<TObjectPtr<UDressUpItem>> RequiredItems;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dress Up")
+	TArray<EDressUpSlot> RequiredSlots;
 };
 
 namespace DressUp

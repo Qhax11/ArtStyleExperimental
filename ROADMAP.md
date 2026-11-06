@@ -215,6 +215,7 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] Vücudu bölgelere ayır (`SK_BodyRegions`)
 - [x] `OutfitComponent` ile bağla (`RefreshBodyVisibility`)
 - [x] Kayıtlara `HiddenBodyRegions` yaz
+- [x] Siyah elbise artık `Thigh` gizlemiyor (etek dizin üstünde bitiyor, bacak boşlukta kalıyordu).
 - [x] Tişört, şort ve kapüşonluyla önden test et, kapüşonluyu arkadan ve yandan da kontrol et
 - [x] Beldeki çentik düzeltildi (2026-11-06): kemik ağırlığına göre `Hips` bölgesi şort bel bandının üstüne çıkıyordu. `split_body_regions.py` artık `Hips` yüzlerini vücut boyunun 0.95/1.59 oranında kesiyor, üstü `Belly`'ye gidiyor. Yeni alt giysi daha alçak belliyse bu oran düşürülür.
 - [x] Çorap (`DA_Socks_O`) yalnızca `Thigh` ve `Calf` gizler; çorap bilekte bittiği için `Foot` gizlenmez.
@@ -240,7 +241,6 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] Pastel stüdyo: krem zemin, pembe fon (`StudioBackdrop`), açık pembe halı (`StudioRug`), sıcak yönlü ışık. Materyaller `/Game/DressUp/Scene/MI_Studio_*`.
 - [ ] Cozy dekor (en sona; yüzde gölge sorunu yok, Şamil 2026-11-06)
 - [x] Idle animasyon: Mixamo'dan iki döngüsel bekleme (`SourceAssets/Mixamo/Idle_A.fbx` 8.3 sn, `Idle_B.fbx` 16.6 sn), `SourceAssets/Scripts/export_mixamo_fbx.py` ile karaktere aktarıldı (iki iskelet de T-pozda; kemik başına dünya dönüş farkı, kalça boy oranıyla). `DA_Body_evrar.IdleAnim` = `/Game/DressUp/Core/Anim/Idle/SK_Idle_A_Anim`. B'yi denemek için aynı alanı değiştir.
-- [ ] Göz kırpma: VRoid yüzü morph target ile çalışıyor, kodla rastgele aralıklarla eklenecek.
 - [x] VRoid'in resmî ücretsiz VRMA paketi (`VRMA_MotionPack`, 7 hareket) karakterin iskeletine alındı: `/Game/DressUp/Core/Anim/Motions/SK_VRMA_0X_Anim`. Yol: `SourceAssets/Scripts/export_vrma_fbx.py` (Blender VRM eklentisi VRMA'yı iskelete uygular, `prepare_armature` sonrası aynı deformasyon yeniden yazılır), FBX `import_animations=True` ile alınır. Hareketler: 01 tüm vücut, 02 selam, 03 V işareti, 04 ateş, 05 dönme, 06 model pozu, 07 çömelme. Kredi: "Character animation credits to pixiv Inc.'s VRoid Project". VRM4U'nun doğrudan aldığı deneme `/Game/DressUp/Core/Anim/VRMA` kendi iskeletinde, işe yaramıyor; editör kapalıyken diskten silinecek.
 - [x] Oyun başlangıcı ve Sıfırla: kıyafetsiz, saçsız, iç çamaşırıyla (Şamil'in isteği, 2026-11-06). Katalogdaki `DefaultItems` boş.
 
@@ -253,13 +253,14 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] Sekmeler (Üst, Alt, Elbise, Ayakkabı, Saç, Aksesuar; `WBP_TabButton`), ikonlu kare kutular, pembe-krem pastel tasarım. Sekmeler katalogdaki `Tabs` alanından gelir, boşsa `DressUp::DefaultTabs()`. Parçası olmayan sekme gizlenir.
 - [x] Parça ikonları otomatik: parça yeşil fon önünde çekilir, `SourceAssets/Scripts/make_icons.py` saydam 256px PNG'ye çevirir, `/Game/DressUp/UI/Icons` altına alınıp `UDressUpItem.Icon`'a bağlanır. Yeni parça eklenince aynı yol tekrarlanır.
 - [x] Sekmeli arayüz fareyle denendi, çalışıyor (2026-11-06). Çorap `Alt` sekmesinde; sekmeler katalogda tanımlı.
-- [ ] "Bitir" düğmesi
+- [x] "Bitir" düğmesi ve "Duruş" çipleri (katalogdaki `IdleOptions`: Rahat, Salınım, Dik duruş)
 
 ### 8. Finalize ekranı
 
-- [ ] Final pozu ve kamera yaklaşması
-- [ ] Fotoğraf çekme
-- [ ] Kişisel mesaj ve tekrar oynama. Mesaj, giyilen kıyafete uyan mesajlar listesinden rastgele seçilir; mesajları Şamil yazar.
+- [x] Final pozu ve kamera yaklaşması: katalogdaki `FinalPoses`'tan rastgele biri (03 V işareti @3.0 sn, 06 model pozu @4.0, 02 selam @3.2), `HoldTime`'da donar. Kamera `FinalCamera` etiketli `CameraActor_1`'e yumuşak geçer.
+- [x] Fotoğraf: arayüzsüz ekran görüntüsü `%USERPROFILE%\Pictures\Dolap\Dolap_<tarih>.png`.
+- [x] Mesaj ve tekrar oynama (`WBP_Final`): `Messages` içinden koşulu (`RequiredItems`, `RequiredSlots`) tutanlardan rastgele biri, hiçbiri tutmazsa koşulsuzlardan biri. Şu anki 5 mesaj "(Örnek)" yer tutucu; Şamil kendi mesajlarını `DA_Catalog > Finale > Messages`'a yazar. Köşede VRoid animasyon kredisi.
+- [x] Test kısayolları (editör konsolu, oyun açıkken): `DressUpFinish`, `DressUpPhoto`, `DressUpReplay`.
 
 ### 9. İçerik ve cila
 
@@ -267,6 +268,7 @@ En riskli adım, sistemden önce doğrulanır.
 - [ ] Kişisel dokunuşlar: onun gerçek kıyafetlerine benzeyen parçalar, en sevdiği renkler, gizli seçenekler
 - [ ] Ses, müzik, kıyafet değiştirme efekti
 - [ ] Yüz benzerliğinin son ayarları
+- [ ] En son: göz kırpma (VRoid yüzü morph target ile çalışıyor, kodla rastgele aralıklarla). Şamil 2026-11-06: en sona.
 
 ### 10. Teslim
 

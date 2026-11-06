@@ -103,4 +103,15 @@ public:
 	/** Wardrobe tabs in display order. Empty means DressUp::DefaultTabs(). */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Catalog")
 	TArray<FDressUpTab> Tabs;
+
+	/** Idle loops the player can pick. The body's IdleAnim plays first. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Pose")
+	TArray<FDressUpPoseOption> IdleOptions;
+
+	/** One is picked at random when the outfit is finished. Empty means the body's FinalPose. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Finale")
+	TArray<FDressUpFinalPose> FinalPoses;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Finale")
+	TArray<FDressUpMessage> Messages;
 };
