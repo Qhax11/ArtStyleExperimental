@@ -238,7 +238,7 @@ En riskli adım, sistemden önce doğrulanır.
 
 - [x] `LVL_DressUp`: sabit kamera, karakter sağda. Başlangıcı C++ `ADressUpGameMode` / `ADressUpPlayerController` yapıyor (kamera, fare, arayüz).
 - [x] Pastel stüdyo: krem zemin, pembe fon (`StudioBackdrop`), açık pembe halı (`StudioRug`), sıcak yönlü ışık. Materyaller `/Game/DressUp/Scene/MI_Studio_*`.
-- [ ] Cozy dekor ve yüzdeki gölge sorunu
+- [ ] Cozy dekor (en sona; yüzde gölge sorunu yok, Şamil 2026-11-06)
 - [ ] Idle animasyon: Kaynağını Şamil ile seç. Şimdilik hareketsiz duruş pozu (`SK_StandPose_Anim`).
 - [x] Oyun başlangıcı ve Sıfırla: kıyafetsiz, saçsız, iç çamaşırıyla (Şamil'in isteği, 2026-11-06). Katalogdaki `DefaultItems` boş.
 
@@ -257,7 +257,7 @@ En riskli adım, sistemden önce doğrulanır.
 
 - [ ] Final pozu ve kamera yaklaşması
 - [ ] Fotoğraf çekme
-- [ ] Kişisel mesaj ve tekrar oynama
+- [ ] Kişisel mesaj ve tekrar oynama. Mesaj, giyilen kıyafete uyan mesajlar listesinden rastgele seçilir; mesajları Şamil yazar.
 
 ### 9. İçerik ve cila
 
