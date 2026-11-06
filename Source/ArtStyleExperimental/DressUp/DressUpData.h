@@ -1,0 +1,106 @@
+// Data assets: one per item, one for the body, one catalog for the UI.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "Engine/DataAsset.h"
+#include "DressUp/DressUpTypes.h"
+#include "DressUpData.generated.h"
+
+class UAnimationAsset;
+class USkeletalMesh;
+class UStaticMesh;
+class UTexture2D;
+
+/** A wearable item. Adding a new piece only needs a new asset of this type. */
+UCLASS(BlueprintType)
+class ARTSTYLEEXPERIMENTAL_API UDressUpItem : public UPrimaryDataAsset
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item")
+	FText DisplayName;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item")
+	TObjectPtr<UTexture2D> Icon = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item")
+	EDressUpSlot Slot = EDressUpSlot::Top;
+
+	/** Bending pieces: clothes, hair, VRoid accessories. Follows the body through Leader Pose. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Mesh")
+	TObjectPtr<USkeletalMesh> SkeletalMesh = nullptr;
+
+	/** Rigid pieces attached to a socket, used when the slot has a static mesh component. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Mesh")
+	TObjectPtr<UStaticMesh> StaticMesh = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Mesh")
+	FName Socket;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Mesh")
+	FTransform Offset;
+
+	/** Colours the UI offers for this item. Empty means the shared palette. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Look")
+	TArray<FLinearColor> ColorOptions;
+
+	/** Body regions this item covers. They are hidden while it is worn. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Rules")
+	TArray<EBodyRegion> HiddenBodyRegions;
+
+	/** Slots emptied when this item is put on. A dress blocks Top and Bottom. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Rules")
+	TArray<EDressUpSlot> BlockedSlots;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Rules")
+	EBagType BagType = EBagType::None;
+};
+
+/** The character's body. Changing the model means changing this asset, not the code. */
+UCLASS(BlueprintType)
+class ARTSTYLEEXPERIMENTAL_API UDressUpBody : public UPrimaryDataAsset
+{
+	GENERATED_BODY()
+
+public:
+	/** Lead skeleton. Shows the face; its body and baked clothes are hidden. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Body")
+	TObjectPtr<USkeletalMesh> BodyMesh = nullptr;
+
+	/** Body split into region sections so clothes can hide what they cover. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Body")
+	TObjectPtr<USkeletalMesh> RegionMesh = nullptr;
+
+	/** Material sections of BodyMesh to hide (the body and the clothes baked into it). */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Body")
+	TArray<int32> HiddenBodySections;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Animation")
+	TObjectPtr<UAnimationAsset> IdleAnim = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Animation")
+	TObjectPtr<UAnimationAsset> FinalPose = nullptr;
+};
+
+/** Everything the UI lists, plus the starting outfit and colour palette. */
+UCLASS(BlueprintType)
+class ARTSTYLEEXPERIMENTAL_API UDressUpCatalog : public UPrimaryDataAsset
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Catalog")
+	TArray<TObjectPtr<UDressUpItem>> AllItems;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Catalog")
+	TArray<TObjectPtr<UDressUpItem>> DefaultItems;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Catalog")
+	TArray<FLinearColor> Palette;
+
+	/** Wardrobe tabs in display order. Empty means DressUp::DefaultTabs(). */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Catalog")
+	TArray<FDressUpTab> Tabs;
+};

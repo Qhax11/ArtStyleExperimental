@@ -19,7 +19,9 @@ Oyun cozy bir hava taşır ve hediye olarak yapılıyor, satılmayacak. Karakter
 
 ## Yeni oturum için devam notu
 
-**Sıradaki iş:** Oyun `LVL_DressUp` içinde oynanabilir, Şamil fareyle doğruladı. Sırada arayüz cilası, cozy sahne ve Aşama 8. Yüz ve ten rengi sona bırakıldı.
+**Sıradaki iş:** Pastel stüdyo, ikonlar ve sekmeli arayüz hazır. Şamil fareyle denemeli. Sırada "Bitir" düğmesi ve Aşama 8. Yüz ve ten rengi sona bırakıldı.
+
+**C++ yapısı:** `DressUpTypes` (slot ve bölge enum'ları, kombin yapısı), `DressUpData` (`UDressUpItem`, `UDressUpBody`, `UDressUpCatalog`), `UOutfitComponent` (takma, çıkarma, engelleme, vücut gizleme, renk, kombin kaydetme), `ADressUpCharacter`, `ADressUpGameMode` ve `ADressUpPlayerController`, `DressUpPanel` (arayüz taban sınıfları). Parçalar `DA_Catalog` içinde listelenir. Widget'lar yalnızca düzeni tutar; `Btn`, `Label`, `List`, `Colors`, `ResetBtn` adları C++'a bağlıdır. `BP_DressUpGM` ana menü level'ı kullandığı için duruyor, `ADressUpGameMode`'dan türüyor. Yeni C++ sınıfı veya alan eklemek editörü kapatıp derlemeyi gerektirir.
 
 **Çalışma kuralları:**
 
@@ -39,6 +41,7 @@ Oyun cozy bir hava taşır ve hediye olarak yapılıyor, satılmayacak. Karakter
 - Leader Pose için parçanın kemik açıları ve ölçeği vücutla aynı olmalı. VRM4U'da kemik açıları sıfır, ölçek 1'dir. `vroid_fbx_common.py` bunu sağlar. Eşleşmezse parça görünmez olur veya huni gibi büzülür.
 - Örnek model kıyafet hattı: örnek modeli aç, menüden "Bulk export worn items as XWear" ile `.xwear` al. Dress-up'ta `evrar`'ı aç, `Cloth`'u gizle, kıyafeti ekle, "Maintain Costume Shape" uygula, otomatik mesh silmeye "No" de, VRM dışa aktar. `retarget_costume_fbx.py` kıyafeti vücut iskeletine taşır. Materyaller için aynı VRM ayrıca VRM4U ile aktarılır.
 - `import_file` aynı adlı asset'in üzerine yazmaz, önce silmek gerekir.
+- VRM4U kaynaktan derleniyor. `VrmAssetListThumbnailRenderer.cpp` satır 257'deki renk değerlerine `f` eklendi (double uyarısı hata sayılıyordu). Eklenti güncellenirse tekrar gerekebilir.
 - Tam vücut için iki şey gerekir: VRoid dışa aktarmada "Delete Transparent Meshes" kapalı olmalı, ayrıca vücut dokusunun alpha'sı kaldırılmalı (`make_body_texture_opaque.py`, sonuç `T_Body_Opaque`). VRoid kıyafet altını alpha ile de keser, renkler ve siyah üst dokuda durur. Doku değişimi `MI_N00_000_00_Body_00_SKIN__Instance_` ve `_outline` materyallerinde yapıldı.
 - VRM4U'nun `destination_package_path` değeri beklenen klasöre değil, bir üstüne yazıyor. Aktarımdan sonra konumu kontrol et.
 - VRM aktarımı: `VRM4UAssetToolset.import_vrm_model`, `VRMIMT_MToon`. Asset'ler kaydedilmemiş gelir, `save_assets` gerekir.
@@ -75,7 +78,7 @@ Oyun cozy bir hava taşır ve hediye olarak yapılıyor, satılmayacak. Karakter
 | Temel katman | Vücut dokusundaki siyah üst ve şort | Çıplak başlangıcın teknik faydası yok, karakter de gerçek birine dayanıyor |
 | Kıyafet tarzı | Serbest | 90'lar tarzı yalnızca varsayılan avatar için kullanıldı, kıyafetleri sınırlamaz |
 | Kıyafet kaynağı | Önce VRoid | Ücretsiz ve vücuda en yakın, bkz. Kıyafet kaynakları |
-| Mantık | Blueprint | MCP ile hızlı ilerliyor, C++ gerektiren bir ihtiyaç yok |
+| Mantık | C++ (`Source/ArtStyleExperimental/DressUp`), görünüm Widget Blueprint | 2026-11-06'da Blueprint'ten taşındı: MCP ile Blueprint düzenlemek kırılgandı, git'te okunmuyordu, enum yoktu |
 
 ## Mimari
 
@@ -213,6 +216,9 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] `OutfitComponent` ile bağla (`RefreshBodyVisibility`)
 - [x] Kayıtlara `HiddenBodyRegions` yaz
 - [x] Tişört, şort ve kapüşonluyla önden test et, kapüşonluyu arkadan ve yandan da kontrol et
+- [x] Beldeki çentik düzeltildi (2026-11-06): kemik ağırlığına göre `Hips` bölgesi şort bel bandının üstüne çıkıyordu. `split_body_regions.py` artık `Hips` yüzlerini vücut boyunun 0.95/1.59 oranında kesiyor, üstü `Belly`'ye gidiyor. Yeni alt giysi daha alçak belliyse bu oran düşürülür.
+- [x] Çorap (`DA_Socks_O`) yalnızca `Thigh` ve `Calf` gizler; çorap bilekte bittiği için `Foot` gizlenmez.
+- [x] VRM4U bazı parçaları `MI_VrmMToonOptLitTranslucent` ile alıyor; yarı saydam materyal gölge düşürmez. Çorabın materyali `MI_VrmMToonOptLitOpaque`'a (maskeli) geçirildi. Yeni parça eklerken üst materyale bak.
 - [ ] Başka bir VRoid modelinde dene (script kemik adlarına bağlı, gerçek ihtiyaç doğarsa)
 
 **Tamamlanma ölçütü:** Uzun ve kısa kıyafette deri kumaştan dışarı taşmıyor, kıyafet çıkınca bölge geri geliyor. Test pozunda karşılandı.
@@ -230,10 +236,11 @@ En riskli adım, sistemden önce doğrulanır.
 
 ### 6. Sahne
 
-- [x] `LVL_DressUp`: sabit kamera, karakter sağda. Başlangıç `BP_DressUpBoot` aktöründe (kamera, fare, arayüz). `BP_DressUpGM` kontrolcü ayarı oyuna yansımadı, varsayılan kontrolcü kullanılıyor, varsayılan pawn Boot tarafından siliniyor.
-- [ ] Sıcak ışık kurulumu ve cozy dekor, yüzdeki gölge sorununu çöz (şu an şablon zemin ve gökyüzü)
+- [x] `LVL_DressUp`: sabit kamera, karakter sağda. Başlangıcı C++ `ADressUpGameMode` / `ADressUpPlayerController` yapıyor (kamera, fare, arayüz).
+- [x] Pastel stüdyo: krem zemin, pembe fon (`StudioBackdrop`), açık pembe halı (`StudioRug`), sıcak yönlü ışık. Materyaller `/Game/DressUp/Scene/MI_Studio_*`.
+- [ ] Cozy dekor ve yüzdeki gölge sorunu
 - [ ] Idle animasyon: Kaynağını Şamil ile seç. Şimdilik hareketsiz duruş pozu (`SK_StandPose_Anim`).
-- [x] Oyun başlangıcında varsayılan kıyafet
+- [x] Oyun başlangıcı ve Sıfırla: kıyafetsiz, saçsız, iç çamaşırıyla (Şamil'in isteği, 2026-11-06). Katalogdaki `DefaultItems` boş.
 
 ### 7. Arayüz
 
@@ -241,7 +248,9 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] Renk seçimi: son seçilen parçaya 6 renk (`WBP_ColorButton`), fareyle denenmedi
 - [x] Sıfırlama düğmesi
 - [x] Fareyle test: Şamil oyunda denedi, çalışıyor (2026-11-05). MCP Slate tıklaması oyun arayüzüne ulaşmıyor; otomatik testte `HandleClick` doğrudan çağrılır.
-- [ ] Bölge sekmeleri, ikonlar ve görsel tasarım
+- [x] Sekmeler (Üst, Alt, Elbise, Ayakkabı, Saç, Aksesuar; `WBP_TabButton`), ikonlu kare kutular, pembe-krem pastel tasarım. Sekmeler katalogdaki `Tabs` alanından gelir, boşsa `DressUp::DefaultTabs()`. Parçası olmayan sekme gizlenir.
+- [x] Parça ikonları otomatik: parça yeşil fon önünde çekilir, `SourceAssets/Scripts/make_icons.py` saydam 256px PNG'ye çevirir, `/Game/DressUp/UI/Icons` altına alınıp `UDressUpItem.Icon`'a bağlanır. Yeni parça eklenince aynı yol tekrarlanır.
+- [x] Sekmeli arayüz fareyle denendi, çalışıyor (2026-11-06). Çorap `Alt` sekmesinde; sekmeler katalogda tanımlı.
 - [ ] "Bitir" düğmesi
 
 ### 8. Finalize ekranı

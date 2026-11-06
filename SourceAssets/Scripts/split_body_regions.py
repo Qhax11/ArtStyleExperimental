@@ -35,6 +35,11 @@ RULES = [
 ]
 REGIONS = ["Chest", "Belly", "Hips", "UpperArm", "LowerArm", "Hand", "Neck", "Thigh", "Calf", "Foot"]
 
+# Hips faces above this height (as a fraction of body height) go to Belly. By weight alone
+# the Hips region reaches above the shorts' waistband (0.96 m of 1.59 m), so hiding it
+# under shorts left a notch at the waist.
+HIPS_TOP_RATIO = 0.95 / 1.59
+
 
 def region_of(bone_name):
     for fragments, region in RULES:
@@ -57,6 +62,10 @@ for region in REGIONS:
     me.materials.append(mat)
     index_of[region] = len(me.materials) - 1
 
+heights = [(body.matrix_world @ v.co).z for v in me.vertices]
+z_min, z_max = min(heights), max(heights)
+hips_top = z_min + HIPS_TOP_RATIO * (z_max - z_min)
+
 counts = dict.fromkeys(REGIONS, 0)
 for poly in me.polygons:
     totals = dict.fromkeys(REGIONS, 0.0)
@@ -64,6 +73,8 @@ for poly in me.polygons:
         for g in me.vertices[vertex_index].groups:
             totals[group_region[g.group]] += g.weight
     region = max(REGIONS, key=lambda r: totals[r])
+    if region == "Hips" and sum(heights[i] for i in poly.vertices) / len(poly.vertices) > hips_top:
+        region = "Belly"
     poly.material_index = index_of[region]
     counts[region] += 1
 
