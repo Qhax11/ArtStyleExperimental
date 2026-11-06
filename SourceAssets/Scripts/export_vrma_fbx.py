@@ -7,6 +7,8 @@ bone rotations, centimetres), so it plays on SKEL_evrar_full like SK_StandPose_A
 Run headless:
   blender <stem>_parts.blend --background --python export_vrma_fbx.py -- <input.vrma> <output.fbx>
 
+Feet are kept on the floor: frames where the feet sink below it are lifted.
+
 The .blend file is opened but never saved.
 """
 import os
@@ -15,7 +17,7 @@ import sys
 import bpy
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from vroid_fbx_common import bake_deform_animation, export_animation_fbx  # noqa: E402
+from vroid_fbx_common import bake_deform_animation, clamp_to_ground, export_animation_fbx  # noqa: E402
 
 vrma_path, out_path = sys.argv[sys.argv.index("--") + 1:][:2]
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
@@ -33,6 +35,10 @@ deform = []
 for frame in range(first, last + 1):
     scene.frame_set(frame)
     deform.append({n: armature.pose.bones[n].matrix @ m for n, m in rest_inv.items()})
+
+# VRoid motions sometimes push a toe below the floor (tiptoe, crossed legs).
+lifts = clamp_to_ground(deform, bpy.data.objects["BodyOnly"], armature)
+print(f"VRMA ground clamp: max lift {max(lifts):.4f} on {sum(1 for x in lifts if x > 0)} of {len(lifts)} frames")
 
 armature = bake_deform_animation(deform, first)
 export_animation_fbx(armature, "BodyOnly", out_path)

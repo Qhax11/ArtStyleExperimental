@@ -1,6 +1,6 @@
 """Shared preparation for FBX exports that must match the VRM4U skeleton in Unreal."""
 import bpy
-from mathutils import Matrix
+from mathutils import Matrix, Vector
 
 # VRM4U names this bone with a hyphen; Blender's importer produced a space.
 BONE_RENAMES = {
@@ -129,3 +129,35 @@ def export_animation_fbx(armature, mesh_name, out_path):
         axis_forward="-Y",
         axis_up="Z",
     )
+
+
+def clamp_to_ground(deform, body, armature):
+    """Lift frames whose feet sink below the floor, in place, and return the lifts.
+
+    The floor is the lowest foot vertex at rest. For each frame the foot vertices are
+    skinned with the recorded deformations; if the lowest one is below the floor, every
+    bone's deformation is moved up by the difference. Frames are never lowered, so feet
+    that leave the ground (a jump, a raised leg) are left alone.
+    """
+    groups = {g.index: g.name for g in body.vertex_groups}
+    feet = []
+    for v in body.data.vertices:
+        weights = [(groups[g.group], g.weight) for g in v.groups if g.weight > 0]
+        if any(("Foot" in name or "ToeBase" in name) and w > 0.5 for name, w in weights):
+            total = sum(w for _, w in weights)
+            feet.append((v.co.copy(), [(name, w / total) for name, w in weights]))
+    to_armature = armature.matrix_world.inverted() @ body.matrix_world
+    floor = min((to_armature @ co).z for co, _ in feet)
+    lifts = []
+    for frame_deform in deform:
+        lowest = min(
+            sum(((frame_deform[name] @ (to_armature @ co)) * w for name, w in weights), Vector()).z
+            for co, weights in feet
+        )
+        lift = max(floor - lowest, 0.0)
+        if lift > 0.0:
+            up = Matrix.Translation((0.0, 0.0, lift))
+            for name in frame_deform:
+                frame_deform[name] = up @ frame_deform[name]
+        lifts.append(lift)
+    return lifts

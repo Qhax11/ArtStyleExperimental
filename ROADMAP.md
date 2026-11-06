@@ -19,7 +19,7 @@ Oyun cozy bir hava taşır ve hediye olarak yapılıyor, satılmayacak. Karakter
 
 ## Yeni oturum için devam notu
 
-**Sıradaki iş:** Pastel stüdyo, ikonlar ve sekmeli arayüz hazır. Şamil fareyle denemeli. Sırada "Bitir" düğmesi ve Aşama 8. Yüz ve ten rengi sona bırakıldı.
+**Sıradaki iş:** Giydirme, sahne, arayüz, bekleme animasyonları ve final ekranı (poz, mesaj, fotoğraf, tekrar) hazır. Kıyafetler iç içe geçmeye karşı düzeltildi. Şamil'in gerçek mesajları ve parça listesi bekleniyor (Aşama 9). İçerik, sahne cilası, yüz ve göz kırpma en sona.
 
 **C++ yapısı:** `DressUpTypes` (slot ve bölge enum'ları, kombin yapısı), `DressUpData` (`UDressUpItem`, `UDressUpBody`, `UDressUpCatalog`), `UOutfitComponent` (takma, çıkarma, engelleme, vücut gizleme, renk, kombin kaydetme), `ADressUpCharacter`, `ADressUpGameMode` ve `ADressUpPlayerController`, `DressUpPanel` (arayüz taban sınıfları). Parçalar `DA_Catalog` içinde listelenir. Widget'lar yalnızca düzeni tutar; `Btn`, `Label`, `List`, `Colors`, `ResetBtn` adları C++'a bağlıdır. `BP_DressUpGM` ana menü level'ı kullandığı için duruyor, `ADressUpGameMode`'dan türüyor. Yeni C++ sınıfı veya alan eklemek editörü kapatıp derlemeyi gerektirir.
 
@@ -40,6 +40,11 @@ Oyun cozy bir hava taşır ve hediye olarak yapılıyor, satılmayacak. Karakter
 - Parça hattı: `SourceAssets/Scripts/split_vrm.py` VRM'i böler, `export_parts_fbx.py` FBX üretir, `SkeletalMeshTools.import_file` ile `SKEL_evrar` üzerine alınır. Materyaller ayrıca atanır.
 - Leader Pose için parçanın kemik açıları ve ölçeği vücutla aynı olmalı. VRM4U'da kemik açıları sıfır, ölçek 1'dir. `vroid_fbx_common.py` bunu sağlar. Eşleşmezse parça görünmez olur veya huni gibi büzülür.
 - Örnek model kıyafet hattı: örnek modeli aç, menüden "Bulk export worn items as XWear" ile `.xwear` al. Dress-up'ta `evrar`'ı aç, `Cloth`'u gizle, kıyafeti ekle, "Maintain Costume Shape" uygula, otomatik mesh silmeye "No" de, VRM dışa aktar. `retarget_costume_fbx.py` kıyafeti vücut iskeletine taşır. Materyaller için aynı VRM ayrıca VRM4U ile aktarılır.
+- **Kıyafet hattı (her yeni kıyafet buradan geçer, Şamil'in kuralı):** FBX'i Unreal'e doğrudan alma. Önce `fix_cloth_fbx.py` ile işle:
+  `blender parts_full/evrar_full_parts.blend --background --python fix_cloth_fbx.py -- <in.fbx> VRoid/fixed/SK_<Parça>.fbx --vrm <kaynak.vrm> [--tuck-above CM --tuck CM]`
+  Betik iki şey yapar: kaynak VRM'deki dokusu tamamen saydam yüzleri siler (örnek kostümlerdeki gizli parçalar), vücuda yakın köşelere vücudun deri ağırlıklarını verir (3 cm'e kadar tam, 10 cm'den sonra kıyafetin kendi ağırlığı, arası karışım). Altı üstün içinden taşan giysiler için `--tuck-above`/`--tuck` bel bandını vücuda çeker (desenli şort: 88 cm üstü, 1.5 cm). Saç, gözlük ve şapka bu hattan geçmez. Sonra Unreal'e geçici adla al, eski mesh'in materyallerini slot adına göre kopyala, `DA_*.SkeletalMesh`'i bağla, eskiyi sil, yeniyi eski adına taşı. Ardından bekleme ve final pozlarında, en bol kıyafetlerle önden kontrol et.
+- **VRMA hattı zemin sınırlaması:** `export_vrma_fbx.py` her karede ayak köşelerinin en alçağını hesaplar, zeminin altına inerse vücudu kaldırır (V işaretinde 4 cm'e kadar). Yeni VRMA hareketleri de bundan geçer.
+- **Bekleme animasyonu hattı:** Mixamo FBX ("Without Skin") → `export_mixamo_fbx.py <in> <out> --arm-spread DEG`. Kolları omuzdan dışa açar; Idle A 4°, Idle B 7°. Yeni bekleme animasyonunu desenli şort ve elbiseyle kontrol et, el giysiye giriyorsa artır. Oyun kamerası önden baktığı için yandan küçük temas sorun değil.
 - `import_file` aynı adlı asset'in üzerine yazmaz, önce silmek gerekir.
 - VRM4U kaynaktan derleniyor. `VrmAssetListThumbnailRenderer.cpp` satır 257'deki renk değerlerine `f` eklendi (double uyarısı hata sayılıyordu). Eklenti güncellenirse tekrar gerekebilir.
 - Tam vücut için iki şey gerekir: VRoid dışa aktarmada "Delete Transparent Meshes" kapalı olmalı, ayrıca vücut dokusunun alpha'sı kaldırılmalı (`make_body_texture_opaque.py`, sonuç `T_Body_Opaque`). VRoid kıyafet altını alpha ile de keser, renkler ve siyah üst dokuda durur. Doku değişimi `MI_N00_000_00_Body_00_SKIN__Instance_` ve `_outline` materyallerinde yapıldı.
@@ -257,7 +262,7 @@ En riskli adım, sistemden önce doğrulanır.
 
 ### 8. Finalize ekranı
 
-- [x] Final pozu ve kamera yaklaşması: katalogdaki `FinalPoses`'tan rastgele biri (03 V işareti @3.0 sn, 06 model pozu @4.0, 02 selam @3.2), `HoldTime`'da donar. Kamera `FinalCamera` etiketli `CameraActor_1`'e yumuşak geçer.
+- [x] Final pozu ve kamera yaklaşması: katalogdaki `FinalPoses`'tan rastgele biri (03 V işareti @3.0 sn, 06 model pozu @4.0), `HoldTime`'da donar. 02 selam çıkarıldı: başında çömeliyor, oyun yavaşlarsa o anda donuyordu (Şamil 2026-11-06). Kabarık etekle uyumsuz poz eklenirse pozlara kıyafet filtresi (`ExcludedItems`/`ExcludedSlots`) düşünülecek. Kamera `FinalCamera` etiketli `CameraActor_1`'e yumuşak geçer.
 - [x] Fotoğraf: arayüzsüz ekran görüntüsü `%USERPROFILE%\Pictures\Dolap\Dolap_<tarih>.png`.
 - [x] Mesaj ve tekrar oynama (`WBP_Final`): `Messages` içinden koşulu (`RequiredItems`, `RequiredSlots`) tutanlardan rastgele biri, hiçbiri tutmazsa koşulsuzlardan biri. Şu anki 5 mesaj "(Örnek)" yer tutucu; Şamil kendi mesajlarını `DA_Catalog > Finale > Messages`'a yazar. Köşede VRoid animasyon kredisi.
 - [x] Test kısayolları (editör konsolu, oyun açıkken): `DressUpFinish`, `DressUpPhoto`, `DressUpReplay`.

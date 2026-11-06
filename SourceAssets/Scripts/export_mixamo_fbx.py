@@ -6,10 +6,15 @@ The hips also move, scaled by the ratio of hip heights. The result goes through 
 same baking as export_vrma_fbx.py, so it plays on SKEL_evrar_full.
 
 Run headless:
-  blender <stem>_parts.blend --background --python export_mixamo_fbx.py -- <input.fbx> <output.fbx>
+  blender <stem>_parts.blend --background --python export_mixamo_fbx.py -- <input.fbx> <output.fbx> [--arm-spread DEG]
+
+--arm-spread turns both whole arms outward at the shoulder by DEG degrees, so hands that
+hang close to the hips do not sink into wide bottoms. Check each new idle with the widest
+clothes and raise it when hands clip.
 
 The .blend file is opened but never saved.
 """
+import math
 import os
 import sys
 
@@ -19,7 +24,26 @@ from mathutils import Matrix
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from vroid_fbx_common import bake_deform_animation, export_animation_fbx  # noqa: E402
 
-src_path, out_path = sys.argv[sys.argv.index("--") + 1:][:2]
+cli = sys.argv[sys.argv.index("--") + 1:]
+src_path, out_path = cli[0], cli[1]
+options = dict(zip(cli[2::2], cli[3::2]))
+arm_spread = math.radians(float(options.get("--arm-spread", 0.0)))
+ARM_PARTS = ("UpperArm", "LowerArm", "Hand", "Thumb", "Index", "Middle", "Ring", "Little")
+# The character faces -Y with its left side on +X; a turn about Y swings an arm sideways.
+SPREAD = {
+    "_L_": Matrix.Rotation(-arm_spread, 4, "Y"),
+    "_R_": Matrix.Rotation(arm_spread, 4, "Y"),
+}
+
+
+def spread_for(name):
+    if arm_spread and any(part in name for part in ARM_PARTS):
+        for side, rotation in SPREAD.items():
+            if side in name:
+                return rotation
+    return None
+
+
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
 SIDES = {"Left": "L", "Right": "R"}
@@ -84,6 +108,9 @@ for frame in range(first, last + 1):
         if name in pairs:
             pose = src_world @ src_bone(pairs[name]).matrix
             rotation = (pose.to_quaternion() @ src_rest[name].inverted()).to_matrix().to_4x4()
+            spread = spread_for(name)
+            if spread is not None:
+                rotation = spread @ rotation
         else:
             rotation = parent_deform.to_quaternion().to_matrix().to_4x4()
         head = parent_deform @ rest_head
@@ -97,4 +124,4 @@ bpy.data.objects.remove(source)
 scene.render.fps = 30
 armature = bake_deform_animation(deform, first)
 export_animation_fbx(armature, "BodyOnly", out_path)
-print("MIXAMO frames", first, last, "fps", scene.render.fps, "wrote:", out_path, os.path.getsize(out_path))
+print("MIXAMO arm spread", math.degrees(arm_spread), "frames", first, last, "fps", scene.render.fps, "wrote:", out_path, os.path.getsize(out_path))
