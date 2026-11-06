@@ -10,6 +10,7 @@
 class UAnimationAsset;
 class UDressUpBody;
 class UDressUpCatalog;
+class UDressUpItem;
 class UMeshComponent;
 class UOutfitComponent;
 class USkeletalMeshComponent;
@@ -49,6 +50,14 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up")
 	TSoftObjectPtr<UDressUpBody> Body = TSoftObjectPtr<UDressUpBody>(FSoftObjectPath(TEXT("/Game/DressUp/Data/DA_Body_evrar.DA_Body_evrar")));
+
+	/** Outfit worn at start instead of the catalog's DefaultItems, e.g. on the title screen. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up|Showcase")
+	TArray<TObjectPtr<UDressUpItem>> ShowcaseItems;
+
+	/** Idle played instead of the body's IdleAnim, e.g. on the title screen. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up|Showcase")
+	TObjectPtr<UAnimationAsset> ShowcaseIdle = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up")
 	TSoftObjectPtr<UDressUpCatalog> Catalog = TSoftObjectPtr<UDressUpCatalog>(FSoftObjectPath(TEXT("/Game/DressUp/Data/DA_Catalog.DA_Catalog")));

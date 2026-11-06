@@ -69,7 +69,7 @@ void ADressUpCharacter::BeginPlay()
 		}
 		BodyRegions->SetSkinnedAssetAndUpdate(BodyData->RegionMesh, false);
 		BodyRegions->SetLeaderPoseComponent(BodyMesh);
-		SetIdle(BodyData->IdleAnim);
+		SetIdle(ShowcaseIdle ? ShowcaseIdle.Get() : BodyData->IdleAnim.Get());
 	}
 	LoadedCatalog = Catalog.LoadSynchronous();
 
@@ -78,7 +78,11 @@ void ADressUpCharacter::BeginPlay()
 	{
 		Outfit->RegisterSlot(Pair.Key, Pair.Value);
 	}
-	if (LoadedCatalog)
+	if (ShowcaseItems.Num() > 0)
+	{
+		Outfit->DefaultItems = ShowcaseItems;
+	}
+	else if (LoadedCatalog)
 	{
 		Outfit->DefaultItems = LoadedCatalog->DefaultItems;
 	}

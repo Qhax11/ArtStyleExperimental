@@ -42,7 +42,9 @@ enum class EBodyRegion : uint8
 	Neck,
 	Thigh,
 	Calf,
-	Foot
+	Foot,
+	/** Above the foot up to the ankle bone: covered by sneakers, open in low shoes. */
+	Ankle
 };
 
 /** How a bag sits on the body. */

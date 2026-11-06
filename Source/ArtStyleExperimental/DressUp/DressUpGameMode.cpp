@@ -4,6 +4,8 @@
 #include "DressUp/DressUpCharacter.h"
 #include "DressUp/DressUpData.h"
 #include "DressUp/DressUpFinal.h"
+#include "DressUp/DressUpMenu.h"
+#include "DressUp/DressUpSettings.h"
 #include "DressUp/DressUpPanel.h"
 #include "DressUp/OutfitComponent.h"
 #include "EngineUtils.h"
@@ -34,6 +36,55 @@ void ADressUpPlayerController::BeginPlay()
 	{
 		GetWorldTimerManager().SetTimerForNextTick(this, &ADressUpPlayerController::StartDressUp);
 	}
+	if (UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this))
+	{
+		SettingsSystem->ApplyAudio(this);
+	}
+}
+
+void ADressUpPlayerController::SetupInputComponent()
+{
+	Super::SetupInputComponent();
+	// Escape stops play in the editor, so P opens the menu there too.
+	for (const FKey& Key : {EKeys::Escape, EKeys::P})
+	{
+		FInputKeyBinding& Binding = InputComponent->BindKey(Key, IE_Pressed, this, &ADressUpPlayerController::TogglePauseMenu);
+		Binding.bExecuteWhenPaused = true;
+	}
+}
+
+void ADressUpPlayerController::TogglePauseMenu()
+{
+	if (PauseMenu && PauseMenu->IsInViewport())
+	{
+		// Escape first closes the settings pop-up, then the menu.
+		if (!PauseMenu->CloseSettings())
+		{
+			ClosePauseMenu();
+		}
+		return;
+	}
+	if (!PauseMenu)
+	{
+		UClass* LoadedClass = PauseMenuClass.LoadSynchronous();
+		if (!LoadedClass)
+		{
+			return;
+		}
+		PauseMenu = CreateWidget<UDressUpPauseMenu>(this, LoadedClass);
+	}
+	PauseMenu->AddToViewport(10);
+	SetPause(true);
+}
+
+void ADressUpPlayerController::ClosePauseMenu()
+{
+	if (PauseMenu)
+	{
+		PauseMenu->CloseSettings();
+		PauseMenu->RemoveFromParent();
+	}
+	SetPause(false);
 }
 
 void ADressUpPlayerController::StartDressUp()
@@ -63,6 +114,7 @@ void ADressUpPlayerController::StartDressUp()
 		return;
 	}
 	DressUpCharacter = *CharacterIt;
+	DefaultRotation = DressUpCharacter->GetActorRotation();
 
 	if (UClass* LoadedPanelClass = PanelClass.LoadSynchronous())
 	{
@@ -70,13 +122,53 @@ void ADressUpPlayerController::StartDressUp()
 		Panel->Setup(DressUpCharacter->GetOutfit(), DressUpCharacter->GetCatalog());
 		Panel->AddToViewport();
 
-		// The panel itself is not focusable; buttons take focus when clicked.
-		FInputModeUIOnly InputMode;
+		// Game and UI: clicks on widgets stay in the UI, clicks on the scene reach the
+		// controller so the character can be turned by dragging.
+		FInputModeGameAndUI InputMode;
 		InputMode.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
+		InputMode.SetHideCursorDuringCapture(false);
 		SetInputMode(InputMode);
 	}
 	SetShowMouseCursor(true);
 	UE_LOG(LogDressUpGame, Log, TEXT("Dress-up UI ready"));
+}
+
+void ADressUpPlayerController::PlayerTick(float DeltaTime)
+{
+	Super::PlayerTick(DeltaTime);
+	UpdateRotation(DeltaTime);
+}
+
+void ADressUpPlayerController::UpdateRotation(float DeltaTime)
+{
+	if (!DressUpCharacter)
+	{
+		return;
+	}
+	float MouseX = 0.0f;
+	float MouseY = 0.0f;
+	const bool bHasMouse = GetMousePosition(MouseX, MouseY);
+	if (bHasMouse && IsInputKeyDown(EKeys::LeftMouseButton))
+	{
+		if (bDragging)
+		{
+			// Dragging right turns the character to its left, like spinning a turntable.
+			DragYaw -= (MouseX - LastMouseX) * RotateDegreesPerPixel;
+		}
+		bDragging = true;
+		LastMouseX = MouseX;
+	}
+	else
+	{
+		if (bDragging)
+		{
+			// Return by the shorter way round.
+			DragYaw = FRotator::NormalizeAxis(DragYaw);
+		}
+		bDragging = false;
+		DragYaw = FMath::FInterpTo(DragYaw, 0.0f, DeltaTime, ReturnSpeed);
+	}
+	DressUpCharacter->SetActorRotation(DefaultRotation + FRotator(0.0f, DragYaw, 0.0f));
 }
 
 void ADressUpPlayerController::Finish()
@@ -171,4 +263,47 @@ void ADressUpPlayerController::Replay()
 		Panel->SetVisibility(ESlateVisibility::SelfHitTestInvisible);
 	}
 	bFinished = false;
+}
+
+// --- Main menu level ---
+
+ADressUpMenuGameMode::ADressUpMenuGameMode()
+{
+	PlayerControllerClass = ADressUpMenuController::StaticClass();
+	DefaultPawnClass = nullptr;
+}
+
+ADressUpMenuController::ADressUpMenuController()
+{
+	bShowMouseCursor = true;
+}
+
+void ADressUpMenuController::BeginPlay()
+{
+	Super::BeginPlay();
+	if (IsLocalController())
+	{
+		GetWorldTimerManager().SetTimerForNextTick(this, &ADressUpMenuController::ShowMenu);
+	}
+	if (UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this))
+	{
+		SettingsSystem->ApplyAudio(this);
+	}
+}
+
+void ADressUpMenuController::ShowMenu()
+{
+	if (TActorIterator<ACameraActor> Camera(GetWorld()); Camera)
+	{
+		SetViewTarget(*Camera);
+	}
+	if (UClass* LoadedClass = MenuClass.LoadSynchronous())
+	{
+		Menu = CreateWidget<UDressUpMainMenu>(this, LoadedClass);
+		Menu->AddToViewport();
+	}
+	FInputModeUIOnly InputMode;
+	InputMode.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
+	SetInputMode(InputMode);
+	SetShowMouseCursor(true);
 }

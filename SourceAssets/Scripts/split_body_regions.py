@@ -13,6 +13,7 @@ import os
 import sys
 
 import bpy
+from mathutils import Vector
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from vroid_fbx_common import prepare_armature  # noqa: E402
@@ -33,12 +34,26 @@ RULES = [
     (("Foot", "ToeBase"), "Foot"),
     (("C_Hips", "Root"), "Hips"),
 ]
-REGIONS = ["Chest", "Belly", "Hips", "UpperArm", "LowerArm", "Hand", "Neck", "Thigh", "Calf", "Foot"]
+REGIONS = ["Chest", "Belly", "Hips", "UpperArm", "LowerArm", "Hand", "Neck", "Thigh", "Calf", "Foot", "Ankle"]
 
 # Hips faces above this height (as a fraction of body height) go to Belly. By weight alone
 # the Hips region reaches above the shorts' waistband (0.96 m of 1.59 m), so hiding it
 # under shorts left a notch at the waist.
 HIPS_TOP_RATIO = 0.95 / 1.59
+
+# Foot faces above this height (cm, after prepare_armature) go to Ankle, so low shoes can
+# hide only what they cover. The line follows the opening of a low shoe (Mary Jane): low
+# at the toes, high at the heel. Points are (y, height); the character faces -Y.
+FOOT_TOP = [(-12.0, 3.8), (-5.5, 5.6), (0.0, 8.2), (6.0, 8.8)]
+
+
+def foot_top(y):
+    if y <= FOOT_TOP[0][0]:
+        return FOOT_TOP[0][1]
+    for (y0, h0), (y1, h1) in zip(FOOT_TOP, FOOT_TOP[1:]):
+        if y <= y1:
+            return h0 + (h1 - h0) * (y - y0) / (y1 - y0)
+    return FOOT_TOP[-1][1]
 
 
 def region_of(bone_name):
@@ -75,6 +90,10 @@ for poly in me.polygons:
     region = max(REGIONS, key=lambda r: totals[r])
     if region == "Hips" and sum(heights[i] for i in poly.vertices) / len(poly.vertices) > hips_top:
         region = "Belly"
+    if region == "Foot":
+        centre = sum((body.matrix_world @ me.vertices[i].co for i in poly.vertices), Vector()) / len(poly.vertices)
+        if centre.z > foot_top(centre.y):
+            region = "Ankle"
     poly.material_index = index_of[region]
     counts[region] += 1
 

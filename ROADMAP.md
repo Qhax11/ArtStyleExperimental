@@ -223,6 +223,7 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] Siyah elbise artık `Thigh` gizlemiyor (etek dizin üstünde bitiyor, bacak boşlukta kalıyordu).
 - [x] Tişört, şort ve kapüşonluyla önden test et, kapüşonluyu arkadan ve yandan da kontrol et
 - [x] Beldeki çentik düzeltildi (2026-11-06): kemik ağırlığına göre `Hips` bölgesi şort bel bandının üstüne çıkıyordu. `split_body_regions.py` artık `Hips` yüzlerini vücut boyunun 0.95/1.59 oranında kesiyor, üstü `Belly`'ye gidiyor. Yeni alt giysi daha alçak belliyse bu oran düşürülür.
+- [x] Yeni `Ankle` bölgesi (2026-11-06): `Foot` bölgesi alçak ayakkabının ağzını izleyen eğimli bir çizgiyle bölündü (`split_body_regions.py` `FOOT_TOP`; önde 3.8 cm, topukta 8.8 cm). Mary Jane yalnızca `Foot`, spor ayakkabı `Foot` + `Ankle` gizler. Yeni ayakkabı eklerken ağzı bu çizgiden alçaksa bilekte boşluk, yüksekse ayak taşması olur; yakından kontrol et.
 - [x] Çorap (`DA_Socks_O`) yalnızca `Thigh` ve `Calf` gizler; çorap bilekte bittiği için `Foot` gizlenmez.
 - [x] VRM4U bazı parçaları `MI_VrmMToonOptLitTranslucent` ile alıyor; yarı saydam materyal gölge düşürmez. Çorabın materyali `MI_VrmMToonOptLitOpaque`'a (maskeli) geçirildi. Yeni parça eklerken üst materyale bak.
 - [ ] Başka bir VRoid modelinde dene (script kemik adlarına bağlı, gerçek ihtiyaç doğarsa)
@@ -258,6 +259,7 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] Sekmeler (Üst, Alt, Elbise, Ayakkabı, Saç, Aksesuar; `WBP_TabButton`), ikonlu kare kutular, pembe-krem pastel tasarım. Sekmeler katalogdaki `Tabs` alanından gelir, boşsa `DressUp::DefaultTabs()`. Parçası olmayan sekme gizlenir.
 - [x] Parça ikonları otomatik: parça yeşil fon önünde çekilir, `SourceAssets/Scripts/make_icons.py` saydam 256px PNG'ye çevirir, `/Game/DressUp/UI/Icons` altına alınıp `UDressUpItem.Icon`'a bağlanır. Yeni parça eklenince aynı yol tekrarlanır.
 - [x] Sekmeli arayüz fareyle denendi, çalışıyor (2026-11-06). Çorap `Alt` sekmesinde; sekmeler katalogda tanımlı.
+- [x] Fareyle döndürme: sahneye basılı tutup yatay sürükleyince karakter yaw ekseninde döner, bırakınca en kısa yoldan kameraya bakan açısına yumuşakça döner (`ADressUpPlayerController::UpdateRotation`, ayarlar `RotateDegreesPerPixel` 0.4, `ReturnSpeed` 5). Giriş modu "Game and UI": arayüz tıklamaları döndürmez. Şamil fareyle denedi, çalışıyor (2026-11-06).
 - [x] "Bitir" düğmesi ve "Duruş" çipleri (katalogdaki `IdleOptions`: Rahat, Salınım, Dik duruş)
 
 ### 8. Finalize ekranı

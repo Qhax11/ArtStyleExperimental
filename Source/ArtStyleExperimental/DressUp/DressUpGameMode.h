@@ -10,7 +10,9 @@
 class ACameraActor;
 class ADressUpCharacter;
 class UDressUpFinalScreen;
+class UDressUpMainMenu;
 class UDressUpPanel;
+class UDressUpPauseMenu;
 
 UCLASS()
 class ARTSTYLEEXPERIMENTAL_API ADressUpGameMode : public AGameModeBase
@@ -33,6 +35,9 @@ public:
 	TSoftClassPtr<UDressUpPanel> PanelClass = TSoftClassPtr<UDressUpPanel>(FSoftObjectPath(TEXT("/Game/DressUp/UI/WBP_DressUp.WBP_DressUp_C")));
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up")
+	TSoftClassPtr<UDressUpPauseMenu> PauseMenuClass = TSoftClassPtr<UDressUpPauseMenu>(FSoftObjectPath(TEXT("/Game/DressUp/UI/WBP_Pause.WBP_Pause_C")));
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up")
 	TSoftClassPtr<UDressUpFinalScreen> FinalScreenClass = TSoftClassPtr<UDressUpFinalScreen>(FSoftObjectPath(TEXT("/Game/DressUp/UI/WBP_Final.WBP_Final_C")));
 
 	/** Camera actors with this tag frame the finale. Without one the scene camera stays. */
@@ -45,6 +50,14 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up")
 	float CameraBlendTime = 1.2f;
+
+	/** Degrees the character turns per pixel of horizontal mouse drag on the scene. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up|Rotate")
+	float RotateDegreesPerPixel = 0.4f;
+
+	/** How quickly the character turns back to face the camera after the mouse is released. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up|Rotate")
+	float ReturnSpeed = 5.0f;
 
 	UFUNCTION(BlueprintPure, Category = "Dress Up")
 	UDressUpPanel* GetPanel() const { return Panel; }
@@ -61,6 +74,13 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Dress Up")
 	void Replay();
 
+	/** Opens the pause menu, or closes it (and its settings pop-up first). Bound to Escape, and P for the editor. */
+	UFUNCTION(BlueprintCallable, Category = "Dress Up")
+	void TogglePauseMenu();
+
+	UFUNCTION(BlueprintCallable, Category = "Dress Up")
+	void ClosePauseMenu();
+
 	/** Console shortcuts for testing the finale. */
 	UFUNCTION(Exec)
 	void DressUpFinish() { Finish(); }
@@ -73,6 +93,8 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+	virtual void SetupInputComponent() override;
+	virtual void PlayerTick(float DeltaTime) override;
 
 private:
 	/** Runs one tick after BeginPlay so the character has finished its own setup. */
@@ -82,11 +104,17 @@ private:
 
 	static FString PhotoDirectory();
 
+	/** Turns the character while the left mouse button drags on the scene, and eases it back when released. */
+	void UpdateRotation(float DeltaTime);
+
 	UPROPERTY()
 	TObjectPtr<UDressUpPanel> Panel;
 
 	UPROPERTY()
 	TObjectPtr<UDressUpFinalScreen> FinalScreen;
+
+	UPROPERTY()
+	TObjectPtr<UDressUpPauseMenu> PauseMenu;
 
 	UPROPERTY()
 	TObjectPtr<ADressUpCharacter> DressUpCharacter;
@@ -99,4 +127,44 @@ private:
 
 	FTimerHandle MessageTimer;
 	bool bFinished = false;
+
+	/** The character's facing when the game starts: towards the camera. */
+	FRotator DefaultRotation = FRotator::ZeroRotator;
+
+	/** Yaw added by dragging, in degrees. Eases back to zero after release. */
+	float DragYaw = 0.0f;
+	float LastMouseX = 0.0f;
+	bool bDragging = false;
+};
+
+/** Game mode of the title screen level. */
+UCLASS()
+class ARTSTYLEEXPERIMENTAL_API ADressUpMenuGameMode : public AGameModeBase
+{
+	GENERATED_BODY()
+
+public:
+	ADressUpMenuGameMode();
+};
+
+/** Shows the main menu over the level camera. */
+UCLASS()
+class ARTSTYLEEXPERIMENTAL_API ADressUpMenuController : public APlayerController
+{
+	GENERATED_BODY()
+
+public:
+	ADressUpMenuController();
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Menu")
+	TSoftClassPtr<UDressUpMainMenu> MenuClass = TSoftClassPtr<UDressUpMainMenu>(FSoftObjectPath(TEXT("/Game/DressUp/UI/WBP_Menu.WBP_Menu_C")));
+
+protected:
+	virtual void BeginPlay() override;
+
+private:
+	void ShowMenu();
+
+	UPROPERTY()
+	TObjectPtr<UDressUpMainMenu> Menu;
 };
