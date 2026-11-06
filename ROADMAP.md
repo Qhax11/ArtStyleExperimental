@@ -239,7 +239,9 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] `LVL_DressUp`: sabit kamera, karakter sağda. Başlangıcı C++ `ADressUpGameMode` / `ADressUpPlayerController` yapıyor (kamera, fare, arayüz).
 - [x] Pastel stüdyo: krem zemin, pembe fon (`StudioBackdrop`), açık pembe halı (`StudioRug`), sıcak yönlü ışık. Materyaller `/Game/DressUp/Scene/MI_Studio_*`.
 - [ ] Cozy dekor (en sona; yüzde gölge sorunu yok, Şamil 2026-11-06)
-- [ ] Idle animasyon: Kaynağını Şamil ile seç. Şimdilik hareketsiz duruş pozu (`SK_StandPose_Anim`).
+- [x] Idle animasyon: Mixamo'dan iki döngüsel bekleme (`SourceAssets/Mixamo/Idle_A.fbx` 8.3 sn, `Idle_B.fbx` 16.6 sn), `SourceAssets/Scripts/export_mixamo_fbx.py` ile karaktere aktarıldı (iki iskelet de T-pozda; kemik başına dünya dönüş farkı, kalça boy oranıyla). `DA_Body_evrar.IdleAnim` = `/Game/DressUp/Core/Anim/Idle/SK_Idle_A_Anim`. B'yi denemek için aynı alanı değiştir.
+- [ ] Göz kırpma: VRoid yüzü morph target ile çalışıyor, kodla rastgele aralıklarla eklenecek.
+- [x] VRoid'in resmî ücretsiz VRMA paketi (`VRMA_MotionPack`, 7 hareket) karakterin iskeletine alındı: `/Game/DressUp/Core/Anim/Motions/SK_VRMA_0X_Anim`. Yol: `SourceAssets/Scripts/export_vrma_fbx.py` (Blender VRM eklentisi VRMA'yı iskelete uygular, `prepare_armature` sonrası aynı deformasyon yeniden yazılır), FBX `import_animations=True` ile alınır. Hareketler: 01 tüm vücut, 02 selam, 03 V işareti, 04 ateş, 05 dönme, 06 model pozu, 07 çömelme. Kredi: "Character animation credits to pixiv Inc.'s VRoid Project". VRM4U'nun doğrudan aldığı deneme `/Game/DressUp/Core/Anim/VRMA` kendi iskeletinde, işe yaramıyor; editör kapalıyken diskten silinecek.
 - [x] Oyun başlangıcı ve Sıfırla: kıyafetsiz, saçsız, iç çamaşırıyla (Şamil'in isteği, 2026-11-06). Katalogdaki `DefaultItems` boş.
 
 ### 7. Arayüz
