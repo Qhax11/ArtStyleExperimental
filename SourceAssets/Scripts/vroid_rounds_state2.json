@@ -1,0 +1,63 @@
+{
+ "outfit": {
+  "tops": {
+   "index": 15,
+   "k_view": 0,
+   "done": false,
+   "last_sel": [
+    15,
+    null
+   ]
+  },
+  "bottoms": {
+   "index": 15,
+   "k_view": 0,
+   "done": false,
+   "last_sel": [
+    15,
+    null
+   ]
+  },
+  "neck": {
+   "index": 15,
+   "k_view": 0,
+   "done": false,
+   "last_sel": [
+    15,
+    null
+   ]
+  },
+  "arm": {
+   "index": 15,
+   "k_view": 0,
+   "done": false,
+   "last_sel": [
+    15,
+    null
+   ]
+  },
+  "socks": {
+   "index": 15,
+   "k_view": 0,
+   "done": false,
+   "last_sel": [
+    15,
+    null
+   ]
+  },
+  "shoes": {
+   "index": 15,
+   "k_view": 0,
+   "done": false,
+   "last_sel": [
+    15,
+    null
+   ]
+  },
+  "hair": {
+   "index": 11,
+   "k_view": 11,
+   "done": true
+  }
+ }
+}

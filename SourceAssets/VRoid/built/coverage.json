@@ -1,0 +1,2047 @@
+{
+ "Top_001": {
+  "hidden": [
+   "UpperArm"
+  ],
+  "shares": {
+   "Chest": 0.849,
+   "Belly": 0.605,
+   "Hips": 0.312,
+   "UpperArm": 0.981,
+   "LowerArm": 0.72,
+   "Hand": 0.071,
+   "Neck": 0.053
+  }
+ },
+ "Shoes_001": {
+  "hidden": [
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.072,
+   "Foot": 0.747,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_001": {
+  "hidden": [
+   "Thigh"
+  ],
+  "shares": {
+   "Belly": 0.632,
+   "Hips": 0.75,
+   "Thigh": 0.971,
+   "Calf": 0.502
+  }
+ },
+ "Neck_001": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.06,
+   "Neck": 0.032
+  }
+ },
+ "Arm_001": {
+  "hidden": [],
+  "shares": {
+   "LowerArm": 0.043
+  }
+ },
+ "Top_002": {
+  "hidden": [
+   "Belly"
+  ],
+  "shares": {
+   "Chest": 0.927,
+   "Belly": 1.0,
+   "Hips": 0.429,
+   "UpperArm": 0.305,
+   "Neck": 0.061,
+   "Thigh": 0.036
+  }
+ },
+ "Shoes_002": {
+  "hidden": [
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.105,
+   "Foot": 0.943,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_002": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.43,
+   "Hips": 0.883,
+   "Thigh": 0.188
+  }
+ },
+ "Neck_002": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.106,
+   "Neck": 0.147
+  }
+ },
+ "Arm_002": {
+  "hidden": [],
+  "shares": {
+   "LowerArm": 0.251,
+   "Hand": 0.063
+  }
+ },
+ "Top_003": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.64,
+   "Belly": 0.456,
+   "Hips": 0.108,
+   "UpperArm": 0.652,
+   "LowerArm": 0.883,
+   "Neck": 0.114,
+   "Thigh": 0.022
+  }
+ },
+ "Shoes_003": {
+  "hidden": [
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.58,
+   "Foot": 0.718,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_003": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.921,
+   "Hips": 0.887,
+   "Thigh": 0.933,
+   "Calf": 0.148
+  }
+ },
+ "Neck_003": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.024,
+   "Neck": 0.031
+  }
+ },
+ "Arm_003": {
+  "hidden": [],
+  "shares": {
+   "LowerArm": 0.05,
+   "Hand": 0.058
+  }
+ },
+ "Top_004": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.956,
+   "Belly": 0.851,
+   "Hips": 0.317,
+   "UpperArm": 0.957,
+   "LowerArm": 0.951,
+   "Hand": 0.056,
+   "Neck": 0.125,
+   "Thigh": 0.024
+  }
+ },
+ "Shoes_004": {
+  "hidden": [
+   "Foot"
+  ],
+  "shares": {
+   "Foot": 0.984,
+   "Ankle": 0.688
+  }
+ },
+ "Bottom_004": {
+  "hidden": [
+   "Thigh"
+  ],
+  "shares": {
+   "Belly": 0.833,
+   "Hips": 0.604,
+   "Thigh": 0.993,
+   "Calf": 0.836
+  }
+ },
+ "Neck_004": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.089
+  }
+ },
+ "Arm_004": {
+  "hidden": [],
+  "shares": {}
+ },
+ "Top_005": {
+  "hidden": [
+   "Belly"
+  ],
+  "shares": {
+   "Chest": 0.858,
+   "Belly": 1.0,
+   "Hips": 0.696,
+   "UpperArm": 0.691,
+   "LowerArm": 0.429,
+   "Hand": 0.111,
+   "Neck": 0.145,
+   "Thigh": 0.183
+  }
+ },
+ "Shoes_005": {
+  "hidden": [
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.688,
+   "Foot": 0.877,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_005": {
+  "hidden": [
+   "Belly"
+  ],
+  "shares": {
+   "Chest": 0.035,
+   "Belly": 0.965,
+   "Hips": 0.892,
+   "Thigh": 0.743
+  }
+ },
+ "Neck_005": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.047
+  }
+ },
+ "Arm_005": {
+  "hidden": [],
+  "shares": {
+   "LowerArm": 0.031
+  }
+ },
+ "Top_006": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.903,
+   "Belly": 0.855,
+   "Hips": 0.41,
+   "UpperArm": 0.735,
+   "LowerArm": 0.666,
+   "Hand": 0.063,
+   "Neck": 0.153,
+   "Thigh": 0.127
+  }
+ },
+ "Shoes_006": {
+  "hidden": [
+   "Foot",
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.161,
+   "Foot": 0.978,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_006": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.298,
+   "Hips": 0.408,
+   "Thigh": 0.046
+  }
+ },
+ "Neck_006": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.082,
+   "Belly": 0.035,
+   "Neck": 0.022
+  }
+ },
+ "Arm_006": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.08,
+   "LowerArm": 0.136,
+   "Hand": 0.07
+  }
+ },
+ "Top_007": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.872,
+   "Belly": 0.158,
+   "UpperArm": 0.745,
+   "LowerArm": 0.463,
+   "Neck": 0.169
+  }
+ },
+ "Shoes_007": {
+  "hidden": [
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.164,
+   "Foot": 0.763,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_007": {
+  "hidden": [
+   "Thigh",
+   "Calf"
+  ],
+  "shares": {
+   "Belly": 0.719,
+   "Hips": 0.771,
+   "Thigh": 0.988,
+   "Calf": 1.0,
+   "Foot": 0.054,
+   "Ankle": 0.844
+  }
+ },
+ "Arm_007": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.085,
+   "LowerArm": 0.469,
+   "Neck": 0.046
+  }
+ },
+ "Top_008": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.875,
+   "Belly": 0.057,
+   "UpperArm": 0.887,
+   "LowerArm": 0.516,
+   "Neck": 0.043
+  }
+ },
+ "Shoes_008": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.077,
+   "Foot": 0.886,
+   "Ankle": 0.938
+  }
+ },
+ "Bottom_008": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.029,
+   "Belly": 0.781,
+   "Hips": 0.767,
+   "Thigh": 0.942
+  }
+ },
+ "Arm_008": {
+  "hidden": [],
+  "shares": {
+   "LowerArm": 0.271
+  }
+ },
+ "Top_009": {
+  "hidden": [
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.799,
+   "Belly": 0.465,
+   "Hips": 0.346,
+   "UpperArm": 0.895,
+   "LowerArm": 0.969,
+   "Hand": 0.042,
+   "Neck": 0.109,
+   "Thigh": 0.123
+  }
+ },
+ "Shoes_009": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.196,
+   "Foot": 0.715,
+   "Ankle": 0.156
+  }
+ },
+ "Bottom_009": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.057,
+   "Belly": 0.877,
+   "Hips": 0.129
+  }
+ },
+ "Neck_007": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.029
+  }
+ },
+ "Arm_009": {
+  "hidden": [],
+  "shares": {
+   "LowerArm": 0.027
+  }
+ },
+ "Top_010": {
+  "hidden": [
+   "UpperArm"
+  ],
+  "shares": {
+   "Chest": 0.901,
+   "Belly": 0.123,
+   "UpperArm": 1.0,
+   "LowerArm": 0.818,
+   "Hand": 0.068,
+   "Neck": 0.216
+  }
+ },
+ "Shoes_010": {
+  "hidden": [
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.387,
+   "Foot": 0.905,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_010": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.807,
+   "Hips": 0.8,
+   "Thigh": 0.334
+  }
+ },
+ "Arm_010": {
+  "hidden": [],
+  "shares": {
+   "UpperArm": 0.08,
+   "LowerArm": 0.348,
+   "Hand": 0.348
+  }
+ },
+ "Neck_008": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.653,
+   "UpperArm": 0.103,
+   "Neck": 0.144
+  }
+ },
+ "Shoes_011": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.093,
+   "Foot": 0.699,
+   "Ankle": 0.156
+  }
+ },
+ "Bottom_011": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.803,
+   "Hips": 0.694,
+   "Thigh": 0.225,
+   "Calf": 0.236
+  }
+ },
+ "Arm_011": {
+  "hidden": [],
+  "shares": {
+   "LowerArm": 0.034
+  }
+ },
+ "Top_011": {
+  "hidden": [],
+  "shares": {
+   "Thigh": 0.141
+  }
+ },
+ "Top_012": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.749,
+   "Belly": 0.228,
+   "UpperArm": 0.377,
+   "Neck": 0.022,
+   "Thigh": 0.144
+  }
+ },
+ "Shoes_012": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.206,
+   "Foot": 0.611,
+   "Ankle": 0.062
+  }
+ },
+ "Bottom_012": {
+  "hidden": [
+   "Calf"
+  ],
+  "shares": {
+   "Belly": 0.803,
+   "Hips": 0.706,
+   "Thigh": 0.787,
+   "Calf": 0.974,
+   "Foot": 0.111,
+   "Ankle": 0.938
+  }
+ },
+ "Arm_012": {
+  "hidden": [],
+  "shares": {
+   "LowerArm": 0.092,
+   "Hand": 0.54
+  }
+ },
+ "Top_013": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.308,
+   "UpperArm": 0.531,
+   "LowerArm": 0.711,
+   "Hand": 0.172,
+   "Neck": 0.228,
+   "Thigh": 0.131
+  }
+ },
+ "Shoes_013": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.826,
+   "Foot": 0.778,
+   "Ankle": 0.344
+  }
+ },
+ "Bottom_013": {
+  "hidden": [
+   "Belly"
+  ],
+  "shares": {
+   "Chest": 0.094,
+   "Belly": 1.0,
+   "Hips": 0.688,
+   "Thigh": 0.227
+  }
+ },
+ "Neck_009": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.548,
+   "UpperArm": 0.099,
+   "Neck": 0.151
+  }
+ },
+ "Top_014": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.878,
+   "Belly": 0.64,
+   "Hips": 0.454,
+   "UpperArm": 0.932,
+   "LowerArm": 0.586,
+   "Neck": 0.17,
+   "Thigh": 0.13
+  }
+ },
+ "Shoes_014": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.78,
+   "Foot": 0.709,
+   "Ankle": 0.062
+  }
+ },
+ "Bottom_014": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.842,
+   "Hips": 0.692,
+   "Thigh": 0.582,
+   "Calf": 0.581,
+   "Ankle": 0.172
+  }
+ },
+ "Neck_010": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.051
+  }
+ },
+ "Arm_013": {
+  "hidden": [],
+  "shares": {
+   "LowerArm": 0.191,
+   "Hand": 0.443
+  }
+ },
+ "Top_015": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.929,
+   "Belly": 0.816,
+   "Hips": 0.079,
+   "UpperArm": 0.743,
+   "Neck": 0.147
+  }
+ },
+ "Shoes_015": {
+  "hidden": [
+   "Foot",
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.129,
+   "Foot": 0.994,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_015": {
+  "hidden": [
+   "Thigh"
+  ],
+  "shares": {
+   "Belly": 0.684,
+   "Hips": 0.758,
+   "Thigh": 0.986,
+   "Calf": 0.494
+  }
+ },
+ "Neck_011": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.039
+  }
+ },
+ "Arm_014": {
+  "hidden": [],
+  "shares": {
+   "LowerArm": 0.334,
+   "Hand": 0.026
+  }
+ },
+ "Top_016": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.889,
+   "Belly": 0.101,
+   "UpperArm": 0.798,
+   "LowerArm": 0.448,
+   "Neck": 0.173
+  }
+ },
+ "Shoes_016": {
+  "hidden": [
+   "Foot",
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.322,
+   "Foot": 1.0,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_016": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.789,
+   "Hips": 0.713,
+   "Thigh": 0.332,
+   "Calf": 0.182
+  }
+ },
+ "Top_017": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.875,
+   "Belly": 0.719,
+   "Hips": 0.331,
+   "UpperArm": 0.796,
+   "LowerArm": 0.769,
+   "Hand": 0.064,
+   "Neck": 0.242,
+   "Thigh": 0.026
+  }
+ },
+ "Shoes_017": {
+  "hidden": [
+   "Foot",
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.45,
+   "Foot": 0.991,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_017": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.103,
+   "Belly": 0.702,
+   "Hips": 0.167
+  }
+ },
+ "Top_018": {
+  "hidden": [
+   "Chest",
+   "Belly",
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.976,
+   "Belly": 0.991,
+   "Hips": 0.346,
+   "UpperArm": 0.984,
+   "LowerArm": 1.0,
+   "Hand": 0.064,
+   "Neck": 0.099,
+   "Thigh": 0.034
+  }
+ },
+ "Shoes_018": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.026,
+   "Foot": 0.693,
+   "Ankle": 0.812
+  }
+ },
+ "Bottom_018": {
+  "hidden": [
+   "Thigh"
+  ],
+  "shares": {
+   "Belly": 0.693,
+   "Hips": 0.917,
+   "Thigh": 1.0,
+   "Calf": 0.421
+  }
+ },
+ "Top_019": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.869,
+   "Belly": 0.053,
+   "UpperArm": 0.189,
+   "Neck": 0.082
+  }
+ },
+ "Shoes_019": {
+  "hidden": [
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.707,
+   "Foot": 0.744,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_019": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.632,
+   "Hips": 0.742,
+   "Thigh": 0.957,
+   "Calf": 0.029
+  }
+ },
+ "Top_020": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.816,
+   "UpperArm": 0.646,
+   "Neck": 0.095
+  }
+ },
+ "Bottom_020": {
+  "hidden": [
+   "Thigh",
+   "Calf"
+  ],
+  "shares": {
+   "Belly": 0.746,
+   "Hips": 0.8,
+   "Thigh": 0.995,
+   "Calf": 1.0,
+   "Foot": 0.038,
+   "Ankle": 0.812
+  }
+ },
+ "Shoes_020": {
+  "hidden": [
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.301,
+   "Foot": 0.88,
+   "Ankle": 1.0
+  }
+ },
+ "Top_021": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.81,
+   "Belly": 0.711,
+   "Hips": 0.446,
+   "UpperArm": 0.85,
+   "LowerArm": 0.177,
+   "Neck": 0.077,
+   "Thigh": 0.135
+  }
+ },
+ "Shoes_021": {
+  "hidden": [
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.322,
+   "Foot": 0.953,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_021": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.071,
+   "Belly": 0.833,
+   "Hips": 0.125
+  }
+ },
+ "Top_022": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.903,
+   "Belly": 0.719,
+   "Hips": 0.512,
+   "UpperArm": 0.883,
+   "LowerArm": 0.368,
+   "Neck": 0.15,
+   "Thigh": 0.087
+  }
+ },
+ "Bottom_022": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.071,
+   "Belly": 0.737,
+   "Hips": 0.067,
+   "Calf": 0.302,
+   "Ankle": 0.812
+  }
+ },
+ "Shoes_022": {
+  "hidden": [
+   "Foot",
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.195,
+   "Foot": 0.962,
+   "Ankle": 1.0
+  }
+ },
+ "Top_023": {
+  "hidden": [
+   "Chest"
+  ],
+  "shares": {
+   "Chest": 0.979,
+   "Belly": 0.605,
+   "UpperArm": 0.866,
+   "LowerArm": 0.348,
+   "Neck": 0.157,
+   "Thigh": 0.067
+  }
+ },
+ "Shoes_023": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.254,
+   "Foot": 0.883,
+   "Ankle": 0.375
+  }
+ },
+ "Bottom_023": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.728,
+   "Hips": 0.733,
+   "Thigh": 0.798,
+   "Calf": 0.079
+  }
+ },
+ "Top_024": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.9,
+   "Belly": 0.746,
+   "Hips": 0.512,
+   "UpperArm": 0.895,
+   "LowerArm": 0.824,
+   "Hand": 0.077,
+   "Neck": 0.141,
+   "Thigh": 0.094
+  }
+ },
+ "Shoes_024": {
+  "hidden": [
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.228,
+   "Foot": 0.883,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_024": {
+  "hidden": [
+   "Thigh",
+   "Calf"
+  ],
+  "shares": {
+   "Belly": 0.684,
+   "Hips": 0.779,
+   "Thigh": 0.988,
+   "Calf": 1.0,
+   "Foot": 0.054,
+   "Ankle": 0.844
+  }
+ },
+ "Top_025": {
+  "hidden": [
+   "UpperArm"
+  ],
+  "shares": {
+   "Chest": 0.805,
+   "Belly": 0.491,
+   "Hips": 0.396,
+   "UpperArm": 0.967,
+   "LowerArm": 0.934,
+   "Hand": 0.138,
+   "Neck": 0.141,
+   "Thigh": 0.089
+  }
+ },
+ "Bottom_025": {
+  "hidden": [
+   "Belly"
+  ],
+  "shares": {
+   "Chest": 0.056,
+   "Belly": 1.0,
+   "Hips": 0.556,
+   "Thigh": 0.16
+  }
+ },
+ "Top_026": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.876,
+   "Belly": 0.772,
+   "Hips": 0.487,
+   "UpperArm": 0.964,
+   "LowerArm": 0.998,
+   "Hand": 0.167,
+   "Neck": 0.143,
+   "Thigh": 0.091
+  }
+ },
+ "Shoes_025": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.061,
+   "Foot": 0.741,
+   "Ankle": 0.312
+  }
+ },
+ "Bottom_026": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.64,
+   "Hips": 0.767,
+   "Thigh": 0.704
+  }
+ },
+ "Top_027": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.873,
+   "Belly": 0.763,
+   "Hips": 0.521,
+   "UpperArm": 0.973,
+   "LowerArm": 1.0,
+   "Hand": 0.08,
+   "Neck": 0.129,
+   "Thigh": 0.106
+  }
+ },
+ "Shoes_026": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.079,
+   "Foot": 0.728,
+   "Ankle": 0.406
+  }
+ },
+ "Top_028": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.938,
+   "Belly": 0.693,
+   "Hips": 0.367,
+   "UpperArm": 0.874,
+   "LowerArm": 0.78,
+   "Hand": 0.068,
+   "Neck": 0.177,
+   "Thigh": 0.06
+  }
+ },
+ "Shoes_027": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.195,
+   "Foot": 0.949,
+   "Ankle": 0.281
+  }
+ },
+ "Top_029": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.927,
+   "Belly": 0.842,
+   "Hips": 0.512,
+   "UpperArm": 0.963,
+   "LowerArm": 0.998,
+   "Hand": 0.076,
+   "Neck": 0.143,
+   "Thigh": 0.07
+  }
+ },
+ "Bottom_027": {
+  "hidden": [
+   "Thigh"
+  ],
+  "shares": {
+   "Belly": 0.632,
+   "Hips": 0.767,
+   "Thigh": 0.983,
+   "Calf": 0.49,
+   "Ankle": 0.344
+  }
+ },
+ "Shoes_028": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.074,
+   "Foot": 0.712,
+   "Ankle": 0.156
+  }
+ },
+ "Top_030": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.908,
+   "Belly": 0.711,
+   "Hips": 0.3,
+   "UpperArm": 0.881,
+   "LowerArm": 0.351,
+   "Neck": 0.152,
+   "Thigh": 0.022
+  }
+ },
+ "Shoes_029": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.18,
+   "Foot": 0.918,
+   "Ankle": 0.219
+  }
+ },
+ "Bottom_028": {
+  "hidden": [
+   "Thigh"
+  ],
+  "shares": {
+   "Belly": 0.728,
+   "Hips": 0.792,
+   "Thigh": 0.993,
+   "Calf": 0.172
+  }
+ },
+ "Top_031": {
+  "hidden": [
+   "Chest"
+  ],
+  "shares": {
+   "Chest": 0.976,
+   "Belly": 0.088,
+   "UpperArm": 0.93,
+   "LowerArm": 0.898,
+   "Hand": 0.065,
+   "Neck": 0.14
+  }
+ },
+ "Shoes_030": {
+  "hidden": [
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.725,
+   "Foot": 0.949,
+   "Ankle": 1.0
+  }
+ },
+ "Top_032": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.924,
+   "Belly": 0.746,
+   "Hips": 0.308,
+   "UpperArm": 0.924,
+   "LowerArm": 0.841,
+   "Hand": 0.063,
+   "Neck": 0.141,
+   "Thigh": 0.022
+  }
+ },
+ "Shoes_031": {
+  "hidden": [
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.402,
+   "Foot": 0.826,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_029": {
+  "hidden": [
+   "Thigh"
+  ],
+  "shares": {
+   "Belly": 0.667,
+   "Hips": 0.775,
+   "Thigh": 0.986,
+   "Calf": 0.932,
+   "Ankle": 0.156
+  }
+ },
+ "Top_033": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.823,
+   "Belly": 0.456,
+   "Hips": 0.308,
+   "UpperArm": 0.973,
+   "LowerArm": 0.989,
+   "Hand": 0.135,
+   "Neck": 0.123,
+   "Thigh": 0.065
+  }
+ },
+ "Shoes_032": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.037,
+   "Foot": 0.722,
+   "Ankle": 0.875
+  }
+ },
+ "Top_034": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.921,
+   "Belly": 0.544,
+   "Hips": 0.283,
+   "UpperArm": 0.536,
+   "LowerArm": 0.369,
+   "Hand": 0.048,
+   "Neck": 0.157,
+   "Thigh": 0.029
+  }
+ },
+ "Shoes_033": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.037,
+   "Foot": 0.339,
+   "Ankle": 0.375
+  }
+ },
+ "Top_035": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.891,
+   "Belly": 0.754,
+   "Hips": 0.333,
+   "UpperArm": 0.973,
+   "LowerArm": 1.0,
+   "Hand": 0.077,
+   "Neck": 0.136,
+   "Thigh": 0.038
+  }
+ },
+ "Shoes_034": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.265,
+   "Foot": 0.937,
+   "Ankle": 0.156
+  }
+ },
+ "Top_036": {
+  "hidden": [
+   "Chest",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.961,
+   "Belly": 0.43,
+   "Hips": 0.296,
+   "UpperArm": 0.934,
+   "LowerArm": 0.973,
+   "Hand": 0.075,
+   "Neck": 0.148
+  }
+ },
+ "Shoes_035": {
+  "hidden": [],
+  "shares": {
+   "Foot": 0.44
+  }
+ },
+ "Bottom_030": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.667,
+   "Hips": 0.775,
+   "Thigh": 0.553
+  }
+ },
+ "Top_037": {
+  "hidden": [
+   "Chest"
+  ],
+  "shares": {
+   "Chest": 0.98,
+   "Belly": 0.702,
+   "Hips": 0.275,
+   "UpperArm": 0.912,
+   "LowerArm": 0.871,
+   "Hand": 0.073,
+   "Neck": 0.152
+  }
+ },
+ "Shoes_036": {
+  "hidden": [],
+  "shares": {
+   "Foot": 0.44,
+   "Ankle": 0.031
+  }
+ },
+ "Top_038": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.908,
+   "Belly": 0.711,
+   "Hips": 0.375,
+   "UpperArm": 0.975,
+   "LowerArm": 0.998,
+   "Hand": 0.052,
+   "Neck": 0.165
+  }
+ },
+ "Shoes_037": {
+  "hidden": [],
+  "shares": {
+   "Foot": 0.915,
+   "Ankle": 0.125
+  }
+ },
+ "Top_039": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.915,
+   "Belly": 0.728,
+   "Hips": 0.412,
+   "UpperArm": 0.967,
+   "LowerArm": 0.996,
+   "Hand": 0.051,
+   "Neck": 0.147
+  }
+ },
+ "Top_040": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.829,
+   "Belly": 0.64,
+   "Hips": 0.454,
+   "UpperArm": 0.973,
+   "LowerArm": 0.966,
+   "Hand": 0.078,
+   "Neck": 0.153,
+   "Thigh": 0.053
+  }
+ },
+ "Top_041": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.847,
+   "Belly": 0.57,
+   "Hips": 0.475,
+   "UpperArm": 0.979,
+   "LowerArm": 0.982,
+   "Hand": 0.071,
+   "Neck": 0.162,
+   "Thigh": 0.048
+  }
+ },
+ "Shoes_038": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.188,
+   "Foot": 0.589,
+   "Ankle": 0.75
+  }
+ },
+ "Top_042": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.872,
+   "Belly": 0.43,
+   "UpperArm": 0.92,
+   "Neck": 0.06
+  }
+ },
+ "Shoes_039": {
+  "hidden": [],
+  "shares": {
+   "Foot": 0.892
+  }
+ },
+ "Top_043": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.802,
+   "UpperArm": 0.519,
+   "Neck": 0.109
+  }
+ },
+ "Shoes_040": {
+  "hidden": [],
+  "shares": {
+   "Foot": 0.649,
+   "Ankle": 0.75
+  }
+ },
+ "Bottom_031": {
+  "hidden": [
+   "Thigh"
+  ],
+  "shares": {
+   "Belly": 0.895,
+   "Hips": 0.863,
+   "Thigh": 1.0,
+   "Calf": 0.947
+  }
+ },
+ "Top_044": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.739,
+   "Belly": 0.618,
+   "Hips": 0.192,
+   "UpperArm": 0.523,
+   "LowerArm": 0.352,
+   "Neck": 0.16
+  }
+ },
+ "Bottom_032": {
+  "hidden": [
+   "Thigh"
+  ],
+  "shares": {
+   "Belly": 0.912,
+   "Hips": 0.871,
+   "Thigh": 0.993,
+   "Calf": 0.899
+  }
+ },
+ "Bottom_033": {
+  "hidden": [
+   "Belly"
+  ],
+  "shares": {
+   "Chest": 0.128,
+   "Belly": 0.991,
+   "Hips": 0.688,
+   "Thigh": 0.63,
+   "Calf": 0.126
+  }
+ },
+ "Shoes_041": {
+  "hidden": [],
+  "shares": {
+   "Calf": 0.082,
+   "Foot": 0.633,
+   "Ankle": 0.812
+  }
+ },
+ "Bottom_034": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.895,
+   "Hips": 0.871,
+   "Thigh": 0.315
+  }
+ },
+ "Top_045": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.741,
+   "Belly": 0.671,
+   "Hips": 0.2,
+   "UpperArm": 0.533,
+   "Neck": 0.16
+  }
+ },
+ "Shoes_042": {
+  "hidden": [],
+  "shares": {
+   "Foot": 0.402
+  }
+ },
+ "Bottom_035": {
+  "hidden": [
+   "Thigh"
+  ],
+  "shares": {
+   "Belly": 0.579,
+   "Hips": 0.742,
+   "Thigh": 0.978,
+   "Calf": 0.916
+  }
+ },
+ "Top_046": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.887,
+   "Belly": 0.93,
+   "Hips": 0.425,
+   "UpperArm": 0.961,
+   "LowerArm": 1.0,
+   "Hand": 0.083,
+   "Neck": 0.16,
+   "Thigh": 0.197
+  }
+ },
+ "Shoes_043": {
+  "hidden": [],
+  "shares": {
+   "Foot": 0.402
+  }
+ },
+ "Top_047": {
+  "hidden": [
+   "UpperArm"
+  ],
+  "shares": {
+   "Chest": 0.817,
+   "Belly": 0.632,
+   "Hips": 0.404,
+   "UpperArm": 0.971,
+   "LowerArm": 0.917,
+   "Hand": 0.039,
+   "Neck": 0.053,
+   "Thigh": 0.041
+  }
+ },
+ "Shoes_044": {
+  "hidden": [],
+  "shares": {
+   "Foot": 0.402
+  }
+ },
+ "Top_048": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.897,
+   "Belly": 0.623,
+   "UpperArm": 0.932,
+   "LowerArm": 0.567,
+   "Hand": 0.258,
+   "Neck": 0.169
+  }
+ },
+ "Shoes_045": {
+  "hidden": [
+   "Foot",
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.177,
+   "Foot": 1.0,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_036": {
+  "hidden": [],
+  "shares": {
+   "Belly": 0.561,
+   "Hips": 0.7,
+   "Thigh": 0.44
+  }
+ },
+ "Top_049": {
+  "hidden": [
+   "Chest",
+   "Belly"
+  ],
+  "shares": {
+   "Chest": 0.973,
+   "Belly": 1.0,
+   "Hips": 0.244,
+   "UpperArm": 0.095,
+   "Neck": 0.109
+  }
+ },
+ "Top_050": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.912,
+   "UpperArm": 0.866,
+   "LowerArm": 0.632,
+   "Hand": 0.021,
+   "Neck": 0.109
+  }
+ },
+ "Top_051": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.805,
+   "Belly": 0.675,
+   "Hips": 0.183,
+   "UpperArm": 0.802,
+   "Neck": 0.053
+  }
+ },
+ "Shoes_046": {
+  "hidden": [
+   "Foot",
+   "Ankle"
+  ],
+  "shares": {
+   "Calf": 0.113,
+   "Foot": 1.0,
+   "Ankle": 1.0
+  }
+ },
+ "Bottom_037": {
+  "hidden": [
+   "Thigh"
+  ],
+  "shares": {
+   "Belly": 0.561,
+   "Hips": 0.725,
+   "Thigh": 0.976,
+   "Calf": 0.196
+  }
+ },
+ "Top_052": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.805,
+   "Belly": 0.614,
+   "Hips": 0.208,
+   "UpperArm": 0.965,
+   "LowerArm": 0.998,
+   "Hand": 0.08,
+   "Neck": 0.107
+  }
+ },
+ "Top_053": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.875,
+   "Belly": 0.737,
+   "Hips": 0.442,
+   "UpperArm": 0.977,
+   "LowerArm": 1.0,
+   "Hand": 0.067,
+   "Neck": 0.107,
+   "Thigh": 0.111
+  }
+ },
+ "Top_054": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.864,
+   "Belly": 0.684,
+   "Hips": 0.188,
+   "UpperArm": 0.819,
+   "Neck": 0.107
+  }
+ },
+ "Top_055": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.648,
+   "Belly": 0.5,
+   "Hips": 0.404,
+   "UpperArm": 0.743,
+   "LowerArm": 0.789,
+   "Neck": 0.078,
+   "Thigh": 0.161
+  }
+ },
+ "Top_056": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.764,
+   "Belly": 0.623,
+   "Hips": 0.475,
+   "UpperArm": 0.85,
+   "LowerArm": 0.038,
+   "Neck": 0.046,
+   "Thigh": 0.113
+  }
+ },
+ "Dress_001": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.943,
+   "Belly": 0.956,
+   "Hips": 0.3,
+   "UpperArm": 0.134,
+   "Neck": 0.109
+  }
+ },
+ "Dress_002": {
+  "hidden": [
+   "Chest"
+  ],
+  "shares": {
+   "Chest": 0.961,
+   "Belly": 0.825,
+   "Hips": 0.05,
+   "UpperArm": 0.695,
+   "Neck": 0.07
+  }
+ },
+ "Dress_003": {
+  "hidden": [
+   "Chest"
+  ],
+  "shares": {
+   "Chest": 0.994,
+   "Belly": 0.807,
+   "Hips": 0.071,
+   "UpperArm": 0.695,
+   "Neck": 0.114
+  }
+ },
+ "Dress_004": {
+  "hidden": [
+   "Chest"
+  ],
+  "shares": {
+   "Chest": 0.979,
+   "Belly": 0.833,
+   "Hips": 0.1,
+   "UpperArm": 0.681,
+   "Neck": 0.075
+  }
+ },
+ "Dress_005": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.86,
+   "Belly": 0.535,
+   "Neck": 0.109
+  }
+ },
+ "Dress_006": {
+  "hidden": [
+   "Belly"
+  ],
+  "shares": {
+   "Chest": 0.773,
+   "Belly": 0.991,
+   "Hips": 0.35,
+   "Thigh": 0.036
+  }
+ },
+ "Dress_007": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.776,
+   "Belly": 0.719
+  }
+ },
+ "Dress_008": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.841,
+   "Belly": 0.509,
+   "UpperArm": 0.276
+  }
+ },
+ "Dress_009": {
+  "hidden": [
+   "Chest",
+   "Belly",
+   "UpperArm",
+   "LowerArm",
+   "Hand",
+   "Thigh",
+   "Calf"
+  ],
+  "shares": {
+   "Chest": 0.991,
+   "Belly": 1.0,
+   "Hips": 0.925,
+   "UpperArm": 0.973,
+   "LowerArm": 1.0,
+   "Hand": 0.999,
+   "Neck": 0.174,
+   "Thigh": 1.0,
+   "Calf": 1.0,
+   "Foot": 0.509,
+   "Ankle": 0.875
+  }
+ },
+ "Dress_010": {
+  "hidden": [
+   "LowerArm",
+   "Hand",
+   "Calf"
+  ],
+  "shares": {
+   "Chest": 0.905,
+   "Belly": 0.956,
+   "Hips": 0.904,
+   "UpperArm": 0.885,
+   "LowerArm": 1.0,
+   "Hand": 0.999,
+   "Neck": 0.141,
+   "Thigh": 0.887,
+   "Calf": 1.0,
+   "Foot": 0.509,
+   "Ankle": 0.875
+  }
+ },
+ "Dress_011": {
+  "hidden": [],
+  "shares": {
+   "Chest": 0.873,
+   "Belly": 0.947,
+   "Hips": 0.292,
+   "UpperArm": 0.276,
+   "LowerArm": 0.251,
+   "Neck": 0.077,
+   "Thigh": 0.029
+  }
+ },
+ "Dress_012": {
+  "hidden": [
+   "UpperArm"
+  ],
+  "shares": {
+   "Chest": 0.785,
+   "Belly": 0.439,
+   "Hips": 0.037,
+   "UpperArm": 0.965,
+   "LowerArm": 0.361,
+   "Hand": 0.081,
+   "Neck": 0.06
+  }
+ },
+ "Dress_013": {
+  "hidden": [
+   "Chest"
+  ],
+  "shares": {
+   "Chest": 0.987,
+   "Belly": 0.772,
+   "Hips": 0.054,
+   "UpperArm": 0.92,
+   "LowerArm": 0.627,
+   "Neck": 0.162
+  }
+ },
+ "Dress_014": {
+  "hidden": [
+   "Chest"
+  ],
+  "shares": {
+   "Chest": 0.983,
+   "Belly": 0.675,
+   "Hips": 0.025,
+   "UpperArm": 0.877,
+   "LowerArm": 0.666,
+   "Neck": 0.129
+  }
+ },
+ "Dress_015": {
+  "hidden": [
+   "Chest"
+  ],
+  "shares": {
+   "Chest": 0.97,
+   "Belly": 0.904,
+   "Hips": 0.908,
+   "UpperArm": 0.823,
+   "Neck": 0.089,
+   "Thigh": 0.365
+  }
+ },
+ "Dress_016": {
+  "hidden": [
+   "Chest"
+  ],
+  "shares": {
+   "Chest": 0.997,
+   "Belly": 0.86,
+   "Hips": 0.104,
+   "UpperArm": 0.695,
+   "Neck": 0.112
+  }
+ },
+ "Dress_017": {
+  "hidden": [
+   "UpperArm"
+  ],
+  "shares": {
+   "Chest": 0.849,
+   "Belly": 0.825,
+   "Hips": 0.621,
+   "UpperArm": 0.973,
+   "LowerArm": 0.632,
+   "Hand": 0.025,
+   "Neck": 0.08,
+   "Thigh": 0.469,
+   "Calf": 0.326
+  }
+ },
+ "Dress_018": {
+  "hidden": [
+   "UpperArm"
+  ],
+  "shares": {
+   "Chest": 0.914,
+   "Belly": 0.877,
+   "Hips": 0.646,
+   "UpperArm": 0.977,
+   "LowerArm": 0.424,
+   "Hand": 0.052,
+   "Neck": 0.109,
+   "Thigh": 0.555,
+   "Calf": 0.357
+  }
+ },
+ "Dress_019": {
+  "hidden": [
+   "UpperArm"
+  ],
+  "shares": {
+   "Chest": 0.914,
+   "Belly": 0.877,
+   "Hips": 0.646,
+   "UpperArm": 0.977,
+   "LowerArm": 0.424,
+   "Hand": 0.052,
+   "Neck": 0.109,
+   "Thigh": 0.555,
+   "Calf": 0.357
+  }
+ },
+ "Dress_020": {
+  "hidden": [
+   "Chest",
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.991,
+   "Belly": 0.939,
+   "Hips": 0.271,
+   "UpperArm": 1.0,
+   "LowerArm": 1.0,
+   "Hand": 0.053,
+   "Neck": 0.116
+  }
+ },
+ "Dress_021": {
+  "hidden": [
+   "Belly"
+  ],
+  "shares": {
+   "Chest": 0.905,
+   "Belly": 0.965,
+   "Hips": 0.342,
+   "UpperArm": 0.136,
+   "Neck": 0.031,
+   "Thigh": 0.07
+  }
+ },
+ "Dress_022": {
+  "hidden": [
+   "Belly"
+  ],
+  "shares": {
+   "Chest": 0.905,
+   "Belly": 0.965,
+   "Hips": 0.342,
+   "UpperArm": 0.136,
+   "Neck": 0.033,
+   "Thigh": 0.07
+  }
+ },
+ "Dress_023": {
+  "hidden": [
+   "Belly"
+  ],
+  "shares": {
+   "Chest": 0.905,
+   "Belly": 0.965,
+   "Hips": 0.342,
+   "UpperArm": 0.136,
+   "Neck": 0.032,
+   "Thigh": 0.07
+  }
+ },
+ "Dress_024": {
+  "hidden": [
+   "UpperArm"
+  ],
+  "shares": {
+   "Chest": 0.915,
+   "Belly": 0.947,
+   "Hips": 0.233,
+   "UpperArm": 0.961,
+   "LowerArm": 0.345,
+   "Neck": 0.094
+  }
+ },
+ "Dress_025": {
+  "hidden": [
+   "UpperArm"
+  ],
+  "shares": {
+   "Chest": 0.915,
+   "Belly": 0.947,
+   "Hips": 0.233,
+   "UpperArm": 0.961,
+   "LowerArm": 0.345,
+   "Neck": 0.094
+  }
+ },
+ "Dress_026": {
+  "hidden": [
+   "UpperArm"
+  ],
+  "shares": {
+   "Chest": 0.915,
+   "Belly": 0.947,
+   "Hips": 0.233,
+   "UpperArm": 0.961,
+   "LowerArm": 0.345,
+   "Neck": 0.094
+  }
+ },
+ "Dress_027": {
+  "hidden": [
+   "UpperArm",
+   "LowerArm"
+  ],
+  "shares": {
+   "Chest": 0.95,
+   "Belly": 0.877,
+   "Hips": 0.463,
+   "UpperArm": 0.971,
+   "LowerArm": 0.996,
+   "Hand": 0.067,
+   "Neck": 0.153,
+   "Thigh": 0.19
+  }
+ },
+ "Dress_028": {
+  "hidden": [
+   "UpperArm"
+  ],
+  "shares": {
+   "Chest": 0.95,
+   "Belly": 0.877,
+   "Hips": 0.417,
+   "UpperArm": 0.961,
+   "LowerArm": 0.904,
+   "Neck": 0.153,
+   "Thigh": 0.087
+  }
+ },
+ "Dress_029": {
+  "hidden": [
+   "Chest",
+   "Belly"
+  ],
+  "shares": {
+   "Chest": 0.973,
+   "Belly": 0.965,
+   "Hips": 0.237,
+   "UpperArm": 0.695,
+   "Neck": 0.101
+  }
+ }
+}

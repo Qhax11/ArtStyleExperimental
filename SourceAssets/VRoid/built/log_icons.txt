@@ -1,0 +1,1373 @@
+D:\Projects\ArtStyleExperimental\SourceAssets\Scripts\render_icons.py:86: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True
+16:38:42 | INFO: Data are loaded, start creating Blender stuff
+16:38:42 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:38:42 | INFO: Blender create Mesh node Body (merged)
+16:38:42 | INFO: Blender create Mesh node Hair001 (merged)
+16:38:42 | INFO: Blender create Mesh node BlenderVrmAddonImport698451997091969Temp_32_
+16:38:42 | INFO: Blender create Mesh node BlenderVrmAddonImport698451997091969Temp_35_
+16:38:42 | INFO: glTF import finished in 0.29s
+D:\Projects\ArtStyleExperimental\SourceAssets\Scripts\render_icons.py:36: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+00:19.844  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Glasses_Thick.png'
+00:20.266  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hat_Silk.png'
+00:27.594  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hat_Straw.png'
+00:27.969  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hat_Witch.png'
+00:28.391  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hat_Work.png'
+ICON Glasses_Thick
+ICON Hat_Silk
+ICON Hat_Straw
+ICON Hat_Witch
+ICON Hat_Work
+16:39:09 | INFO: Data are loaded, start creating Blender stuff
+16:39:09 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:39:09 | INFO: Blender create Mesh node Body (merged)
+16:39:09 | INFO: Blender create Mesh node Hair001 (merged)
+16:39:09 | INFO: Blender create Mesh node BlenderVrmAddonImport687839977306888Temp_24_
+16:39:09 | INFO: Blender create Mesh node BlenderVrmAddonImport687839977306888Temp_27_
+16:39:09 | INFO: glTF import finished in 0.20s
+00:39.219  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_001.png'
+ICON Dress_001
+16:39:20 | INFO: Data are loaded, start creating Blender stuff
+16:39:20 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:39:20 | INFO: Blender create Mesh node Body (merged)
+16:39:20 | INFO: Blender create Mesh node Hair001 (merged)
+16:39:20 | INFO: Blender create Mesh node BlenderVrmAddonImport320266032276389Temp_27_
+16:39:20 | INFO: Blender create Mesh node BlenderVrmAddonImport320266032276389Temp_30_
+16:39:20 | INFO: glTF import finished in 0.18s
+00:53.922  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_002.png'
+ICON Dress_002
+16:39:35 | INFO: Data are loaded, start creating Blender stuff
+16:39:35 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:39:35 | INFO: Blender create Mesh node Body (merged)
+16:39:35 | INFO: Blender create Mesh node Hair001 (merged)
+16:39:35 | INFO: Blender create Mesh node BlenderVrmAddonImport682421420457123Temp_28_
+16:39:35 | INFO: Blender create Mesh node BlenderVrmAddonImport682421420457123Temp_31_
+16:39:35 | INFO: glTF import finished in 0.22s
+01:09.032  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_003.png'
+ICON Dress_003
+16:39:50 | INFO: Data are loaded, start creating Blender stuff
+16:39:50 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:39:50 | INFO: Blender create Mesh node Body (merged)
+16:39:50 | INFO: Blender create Mesh node Hair001 (merged)
+16:39:50 | INFO: Blender create Mesh node BlenderVrmAddonImport243830505286719Temp_28_
+16:39:50 | INFO: Blender create Mesh node BlenderVrmAddonImport243830505286719Temp_31_
+16:39:50 | INFO: glTF import finished in 0.19s
+01:23.985  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_004.png'
+ICON Dress_004
+16:40:05 | INFO: Data are loaded, start creating Blender stuff
+16:40:05 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:40:05 | INFO: Blender create Mesh node Body (merged)
+16:40:05 | INFO: Blender create Mesh node Hair001 (merged)
+16:40:05 | INFO: Blender create Mesh node BlenderVrmAddonImport199636303534802Temp_28_
+16:40:05 | INFO: Blender create Mesh node BlenderVrmAddonImport199636303534802Temp_31_
+16:40:05 | INFO: glTF import finished in 0.28s
+01:40.454  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_005.png'
+ICON Dress_005
+16:40:21 | INFO: Data are loaded, start creating Blender stuff
+16:40:21 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:40:21 | INFO: Blender create Mesh node Body (merged)
+16:40:22 | INFO: Blender create Mesh node Hair001 (merged)
+16:40:22 | INFO: Blender create Mesh node BlenderVrmAddonImport946252213404223Temp_26_
+16:40:22 | INFO: Blender create Mesh node BlenderVrmAddonImport946252213404223Temp_29_
+16:40:22 | INFO: glTF import finished in 0.24s
+01:54.047  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_006.png'
+ICON Dress_006
+16:40:35 | INFO: Data are loaded, start creating Blender stuff
+16:40:35 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:40:35 | INFO: Blender create Mesh node Body (merged)
+16:40:35 | INFO: Blender create Mesh node Hair001 (merged)
+16:40:35 | INFO: Blender create Mesh node BlenderVrmAddonImport010472850808951Temp_27_
+16:40:35 | INFO: Blender create Mesh node BlenderVrmAddonImport010472850808951Temp_30_
+16:40:35 | INFO: glTF import finished in 0.21s
+02:08.938  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_007.png'
+ICON Dress_007
+16:40:50 | INFO: Data are loaded, start creating Blender stuff
+16:40:50 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:40:50 | INFO: Blender create Mesh node Body (merged)
+16:40:50 | INFO: Blender create Mesh node Hair001 (merged)
+16:40:50 | INFO: Blender create Mesh node BlenderVrmAddonImport310833570414523Temp_24_
+16:40:50 | INFO: Blender create Mesh node BlenderVrmAddonImport310833570414523Temp_27_
+16:40:50 | INFO: glTF import finished in 0.16s
+02:19.422  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_008.png'
+ICON Dress_008
+16:41:00 | INFO: Data are loaded, start creating Blender stuff
+16:41:00 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:41:00 | INFO: Blender create Mesh node Body (merged)
+16:41:00 | INFO: Blender create Mesh node Hair001 (merged)
+16:41:01 | INFO: Blender create Mesh node BlenderVrmAddonImport966237984447526Temp_26_
+16:41:01 | INFO: Blender create Mesh node BlenderVrmAddonImport966237984447526Temp_29_
+16:41:01 | INFO: glTF import finished in 0.20s
+02:30.938  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_009.png'
+ICON Dress_009
+16:41:12 | INFO: Data are loaded, start creating Blender stuff
+16:41:12 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:41:12 | INFO: Blender create Mesh node Body (merged)
+16:41:12 | INFO: Blender create Mesh node Hair001 (merged)
+16:41:12 | INFO: Blender create Mesh node BlenderVrmAddonImport098810135298162Temp_25_
+16:41:12 | INFO: Blender create Mesh node BlenderVrmAddonImport098810135298162Temp_28_
+16:41:12 | INFO: glTF import finished in 0.17s
+02:41.375  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_010.png'
+ICON Dress_010
+16:41:22 | INFO: Data are loaded, start creating Blender stuff
+16:41:22 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:41:22 | INFO: Blender create Mesh node Body (merged)
+16:41:23 | INFO: Blender create Mesh node Hair001 (merged)
+16:41:23 | INFO: Blender create Mesh node BlenderVrmAddonImport006746074448457Temp_28_
+16:41:23 | INFO: Blender create Mesh node BlenderVrmAddonImport006746074448457Temp_31_
+16:41:23 | INFO: glTF import finished in 0.24s
+02:56.360  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_011.png'
+ICON Dress_011
+16:41:37 | INFO: Data are loaded, start creating Blender stuff
+16:41:37 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:41:37 | INFO: Blender create Mesh node Body (merged)
+16:41:37 | INFO: Blender create Mesh node Hair001 (merged)
+16:41:38 | INFO: Blender create Mesh node BlenderVrmAddonImport229629305380365Temp_27_
+16:41:38 | INFO: Blender create Mesh node BlenderVrmAddonImport229629305380365Temp_30_
+16:41:38 | INFO: glTF import finished in 0.18s
+03:10.719  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_012.png'
+ICON Dress_012
+16:41:52 | INFO: Data are loaded, start creating Blender stuff
+16:41:52 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:41:52 | INFO: Blender create Mesh node Body (merged)
+16:41:53 | INFO: Blender create Mesh node Hair001 (merged)
+16:41:53 | INFO: Blender create Mesh node BlenderVrmAddonImport409188055525260Temp_28_
+16:41:53 | INFO: Blender create Mesh node BlenderVrmAddonImport409188055525260Temp_31_
+16:41:53 | INFO: glTF import finished in 0.24s
+03:26.532  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_013.png'
+ICON Dress_013
+16:42:07 | INFO: Data are loaded, start creating Blender stuff
+16:42:08 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:42:08 | INFO: Blender create Mesh node Body (merged)
+16:42:08 | INFO: Blender create Mesh node Hair001 (merged)
+16:42:08 | INFO: Blender create Mesh node BlenderVrmAddonImport375617175593156Temp_28_
+16:42:08 | INFO: Blender create Mesh node BlenderVrmAddonImport375617175593156Temp_31_
+16:42:08 | INFO: glTF import finished in 0.18s
+03:41.219  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_014.png'
+ICON Dress_014
+16:42:22 | INFO: Data are loaded, start creating Blender stuff
+16:42:22 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:42:22 | INFO: Blender create Mesh node Body (merged)
+16:42:22 | INFO: Blender create Mesh node Hair001 (merged)
+16:42:23 | INFO: Blender create Mesh node BlenderVrmAddonImport999838332691703Temp_28_
+16:42:23 | INFO: Blender create Mesh node BlenderVrmAddonImport999838332691703Temp_31_
+16:42:23 | INFO: glTF import finished in 0.24s
+03:55.547  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_015.png'
+ICON Dress_015
+16:42:37 | INFO: Data are loaded, start creating Blender stuff
+16:42:37 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:42:37 | INFO: Blender create Mesh node Body (merged)
+16:42:37 | INFO: Blender create Mesh node Hair001 (merged)
+16:42:37 | INFO: Blender create Mesh node BlenderVrmAddonImport385250223630703Temp_27_
+16:42:37 | INFO: Blender create Mesh node BlenderVrmAddonImport385250223630703Temp_30_
+16:42:37 | INFO: glTF import finished in 0.19s
+04:09.219  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_016.png'
+ICON Dress_016
+16:42:50 | INFO: Data are loaded, start creating Blender stuff
+16:42:50 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:42:50 | INFO: Blender create Mesh node Body (merged)
+16:42:50 | INFO: Blender create Mesh node Hair001 (merged)
+16:42:50 | INFO: Blender create Mesh node BlenderVrmAddonImport628537758622737Temp_26_
+16:42:50 | INFO: Blender create Mesh node BlenderVrmAddonImport628537758622737Temp_29_
+16:42:50 | INFO: glTF import finished in 0.18s
+04:21.000  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_017.png'
+ICON Dress_017
+16:43:02 | INFO: Data are loaded, start creating Blender stuff
+16:43:02 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:43:02 | INFO: Blender create Mesh node Body (merged)
+16:43:02 | INFO: Blender create Mesh node Hair001 (merged)
+16:43:02 | INFO: Blender create Mesh node BlenderVrmAddonImport288064285670493Temp_27_
+16:43:02 | INFO: Blender create Mesh node BlenderVrmAddonImport288064285670493Temp_30_
+16:43:02 | INFO: glTF import finished in 0.19s
+04:33.985  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_018.png'
+ICON Dress_018
+16:43:15 | INFO: Data are loaded, start creating Blender stuff
+16:43:15 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:43:15 | INFO: Blender create Mesh node Body (merged)
+16:43:15 | INFO: Blender create Mesh node Hair001 (merged)
+16:43:15 | INFO: Blender create Mesh node BlenderVrmAddonImport439360777158507Temp_27_
+16:43:15 | INFO: Blender create Mesh node BlenderVrmAddonImport439360777158507Temp_30_
+16:43:15 | INFO: glTF import finished in 0.19s
+04:47.047  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_019.png'
+ICON Dress_019
+16:43:28 | INFO: Data are loaded, start creating Blender stuff
+16:43:28 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:43:28 | INFO: Blender create Mesh node Body (merged)
+16:43:28 | INFO: Blender create Mesh node Hair001 (merged)
+16:43:28 | INFO: Blender create Mesh node BlenderVrmAddonImport727808774319757Temp_27_
+16:43:28 | INFO: Blender create Mesh node BlenderVrmAddonImport727808774319757Temp_30_
+16:43:28 | INFO: glTF import finished in 0.21s
+05:02.422  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_020.png'
+ICON Dress_020
+16:43:43 | INFO: Data are loaded, start creating Blender stuff
+16:43:43 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:43:43 | INFO: Blender create Mesh node Body (merged)
+16:43:43 | INFO: Blender create Mesh node Hair001 (merged)
+16:43:44 | INFO: Blender create Mesh node BlenderVrmAddonImport076442365851322Temp_24_
+16:43:44 | INFO: Blender create Mesh node BlenderVrmAddonImport076442365851322Temp_27_
+16:43:44 | INFO: glTF import finished in 0.22s
+05:12.094  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_021.png'
+ICON Dress_021
+16:43:53 | INFO: Data are loaded, start creating Blender stuff
+16:43:53 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:43:53 | INFO: Blender create Mesh node Body (merged)
+16:43:53 | INFO: Blender create Mesh node Hair001 (merged)
+16:43:53 | INFO: Blender create Mesh node BlenderVrmAddonImport687453150503046Temp_24_
+16:43:53 | INFO: Blender create Mesh node BlenderVrmAddonImport687453150503046Temp_27_
+16:43:53 | INFO: glTF import finished in 0.21s
+05:22.079  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_022.png'
+ICON Dress_022
+16:44:03 | INFO: Data are loaded, start creating Blender stuff
+16:44:03 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:03 | INFO: Blender create Mesh node Body (merged)
+16:44:03 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:03 | INFO: Blender create Mesh node BlenderVrmAddonImport515547409204567Temp_24_
+16:44:03 | INFO: Blender create Mesh node BlenderVrmAddonImport515547409204567Temp_27_
+16:44:03 | INFO: glTF import finished in 0.19s
+05:32.219  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_023.png'
+ICON Dress_023
+16:44:13 | INFO: Data are loaded, start creating Blender stuff
+16:44:13 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:13 | INFO: Blender create Mesh node Body (merged)
+16:44:13 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:13 | INFO: Blender create Mesh node BlenderVrmAddonImport390012940046503Temp_25_
+16:44:13 | INFO: Blender create Mesh node BlenderVrmAddonImport390012940046503Temp_28_
+16:44:13 | INFO: glTF import finished in 0.19s
+05:43.688  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_024.png'
+ICON Dress_024
+16:44:25 | INFO: Data are loaded, start creating Blender stuff
+16:44:25 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:25 | INFO: Blender create Mesh node Body (merged)
+16:44:25 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:25 | INFO: Blender create Mesh node BlenderVrmAddonImport761796402248658Temp_25_
+16:44:25 | INFO: Blender create Mesh node BlenderVrmAddonImport761796402248658Temp_28_
+16:44:25 | INFO: glTF import finished in 0.17s
+05:54.688  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_025.png'
+ICON Dress_025
+16:44:36 | INFO: Data are loaded, start creating Blender stuff
+16:44:36 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:36 | INFO: Blender create Mesh node Body (merged)
+16:44:36 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:36 | INFO: Blender create Mesh node BlenderVrmAddonImport668974982281300Temp_25_
+16:44:36 | INFO: Blender create Mesh node BlenderVrmAddonImport668974982281300Temp_28_
+16:44:36 | INFO: glTF import finished in 0.17s
+06:05.766  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_026.png'
+ICON Dress_026
+16:44:47 | INFO: Data are loaded, start creating Blender stuff
+16:44:47 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:47 | INFO: Blender create Mesh node Body (merged)
+16:44:47 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:47 | INFO: Blender create Mesh node BlenderVrmAddonImport949162467042546Temp_24_
+16:44:47 | INFO: Blender create Mesh node BlenderVrmAddonImport949162467042546Temp_27_
+16:44:47 | INFO: glTF import finished in 0.19s
+06:15.422  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_027.png'
+ICON Dress_027
+16:44:56 | INFO: Data are loaded, start creating Blender stuff
+16:44:56 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:56 | INFO: Blender create Mesh node Body (merged)
+16:44:56 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:57 | INFO: Blender create Mesh node BlenderVrmAddonImport715786543655740Temp_25_
+16:44:57 | INFO: Blender create Mesh node BlenderVrmAddonImport715786543655740Temp_28_
+16:44:57 | INFO: glTF import finished in 0.22s
+06:26.329  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_028.png'
+ICON Dress_028
+16:45:07 | INFO: Data are loaded, start creating Blender stuff
+16:45:07 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:45:07 | INFO: Blender create Mesh node Body (merged)
+16:45:07 | INFO: Blender create Mesh node Hair001 (merged)
+16:45:07 | INFO: Blender create Mesh node BlenderVrmAddonImport088310784355360Temp_24_
+16:45:07 | INFO: Blender create Mesh node BlenderVrmAddonImport088310784355360Temp_27_
+16:45:07 | INFO: glTF import finished in 0.18s
+06:35.547  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Dress_029.png'
+ICON Dress_029
+16:45:16 | INFO: Data are loaded, start creating Blender stuff
+16:45:16 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:45:16 | INFO: Blender create Mesh node Body (merged)
+16:45:16 | INFO: Blender create Mesh node Hair001 (merged)
+16:45:17 | INFO: Blender create Mesh node BlenderVrmAddonImport446864444723310Temp_24_
+16:45:17 | INFO: Blender create Mesh node BlenderVrmAddonImport446864444723310Temp_27_
+16:45:17 | INFO: glTF import finished in 0.18s
+06:45.047  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V01.png'
+ICON Hair_V01
+16:45:26 | INFO: Data are loaded, start creating Blender stuff
+16:45:26 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:45:26 | INFO: Blender create Mesh node Body (merged)
+16:45:26 | INFO: Blender create Mesh node Hair001 (merged)
+16:45:26 | INFO: Blender create Mesh node BlenderVrmAddonImport012643244926509Temp_24_
+16:45:26 | INFO: Blender create Mesh node BlenderVrmAddonImport012643244926509Temp_27_
+16:45:26 | INFO: glTF import finished in 0.22s
+06:54.844  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V02.png'
+ICON Hair_V02
+16:45:36 | INFO: Data are loaded, start creating Blender stuff
+16:45:36 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:45:36 | INFO: Blender create Mesh node Body (merged)
+16:45:36 | INFO: Blender create Mesh node Hair001 (merged)
+16:45:36 | INFO: Blender create Mesh node BlenderVrmAddonImport369585771814521Temp_24_
+16:45:36 | INFO: Blender create Mesh node BlenderVrmAddonImport369585771814521Temp_27_
+16:45:36 | INFO: glTF import finished in 0.23s
+07:04.000  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V03.png'
+ICON Hair_V03
+16:45:45 | INFO: Data are loaded, start creating Blender stuff
+16:45:45 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:45:45 | INFO: Blender create Mesh node Body (merged)
+16:45:45 | INFO: Blender create Mesh node Hair001 (merged)
+16:45:45 | INFO: Blender create Mesh node BlenderVrmAddonImport520940964526668Temp_24_
+16:45:45 | INFO: Blender create Mesh node BlenderVrmAddonImport520940964526668Temp_27_
+16:45:45 | INFO: glTF import finished in 0.22s
+07:13.860  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V04.png'
+ICON Hair_V04
+16:45:55 | INFO: Data are loaded, start creating Blender stuff
+16:45:55 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:45:55 | INFO: Blender create Mesh node Body (merged)
+16:45:55 | INFO: Blender create Mesh node Hair001 (merged)
+16:45:55 | INFO: Blender create Mesh node BlenderVrmAddonImport760373093920287Temp_24_
+16:45:55 | INFO: Blender create Mesh node BlenderVrmAddonImport760373093920287Temp_27_
+16:45:55 | INFO: glTF import finished in 0.20s
+07:22.938  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V05.png'
+ICON Hair_V05
+16:46:04 | INFO: Data are loaded, start creating Blender stuff
+16:46:04 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:46:04 | INFO: Blender create Mesh node Body (merged)
+16:46:04 | INFO: Blender create Mesh node Hair001 (merged)
+16:46:04 | INFO: Blender create Mesh node BlenderVrmAddonImport480741611659323Temp_24_
+16:46:04 | INFO: Blender create Mesh node BlenderVrmAddonImport480741611659323Temp_27_
+16:46:04 | INFO: glTF import finished in 0.19s
+07:31.735  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V06.png'
+ICON Hair_V06
+16:46:13 | INFO: Data are loaded, start creating Blender stuff
+16:46:13 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:46:13 | INFO: Blender create Mesh node Body (merged)
+16:46:13 | INFO: Blender create Mesh node Hair001 (merged)
+16:46:13 | INFO: Blender create Mesh node BlenderVrmAddonImport817111875910682Temp_24_
+16:46:13 | INFO: Blender create Mesh node BlenderVrmAddonImport817111875910682Temp_27_
+16:46:13 | INFO: glTF import finished in 0.17s
+07:39.766  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V07.png'
+ICON Hair_V07
+16:46:21 | INFO: Data are loaded, start creating Blender stuff
+16:46:21 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:46:21 | INFO: Blender create Mesh node Body (merged)
+16:46:21 | INFO: Blender create Mesh node Hair001 (merged)
+16:46:21 | INFO: Blender create Mesh node BlenderVrmAddonImport841786482924605Temp_24_
+16:46:21 | INFO: Blender create Mesh node BlenderVrmAddonImport841786482924605Temp_27_
+16:46:21 | INFO: glTF import finished in 0.16s
+07:48.719  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V08.png'
+ICON Hair_V08
+16:46:30 | INFO: Data are loaded, start creating Blender stuff
+16:46:30 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:46:30 | INFO: Blender create Mesh node Body (merged)
+16:46:30 | INFO: Blender create Mesh node Hair001 (merged)
+16:46:30 | INFO: Blender create Mesh node BlenderVrmAddonImport081988410671405Temp_24_
+16:46:30 | INFO: Blender create Mesh node BlenderVrmAddonImport081988410671405Temp_27_
+16:46:30 | INFO: glTF import finished in 0.16s
+07:57.266  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V09.png'
+ICON Hair_V09
+16:46:38 | INFO: Data are loaded, start creating Blender stuff
+16:46:38 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:46:38 | INFO: Blender create Mesh node Body (merged)
+16:46:38 | INFO: Blender create Mesh node Hair001 (merged)
+16:46:38 | INFO: Blender create Mesh node BlenderVrmAddonImport532926741739871Temp_24_
+16:46:38 | INFO: Blender create Mesh node BlenderVrmAddonImport532926741739871Temp_27_
+16:46:38 | INFO: glTF import finished in 0.19s
+08:05.735  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V10.png'
+ICON Hair_V10
+16:46:47 | INFO: Data are loaded, start creating Blender stuff
+16:46:47 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:46:47 | INFO: Blender create Mesh node Body (merged)
+16:46:47 | INFO: Blender create Mesh node Hair001 (merged)
+16:46:47 | INFO: Blender create Mesh node BlenderVrmAddonImport122892533208583Temp_24_
+16:46:47 | INFO: Blender create Mesh node BlenderVrmAddonImport122892533208583Temp_27_
+16:46:47 | INFO: glTF import finished in 0.17s
+08:14.516  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V11.png'
+ICON Hair_V11
+16:46:55 | INFO: Data are loaded, start creating Blender stuff
+16:46:55 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:46:55 | INFO: Blender create Mesh node Body (merged)
+16:46:55 | INFO: Blender create Mesh node Hair001 (merged)
+16:46:56 | INFO: Blender create Mesh node BlenderVrmAddonImport093281177381993Temp_24_
+16:46:56 | INFO: Blender create Mesh node BlenderVrmAddonImport093281177381993Temp_27_
+16:46:56 | INFO: glTF import finished in 0.21s
+08:23.141  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V12.png'
+ICON Hair_V12
+16:47:04 | INFO: Data are loaded, start creating Blender stuff
+16:47:04 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:47:04 | INFO: Blender create Mesh node Body (merged)
+16:47:04 | INFO: Blender create Mesh node Hair001 (merged)
+16:47:04 | INFO: Blender create Mesh node BlenderVrmAddonImport748963884868661Temp_24_
+16:47:04 | INFO: Blender create Mesh node BlenderVrmAddonImport748963884868661Temp_27_
+16:47:04 | INFO: glTF import finished in 0.16s
+08:31.422  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V13.png'
+ICON Hair_V13
+16:47:12 | INFO: Data are loaded, start creating Blender stuff
+16:47:12 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:47:12 | INFO: Blender create Mesh node Body (merged)
+16:47:12 | INFO: Blender create Mesh node Hair001 (merged)
+16:47:12 | INFO: Blender create Mesh node BlenderVrmAddonImport960803751871589Temp_24_
+16:47:12 | INFO: Blender create Mesh node BlenderVrmAddonImport960803751871589Temp_27_
+16:47:12 | INFO: glTF import finished in 0.18s
+08:39.782  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V14.png'
+ICON Hair_V14
+16:47:21 | INFO: Data are loaded, start creating Blender stuff
+16:47:21 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:47:21 | INFO: Blender create Mesh node Body (merged)
+16:47:21 | INFO: Blender create Mesh node Hair001 (merged)
+16:47:21 | INFO: Blender create Mesh node BlenderVrmAddonImport521422438475932Temp_24_
+16:47:21 | INFO: Blender create Mesh node BlenderVrmAddonImport521422438475932Temp_27_
+16:47:21 | INFO: glTF import finished in 0.19s
+08:48.485  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V15.png'
+ICON Hair_V15
+16:47:29 | INFO: Data are loaded, start creating Blender stuff
+16:47:29 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:47:29 | INFO: Blender create Mesh node Body (merged)
+16:47:29 | INFO: Blender create Mesh node Hair001 (merged)
+16:47:29 | INFO: Blender create Mesh node BlenderVrmAddonImport402862730225374Temp_24_
+16:47:29 | INFO: Blender create Mesh node BlenderVrmAddonImport402862730225374Temp_27_
+16:47:29 | INFO: glTF import finished in 0.17s
+08:56.750  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V16.png'
+ICON Hair_V16
+16:47:38 | INFO: Data are loaded, start creating Blender stuff
+16:47:38 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:47:38 | INFO: Blender create Mesh node Body (merged)
+16:47:38 | INFO: Blender create Mesh node Hair001 (merged)
+16:47:38 | INFO: Blender create Mesh node BlenderVrmAddonImport235481556105234Temp_24_
+16:47:38 | INFO: Blender create Mesh node BlenderVrmAddonImport235481556105234Temp_27_
+16:47:38 | INFO: glTF import finished in 0.22s
+09:05.813  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V17.png'
+ICON Hair_V17
+16:47:47 | INFO: Data are loaded, start creating Blender stuff
+16:47:47 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:47:47 | INFO: Blender create Mesh node Body (merged)
+16:47:47 | INFO: Blender create Mesh node Hair001 (merged)
+16:47:47 | INFO: Blender create Mesh node BlenderVrmAddonImport173109596050028Temp_24_
+16:47:47 | INFO: Blender create Mesh node BlenderVrmAddonImport173109596050028Temp_27_
+16:47:47 | INFO: glTF import finished in 0.15s
+09:15.485  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V18.png'
+ICON Hair_V18
+16:47:56 | INFO: Data are loaded, start creating Blender stuff
+16:47:56 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:47:56 | INFO: Blender create Mesh node Body (merged)
+16:47:56 | INFO: Blender create Mesh node Hair001 (merged)
+16:47:57 | INFO: Blender create Mesh node BlenderVrmAddonImport365574508101050Temp_24_
+16:47:57 | INFO: Blender create Mesh node BlenderVrmAddonImport365574508101050Temp_27_
+16:47:57 | INFO: glTF import finished in 0.18s
+09:25.750  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V19.png'
+ICON Hair_V19
+16:48:07 | INFO: Data are loaded, start creating Blender stuff
+16:48:07 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:48:07 | INFO: Blender create Mesh node Body (merged)
+16:48:07 | INFO: Blender create Mesh node Hair001 (merged)
+16:48:07 | INFO: Blender create Mesh node BlenderVrmAddonImport244435610081723Temp_24_
+16:48:07 | INFO: Blender create Mesh node BlenderVrmAddonImport244435610081723Temp_27_
+16:48:07 | INFO: glTF import finished in 0.18s
+09:34.907  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V20.png'
+ICON Hair_V20
+16:48:16 | INFO: Data are loaded, start creating Blender stuff
+16:48:16 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:48:16 | INFO: Blender create Mesh node Body (merged)
+16:48:16 | INFO: Blender create Mesh node Hair001 (merged)
+16:48:16 | INFO: Blender create Mesh node BlenderVrmAddonImport725300785248685Temp_24_
+16:48:16 | INFO: Blender create Mesh node BlenderVrmAddonImport725300785248685Temp_27_
+16:48:16 | INFO: glTF import finished in 0.20s
+09:44.594  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V21.png'
+ICON Hair_V21
+16:48:25 | INFO: Data are loaded, start creating Blender stuff
+16:48:25 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:48:25 | INFO: Blender create Mesh node Body (merged)
+16:48:26 | INFO: Blender create Mesh node Hair001 (merged)
+16:48:26 | INFO: Blender create Mesh node BlenderVrmAddonImport642928692254944Temp_24_
+16:48:26 | INFO: Blender create Mesh node BlenderVrmAddonImport642928692254944Temp_27_
+16:48:26 | INFO: glTF import finished in 0.21s
+09:54.547  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V22.png'
+ICON Hair_V22
+16:48:35 | INFO: Data are loaded, start creating Blender stuff
+16:48:35 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:48:35 | INFO: Blender create Mesh node Body (merged)
+16:48:35 | INFO: Blender create Mesh node Hair001 (merged)
+16:48:35 | INFO: Blender create Mesh node BlenderVrmAddonImport618203380294982Temp_24_
+16:48:35 | INFO: Blender create Mesh node BlenderVrmAddonImport618203380294982Temp_27_
+16:48:35 | INFO: glTF import finished in 0.14s
+10:02.750  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V23.png'
+ICON Hair_V23
+16:48:44 | INFO: Data are loaded, start creating Blender stuff
+16:48:44 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:48:44 | INFO: Blender create Mesh node Body (merged)
+16:48:44 | INFO: Blender create Mesh node Hair001 (merged)
+16:48:44 | INFO: Blender create Mesh node BlenderVrmAddonImport608510648175472Temp_24_
+16:48:44 | INFO: Blender create Mesh node BlenderVrmAddonImport608510648175472Temp_27_
+16:48:44 | INFO: glTF import finished in 0.14s
+10:11.079  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V24.png'
+ICON Hair_V24
+16:48:52 | INFO: Data are loaded, start creating Blender stuff
+16:48:52 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:48:52 | INFO: Blender create Mesh node Body (merged)
+16:48:52 | INFO: Blender create Mesh node Hair001 (merged)
+16:48:52 | INFO: Blender create Mesh node BlenderVrmAddonImport112342909273461Temp_24_
+16:48:52 | INFO: Blender create Mesh node BlenderVrmAddonImport112342909273461Temp_27_
+16:48:52 | INFO: glTF import finished in 0.15s
+10:20.063  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V25.png'
+ICON Hair_V25
+16:49:01 | INFO: Data are loaded, start creating Blender stuff
+16:49:01 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:49:01 | INFO: Blender create Mesh node Body (merged)
+16:49:01 | INFO: Blender create Mesh node Hair001 (merged)
+16:49:01 | INFO: Blender create Mesh node BlenderVrmAddonImport365300742575544Temp_24_
+16:49:01 | INFO: Blender create Mesh node BlenderVrmAddonImport365300742575544Temp_27_
+16:49:01 | INFO: glTF import finished in 0.18s
+10:30.110  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V26.png'
+ICON Hair_V26
+16:49:11 | INFO: Data are loaded, start creating Blender stuff
+16:49:11 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:49:11 | INFO: Blender create Mesh node Body (merged)
+16:49:11 | INFO: Blender create Mesh node Hair001 (merged)
+16:49:11 | INFO: Blender create Mesh node BlenderVrmAddonImport831897602406825Temp_24_
+16:49:11 | INFO: Blender create Mesh node BlenderVrmAddonImport831897602406825Temp_27_
+16:49:11 | INFO: glTF import finished in 0.13s
+10:38.360  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V27.png'
+ICON Hair_V27
+16:49:19 | INFO: Data are loaded, start creating Blender stuff
+16:49:19 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:49:19 | INFO: Blender create Mesh node Body (merged)
+16:49:19 | INFO: Blender create Mesh node Hair001 (merged)
+16:49:19 | INFO: Blender create Mesh node BlenderVrmAddonImport142595216793996Temp_22_
+16:49:19 | INFO: Blender create Mesh node BlenderVrmAddonImport142595216793996Temp_25_
+16:49:19 | INFO: glTF import finished in 0.14s
+10:46.063  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V28.png'
+ICON Hair_V28
+16:49:27 | INFO: Data are loaded, start creating Blender stuff
+16:49:27 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:49:27 | INFO: Blender create Mesh node Body (merged)
+16:49:27 | INFO: Blender create Mesh node Hair001 (merged)
+16:49:27 | INFO: Blender create Mesh node BlenderVrmAddonImport293491566481176Temp_22_
+16:49:27 | INFO: Blender create Mesh node BlenderVrmAddonImport293491566481176Temp_25_
+16:49:27 | INFO: glTF import finished in 0.15s
+10:54.407  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V29.png'
+ICON Hair_V29
+16:49:35 | INFO: Data are loaded, start creating Blender stuff
+16:49:35 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:49:35 | INFO: Blender create Mesh node Body (merged)
+16:49:35 | INFO: Blender create Mesh node Hair001 (merged)
+16:49:35 | INFO: Blender create Mesh node BlenderVrmAddonImport334335981819972Temp_22_
+16:49:35 | INFO: Blender create Mesh node BlenderVrmAddonImport334335981819972Temp_25_
+16:49:35 | INFO: glTF import finished in 0.14s
+11:01.891  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V30.png'
+ICON Hair_V30
+16:49:43 | INFO: Data are loaded, start creating Blender stuff
+16:49:43 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:49:43 | INFO: Blender create Mesh node Body (merged)
+16:49:43 | INFO: Blender create Mesh node Hair001 (merged)
+16:49:43 | INFO: Blender create Mesh node BlenderVrmAddonImport655164951721536Temp_22_
+16:49:43 | INFO: Blender create Mesh node BlenderVrmAddonImport655164951721536Temp_25_
+16:49:43 | INFO: glTF import finished in 0.14s
+11:09.469  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V31.png'
+ICON Hair_V31
+16:49:50 | INFO: Data are loaded, start creating Blender stuff
+16:49:50 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:49:50 | INFO: Blender create Mesh node Body (merged)
+16:49:50 | INFO: Blender create Mesh node Hair001 (merged)
+16:49:50 | INFO: Blender create Mesh node BlenderVrmAddonImport697692374201234Temp_24_
+16:49:50 | INFO: Blender create Mesh node BlenderVrmAddonImport697692374201234Temp_27_
+16:49:50 | INFO: glTF import finished in 0.14s
+11:17.391  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V32.png'
+ICON Hair_V32
+16:49:58 | INFO: Data are loaded, start creating Blender stuff
+16:49:58 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:49:58 | INFO: Blender create Mesh node Body (merged)
+16:49:58 | INFO: Blender create Mesh node Hair001 (merged)
+16:49:58 | INFO: Blender create Mesh node BlenderVrmAddonImport853589402926771Temp_24_
+16:49:58 | INFO: Blender create Mesh node BlenderVrmAddonImport853589402926771Temp_27_
+16:49:58 | INFO: glTF import finished in 0.15s
+11:25.688  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V33.png'
+ICON Hair_V33
+16:50:06 | INFO: Data are loaded, start creating Blender stuff
+16:50:07 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:50:07 | INFO: Blender create Mesh node Body (merged)
+16:50:07 | INFO: Blender create Mesh node Hair001 (merged)
+16:50:07 | INFO: Blender create Mesh node BlenderVrmAddonImport476038786726640Temp_24_
+16:50:07 | INFO: Blender create Mesh node BlenderVrmAddonImport476038786726640Temp_27_
+16:50:07 | INFO: glTF import finished in 0.14s
+11:34.188  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V34.png'
+ICON Hair_V34
+16:50:15 | INFO: Data are loaded, start creating Blender stuff
+16:50:15 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:50:15 | INFO: Blender create Mesh node Body (merged)
+16:50:15 | INFO: Blender create Mesh node Hair001 (merged)
+16:50:15 | INFO: Blender create Mesh node BlenderVrmAddonImport995983450158268Temp_24_
+16:50:15 | INFO: Blender create Mesh node BlenderVrmAddonImport995983450158268Temp_27_
+16:50:15 | INFO: glTF import finished in 0.13s
+11:42.297  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V35.png'
+ICON Hair_V35
+16:50:23 | INFO: Data are loaded, start creating Blender stuff
+16:50:23 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:50:23 | INFO: Blender create Mesh node Body (merged)
+16:50:23 | INFO: Blender create Mesh node Hair001 (merged)
+16:50:23 | INFO: Blender create Mesh node BlenderVrmAddonImport293613584332130Temp_24_
+16:50:23 | INFO: Blender create Mesh node BlenderVrmAddonImport293613584332130Temp_27_
+16:50:23 | INFO: glTF import finished in 0.13s
+11:50.235  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V36.png'
+ICON Hair_V36
+16:50:31 | INFO: Data are loaded, start creating Blender stuff
+16:50:31 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:50:31 | INFO: Blender create Mesh node Body (merged)
+16:50:31 | INFO: Blender create Mesh node Hair001 (merged)
+16:50:31 | INFO: Blender create Mesh node BlenderVrmAddonImport618973999926996Temp_24_
+16:50:31 | INFO: Blender create Mesh node BlenderVrmAddonImport618973999926996Temp_27_
+16:50:31 | INFO: glTF import finished in 0.16s
+11:59.235  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Hair_V37.png'
+ICON Hair_V37
+16:50:40 | INFO: Data are loaded, start creating Blender stuff
+16:50:40 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:50:40 | INFO: Blender create Mesh node Body (merged)
+16:50:40 | INFO: Blender create Mesh node Hair001 (merged)
+16:50:40 | INFO: Blender create Mesh node BlenderVrmAddonImport619230045365865Temp_26_
+16:50:40 | INFO: Blender create Mesh node BlenderVrmAddonImport619230045365865Temp_29_
+16:50:40 | INFO: glTF import finished in 0.17s
+12:08.219  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_001.png'
+12:08.516  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_001.png'
+12:08.797  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_001.png'
+12:09.094  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Neck_001.png'
+12:09.391  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_001.png'
+ICON Top_001
+ICON Shoes_001
+ICON Bottom_001
+ICON Neck_001
+ICON Arm_001
+16:50:50 | INFO: Data are loaded, start creating Blender stuff
+16:50:50 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:50:50 | INFO: Blender create Mesh node Body (merged)
+16:50:50 | INFO: Blender create Mesh node Hair001 (merged)
+16:50:51 | INFO: Blender create Mesh node BlenderVrmAddonImport559326250437659Temp_30_
+16:50:51 | INFO: Blender create Mesh node BlenderVrmAddonImport559326250437659Temp_33_
+16:50:51 | INFO: glTF import finished in 0.21s
+12:20.172  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_002.png'
+12:20.532  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_002.png'
+12:20.844  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_002.png'
+12:21.141  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Neck_002.png'
+12:21.454  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_002.png'
+ICON Top_002
+ICON Shoes_002
+ICON Bottom_002
+ICON Neck_002
+ICON Arm_002
+16:51:02 | INFO: Data are loaded, start creating Blender stuff
+16:51:02 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:51:02 | INFO: Blender create Mesh node Body (merged)
+16:51:03 | INFO: Blender create Mesh node Hair001 (merged)
+16:51:03 | INFO: Blender create Mesh node BlenderVrmAddonImport928720821494911Temp_31_
+16:51:03 | INFO: Blender create Mesh node BlenderVrmAddonImport928720821494911Temp_34_
+16:51:03 | INFO: glTF import finished in 0.22s
+12:32.922  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_003.png'
+12:33.219  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_003.png'
+12:33.547  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_003.png'
+12:33.860  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Neck_003.png'
+12:34.172  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_003.png'
+ICON Top_003
+ICON Shoes_003
+ICON Bottom_003
+ICON Neck_003
+ICON Arm_003
+16:51:15 | INFO: Data are loaded, start creating Blender stuff
+16:51:15 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:51:15 | INFO: Blender create Mesh node Body (merged)
+16:51:15 | INFO: Blender create Mesh node Hair001 (merged)
+16:51:15 | INFO: Blender create Mesh node BlenderVrmAddonImport044553259121186Temp_30_
+16:51:15 | INFO: Blender create Mesh node BlenderVrmAddonImport044553259121186Temp_33_
+16:51:15 | INFO: glTF import finished in 0.21s
+12:45.829  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_004.png'
+12:46.125  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_004.png'
+12:46.469  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_004.png'
+12:46.813  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Neck_004.png'
+12:47.110  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_004.png'
+ICON Top_004
+ICON Shoes_004
+ICON Bottom_004
+ICON Neck_004
+ICON Arm_004
+16:51:28 | INFO: Data are loaded, start creating Blender stuff
+16:51:28 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:51:28 | INFO: Blender create Mesh node Body (merged)
+16:51:28 | INFO: Blender create Mesh node Hair001 (merged)
+16:51:28 | INFO: Blender create Mesh node BlenderVrmAddonImport939889052486591Temp_33_
+16:51:28 | INFO: Blender create Mesh node BlenderVrmAddonImport939889052486591Temp_36_
+16:51:28 | INFO: glTF import finished in 0.24s
+13:00.641  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_005.png'
+13:01.079  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_005.png'
+13:01.485  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_005.png'
+13:01.782  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Neck_005.png'
+13:02.079  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_005.png'
+ICON Top_005
+ICON Shoes_005
+ICON Bottom_005
+ICON Neck_005
+ICON Arm_005
+16:51:43 | INFO: Data are loaded, start creating Blender stuff
+16:51:43 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:51:43 | INFO: Blender create Mesh node Body (merged)
+16:51:43 | INFO: Blender create Mesh node Hair001 (merged)
+16:51:43 | INFO: Blender create Mesh node BlenderVrmAddonImport622239045919362Temp_31_
+16:51:43 | INFO: Blender create Mesh node BlenderVrmAddonImport622239045919362Temp_34_
+16:51:43 | INFO: glTF import finished in 0.22s
+13:14.782  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_006.png'
+13:15.188  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_006.png'
+13:15.469  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_006.png'
+13:15.782  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Neck_006.png'
+13:16.110  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_006.png'
+ICON Top_006
+ICON Shoes_006
+ICON Bottom_006
+ICON Neck_006
+ICON Arm_006
+16:51:57 | INFO: Data are loaded, start creating Blender stuff
+16:51:57 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:51:57 | INFO: Blender create Mesh node Body (merged)
+16:51:57 | INFO: Blender create Mesh node Hair001 (merged)
+16:51:57 | INFO: Blender create Mesh node BlenderVrmAddonImport576128629111660Temp_29_
+16:51:57 | INFO: Blender create Mesh node BlenderVrmAddonImport576128629111660Temp_32_
+16:51:57 | INFO: glTF import finished in 0.21s
+13:27.422  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_007.png'
+13:27.688  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_007.png'
+13:27.985  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_007.png'
+13:28.329  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_007.png'
+ICON Top_007
+ICON Shoes_007
+ICON Bottom_007
+ICON Arm_007
+16:52:09 | INFO: Data are loaded, start creating Blender stuff
+16:52:09 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:52:09 | INFO: Blender create Mesh node Body (merged)
+16:52:09 | INFO: Blender create Mesh node Hair001 (merged)
+16:52:09 | INFO: Blender create Mesh node BlenderVrmAddonImport505567001806089Temp_30_
+16:52:09 | INFO: Blender create Mesh node BlenderVrmAddonImport505567001806089Temp_33_
+16:52:09 | INFO: glTF import finished in 0.19s
+13:42.235  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_008.png'
+13:42.516  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_008.png'
+13:42.907  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_008.png'
+13:43.235  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_008.png'
+ICON Top_008
+ICON Shoes_008
+ICON Bottom_008
+ICON Arm_008
+16:52:24 | INFO: Data are loaded, start creating Blender stuff
+16:52:24 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:52:24 | INFO: Blender create Mesh node Body (merged)
+16:52:24 | INFO: Blender create Mesh node Hair001 (merged)
+16:52:24 | INFO: Blender create Mesh node BlenderVrmAddonImport574628585445221Temp_31_
+16:52:24 | INFO: Blender create Mesh node BlenderVrmAddonImport574628585445221Temp_34_
+16:52:24 | INFO: glTF import finished in 0.21s
+13:58.172  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_009.png'
+13:58.594  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_009.png'
+13:58.969  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_009.png'
+13:59.266  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Neck_007.png'
+13:59.579  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_009.png'
+ICON Top_009
+ICON Shoes_009
+ICON Bottom_009
+ICON Neck_007
+ICON Arm_009
+16:52:41 | INFO: Data are loaded, start creating Blender stuff
+16:52:41 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:52:41 | INFO: Blender create Mesh node Body (merged)
+16:52:41 | INFO: Blender create Mesh node Hair001 (merged)
+16:52:41 | INFO: Blender create Mesh node BlenderVrmAddonImport676842960214990Temp_32_
+16:52:41 | INFO: Blender create Mesh node BlenderVrmAddonImport676842960214990Temp_35_
+16:52:41 | INFO: glTF import finished in 0.23s
+14:12.938  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_010.png'
+14:13.360  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_010.png'
+14:13.750  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_010.png'
+14:14.047  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_010.png'
+ICON Top_010
+ICON Shoes_010
+ICON Bottom_010
+ICON Arm_010
+16:52:55 | INFO: Data are loaded, start creating Blender stuff
+16:52:55 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:52:55 | INFO: Blender create Mesh node Body (merged)
+16:52:55 | INFO: Blender create Mesh node Hair001 (merged)
+16:52:55 | INFO: Blender create Mesh node BlenderVrmAddonImport776863121026579Temp_29_
+16:52:55 | INFO: Blender create Mesh node BlenderVrmAddonImport776863121026579Temp_32_
+16:52:55 | INFO: glTF import finished in 0.16s
+14:23.750  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Neck_008.png'
+14:24.016  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_011.png'
+14:24.407  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_011.png'
+14:24.688  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_011.png'
+14:25.016  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_011.png'
+ICON Neck_008
+ICON Shoes_011
+ICON Bottom_011
+ICON Arm_011
+ICON Top_011
+16:53:06 | INFO: Data are loaded, start creating Blender stuff
+16:53:06 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:53:06 | INFO: Blender create Mesh node Body (merged)
+16:53:06 | INFO: Blender create Mesh node Hair001 (merged)
+16:53:06 | INFO: Blender create Mesh node BlenderVrmAddonImport507655255390332Temp_32_
+16:53:06 | INFO: Blender create Mesh node BlenderVrmAddonImport507655255390332Temp_35_
+16:53:06 | INFO: glTF import finished in 0.18s
+14:36.282  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_012.png'
+14:36.704  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_012.png'
+14:37.063  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_012.png'
+14:37.360  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_012.png'
+ICON Top_012
+ICON Shoes_012
+ICON Bottom_012
+ICON Arm_012
+16:53:18 | INFO: Data are loaded, start creating Blender stuff
+16:53:18 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:53:18 | INFO: Blender create Mesh node Body (merged)
+16:53:19 | INFO: Blender create Mesh node Hair001 (merged)
+16:53:19 | INFO: Blender create Mesh node BlenderVrmAddonImport152133175824948Temp_32_
+16:53:19 | INFO: Blender create Mesh node BlenderVrmAddonImport152133175824948Temp_35_
+16:53:19 | INFO: glTF import finished in 0.17s
+14:49.157  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_013.png'
+14:49.547  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_013.png'
+14:49.907  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_013.png'
+14:50.266  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Neck_009.png'
+ICON Top_013
+ICON Shoes_013
+ICON Bottom_013
+ICON Neck_009
+16:53:31 | INFO: Data are loaded, start creating Blender stuff
+16:53:31 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:53:31 | INFO: Blender create Mesh node Body (merged)
+16:53:31 | INFO: Blender create Mesh node Hair001 (merged)
+16:53:32 | INFO: Blender create Mesh node BlenderVrmAddonImport232477521751476Temp_32_
+16:53:32 | INFO: Blender create Mesh node BlenderVrmAddonImport232477521751476Temp_35_
+16:53:32 | INFO: glTF import finished in 0.24s
+15:02.563  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_014.png'
+15:02.969  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_014.png'
+15:03.329  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_014.png'
+15:03.625  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Neck_010.png'
+15:04.016  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_013.png'
+ICON Top_014
+ICON Shoes_014
+ICON Bottom_014
+ICON Neck_010
+ICON Arm_013
+16:53:45 | INFO: Data are loaded, start creating Blender stuff
+16:53:45 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:53:45 | INFO: Blender create Mesh node Body (merged)
+16:53:45 | INFO: Blender create Mesh node Hair001 (merged)
+16:53:45 | INFO: Blender create Mesh node BlenderVrmAddonImport796404475808386Temp_26_
+16:53:45 | INFO: Blender create Mesh node BlenderVrmAddonImport796404475808386Temp_29_
+16:53:45 | INFO: glTF import finished in 0.18s
+15:14.016  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_015.png'
+15:14.282  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_015.png'
+15:14.579  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_015.png'
+15:14.891  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Neck_011.png'
+15:15.188  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Arm_014.png'
+ICON Top_015
+ICON Shoes_015
+ICON Bottom_015
+ICON Neck_011
+ICON Arm_014
+16:53:56 | INFO: Data are loaded, start creating Blender stuff
+16:53:56 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:53:56 | INFO: Blender create Mesh node Body (merged)
+16:53:56 | INFO: Blender create Mesh node Hair001 (merged)
+16:53:56 | INFO: Blender create Mesh node BlenderVrmAddonImport183082234468671Temp_28_
+16:53:56 | INFO: Blender create Mesh node BlenderVrmAddonImport183082234468671Temp_31_
+16:53:56 | INFO: glTF import finished in 0.16s
+15:25.547  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_016.png'
+15:25.844  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_016.png'
+15:26.157  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_016.png'
+ICON Top_016
+ICON Shoes_016
+ICON Bottom_016
+16:54:07 | INFO: Data are loaded, start creating Blender stuff
+16:54:07 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:54:07 | INFO: Blender create Mesh node Body (merged)
+16:54:07 | INFO: Blender create Mesh node Hair001 (merged)
+16:54:07 | INFO: Blender create Mesh node BlenderVrmAddonImport185874808060584Temp_31_
+16:54:07 | INFO: Blender create Mesh node BlenderVrmAddonImport185874808060584Temp_34_
+16:54:07 | INFO: glTF import finished in 0.20s
+15:42.047  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_017.png'
+15:42.344  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_017.png'
+15:42.782  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_017.png'
+ICON Top_017
+ICON Shoes_017
+ICON Bottom_017
+16:54:24 | INFO: Data are loaded, start creating Blender stuff
+16:54:24 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:54:24 | INFO: Blender create Mesh node Body (merged)
+16:54:24 | INFO: Blender create Mesh node Hair001 (merged)
+16:54:24 | INFO: Blender create Mesh node BlenderVrmAddonImport315238396722055Temp_27_
+16:54:24 | INFO: Blender create Mesh node BlenderVrmAddonImport315238396722055Temp_30_
+16:54:24 | INFO: glTF import finished in 0.20s
+15:52.907  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_018.png'
+15:53.172  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_018.png'
+15:53.454  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_018.png'
+ICON Top_018
+ICON Shoes_018
+ICON Bottom_018
+16:54:34 | INFO: Data are loaded, start creating Blender stuff
+16:54:34 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:54:34 | INFO: Blender create Mesh node Body (merged)
+16:54:34 | INFO: Blender create Mesh node Hair001 (merged)
+16:54:34 | INFO: Blender create Mesh node BlenderVrmAddonImport340208064262583Temp_26_
+16:54:34 | INFO: Blender create Mesh node BlenderVrmAddonImport340208064262583Temp_29_
+16:54:34 | INFO: glTF import finished in 0.15s
+16:02.235  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_019.png'
+16:02.563  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_019.png'
+16:02.860  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_019.png'
+ICON Top_019
+ICON Shoes_019
+ICON Bottom_019
+16:54:44 | INFO: Data are loaded, start creating Blender stuff
+16:54:44 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:54:44 | INFO: Blender create Mesh node Body (merged)
+16:54:44 | INFO: Blender create Mesh node Hair001 (merged)
+16:54:44 | INFO: Blender create Mesh node BlenderVrmAddonImport658055855710162Temp_27_
+16:54:44 | INFO: Blender create Mesh node BlenderVrmAddonImport658055855710162Temp_30_
+16:54:44 | INFO: glTF import finished in 0.17s
+16:11.922  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_020.png'
+16:12.235  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_020.png'
+16:12.563  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_020.png'
+ICON Top_020
+ICON Bottom_020
+ICON Shoes_020
+16:54:53 | INFO: Data are loaded, start creating Blender stuff
+16:54:53 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:54:54 | INFO: Blender create Mesh node Body (merged)
+16:54:54 | INFO: Blender create Mesh node Hair001 (merged)
+16:54:54 | INFO: Blender create Mesh node BlenderVrmAddonImport023942139470654Temp_29_
+16:54:54 | INFO: Blender create Mesh node BlenderVrmAddonImport023942139470654Temp_32_
+16:54:54 | INFO: glTF import finished in 0.16s
+16:24.125  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_021.png'
+16:24.485  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_021.png'
+16:24.813  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_021.png'
+ICON Top_021
+ICON Shoes_021
+ICON Bottom_021
+16:55:06 | INFO: Data are loaded, start creating Blender stuff
+16:55:06 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:55:06 | INFO: Blender create Mesh node Body (merged)
+16:55:06 | INFO: Blender create Mesh node Hair001 (merged)
+16:55:06 | INFO: Blender create Mesh node BlenderVrmAddonImport609072734437458Temp_31_
+16:55:06 | INFO: Blender create Mesh node BlenderVrmAddonImport609072734437458Temp_34_
+16:55:06 | INFO: glTF import finished in 0.20s
+16:38.891  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_022.png'
+16:39.219  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_022.png'
+16:39.625  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_022.png'
+ICON Top_022
+ICON Bottom_022
+ICON Shoes_022
+16:55:21 | INFO: Data are loaded, start creating Blender stuff
+16:55:21 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:55:21 | INFO: Blender create Mesh node Body (merged)
+16:55:21 | INFO: Blender create Mesh node Hair001 (merged)
+16:55:21 | INFO: Blender create Mesh node BlenderVrmAddonImport314546968492344Temp_28_
+16:55:21 | INFO: Blender create Mesh node BlenderVrmAddonImport314546968492344Temp_31_
+16:55:21 | INFO: glTF import finished in 0.15s
+16:49.594  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_023.png'
+16:49.860  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_023.png'
+16:50.172  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_023.png'
+ICON Top_023
+ICON Shoes_023
+ICON Bottom_023
+16:55:31 | INFO: Data are loaded, start creating Blender stuff
+16:55:31 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:55:31 | INFO: Blender create Mesh node Body (merged)
+16:55:31 | INFO: Blender create Mesh node Hair001 (merged)
+16:55:31 | INFO: Blender create Mesh node BlenderVrmAddonImport274581459815750Temp_26_
+16:55:31 | INFO: Blender create Mesh node BlenderVrmAddonImport274581459815750Temp_29_
+16:55:31 | INFO: glTF import finished in 0.17s
+16:58.844  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_024.png'
+16:59.110  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_024.png'
+16:59.360  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_024.png'
+ICON Top_024
+ICON Shoes_024
+ICON Bottom_024
+16:55:40 | INFO: Data are loaded, start creating Blender stuff
+16:55:40 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:55:40 | INFO: Blender create Mesh node Body (merged)
+16:55:40 | INFO: Blender create Mesh node Hair001 (merged)
+16:55:40 | INFO: Blender create Mesh node BlenderVrmAddonImport564201004551941Temp_27_
+16:55:40 | INFO: Blender create Mesh node BlenderVrmAddonImport564201004551941Temp_30_
+16:55:40 | INFO: glTF import finished in 0.17s
+17:09.422  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_025.png'
+17:09.735  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_025.png'
+ICON Top_025
+ICON Bottom_025
+16:55:51 | INFO: Data are loaded, start creating Blender stuff
+16:55:51 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:55:51 | INFO: Blender create Mesh node Body (merged)
+16:55:51 | INFO: Blender create Mesh node Hair001 (merged)
+16:55:51 | INFO: Blender create Mesh node BlenderVrmAddonImport415645846088406Temp_29_
+16:55:51 | INFO: Blender create Mesh node BlenderVrmAddonImport415645846088406Temp_32_
+16:55:51 | INFO: glTF import finished in 0.16s
+17:20.891  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_026.png'
+17:21.172  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_025.png'
+17:21.500  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_026.png'
+ICON Top_026
+ICON Shoes_025
+ICON Bottom_026
+16:56:02 | INFO: Data are loaded, start creating Blender stuff
+16:56:02 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:56:02 | INFO: Blender create Mesh node Body (merged)
+16:56:03 | INFO: Blender create Mesh node Hair001 (merged)
+16:56:03 | INFO: Blender create Mesh node BlenderVrmAddonImport952695454724386Temp_28_
+16:56:03 | INFO: Blender create Mesh node BlenderVrmAddonImport952695454724386Temp_31_
+16:56:03 | INFO: glTF import finished in 0.18s
+17:31.875  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_027.png'
+17:32.157  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_026.png'
+ICON Top_027
+ICON Shoes_026
+16:56:13 | INFO: Data are loaded, start creating Blender stuff
+16:56:13 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:56:13 | INFO: Blender create Mesh node Body (merged)
+16:56:13 | INFO: Blender create Mesh node Hair001 (merged)
+16:56:13 | INFO: Blender create Mesh node BlenderVrmAddonImport137194291675192Temp_29_
+16:56:13 | INFO: Blender create Mesh node BlenderVrmAddonImport137194291675192Temp_32_
+16:56:13 | INFO: glTF import finished in 0.20s
+17:42.954  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_028.png'
+17:43.313  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_027.png'
+ICON Top_028
+ICON Shoes_027
+16:56:24 | INFO: Data are loaded, start creating Blender stuff
+16:56:24 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:56:24 | INFO: Blender create Mesh node Body (merged)
+16:56:24 | INFO: Blender create Mesh node Hair001 (merged)
+16:56:24 | INFO: Blender create Mesh node BlenderVrmAddonImport739174391021386Temp_29_
+16:56:24 | INFO: Blender create Mesh node BlenderVrmAddonImport739174391021386Temp_32_
+16:56:24 | INFO: glTF import finished in 0.16s
+17:53.907  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_029.png'
+17:54.157  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_027.png'
+17:54.547  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_028.png'
+ICON Top_029
+ICON Bottom_027
+ICON Shoes_028
+16:56:35 | INFO: Data are loaded, start creating Blender stuff
+16:56:35 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:56:35 | INFO: Blender create Mesh node Body (merged)
+16:56:36 | INFO: Blender create Mesh node Hair001 (merged)
+16:56:36 | INFO: Blender create Mesh node BlenderVrmAddonImport836253071332403Temp_27_
+16:56:36 | INFO: Blender create Mesh node BlenderVrmAddonImport836253071332403Temp_30_
+16:56:36 | INFO: glTF import finished in 0.15s
+18:03.922  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_030.png'
+18:04.188  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_029.png'
+18:04.485  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_028.png'
+ICON Top_030
+ICON Shoes_029
+ICON Bottom_028
+16:56:45 | INFO: Data are loaded, start creating Blender stuff
+16:56:45 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:56:45 | INFO: Blender create Mesh node Body (merged)
+16:56:45 | INFO: Blender create Mesh node Hair001 (merged)
+16:56:46 | INFO: Blender create Mesh node BlenderVrmAddonImport082501507182192Temp_27_
+16:56:46 | INFO: Blender create Mesh node BlenderVrmAddonImport082501507182192Temp_30_
+16:56:46 | INFO: glTF import finished in 0.16s
+18:13.875  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_031.png'
+18:14.219  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_030.png'
+ICON Top_031
+ICON Shoes_030
+16:56:55 | INFO: Data are loaded, start creating Blender stuff
+16:56:55 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:56:55 | INFO: Blender create Mesh node Body (merged)
+16:56:55 | INFO: Blender create Mesh node Hair001 (merged)
+16:56:55 | INFO: Blender create Mesh node BlenderVrmAddonImport871154709089282Temp_27_
+16:56:55 | INFO: Blender create Mesh node BlenderVrmAddonImport871154709089282Temp_30_
+16:56:55 | INFO: glTF import finished in 0.15s
+18:23.047  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_032.png'
+18:23.375  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_031.png'
+18:23.641  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_029.png'
+ICON Top_032
+ICON Shoes_031
+ICON Bottom_029
+16:57:05 | INFO: Data are loaded, start creating Blender stuff
+16:57:05 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:57:05 | INFO: Blender create Mesh node Body (merged)
+16:57:05 | INFO: Blender create Mesh node Hair001 (merged)
+16:57:05 | INFO: Blender create Mesh node BlenderVrmAddonImport520932505008723Temp_27_
+16:57:05 | INFO: Blender create Mesh node BlenderVrmAddonImport520932505008723Temp_30_
+16:57:05 | INFO: glTF import finished in 0.17s
+18:33.016  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_033.png'
+18:33.282  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_032.png'
+ICON Top_033
+ICON Shoes_032
+16:57:14 | INFO: Data are loaded, start creating Blender stuff
+16:57:14 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:57:14 | INFO: Blender create Mesh node Body (merged)
+16:57:14 | INFO: Blender create Mesh node Hair001 (merged)
+16:57:14 | INFO: Blender create Mesh node BlenderVrmAddonImport097421986531935Temp_30_
+16:57:14 | INFO: Blender create Mesh node BlenderVrmAddonImport097421986531935Temp_33_
+16:57:14 | INFO: glTF import finished in 0.17s
+18:44.860  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_034.png'
+18:45.219  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_033.png'
+ICON Top_034
+ICON Shoes_033
+16:57:26 | INFO: Data are loaded, start creating Blender stuff
+16:57:26 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:57:26 | INFO: Blender create Mesh node Body (merged)
+16:57:26 | INFO: Blender create Mesh node Hair001 (merged)
+16:57:26 | INFO: Blender create Mesh node BlenderVrmAddonImport842698213207375Temp_29_
+16:57:26 | INFO: Blender create Mesh node BlenderVrmAddonImport842698213207375Temp_32_
+16:57:26 | INFO: glTF import finished in 0.19s
+18:55.860  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_035.png'
+18:56.219  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_034.png'
+ICON Top_035
+ICON Shoes_034
+16:57:37 | INFO: Data are loaded, start creating Blender stuff
+16:57:37 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:57:37 | INFO: Blender create Mesh node Body (merged)
+16:57:37 | INFO: Blender create Mesh node Hair001 (merged)
+16:57:37 | INFO: Blender create Mesh node BlenderVrmAddonImport688479593990831Temp_28_
+16:57:37 | INFO: Blender create Mesh node BlenderVrmAddonImport688479593990831Temp_31_
+16:57:37 | INFO: glTF import finished in 0.15s
+19:06.516  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_036.png'
+19:06.766  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_035.png'
+19:07.094  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_030.png'
+ICON Top_036
+ICON Shoes_035
+ICON Bottom_030
+16:57:48 | INFO: Data are loaded, start creating Blender stuff
+16:57:48 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:57:48 | INFO: Blender create Mesh node Body (merged)
+16:57:48 | INFO: Blender create Mesh node Hair001 (merged)
+16:57:48 | INFO: Blender create Mesh node BlenderVrmAddonImport346522055420207Temp_29_
+16:57:48 | INFO: Blender create Mesh node BlenderVrmAddonImport346522055420207Temp_32_
+16:57:48 | INFO: glTF import finished in 0.20s
+19:18.110  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_037.png'
+19:18.454  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_036.png'
+ICON Top_037
+ICON Shoes_036
+16:57:59 | INFO: Data are loaded, start creating Blender stuff
+16:57:59 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:57:59 | INFO: Blender create Mesh node Body (merged)
+16:57:59 | INFO: Blender create Mesh node Hair001 (merged)
+16:57:59 | INFO: Blender create Mesh node BlenderVrmAddonImport003232392290169Temp_25_
+16:57:59 | INFO: Blender create Mesh node BlenderVrmAddonImport003232392290169Temp_28_
+16:57:59 | INFO: glTF import finished in 0.15s
+19:26.641  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_038.png'
+ICON Top_038
+16:58:07 | INFO: Data are loaded, start creating Blender stuff
+16:58:07 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:58:08 | INFO: Blender create Mesh node Body (merged)
+16:58:08 | INFO: Blender create Mesh node Hair001 (merged)
+16:58:08 | INFO: Blender create Mesh node BlenderVrmAddonImport634843046457872Temp_25_
+16:58:08 | INFO: Blender create Mesh node BlenderVrmAddonImport634843046457872Temp_28_
+16:58:08 | INFO: glTF import finished in 0.17s
+19:35.422  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_037.png'
+ICON Shoes_037
+16:58:16 | INFO: Data are loaded, start creating Blender stuff
+16:58:16 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:58:16 | INFO: Blender create Mesh node Body (merged)
+16:58:16 | INFO: Blender create Mesh node Hair001 (merged)
+16:58:16 | INFO: Blender create Mesh node BlenderVrmAddonImport267491771976927Temp_25_
+16:58:16 | INFO: Blender create Mesh node BlenderVrmAddonImport267491771976927Temp_28_
+16:58:16 | INFO: glTF import finished in 0.15s
+19:43.641  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_039.png'
+ICON Top_039
+16:58:24 | INFO: Data are loaded, start creating Blender stuff
+16:58:24 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:58:25 | INFO: Blender create Mesh node Body (merged)
+16:58:25 | INFO: Blender create Mesh node Hair001 (merged)
+16:58:25 | INFO: Blender create Mesh node BlenderVrmAddonImport945395297119027Temp_25_
+16:58:25 | INFO: Blender create Mesh node BlenderVrmAddonImport945395297119027Temp_28_
+16:58:25 | INFO: glTF import finished in 0.14s
+19:52.250  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_040.png'
+ICON Top_040
+16:58:33 | INFO: Data are loaded, start creating Blender stuff
+16:58:33 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:58:33 | INFO: Blender create Mesh node Body (merged)
+16:58:33 | INFO: Blender create Mesh node Hair001 (merged)
+16:58:33 | INFO: Blender create Mesh node BlenderVrmAddonImport500936301538526Temp_25_
+16:58:33 | INFO: Blender create Mesh node BlenderVrmAddonImport500936301538526Temp_28_
+16:58:33 | INFO: glTF import finished in 0.15s
+20:00.516  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_041.png'
+20:00.766  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_038.png'
+ICON Top_041
+ICON Shoes_038
+16:58:42 | INFO: Data are loaded, start creating Blender stuff
+16:58:42 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:58:42 | INFO: Blender create Mesh node Body (merged)
+16:58:42 | INFO: Blender create Mesh node Hair001 (merged)
+16:58:42 | INFO: Blender create Mesh node BlenderVrmAddonImport320614428919065Temp_25_
+16:58:42 | INFO: Blender create Mesh node BlenderVrmAddonImport320614428919065Temp_28_
+16:58:42 | INFO: glTF import finished in 0.14s
+20:09.438  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_042.png'
+20:09.719  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_039.png'
+ICON Top_042
+ICON Shoes_039
+16:58:51 | INFO: Data are loaded, start creating Blender stuff
+16:58:51 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:58:51 | INFO: Blender create Mesh node Body (merged)
+16:58:51 | INFO: Blender create Mesh node Hair001 (merged)
+16:58:51 | INFO: Blender create Mesh node BlenderVrmAddonImport558227407127103Temp_25_
+16:58:51 | INFO: Blender create Mesh node BlenderVrmAddonImport558227407127103Temp_28_
+16:58:51 | INFO: glTF import finished in 0.17s
+20:17.907  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_043.png'
+20:18.172  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_040.png'
+20:18.422  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_031.png'
+ICON Top_043
+ICON Shoes_040
+ICON Bottom_031
+16:58:59 | INFO: Data are loaded, start creating Blender stuff
+16:58:59 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:58:59 | INFO: Blender create Mesh node Body (merged)
+16:58:59 | INFO: Blender create Mesh node Hair001 (merged)
+16:58:59 | INFO: Blender create Mesh node BlenderVrmAddonImport399150332021023Temp_25_
+16:58:59 | INFO: Blender create Mesh node BlenderVrmAddonImport399150332021023Temp_28_
+16:58:59 | INFO: glTF import finished in 0.14s
+20:26.063  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_044.png'
+20:26.329  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_032.png'
+ICON Top_044
+ICON Bottom_032
+16:59:07 | INFO: Data are loaded, start creating Blender stuff
+16:59:07 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:59:07 | INFO: Blender create Mesh node Body (merged)
+16:59:07 | INFO: Blender create Mesh node Hair001 (merged)
+16:59:07 | INFO: Blender create Mesh node BlenderVrmAddonImport507058533847765Temp_25_
+16:59:07 | INFO: Blender create Mesh node BlenderVrmAddonImport507058533847765Temp_28_
+16:59:07 | INFO: glTF import finished in 0.14s
+20:34.047  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_033.png'
+ICON Bottom_033
+16:59:15 | INFO: Data are loaded, start creating Blender stuff
+16:59:15 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:59:15 | INFO: Blender create Mesh node Body (merged)
+16:59:15 | INFO: Blender create Mesh node Hair001 (merged)
+16:59:15 | INFO: Blender create Mesh node BlenderVrmAddonImport774027363679050Temp_25_
+16:59:15 | INFO: Blender create Mesh node BlenderVrmAddonImport774027363679050Temp_28_
+16:59:15 | INFO: glTF import finished in 0.17s
+20:41.782  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_041.png'
+20:42.110  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_034.png'
+ICON Shoes_041
+ICON Bottom_034
+16:59:23 | INFO: Data are loaded, start creating Blender stuff
+16:59:23 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:59:23 | INFO: Blender create Mesh node Body (merged)
+16:59:23 | INFO: Blender create Mesh node Hair001 (merged)
+16:59:23 | INFO: Blender create Mesh node BlenderVrmAddonImport828308652800402Temp_25_
+16:59:23 | INFO: Blender create Mesh node BlenderVrmAddonImport828308652800402Temp_28_
+16:59:23 | INFO: glTF import finished in 0.14s
+20:49.844  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_045.png'
+ICON Top_045
+16:59:31 | INFO: Data are loaded, start creating Blender stuff
+16:59:31 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:59:31 | INFO: Blender create Mesh node Body (merged)
+16:59:31 | INFO: Blender create Mesh node Hair001 (merged)
+16:59:31 | INFO: Blender create Mesh node BlenderVrmAddonImport932190850917800Temp_25_
+16:59:31 | INFO: Blender create Mesh node BlenderVrmAddonImport932190850917800Temp_28_
+16:59:31 | INFO: glTF import finished in 0.16s
+20:57.500  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_042.png'
+20:57.750  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_035.png'
+ICON Shoes_042
+ICON Bottom_035
+16:59:39 | INFO: Data are loaded, start creating Blender stuff
+16:59:39 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:59:39 | INFO: Blender create Mesh node Body (merged)
+16:59:39 | INFO: Blender create Mesh node Hair001 (merged)
+16:59:39 | INFO: Blender create Mesh node BlenderVrmAddonImport422818767445389Temp_26_
+16:59:39 | INFO: Blender create Mesh node BlenderVrmAddonImport422818767445389Temp_29_
+16:59:39 | INFO: glTF import finished in 0.15s
+21:06.875  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_046.png'
+21:07.141  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_043.png'
+ICON Top_046
+ICON Shoes_043
+16:59:48 | INFO: Data are loaded, start creating Blender stuff
+16:59:48 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:59:48 | INFO: Blender create Mesh node Body (merged)
+16:59:48 | INFO: Blender create Mesh node Hair001 (merged)
+16:59:48 | INFO: Blender create Mesh node BlenderVrmAddonImport863861426513039Temp_25_
+16:59:48 | INFO: Blender create Mesh node BlenderVrmAddonImport863861426513039Temp_28_
+16:59:48 | INFO: glTF import finished in 0.14s
+21:15.391  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_047.png'
+21:15.641  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_044.png'
+ICON Top_047
+ICON Shoes_044
+16:59:56 | INFO: Data are loaded, start creating Blender stuff
+16:59:57 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:59:57 | INFO: Blender create Mesh node Body (merged)
+16:59:57 | INFO: Blender create Mesh node Hair001 (merged)
+16:59:57 | INFO: Blender create Mesh node BlenderVrmAddonImport911567287617831Temp_25_
+16:59:57 | INFO: Blender create Mesh node BlenderVrmAddonImport911567287617831Temp_28_
+16:59:57 | INFO: glTF import finished in 0.16s
+21:24.157  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_048.png'
+21:24.422  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_045.png'
+21:24.735  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_036.png'
+ICON Top_048
+ICON Shoes_045
+ICON Bottom_036
+17:00:06 | INFO: Data are loaded, start creating Blender stuff
+17:00:06 | INFO: Blender create Mesh node Face (merged)(Clone)
+17:00:06 | INFO: Blender create Mesh node Body (merged)
+17:00:06 | INFO: Blender create Mesh node Hair001 (merged)
+17:00:06 | INFO: Blender create Mesh node BlenderVrmAddonImport942495253523165Temp_25_
+17:00:06 | INFO: Blender create Mesh node BlenderVrmAddonImport942495253523165Temp_28_
+17:00:06 | INFO: glTF import finished in 0.14s
+21:32.813  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_049.png'
+ICON Top_049
+17:00:14 | INFO: Data are loaded, start creating Blender stuff
+17:00:14 | INFO: Blender create Mesh node Face (merged)(Clone)
+17:00:14 | INFO: Blender create Mesh node Body (merged)
+17:00:14 | INFO: Blender create Mesh node Hair001 (merged)
+17:00:14 | INFO: Blender create Mesh node BlenderVrmAddonImport829740161410107Temp_25_
+17:00:14 | INFO: Blender create Mesh node BlenderVrmAddonImport829740161410107Temp_28_
+17:00:14 | INFO: glTF import finished in 0.16s
+21:41.579  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_050.png'
+ICON Top_050
+17:00:22 | INFO: Data are loaded, start creating Blender stuff
+17:00:22 | INFO: Blender create Mesh node Face (merged)(Clone)
+17:00:22 | INFO: Blender create Mesh node Body (merged)
+17:00:22 | INFO: Blender create Mesh node Hair001 (merged)
+17:00:23 | INFO: Blender create Mesh node BlenderVrmAddonImport553417224815391Temp_25_
+17:00:23 | INFO: Blender create Mesh node BlenderVrmAddonImport553417224815391Temp_28_
+17:00:23 | INFO: glTF import finished in 0.15s
+21:49.797  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_051.png'
+21:50.063  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Shoes_046.png'
+ICON Top_051
+ICON Shoes_046
+17:00:31 | INFO: Data are loaded, start creating Blender stuff
+17:00:31 | INFO: Blender create Mesh node Face (merged)(Clone)
+17:00:31 | INFO: Blender create Mesh node Body (merged)
+17:00:31 | INFO: Blender create Mesh node Hair001 (merged)
+17:00:31 | INFO: Blender create Mesh node BlenderVrmAddonImport545766107845505Temp_25_
+17:00:31 | INFO: Blender create Mesh node BlenderVrmAddonImport545766107845505Temp_28_
+17:00:31 | INFO: glTF import finished in 0.16s
+21:58.454  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Bottom_037.png'
+ICON Bottom_037
+17:00:39 | INFO: Data are loaded, start creating Blender stuff
+17:00:39 | INFO: Blender create Mesh node Face (merged)(Clone)
+17:00:39 | INFO: Blender create Mesh node Body (merged)
+17:00:39 | INFO: Blender create Mesh node Hair001 (merged)
+17:00:39 | INFO: Blender create Mesh node BlenderVrmAddonImport626699392742844Temp_26_
+17:00:39 | INFO: Blender create Mesh node BlenderVrmAddonImport626699392742844Temp_29_
+17:00:39 | INFO: glTF import finished in 0.16s
+22:07.454  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_052.png'
+ICON Top_052
+17:00:48 | INFO: Data are loaded, start creating Blender stuff
+17:00:48 | INFO: Blender create Mesh node Face (merged)(Clone)
+17:00:48 | INFO: Blender create Mesh node Body (merged)
+17:00:48 | INFO: Blender create Mesh node Hair001 (merged)
+17:00:48 | INFO: Blender create Mesh node BlenderVrmAddonImport097884228745122Temp_25_
+17:00:48 | INFO: Blender create Mesh node BlenderVrmAddonImport097884228745122Temp_28_
+17:00:48 | INFO: glTF import finished in 0.14s
+22:15.625  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_053.png'
+ICON Top_053
+17:00:56 | INFO: Data are loaded, start creating Blender stuff
+17:00:56 | INFO: Blender create Mesh node Face (merged)(Clone)
+17:00:56 | INFO: Blender create Mesh node Body (merged)
+17:00:57 | INFO: Blender create Mesh node Hair001 (merged)
+17:00:57 | INFO: Blender create Mesh node BlenderVrmAddonImport815549399313560Temp_25_
+17:00:57 | INFO: Blender create Mesh node BlenderVrmAddonImport815549399313560Temp_28_
+17:00:57 | INFO: glTF import finished in 0.16s
+22:23.844  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_054.png'
+ICON Top_054
+17:01:05 | INFO: Data are loaded, start creating Blender stuff
+17:01:05 | INFO: Blender create Mesh node Face (merged)(Clone)
+17:01:05 | INFO: Blender create Mesh node Body (merged)
+17:01:05 | INFO: Blender create Mesh node Hair001 (merged)
+17:01:05 | INFO: Blender create Mesh node BlenderVrmAddonImport211133640379654Temp_25_
+17:01:05 | INFO: Blender create Mesh node BlenderVrmAddonImport211133640379654Temp_28_
+17:01:05 | INFO: glTF import finished in 0.15s
+22:31.875  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_055.png'
+ICON Top_055
+17:01:13 | INFO: Data are loaded, start creating Blender stuff
+17:01:13 | INFO: Blender create Mesh node Face (merged)(Clone)
+17:01:13 | INFO: Blender create Mesh node Body (merged)
+17:01:13 | INFO: Blender create Mesh node Hair001 (merged)
+17:01:13 | INFO: Blender create Mesh node BlenderVrmAddonImport633824281417653Temp_25_
+17:01:13 | INFO: Blender create Mesh node BlenderVrmAddonImport633824281417653Temp_28_
+17:01:13 | INFO: glTF import finished in 0.16s
+22:40.469  render           | Saved: 'D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\built\icons\T_Icon_Top_056.png'
+ICON Top_056
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

@@ -69,14 +69,15 @@ private:
 	TObjectPtr<UOutfitComponent> Outfit;
 };
 
-/** A colour swatch. Tints the item picked most recently. */
+/** A colour swatch. Tints the item picked most recently, or switches it to one of its variants. */
 UCLASS(Abstract)
 class ARTSTYLEEXPERIMENTAL_API UDressUpColorButton : public UUserWidget
 {
 	GENERATED_BODY()
 
 public:
-	void Setup(FLinearColor InColor, UOutfitComponent* InOutfit);
+	/** InVariant >= 0 makes the swatch pick that variant instead of tinting. */
+	void Setup(FLinearColor InColor, UOutfitComponent* InOutfit, int32 InVariant = INDEX_NONE);
 
 protected:
 	virtual void NativeConstruct() override;
@@ -89,6 +90,7 @@ private:
 	void HandleClicked();
 
 	FLinearColor Color = FLinearColor::White;
+	int32 Variant = INDEX_NONE;
 
 	UPROPERTY()
 	TObjectPtr<UOutfitComponent> Outfit;
@@ -188,6 +190,13 @@ private:
 
 	void BuildPoseChips(UClass* ChipClass);
 
+	/** Shows the variants of the item picked last, or the shared palette when it has none. */
+	UFUNCTION()
+	void RefreshSwatches();
+
+	/** Puts the item list in a scroll box when the layout did not. */
+	void WrapListInScrollBox();
+
 	UPROPERTY()
 	TObjectPtr<UOutfitComponent> Outfit;
 
@@ -202,4 +211,8 @@ private:
 
 	TArray<FDressUpTab> TabDefs;
 	int32 CurrentTab = INDEX_NONE;
+
+	/** Item whose variants the swatches show; null while they show the palette. */
+	TWeakObjectPtr<UDressUpItem> SwatchItem;
+	bool bSwatchesBuilt = false;
 };

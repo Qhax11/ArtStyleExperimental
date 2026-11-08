@@ -46,6 +46,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Look")
 	TArray<FLinearColor> ColorOptions;
 
+	/** Colour and pattern versions of the same mesh. When set, the UI offers these instead of tints. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Look")
+	TArray<FDressUpVariant> Variants;
+
 	/** Body regions this item covers. They are hidden while it is worn. */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Rules")
 	TArray<EBodyRegion> HiddenBodyRegions;

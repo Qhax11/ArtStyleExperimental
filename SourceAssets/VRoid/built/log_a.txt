@@ -1,0 +1,851 @@
+00:00.594  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+16:33:29 | INFO: Data are loaded, start creating Blender stuff
+16:33:29 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:33:29 | INFO: Blender create Mesh node Body (merged)
+16:33:29 | INFO: Blender create Mesh node Hair001 (merged)
+16:33:29 | INFO: Blender create Mesh node BlenderVrmAddonImport392821342050763Temp_32_
+16:33:29 | INFO: Blender create Mesh node BlenderVrmAddonImport392821342050763Temp_35_
+16:33:29 | INFO: glTF import finished in 0.24s
+00:12.532  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Glasses_Thick.fbx'
+export finished in 0.0455 sec.
+BUILD Glasses_Thick: verts=1138 z=[141.4,147.2] slots=['Glasses_Thick_M0', 'Glasses_Thick_M1']
+
+FBX export starting... '../VRoid/built\\SK_Hat_Silk.fbx'
+export finished in 0.0490 sec.
+BUILD Hat_Silk: verts=1467 z=[147.0,166.2] slots=['Hat_Silk_M0']
+
+FBX export starting... '../VRoid/built\\SK_Hat_Straw.fbx'
+export finished in 0.0536 sec.
+BUILD Hat_Straw: verts=1370 z=[147.0,164.4] slots=['Hat_Straw_M0']
+
+FBX export starting... '../VRoid/built\\SK_Hat_Witch.fbx'
+export finished in 0.0723 sec.
+BUILD Hat_Witch: verts=1948 z=[143.7,169.9] slots=['Hat_Witch_M0']
+
+FBX export starting... '../VRoid/built\\SK_Hat_Work.fbx'
+export finished in 0.0559 sec.
+BUILD Hat_Work: verts=1342 z=[147.9,164.5] slots=['Hat_Work_M0']
+BUILD file acc_all.vrm done in 11.9s
+16:33:40 | INFO: Data are loaded, start creating Blender stuff
+16:33:40 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:33:40 | INFO: Blender create Mesh node Body (merged)
+16:33:41 | INFO: Blender create Mesh node Hair001 (merged)
+16:33:41 | INFO: Blender create Mesh node BlenderVrmAddonImport002994782493759Temp_24_
+16:33:41 | INFO: Blender create Mesh node BlenderVrmAddonImport002994782493759Temp_27_
+16:33:41 | INFO: glTF import finished in 0.22s
+00:21.344  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_001.fbx'
+export finished in 0.0501 sec.
+BUILD Dress_001: verts=688 z=[63.4,135.5] slots=['Dress_001_M0'] transparent_removed=0 body=506 own=50
+BUILD file d001.vrm done in 8.8s
+16:33:49 | INFO: Data are loaded, start creating Blender stuff
+16:33:49 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:33:49 | INFO: Blender create Mesh node Body (merged)
+16:33:49 | INFO: Blender create Mesh node Hair001 (merged)
+16:33:49 | INFO: Blender create Mesh node BlenderVrmAddonImport993334818984427Temp_27_
+16:33:50 | INFO: Blender create Mesh node BlenderVrmAddonImport993334818984427Temp_30_
+16:33:50 | INFO: glTF import finished in 0.20s
+00:34.094  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_002.fbx'
+export finished in 0.0461 sec.
+BUILD Dress_002: verts=1411 z=[64.9,135.5] slots=['Dress_002_M1', 'Dress_002_M3', 'Dress_002_M0', 'Dress_002_M2'] transparent_removed=4 body=755 own=271
+BUILD file d002.vrm done in 12.7s
+16:34:02 | INFO: Data are loaded, start creating Blender stuff
+16:34:02 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:34:02 | INFO: Blender create Mesh node Body (merged)
+16:34:02 | INFO: Blender create Mesh node Hair001 (merged)
+16:34:02 | INFO: Blender create Mesh node BlenderVrmAddonImport272715892119944Temp_28_
+16:34:02 | INFO: Blender create Mesh node BlenderVrmAddonImport272715892119944Temp_31_
+16:34:02 | INFO: glTF import finished in 0.27s
+00:48.797  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_003.fbx'
+export finished in 0.0717 sec.
+BUILD Dress_003: verts=1290 z=[64.4,135.5] slots=['Dress_003_M4', 'Dress_003_M1', 'Dress_003_M2', 'Dress_003_M0', 'Dress_003_M3'] transparent_removed=4 body=783 own=204
+BUILD file d003.vrm done in 14.7s
+16:34:17 | INFO: Data are loaded, start creating Blender stuff
+16:34:17 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:34:17 | INFO: Blender create Mesh node Body (merged)
+16:34:17 | INFO: Blender create Mesh node Hair001 (merged)
+16:34:17 | INFO: Blender create Mesh node BlenderVrmAddonImport774999786017283Temp_28_
+16:34:17 | INFO: Blender create Mesh node BlenderVrmAddonImport774999786017283Temp_31_
+16:34:17 | INFO: glTF import finished in 0.22s
+01:02.985  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_004.fbx'
+export finished in 0.0788 sec.
+BUILD Dress_004: verts=1718 z=[51.2,135.0] slots=['Dress_004_M4', 'Dress_004_M2', 'Dress_004_M3', 'Dress_004_M0', 'Dress_004_M1'] transparent_removed=6 body=1119 own=253
+BUILD file d004.vrm done in 14.2s
+16:34:31 | INFO: Data are loaded, start creating Blender stuff
+16:34:31 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:34:31 | INFO: Blender create Mesh node Body (merged)
+16:34:31 | INFO: Blender create Mesh node Hair001 (merged)
+16:34:31 | INFO: Blender create Mesh node BlenderVrmAddonImport476288532009661Temp_28_
+16:34:31 | INFO: Blender create Mesh node BlenderVrmAddonImport476288532009661Temp_31_
+16:34:31 | INFO: glTF import finished in 0.20s
+01:18.000  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_005.fbx'
+export finished in 0.0494 sec.
+BUILD Dress_005: verts=1152 z=[61.5,136.4] slots=['Dress_005_M4', 'Dress_005_M2', 'Dress_005_M3', 'Dress_005_M0', 'Dress_005_M1'] transparent_removed=18 body=638 own=230
+BUILD file d005.vrm done in 15.0s
+16:34:46 | INFO: Data are loaded, start creating Blender stuff
+16:34:46 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:34:46 | INFO: Blender create Mesh node Body (merged)
+16:34:46 | INFO: Blender create Mesh node Hair001 (merged)
+16:34:46 | INFO: Blender create Mesh node BlenderVrmAddonImport302221664845139Temp_26_
+16:34:46 | INFO: Blender create Mesh node BlenderVrmAddonImport302221664845139Temp_29_
+16:34:46 | INFO: glTF import finished in 0.22s
+01:29.922  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_006.fbx'
+export finished in 0.0420 sec.
+BUILD Dress_006: verts=822 z=[63.7,124.7] slots=['Dress_006_M2', 'Dress_006_M1', 'Dress_006_M0'] transparent_removed=14 body=482 own=83
+BUILD file d006.vrm done in 11.9s
+16:34:58 | INFO: Data are loaded, start creating Blender stuff
+16:34:58 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:34:58 | INFO: Blender create Mesh node Body (merged)
+16:34:58 | INFO: Blender create Mesh node Hair001 (merged)
+16:34:58 | INFO: Blender create Mesh node BlenderVrmAddonImport311111367792308Temp_27_
+16:34:58 | INFO: Blender create Mesh node BlenderVrmAddonImport311111367792308Temp_30_
+16:34:58 | INFO: glTF import finished in 0.19s
+01:42.750  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_007.fbx'
+export finished in 0.0495 sec.
+BUILD Dress_007: verts=965 z=[67.3,124.8] slots=['Dress_007_M3', 'Dress_007_M1', 'Dress_007_M2', 'Dress_007_M0'] transparent_removed=0 body=397 own=209
+BUILD file d007.vrm done in 12.8s
+16:35:11 | INFO: Data are loaded, start creating Blender stuff
+16:35:11 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:35:11 | INFO: Blender create Mesh node Body (merged)
+16:35:11 | INFO: Blender create Mesh node Hair001 (merged)
+16:35:11 | INFO: Blender create Mesh node BlenderVrmAddonImport029668441671151Temp_24_
+16:35:11 | INFO: Blender create Mesh node BlenderVrmAddonImport029668441671151Temp_27_
+16:35:11 | INFO: glTF import finished in 0.16s
+01:50.860  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_008.fbx'
+export finished in 0.0521 sec.
+BUILD Dress_008: verts=657 z=[56.2,131.7] slots=['Dress_008_M0'] transparent_removed=0 body=413 own=121
+BUILD file d008.vrm done in 8.1s
+16:35:19 | INFO: Data are loaded, start creating Blender stuff
+16:35:19 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:35:19 | INFO: Blender create Mesh node Body (merged)
+16:35:19 | INFO: Blender create Mesh node Hair001 (merged)
+16:35:19 | INFO: Blender create Mesh node BlenderVrmAddonImport292846002439993Temp_26_
+16:35:19 | INFO: Blender create Mesh node BlenderVrmAddonImport292846002439993Temp_29_
+16:35:19 | INFO: glTF import finished in 0.21s
+02:00.922  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_009.fbx'
+export finished in 0.1132 sec.
+BUILD Dress_009: verts=7015 z=[-0.2,138.4] slots=['Dress_009_M2', 'Dress_009_M0', 'Dress_009_M1'] transparent_removed=0 body=6409 own=0
+BUILD file d009.vrm done in 10.1s
+16:35:29 | INFO: Data are loaded, start creating Blender stuff
+16:35:29 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:35:29 | INFO: Blender create Mesh node Body (merged)
+16:35:29 | INFO: Blender create Mesh node Hair001 (merged)
+16:35:29 | INFO: Blender create Mesh node BlenderVrmAddonImport222740669933625Temp_25_
+16:35:29 | INFO: Blender create Mesh node BlenderVrmAddonImport222740669933625Temp_28_
+16:35:29 | INFO: glTF import finished in 0.19s
+02:10.391  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_010.fbx'
+export finished in 0.0562 sec.
+BUILD Dress_010: verts=5199 z=[-0.3,138.4] slots=['Dress_010_M1', 'Dress_010_M0'] transparent_removed=0 body=5097 own=0
+BUILD file d010.vrm done in 9.5s
+16:35:38 | INFO: Data are loaded, start creating Blender stuff
+16:35:38 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:35:38 | INFO: Blender create Mesh node Body (merged)
+16:35:38 | INFO: Blender create Mesh node Hair001 (merged)
+16:35:38 | INFO: Blender create Mesh node BlenderVrmAddonImport952695531290101Temp_28_
+16:35:38 | INFO: Blender create Mesh node BlenderVrmAddonImport952695531290101Temp_31_
+16:35:38 | INFO: glTF import finished in 0.18s
+02:23.532  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_011.fbx'
+export finished in 0.0693 sec.
+BUILD Dress_011: verts=1640 z=[48.1,135.0] slots=['Dress_011_M3', 'Dress_011_M2', 'Dress_011_M1', 'Dress_011_M0', 'Dress_011_M4'] transparent_removed=5 body=1078 own=169
+BUILD file d011.vrm done in 13.1s
+16:35:51 | INFO: Data are loaded, start creating Blender stuff
+16:35:51 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:35:52 | INFO: Blender create Mesh node Body (merged)
+16:35:52 | INFO: Blender create Mesh node Hair001 (merged)
+16:35:52 | INFO: Blender create Mesh node BlenderVrmAddonImport141261994903981Temp_27_
+16:35:52 | INFO: Blender create Mesh node BlenderVrmAddonImport141261994903981Temp_30_
+16:35:52 | INFO: glTF import finished in 0.18s
+02:34.594  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_012.fbx'
+export finished in 0.0554 sec.
+BUILD Dress_012: verts=3026 z=[57.7,135.8] slots=['Dress_012_M3', 'Dress_012_M1', 'Dress_012_M2', 'Dress_012_M0'] transparent_removed=4 body=945 own=222
+BUILD file d012.vrm done in 11.1s
+16:36:03 | INFO: Data are loaded, start creating Blender stuff
+16:36:03 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:36:03 | INFO: Blender create Mesh node Body (merged)
+16:36:03 | INFO: Blender create Mesh node Hair001 (merged)
+16:36:03 | INFO: Blender create Mesh node BlenderVrmAddonImport726993683174223Temp_28_
+16:36:03 | INFO: Blender create Mesh node BlenderVrmAddonImport726993683174223Temp_31_
+16:36:03 | INFO: glTF import finished in 0.18s
+02:48.235  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_013.fbx'
+export finished in 0.0799 sec.
+BUILD Dress_013: verts=2868 z=[50.3,137.1] slots=['Dress_013_M2', 'Dress_013_M4', 'Dress_013_M3', 'Dress_013_M0', 'Dress_013_M1'] transparent_removed=12 body=1562 own=276
+BUILD file d013.vrm done in 13.6s
+16:36:16 | INFO: Data are loaded, start creating Blender stuff
+16:36:16 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:36:16 | INFO: Blender create Mesh node Body (merged)
+16:36:16 | INFO: Blender create Mesh node Hair001 (merged)
+16:36:16 | INFO: Blender create Mesh node BlenderVrmAddonImport949949776286031Temp_28_
+16:36:16 | INFO: Blender create Mesh node BlenderVrmAddonImport949949776286031Temp_31_
+16:36:16 | INFO: glTF import finished in 0.22s
+03:01.907  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_014.fbx'
+export finished in 0.0836 sec.
+BUILD Dress_014: verts=2451 z=[50.7,136.3] slots=['Dress_014_M3', 'Dress_014_M1', 'Dress_014_M4', 'Dress_014_M2', 'Dress_014_M0'] transparent_removed=12 body=1366 own=203
+BUILD file d014.vrm done in 13.7s
+16:36:30 | INFO: Data are loaded, start creating Blender stuff
+16:36:30 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:36:30 | INFO: Blender create Mesh node Body (merged)
+16:36:30 | INFO: Blender create Mesh node Hair001 (merged)
+16:36:30 | INFO: Blender create Mesh node BlenderVrmAddonImport616539361371377Temp_28_
+16:36:30 | INFO: Blender create Mesh node BlenderVrmAddonImport616539361371377Temp_31_
+16:36:30 | INFO: glTF import finished in 0.21s
+03:15.141  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_015.fbx'
+export finished in 0.0936 sec.
+BUILD Dress_015: verts=2480 z=[57.8,138.9] slots=['Dress_015_M3', 'Dress_015_M4', 'Dress_015_M2', 'Dress_015_M1', 'Dress_015_M0'] transparent_removed=29 body=1975 own=70
+BUILD file d015.vrm done in 13.2s
+16:36:43 | INFO: Data are loaded, start creating Blender stuff
+16:36:43 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:36:43 | INFO: Blender create Mesh node Body (merged)
+16:36:43 | INFO: Blender create Mesh node Hair001 (merged)
+16:36:43 | INFO: Blender create Mesh node BlenderVrmAddonImport093324573997731Temp_27_
+16:36:43 | INFO: Blender create Mesh node BlenderVrmAddonImport093324573997731Temp_30_
+16:36:43 | INFO: glTF import finished in 0.23s
+03:28.579  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_016.fbx'
+export finished in 0.1040 sec.
+BUILD Dress_016: verts=1295 z=[49.3,135.5] slots=['Dress_016_M3', 'Dress_016_M0', 'Dress_016_M1', 'Dress_016_M2'] transparent_removed=0 body=781 own=210
+BUILD file d016.vrm done in 13.4s
+16:36:57 | INFO: Data are loaded, start creating Blender stuff
+16:36:57 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:36:57 | INFO: Blender create Mesh node Body (merged)
+16:36:57 | INFO: Blender create Mesh node Hair001 (merged)
+16:36:57 | INFO: Blender create Mesh node BlenderVrmAddonImport264218779958552Temp_26_
+16:36:57 | INFO: Blender create Mesh node BlenderVrmAddonImport264218779958552Temp_29_
+16:36:57 | INFO: glTF import finished in 0.21s
+03:41.375  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_017.fbx'
+export finished in 0.0571 sec.
+BUILD Dress_017: verts=2467 z=[16.3,135.4] slots=['Dress_017_M2', 'Dress_017_M1', 'Dress_017_M0'] transparent_removed=2 body=1542 own=104
+BUILD file d017.vrm done in 12.8s
+16:37:09 | INFO: Data are loaded, start creating Blender stuff
+16:37:09 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:37:09 | INFO: Blender create Mesh node Body (merged)
+16:37:09 | INFO: Blender create Mesh node Hair001 (merged)
+16:37:10 | INFO: Blender create Mesh node BlenderVrmAddonImport870799285862621Temp_27_
+16:37:10 | INFO: Blender create Mesh node BlenderVrmAddonImport870799285862621Temp_30_
+16:37:10 | INFO: glTF import finished in 0.22s
+03:54.532  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_018.fbx'
+export finished in 0.0886 sec.
+BUILD Dress_018: verts=2647 z=[13.3,136.4] slots=['Dress_018_M3', 'Dress_018_M2', 'Dress_018_M1', 'Dress_018_M0'] transparent_removed=0 body=1384 own=178
+BUILD file d018.vrm done in 13.2s
+16:37:22 | INFO: Data are loaded, start creating Blender stuff
+16:37:22 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:37:23 | INFO: Blender create Mesh node Body (merged)
+16:37:23 | INFO: Blender create Mesh node Hair001 (merged)
+16:37:23 | INFO: Blender create Mesh node BlenderVrmAddonImport961681087140424Temp_27_
+16:37:23 | INFO: Blender create Mesh node BlenderVrmAddonImport961681087140424Temp_30_
+16:37:23 | INFO: glTF import finished in 0.22s
+04:07.250  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_019.fbx'
+export finished in 0.0851 sec.
+BUILD Dress_019: verts=2650 z=[13.3,136.4] slots=['Dress_019_M3', 'Dress_019_M2', 'Dress_019_M1', 'Dress_019_M0'] transparent_removed=1 body=1371 own=166
+BUILD file d019.vrm done in 12.7s
+16:37:35 | INFO: Data are loaded, start creating Blender stuff
+16:37:35 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:37:35 | INFO: Blender create Mesh node Body (merged)
+16:37:35 | INFO: Blender create Mesh node Hair001 (merged)
+16:37:35 | INFO: Blender create Mesh node BlenderVrmAddonImport193037505508548Temp_27_
+16:37:35 | INFO: Blender create Mesh node BlenderVrmAddonImport193037505508548Temp_30_
+16:37:35 | INFO: glTF import finished in 0.20s
+04:21.954  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_020.fbx'
+export finished in 0.0754 sec.
+BUILD Dress_020: verts=2169 z=[57.7,137.1] slots=['Dress_020_M3', 'Dress_020_M1', 'Dress_020_M0', 'Dress_020_M2'] transparent_removed=2 body=1666 own=144
+BUILD file d020.vrm done in 14.7s
+16:37:50 | INFO: Data are loaded, start creating Blender stuff
+16:37:50 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:37:50 | INFO: Blender create Mesh node Body (merged)
+16:37:50 | INFO: Blender create Mesh node Hair001 (merged)
+16:37:50 | INFO: Blender create Mesh node BlenderVrmAddonImport369405340623016Temp_24_
+16:37:50 | INFO: Blender create Mesh node BlenderVrmAddonImport369405340623016Temp_27_
+16:37:50 | INFO: glTF import finished in 0.17s
+04:30.797  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_021.fbx'
+export finished in 0.0437 sec.
+BUILD Dress_021: verts=665 z=[40.7,133.7] slots=['Dress_021_M0'] transparent_removed=0 body=482 own=90
+BUILD file d021.vrm done in 8.8s
+16:37:59 | INFO: Data are loaded, start creating Blender stuff
+16:37:59 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:37:59 | INFO: Blender create Mesh node Body (merged)
+16:37:59 | INFO: Blender create Mesh node Hair001 (merged)
+16:37:59 | INFO: Blender create Mesh node BlenderVrmAddonImport779411222907778Temp_24_
+16:37:59 | INFO: Blender create Mesh node BlenderVrmAddonImport779411222907778Temp_27_
+16:37:59 | INFO: glTF import finished in 0.24s
+04:40.313  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_022.fbx'
+export finished in 0.0414 sec.
+BUILD Dress_022: verts=665 z=[40.7,133.7] slots=['Dress_022_M0'] transparent_removed=1 body=482 own=90
+BUILD file d022.vrm done in 9.5s
+16:38:08 | INFO: Data are loaded, start creating Blender stuff
+16:38:08 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:38:08 | INFO: Blender create Mesh node Body (merged)
+16:38:08 | INFO: Blender create Mesh node Hair001 (merged)
+16:38:08 | INFO: Blender create Mesh node BlenderVrmAddonImport753954371547660Temp_24_
+16:38:08 | INFO: Blender create Mesh node BlenderVrmAddonImport753954371547660Temp_27_
+16:38:08 | INFO: glTF import finished in 0.20s
+04:50.922  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_023.fbx'
+export finished in 0.0646 sec.
+BUILD Dress_023: verts=665 z=[40.7,133.7] slots=['Dress_023_M0'] transparent_removed=0 body=482 own=90
+BUILD file d023.vrm done in 10.6s
+16:38:19 | INFO: Data are loaded, start creating Blender stuff
+16:38:19 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:38:19 | INFO: Blender create Mesh node Body (merged)
+16:38:19 | INFO: Blender create Mesh node Hair001 (merged)
+16:38:19 | INFO: Blender create Mesh node BlenderVrmAddonImport850288774619978Temp_25_
+16:38:19 | INFO: Blender create Mesh node BlenderVrmAddonImport850288774619978Temp_28_
+16:38:19 | INFO: glTF import finished in 0.19s
+05:01.297  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_024.fbx'
+export finished in 0.0570 sec.
+BUILD Dress_024: verts=1638 z=[40.7,136.9] slots=['Dress_024_M0', 'Dress_024_M1'] transparent_removed=1 body=1170 own=100
+BUILD file d024.vrm done in 10.4s
+16:38:29 | INFO: Data are loaded, start creating Blender stuff
+16:38:29 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:38:29 | INFO: Blender create Mesh node Body (merged)
+16:38:29 | INFO: Blender create Mesh node Hair001 (merged)
+16:38:29 | INFO: Blender create Mesh node BlenderVrmAddonImport991141119180041Temp_25_
+16:38:29 | INFO: Blender create Mesh node BlenderVrmAddonImport991141119180041Temp_28_
+16:38:29 | INFO: glTF import finished in 0.23s
+05:11.235  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_025.fbx'
+export finished in 0.0464 sec.
+BUILD Dress_025: verts=1638 z=[40.7,136.9] slots=['Dress_025_M0', 'Dress_025_M1'] transparent_removed=2 body=1170 own=100
+BUILD file d025.vrm done in 9.9s
+16:38:39 | INFO: Data are loaded, start creating Blender stuff
+16:38:39 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:38:39 | INFO: Blender create Mesh node Body (merged)
+16:38:39 | INFO: Blender create Mesh node Hair001 (merged)
+16:38:39 | INFO: Blender create Mesh node BlenderVrmAddonImport276968869427154Temp_25_
+16:38:39 | INFO: Blender create Mesh node BlenderVrmAddonImport276968869427154Temp_28_
+16:38:39 | INFO: glTF import finished in 0.17s
+05:22.704  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_026.fbx'
+export finished in 0.0479 sec.
+BUILD Dress_026: verts=1638 z=[40.7,136.9] slots=['Dress_026_M0', 'Dress_026_M1'] transparent_removed=1 body=1170 own=100
+BUILD file d026.vrm done in 11.5s
+16:38:51 | INFO: Data are loaded, start creating Blender stuff
+16:38:51 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:38:51 | INFO: Blender create Mesh node Body (merged)
+16:38:51 | INFO: Blender create Mesh node Hair001 (merged)
+16:38:51 | INFO: Blender create Mesh node BlenderVrmAddonImport388802693267843Temp_24_
+16:38:51 | INFO: Blender create Mesh node BlenderVrmAddonImport388802693267843Temp_27_
+16:38:51 | INFO: glTF import finished in 0.18s
+05:31.047  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_027.fbx'
+export finished in 0.0482 sec.
+BUILD Dress_027: verts=2352 z=[20.0,136.7] slots=['Dress_027_M0'] transparent_removed=0 body=1552 own=267
+BUILD file d027.vrm done in 8.3s
+16:38:59 | INFO: Data are loaded, start creating Blender stuff
+16:38:59 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:38:59 | INFO: Blender create Mesh node Body (merged)
+16:38:59 | INFO: Blender create Mesh node Hair001 (merged)
+16:38:59 | INFO: Blender create Mesh node BlenderVrmAddonImport116391192669967Temp_25_
+16:38:59 | INFO: Blender create Mesh node BlenderVrmAddonImport116391192669967Temp_28_
+16:38:59 | INFO: glTF import finished in 0.18s
+05:42.000  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_028.fbx'
+export finished in 0.0608 sec.
+BUILD Dress_028: verts=3213 z=[27.3,136.7] slots=['Dress_028_M1', 'Dress_028_M0'] transparent_removed=0 body=1701 own=586
+BUILD file d029.vrm done in 11.0s
+16:39:10 | INFO: Data are loaded, start creating Blender stuff
+16:39:10 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:39:10 | INFO: Blender create Mesh node Body (merged)
+16:39:10 | INFO: Blender create Mesh node Hair001 (merged)
+16:39:10 | INFO: Blender create Mesh node BlenderVrmAddonImport738864776546202Temp_24_
+16:39:10 | INFO: Blender create Mesh node BlenderVrmAddonImport738864776546202Temp_27_
+16:39:10 | INFO: glTF import finished in 0.24s
+05:52.391  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Dress_029.fbx'
+export finished in 0.0408 sec.
+BUILD Dress_029: verts=906 z=[63.4,135.5] slots=['Dress_029_M0'] transparent_removed=2 body=706 own=68
+BUILD file d031.vrm done in 10.4s
+16:39:20 | INFO: Data are loaded, start creating Blender stuff
+16:39:20 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:39:20 | INFO: Blender create Mesh node Body (merged)
+16:39:20 | INFO: Blender create Mesh node Hair001 (merged)
+16:39:20 | INFO: Blender create Mesh node BlenderVrmAddonImport289867298465253Temp_24_
+16:39:20 | INFO: Blender create Mesh node BlenderVrmAddonImport289867298465253Temp_27_
+16:39:20 | INFO: glTF import finished in 0.19s
+06:02.969  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V01.fbx'
+export finished in 0.0775 sec.
+BUILD Hair_V01: verts=14047 z=[135.5,160.9] slots=['Hair_V01_M1', 'Hair_V01_M0']
+BUILD file h001.vrm done in 10.6s
+16:39:31 | INFO: Data are loaded, start creating Blender stuff
+16:39:31 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:39:31 | INFO: Blender create Mesh node Body (merged)
+16:39:31 | INFO: Blender create Mesh node Hair001 (merged)
+16:39:31 | INFO: Blender create Mesh node BlenderVrmAddonImport501169446159675Temp_24_
+16:39:31 | INFO: Blender create Mesh node BlenderVrmAddonImport501169446159675Temp_27_
+16:39:31 | INFO: glTF import finished in 0.24s
+06:14.250  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V02.fbx'
+export finished in 0.1486 sec.
+BUILD Hair_V02: verts=25494 z=[107.9,160.9] slots=['Hair_V02_M0', 'Hair_V02_M1']
+BUILD file h002.vrm done in 11.3s
+16:39:42 | INFO: Data are loaded, start creating Blender stuff
+16:39:42 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:39:42 | INFO: Blender create Mesh node Body (merged)
+16:39:42 | INFO: Blender create Mesh node Hair001 (merged)
+16:39:42 | INFO: Blender create Mesh node BlenderVrmAddonImport034761586137454Temp_24_
+16:39:42 | INFO: Blender create Mesh node BlenderVrmAddonImport034761586137454Temp_27_
+16:39:42 | INFO: glTF import finished in 0.23s
+06:23.547  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V03.fbx'
+export finished in 0.1354 sec.
+BUILD Hair_V03: verts=19390 z=[131.7,160.8] slots=['Hair_V03_M0', 'Hair_V03_M1']
+BUILD file h003.vrm done in 9.3s
+16:39:51 | INFO: Data are loaded, start creating Blender stuff
+16:39:52 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:39:52 | INFO: Blender create Mesh node Body (merged)
+16:39:52 | INFO: Blender create Mesh node Hair001 (merged)
+16:39:52 | INFO: Blender create Mesh node BlenderVrmAddonImport096989777217189Temp_24_
+16:39:52 | INFO: Blender create Mesh node BlenderVrmAddonImport096989777217189Temp_27_
+16:39:52 | INFO: glTF import finished in 0.29s
+06:34.094  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V04.fbx'
+export finished in 0.1344 sec.
+BUILD Hair_V04: verts=19661 z=[132.8,161.2] slots=['Hair_V04_M1', 'Hair_V04_M0']
+BUILD file h004.vrm done in 10.6s
+16:40:02 | INFO: Data are loaded, start creating Blender stuff
+16:40:02 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:40:02 | INFO: Blender create Mesh node Body (merged)
+16:40:02 | INFO: Blender create Mesh node Hair001 (merged)
+16:40:02 | INFO: Blender create Mesh node BlenderVrmAddonImport843290264262290Temp_24_
+16:40:02 | INFO: Blender create Mesh node BlenderVrmAddonImport843290264262290Temp_27_
+16:40:02 | INFO: glTF import finished in 0.22s
+06:45.094  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V05.fbx'
+export finished in 0.1027 sec.
+BUILD Hair_V05: verts=15782 z=[133.6,162.0] slots=['Hair_V05_M0', 'Hair_V05_M1']
+BUILD file h005.vrm done in 11.0s
+16:40:13 | INFO: Data are loaded, start creating Blender stuff
+16:40:13 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:40:13 | INFO: Blender create Mesh node Body (merged)
+16:40:13 | INFO: Blender create Mesh node Hair001 (merged)
+16:40:13 | INFO: Blender create Mesh node BlenderVrmAddonImport586772921546089Temp_24_
+16:40:13 | INFO: Blender create Mesh node BlenderVrmAddonImport586772921546089Temp_27_
+16:40:13 | INFO: glTF import finished in 0.26s
+06:56.485  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V06.fbx'
+export finished in 0.1279 sec.
+BUILD Hair_V06: verts=22498 z=[133.2,166.0] slots=['Hair_V06_M0', 'Hair_V06_M1']
+BUILD file h006.vrm done in 11.4s
+16:40:24 | INFO: Data are loaded, start creating Blender stuff
+16:40:24 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:40:24 | INFO: Blender create Mesh node Body (merged)
+16:40:25 | INFO: Blender create Mesh node Hair001 (merged)
+16:40:25 | INFO: Blender create Mesh node BlenderVrmAddonImport945326095913507Temp_24_
+16:40:25 | INFO: Blender create Mesh node BlenderVrmAddonImport945326095913507Temp_27_
+16:40:25 | INFO: glTF import finished in 0.25s
+07:06.000  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V07.fbx'
+export finished in 0.1491 sec.
+BUILD Hair_V07: verts=17820 z=[135.5,160.7] slots=['Hair_V07_M0', 'Hair_V07_M1']
+BUILD file h007.vrm done in 9.5s
+16:40:34 | INFO: Data are loaded, start creating Blender stuff
+16:40:34 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:40:34 | INFO: Blender create Mesh node Body (merged)
+16:40:34 | INFO: Blender create Mesh node Hair001 (merged)
+16:40:34 | INFO: Blender create Mesh node BlenderVrmAddonImport233136722979998Temp_24_
+16:40:34 | INFO: Blender create Mesh node BlenderVrmAddonImport233136722979998Temp_27_
+16:40:34 | INFO: glTF import finished in 0.23s
+07:17.469  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V08.fbx'
+export finished in 0.1022 sec.
+BUILD Hair_V08: verts=13720 z=[133.7,161.3] slots=['Hair_V08_M0', 'Hair_V08_M1']
+BUILD file h008.vrm done in 11.5s
+16:40:45 | INFO: Data are loaded, start creating Blender stuff
+16:40:45 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:40:45 | INFO: Blender create Mesh node Body (merged)
+16:40:46 | INFO: Blender create Mesh node Hair001 (merged)
+16:40:46 | INFO: Blender create Mesh node BlenderVrmAddonImport886836078134200Temp_24_
+16:40:46 | INFO: Blender create Mesh node BlenderVrmAddonImport886836078134200Temp_27_
+16:40:46 | INFO: glTF import finished in 0.28s
+07:27.782  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V09.fbx'
+export finished in 0.0966 sec.
+BUILD Hair_V09: verts=16642 z=[129.1,160.9] slots=['Hair_V09_M0', 'Hair_V09_M1']
+BUILD file h009.vrm done in 10.3s
+16:40:56 | INFO: Data are loaded, start creating Blender stuff
+16:40:56 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:40:56 | INFO: Blender create Mesh node Body (merged)
+16:40:56 | INFO: Blender create Mesh node Hair001 (merged)
+16:40:56 | INFO: Blender create Mesh node BlenderVrmAddonImport494538689424773Temp_24_
+16:40:56 | INFO: Blender create Mesh node BlenderVrmAddonImport494538689424773Temp_27_
+16:40:56 | INFO: glTF import finished in 0.30s
+07:38.360  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V10.fbx'
+export finished in 0.1061 sec.
+BUILD Hair_V10: verts=23014 z=[105.6,160.5] slots=['Hair_V10_M0', 'Hair_V10_M1']
+BUILD file h010.vrm done in 10.6s
+16:41:06 | INFO: Data are loaded, start creating Blender stuff
+16:41:06 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:41:06 | INFO: Blender create Mesh node Body (merged)
+16:41:06 | INFO: Blender create Mesh node Hair001 (merged)
+16:41:07 | INFO: Blender create Mesh node BlenderVrmAddonImport235482492469047Temp_24_
+16:41:07 | INFO: Blender create Mesh node BlenderVrmAddonImport235482492469047Temp_27_
+16:41:07 | INFO: glTF import finished in 0.26s
+07:49.188  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V11.fbx'
+export finished in 0.0930 sec.
+BUILD Hair_V11: verts=18816 z=[130.9,162.9] slots=['Hair_V11_M1', 'Hair_V11_M0']
+BUILD file h011.vrm done in 10.8s
+16:41:17 | INFO: Data are loaded, start creating Blender stuff
+16:41:17 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:41:17 | INFO: Blender create Mesh node Body (merged)
+16:41:17 | INFO: Blender create Mesh node Hair001 (merged)
+16:41:17 | INFO: Blender create Mesh node BlenderVrmAddonImport534588871371169Temp_24_
+16:41:17 | INFO: Blender create Mesh node BlenderVrmAddonImport534588871371169Temp_27_
+16:41:17 | INFO: glTF import finished in 0.23s
+08:00.563  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V12.fbx'
+export finished in 0.1136 sec.
+BUILD Hair_V12: verts=24145 z=[103.5,160.9] slots=['Hair_V12_M0', 'Hair_V12_M1']
+BUILD file h012.vrm done in 11.4s
+16:41:28 | INFO: Data are loaded, start creating Blender stuff
+16:41:28 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:41:28 | INFO: Blender create Mesh node Body (merged)
+16:41:28 | INFO: Blender create Mesh node Hair001 (merged)
+16:41:29 | INFO: Blender create Mesh node BlenderVrmAddonImport065356557637371Temp_24_
+16:41:29 | INFO: Blender create Mesh node BlenderVrmAddonImport065356557637371Temp_27_
+16:41:29 | INFO: glTF import finished in 0.22s
+08:10.360  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V13.fbx'
+export finished in 0.0998 sec.
+BUILD Hair_V13: verts=14550 z=[134.2,160.4] slots=['Hair_V13_M1', 'Hair_V13_M0']
+BUILD file h013.vrm done in 9.8s
+16:41:38 | INFO: Data are loaded, start creating Blender stuff
+16:41:38 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:41:38 | INFO: Blender create Mesh node Body (merged)
+16:41:38 | INFO: Blender create Mesh node Hair001 (merged)
+16:41:38 | INFO: Blender create Mesh node BlenderVrmAddonImport538918356224819Temp_24_
+16:41:39 | INFO: Blender create Mesh node BlenderVrmAddonImport538918356224819Temp_27_
+16:41:39 | INFO: glTF import finished in 0.28s
+08:20.969  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V14.fbx'
+export finished in 0.1086 sec.
+BUILD Hair_V14: verts=14466 z=[129.0,160.6] slots=['Hair_V14_M1', 'Hair_V14_M0']
+BUILD file h014.vrm done in 10.6s
+16:41:50 | INFO: Data are loaded, start creating Blender stuff
+16:41:50 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:41:50 | INFO: Blender create Mesh node Body (merged)
+16:41:50 | INFO: Blender create Mesh node Hair001 (merged)
+16:41:50 | INFO: Blender create Mesh node BlenderVrmAddonImport472940239340295Temp_24_
+16:41:50 | INFO: Blender create Mesh node BlenderVrmAddonImport472940239340295Temp_27_
+16:41:50 | INFO: glTF import finished in 0.44s
+08:33.844  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V15.fbx'
+export finished in 0.1106 sec.
+BUILD Hair_V15: verts=22096 z=[134.1,160.7] slots=['Hair_V15_M0', 'Hair_V15_M1']
+BUILD file h015.vrm done in 12.9s
+16:42:02 | INFO: Data are loaded, start creating Blender stuff
+16:42:02 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:42:02 | INFO: Blender create Mesh node Body (merged)
+16:42:02 | INFO: Blender create Mesh node Hair001 (merged)
+16:42:02 | INFO: Blender create Mesh node BlenderVrmAddonImport301466023898840Temp_24_
+16:42:02 | INFO: Blender create Mesh node BlenderVrmAddonImport301466023898840Temp_27_
+16:42:02 | INFO: glTF import finished in 0.25s
+08:43.407  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V16.fbx'
+export finished in 0.1179 sec.
+BUILD Hair_V16: verts=18398 z=[118.1,160.8] slots=['Hair_V16_M0', 'Hair_V16_M1']
+BUILD file h016.vrm done in 9.6s
+16:42:11 | INFO: Data are loaded, start creating Blender stuff
+16:42:11 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:42:11 | INFO: Blender create Mesh node Body (merged)
+16:42:11 | INFO: Blender create Mesh node Hair001 (merged)
+16:42:12 | INFO: Blender create Mesh node BlenderVrmAddonImport635721657524144Temp_24_
+16:42:12 | INFO: Blender create Mesh node BlenderVrmAddonImport635721657524144Temp_27_
+16:42:12 | INFO: glTF import finished in 0.29s
+08:53.547  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V17.fbx'
+export finished in 0.1120 sec.
+BUILD Hair_V17: verts=23562 z=[122.5,160.8] slots=['Hair_V17_M0', 'Hair_V17_M1']
+BUILD file h017.vrm done in 10.1s
+16:42:21 | INFO: Data are loaded, start creating Blender stuff
+16:42:21 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:42:21 | INFO: Blender create Mesh node Body (merged)
+16:42:21 | INFO: Blender create Mesh node Hair001 (merged)
+16:42:22 | INFO: Blender create Mesh node BlenderVrmAddonImport377541774360492Temp_24_
+16:42:22 | INFO: Blender create Mesh node BlenderVrmAddonImport377541774360492Temp_27_
+16:42:22 | INFO: glTF import finished in 0.18s
+09:03.797  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V18.fbx'
+export finished in 0.0677 sec.
+BUILD Hair_V18: verts=11406 z=[135.0,162.1] slots=['Hair_V18_M1', 'Hair_V18_M0']
+BUILD file h018.vrm done in 10.3s
+16:42:32 | INFO: Data are loaded, start creating Blender stuff
+16:42:32 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:42:32 | INFO: Blender create Mesh node Body (merged)
+16:42:32 | INFO: Blender create Mesh node Hair001 (merged)
+16:42:32 | INFO: Blender create Mesh node BlenderVrmAddonImport218538976645348Temp_24_
+16:42:32 | INFO: Blender create Mesh node BlenderVrmAddonImport218538976645348Temp_27_
+16:42:32 | INFO: glTF import finished in 0.18s
+09:14.454  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V19.fbx'
+export finished in 0.1043 sec.
+BUILD Hair_V19: verts=13056 z=[135.5,160.9] slots=['Hair_V19_M0', 'Hair_V19_M1']
+BUILD file h019.vrm done in 10.6s
+16:42:42 | INFO: Data are loaded, start creating Blender stuff
+16:42:42 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:42:42 | INFO: Blender create Mesh node Body (merged)
+16:42:42 | INFO: Blender create Mesh node Hair001 (merged)
+16:42:42 | INFO: Blender create Mesh node BlenderVrmAddonImport094431562583719Temp_24_
+16:42:42 | INFO: Blender create Mesh node BlenderVrmAddonImport094431562583719Temp_27_
+16:42:42 | INFO: glTF import finished in 0.18s
+09:23.875  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V20.fbx'
+export finished in 0.0985 sec.
+BUILD Hair_V20: verts=10740 z=[129.1,160.9] slots=['Hair_V20_M0', 'Hair_V20_M1']
+BUILD file h020.vrm done in 9.4s
+16:42:52 | INFO: Data are loaded, start creating Blender stuff
+16:42:52 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:42:52 | INFO: Blender create Mesh node Body (merged)
+16:42:52 | INFO: Blender create Mesh node Hair001 (merged)
+16:42:52 | INFO: Blender create Mesh node BlenderVrmAddonImport499220256131675Temp_24_
+16:42:52 | INFO: Blender create Mesh node BlenderVrmAddonImport499220256131675Temp_27_
+16:42:52 | INFO: glTF import finished in 0.23s
+09:33.547  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V21.fbx'
+export finished in 0.0788 sec.
+BUILD Hair_V21: verts=12220 z=[135.5,160.9] slots=['Hair_V21_M1', 'Hair_V21_M0']
+BUILD file h021.vrm done in 9.7s
+16:43:01 | INFO: Data are loaded, start creating Blender stuff
+16:43:01 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:43:01 | INFO: Blender create Mesh node Body (merged)
+16:43:01 | INFO: Blender create Mesh node Hair001 (merged)
+16:43:02 | INFO: Blender create Mesh node BlenderVrmAddonImport766108068176486Temp_24_
+16:43:02 | INFO: Blender create Mesh node BlenderVrmAddonImport766108068176486Temp_27_
+16:43:02 | INFO: glTF import finished in 0.22s
+09:43.141  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V22.fbx'
+export finished in 0.0821 sec.
+BUILD Hair_V22: verts=17617 z=[106.8,160.9] slots=['Hair_V22_M1', 'Hair_V22_M0']
+BUILD file h022.vrm done in 9.6s
+16:43:11 | INFO: Data are loaded, start creating Blender stuff
+16:43:11 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:43:11 | INFO: Blender create Mesh node Body (merged)
+16:43:11 | INFO: Blender create Mesh node Hair001 (merged)
+16:43:11 | INFO: Blender create Mesh node BlenderVrmAddonImport808793963036960Temp_24_
+16:43:11 | INFO: Blender create Mesh node BlenderVrmAddonImport808793963036960Temp_27_
+16:43:11 | INFO: glTF import finished in 0.17s
+09:53.016  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V23.fbx'
+export finished in 0.0698 sec.
+BUILD Hair_V23: verts=9579 z=[133.8,165.2] slots=['Hair_V23_M0', 'Hair_V23_M1']
+BUILD file h023.vrm done in 9.9s
+16:43:21 | INFO: Data are loaded, start creating Blender stuff
+16:43:21 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:43:21 | INFO: Blender create Mesh node Body (merged)
+16:43:21 | INFO: Blender create Mesh node Hair001 (merged)
+16:43:21 | INFO: Blender create Mesh node BlenderVrmAddonImport317530824469270Temp_24_
+16:43:21 | INFO: Blender create Mesh node BlenderVrmAddonImport317530824469270Temp_27_
+16:43:21 | INFO: glTF import finished in 0.17s
+10:02.500  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V24.fbx'
+export finished in 0.1232 sec.
+BUILD Hair_V24: verts=9743 z=[135.5,161.1] slots=['Hair_V24_M1', 'Hair_V24_M0']
+BUILD file h024.vrm done in 9.5s
+16:43:30 | INFO: Data are loaded, start creating Blender stuff
+16:43:30 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:43:30 | INFO: Blender create Mesh node Body (merged)
+16:43:30 | INFO: Blender create Mesh node Hair001 (merged)
+16:43:31 | INFO: Blender create Mesh node BlenderVrmAddonImport272277063757222Temp_24_
+16:43:31 | INFO: Blender create Mesh node BlenderVrmAddonImport272277063757222Temp_27_
+16:43:31 | INFO: glTF import finished in 0.19s
+10:12.532  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V25.fbx'
+export finished in 0.0729 sec.
+BUILD Hair_V25: verts=10817 z=[131.8,161.6] slots=['Hair_V25_M0', 'Hair_V25_M1']
+BUILD file h025.vrm done in 10.0s
+16:43:40 | INFO: Data are loaded, start creating Blender stuff
+16:43:40 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:43:40 | INFO: Blender create Mesh node Body (merged)
+16:43:41 | INFO: Blender create Mesh node Hair001 (merged)
+16:43:41 | INFO: Blender create Mesh node BlenderVrmAddonImport019143403214480Temp_24_
+16:43:41 | INFO: Blender create Mesh node BlenderVrmAddonImport019143403214480Temp_27_
+16:43:41 | INFO: glTF import finished in 0.25s
+10:24.938  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V26.fbx'
+export finished in 0.1148 sec.
+BUILD Hair_V26: verts=18260 z=[102.1,165.7] slots=['Hair_V26_M0', 'Hair_V26_M1']
+BUILD file h026.vrm done in 12.4s
+16:43:53 | INFO: Data are loaded, start creating Blender stuff
+16:43:53 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:43:53 | INFO: Blender create Mesh node Body (merged)
+16:43:53 | INFO: Blender create Mesh node Hair001 (merged)
+16:43:53 | INFO: Blender create Mesh node BlenderVrmAddonImport959827704579648Temp_24_
+16:43:53 | INFO: Blender create Mesh node BlenderVrmAddonImport959827704579648Temp_27_
+16:43:53 | INFO: glTF import finished in 0.18s
+10:34.594  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V27.fbx'
+export finished in 0.0772 sec.
+BUILD Hair_V27: verts=8115 z=[128.1,161.6] slots=['Hair_V27_M0', 'Hair_V27_M1']
+BUILD file h027.vrm done in 9.7s
+16:44:02 | INFO: Data are loaded, start creating Blender stuff
+16:44:02 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:03 | INFO: Blender create Mesh node Body (merged)
+16:44:03 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:03 | INFO: Blender create Mesh node BlenderVrmAddonImport064073840955996Temp_22_
+16:44:03 | INFO: Blender create Mesh node BlenderVrmAddonImport064073840955996Temp_25_
+16:44:03 | INFO: glTF import finished in 0.18s
+10:43.657  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V28.fbx'
+export finished in 0.1124 sec.
+BUILD Hair_V28: verts=12663 z=[137.2,160.6] slots=['Hair_V28_M0']
+BUILD file h028.vrm done in 9.1s
+16:44:12 | INFO: Data are loaded, start creating Blender stuff
+16:44:12 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:12 | INFO: Blender create Mesh node Body (merged)
+16:44:12 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:12 | INFO: Blender create Mesh node BlenderVrmAddonImport704892359387935Temp_22_
+16:44:12 | INFO: Blender create Mesh node BlenderVrmAddonImport704892359387935Temp_25_
+16:44:12 | INFO: glTF import finished in 0.19s
+10:53.532  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V29.fbx'
+export finished in 0.0859 sec.
+BUILD Hair_V29: verts=12721 z=[137.2,160.9] slots=['Hair_V29_M0']
+BUILD file h029.vrm done in 9.9s
+16:44:21 | INFO: Data are loaded, start creating Blender stuff
+16:44:21 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:21 | INFO: Blender create Mesh node Body (merged)
+16:44:21 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:22 | INFO: Blender create Mesh node BlenderVrmAddonImport176715436131380Temp_22_
+16:44:22 | INFO: Blender create Mesh node BlenderVrmAddonImport176715436131380Temp_25_
+16:44:22 | INFO: glTF import finished in 0.19s
+11:02.625  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V30.fbx'
+export finished in 0.1024 sec.
+BUILD Hair_V30: verts=12690 z=[102.1,166.0] slots=['Hair_V30_M0']
+BUILD file h030.vrm done in 9.1s
+16:44:30 | INFO: Data are loaded, start creating Blender stuff
+16:44:30 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:31 | INFO: Blender create Mesh node Body (merged)
+16:44:31 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:31 | INFO: Blender create Mesh node BlenderVrmAddonImport655548531376764Temp_22_
+16:44:31 | INFO: Blender create Mesh node BlenderVrmAddonImport655548531376764Temp_25_
+16:44:31 | INFO: glTF import finished in 0.21s
+11:11.422  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V31.fbx'
+export finished in 0.0906 sec.
+BUILD Hair_V31: verts=11557 z=[99.3,160.0] slots=['Hair_V31_M0']
+BUILD file h031.vrm done in 8.8s
+16:44:39 | INFO: Data are loaded, start creating Blender stuff
+16:44:39 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:39 | INFO: Blender create Mesh node Body (merged)
+16:44:39 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:40 | INFO: Blender create Mesh node BlenderVrmAddonImport265328361940073Temp_24_
+16:44:40 | INFO: Blender create Mesh node BlenderVrmAddonImport265328361940073Temp_27_
+16:44:40 | INFO: glTF import finished in 0.22s
+11:20.407  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V32.fbx'
+export finished in 0.0775 sec.
+BUILD Hair_V32: verts=6063 z=[131.6,161.7] slots=['Hair_V32_M0', 'Hair_V32_M1']
+BUILD file h032.vrm done in 9.0s
+16:44:48 | INFO: Data are loaded, start creating Blender stuff
+16:44:48 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:48 | INFO: Blender create Mesh node Body (merged)
+16:44:48 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:48 | INFO: Blender create Mesh node BlenderVrmAddonImport492326189458586Temp_24_
+16:44:48 | INFO: Blender create Mesh node BlenderVrmAddonImport492326189458586Temp_27_
+16:44:48 | INFO: glTF import finished in 0.20s
+11:29.594  blend            | Read blend: "D:\Projects\ArtStyleExperimental\SourceAssets\VRoid\parts_full\evrar_full_parts.blend"
+
+FBX export starting... '../VRoid/built\\SK_Hair_V33.fbx'
+export finished in 0.0834 sec.
+BUILD Hair_V33: verts=7210 z=[114.9,160.3] slots=['Hair_V33_M0', 'Hair_V33_M1']
+BUILD file h033.vrm done in 9.2s
+16:44:58 | INFO: Data are loaded, start creating Blender stuff
+16:44:58 | INFO: Blender create Mesh node Face (merged)(Clone)
+16:44:58 | INFO: Blender create Mesh node Body (merged)
+16:44:58 | INFO: Blender create Mesh node Hair001 (merged)
+16:44:58 | INFO: Blender create Mesh node BlenderVrmAddonImport270590814170056Temp_24_
+16:44:58 | INFO: Blender create Mesh node BlenderVrmAddonImport270590814170056Temp_27_
+16:44:58 | INFO: glTF import finished in 0.20s
+
+FBX export starting... '../VRoid/built\\SK_Hair_V34.fbx'
+export finished in 0.0873 sec.
+BUILD Hair_V34: verts=8884 z=[108.7,162.0] slots=['Hair_V34_M1', 'Hair_V34_M0']
+BUILD file h034.vrm done in 9.9s
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

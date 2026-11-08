@@ -8,6 +8,7 @@
 #include "DressUpGameMode.generated.h"
 
 class ACameraActor;
+class UDressUpItem;
 class ADressUpCharacter;
 class UDressUpFinalScreen;
 class UDressUpMainMenu;
@@ -91,6 +92,22 @@ public:
 	UFUNCTION(Exec)
 	void DressUpReplay() { Replay(); }
 
+	/**
+	 * Test shortcut: takes everything off and puts on the named items, e.g.
+	 * "DressUpWear DA_Top_001 DA_Bottom_004:2" (":N" picks variant N). Also hides the wardrobe
+	 * when the list ends with "nopanel", for clean screenshots.
+	 */
+	UFUNCTION(Exec)
+	void DressUpWear(const FString& Items);
+
+	/**
+	 * Test shortcut: puts every catalog item on in turn (one item per slot per outfit, so many
+	 * at once) and saves a front and a back photo of each outfit to Saved/Gallery.
+	 * The outfits are listed in the log as "GALLERY <n>: <items>".
+	 */
+	UFUNCTION(Exec)
+	void DressUpGallery();
+
 protected:
 	virtual void BeginPlay() override;
 	virtual void SetupInputComponent() override;
@@ -103,6 +120,13 @@ private:
 	void ShowFinalScreen();
 
 	static FString PhotoDirectory();
+
+	/** One gallery step: dress, then photograph front and back on timers. */
+	void GalleryStep();
+
+	TArray<TArray<TObjectPtr<UDressUpItem>>> GalleryOutfits;
+	int32 GalleryIndex = 0;
+	FTimerHandle GalleryTimer;
 
 	/** Turns the character while the left mouse button drags on the scene, and eases it back when released. */
 	void UpdateRotation(float DeltaTime);

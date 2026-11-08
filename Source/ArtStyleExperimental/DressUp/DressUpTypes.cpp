@@ -21,6 +21,6 @@ TArray<FDressUpTab> DressUp::DefaultTabs()
 		Make(TEXT("Elbise"), {EDressUpSlot::Dress}),
 		Make(TEXT("Ayakkabı"), {EDressUpSlot::Shoes}),
 		Make(TEXT("Saç"), {EDressUpSlot::Hair}),
-		Make(TEXT("Aksesuar"), {EDressUpSlot::Glasses, EDressUpSlot::Hat, EDressUpSlot::Earrings, EDressUpSlot::Necklace, EDressUpSlot::Bag}),
+		Make(TEXT("Aksesuar"), {EDressUpSlot::Glasses, EDressUpSlot::Hat, EDressUpSlot::Gloves, EDressUpSlot::Earrings, EDressUpSlot::Necklace, EDressUpSlot::Bag}),
 	};
 }

@@ -1,0 +1,9984 @@
+[
+ {
+  "id": "Top_001",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p001.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "a55919dbf0"
+   ],
+   "shape": [
+    8172
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p001.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "a55919dbf0"
+    ],
+    "shape": [
+     8172
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_001",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p001.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "9e77d4251e"
+   ],
+   "shape": [
+    1884
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p001.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "9e77d4251e"
+    ],
+    "shape": [
+     1884
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_001",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p001.vrm",
+   "materials": [
+    "N00_001_02_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "ba93280c78"
+   ],
+   "shape": [
+    3840
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p001.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "ba93280c78"
+    ],
+    "shape": [
+     3840
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Neck_001",
+  "slot": "Neck",
+  "mesh": {
+   "slot": "Neck",
+   "file": "p001.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "b73f2bb9a5"
+   ],
+   "shape": [
+    393
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Neck",
+    "file": "p001.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "b73f2bb9a5"
+    ],
+    "shape": [
+     393
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_001",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p001.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "af58086f4f"
+   ],
+   "shape": [
+    270
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p001.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "af58086f4f"
+    ],
+    "shape": [
+     270
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_002",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p002.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_06 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "33303f42f0",
+    "9d64755409"
+   ],
+   "shape": [
+    147,
+    6102
+   ],
+   "tags": [
+    "Onepiece",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p002.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_06 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "33303f42f0",
+     "9d64755409"
+    ],
+    "shape": [
+     147,
+     6102
+    ],
+    "tags": [
+     "Onepiece",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_002",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p002.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "7856eda71e",
+    "a46fced317"
+   ],
+   "shape": [
+    186,
+    1884
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p002.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "7856eda71e",
+     "a46fced317"
+    ],
+    "shape": [
+     186,
+     1884
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_002",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p002.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "07610f8e51"
+   ],
+   "shape": [
+    2196
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p002.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "07610f8e51"
+    ],
+    "shape": [
+     2196
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Neck_002",
+  "slot": "Neck",
+  "mesh": {
+   "slot": "Neck",
+   "file": "p002.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_05 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_04 (Instance)"
+   ],
+   "textures": [
+    "956b2642a0",
+    "3596e1bc3c",
+    "e22dbe70c7"
+   ],
+   "shape": [
+    159,
+    378,
+    792
+   ],
+   "tags": [
+    "Onepiece",
+    "Onepiece",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Neck",
+    "file": "p002.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_05 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_04 (Instance)"
+    ],
+    "textures": [
+     "956b2642a0",
+     "3596e1bc3c",
+     "e22dbe70c7"
+    ],
+    "shape": [
+     159,
+     378,
+     792
+    ],
+    "tags": [
+     "Onepiece",
+     "Onepiece",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_002",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p002.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "de37ddf188"
+   ],
+   "shape": [
+    738
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p002.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "de37ddf188"
+    ],
+    "shape": [
+     738
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_003",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p003.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_06 (Instance)",
+    "N00_005_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "135dc5914d",
+    "526c8b8a4f"
+   ],
+   "shape": [
+    246,
+    9048
+   ],
+   "tags": [
+    "Onepiece",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p003.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_06 (Instance)",
+     "N00_005_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "135dc5914d",
+     "526c8b8a4f"
+    ],
+    "shape": [
+     246,
+     9048
+    ],
+    "tags": [
+     "Onepiece",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_003",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p003.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "eb0a223f2c"
+   ],
+   "shape": [
+    3564
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p003.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "eb0a223f2c"
+    ],
+    "shape": [
+     3564
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_003",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p003.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_04 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_05 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "765d7b25a2",
+    "759fb8aefb",
+    "b0f4fcf703",
+    "2a0944f959",
+    "e194de1d15"
+   ],
+   "shape": [
+    321,
+    618,
+    972,
+    1254,
+    4701
+   ],
+   "tags": [
+    "Tops",
+    "Onepiece",
+    "Onepiece",
+    "Tops",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p003.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_04 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_05 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "765d7b25a2",
+     "759fb8aefb",
+     "b0f4fcf703",
+     "2a0944f959",
+     "e194de1d15"
+    ],
+    "shape": [
+     321,
+     618,
+     972,
+     1254,
+     4701
+    ],
+    "tags": [
+     "Tops",
+     "Onepiece",
+     "Onepiece",
+     "Tops",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Neck_003",
+  "slot": "Neck",
+  "mesh": {
+   "slot": "Neck",
+   "file": "p003.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "a4ead3b00b"
+   ],
+   "shape": [
+    210
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Neck",
+    "file": "p003.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "a4ead3b00b"
+    ],
+    "shape": [
+     210
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_003",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p003.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_03 (Instance)"
+   ],
+   "textures": [
+    "37c6160a69"
+   ],
+   "shape": [
+    645
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p003.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)"
+    ],
+    "textures": [
+     "37c6160a69"
+    ],
+    "shape": [
+     645
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_004",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p004.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "8163ea6a8f",
+    "b96224436e",
+    "58da6a1d63"
+   ],
+   "shape": [
+    501,
+    2436,
+    6828
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p004.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "8163ea6a8f",
+     "b96224436e",
+     "58da6a1d63"
+    ],
+    "shape": [
+     501,
+     2436,
+     6828
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_004",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p004.vrm",
+   "materials": [
+    "N00_004_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "8f8030db55"
+   ],
+   "shape": [
+    2136
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p004.vrm",
+    "materials": [
+     "N00_004_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "8f8030db55"
+    ],
+    "shape": [
+     2136
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p038.vrm",
+    "materials": [
+     "N00_004_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "01a23625fa"
+    ],
+    "shape": [
+     2136
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p055.vrm",
+    "materials": [
+     "N00_004_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "432b26306c"
+    ],
+    "shape": [
+     2136
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p059.vrm",
+    "materials": [
+     "N00_004_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "0ec7998102"
+    ],
+    "shape": [
+     2136
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_004",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p004.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "8cdfcfff95",
+    "62ab5dd233"
+   ],
+   "shape": [
+    894,
+    7929
+   ],
+   "tags": [
+    "Onepiece",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p004.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "8cdfcfff95",
+     "62ab5dd233"
+    ],
+    "shape": [
+     894,
+     7929
+    ],
+    "tags": [
+     "Onepiece",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Neck_004",
+  "slot": "Neck",
+  "mesh": {
+   "slot": "Neck",
+   "file": "p004.vrm",
+   "materials": [
+    "N00_007_01_Accessory_Tie_01_CLOTH_01 (Instance)",
+    "N00_007_01_Accessory_Tie_01_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "47d2933cb7",
+    "60b7ed8dc4"
+   ],
+   "shape": [
+    225,
+    342
+   ],
+   "tags": [
+    "Accessory",
+    "Accessory"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Neck",
+    "file": "p004.vrm",
+    "materials": [
+     "N00_007_01_Accessory_Tie_01_CLOTH_01 (Instance)",
+     "N00_007_01_Accessory_Tie_01_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "47d2933cb7",
+     "60b7ed8dc4"
+    ],
+    "shape": [
+     225,
+     342
+    ],
+    "tags": [
+     "Accessory",
+     "Accessory"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_004",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p004.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "7cf3b7120e"
+   ],
+   "shape": [
+    198
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p004.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "7cf3b7120e"
+    ],
+    "shape": [
+     198
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_005",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p005.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+    "N00_005_01_Tops_01_CLOTH (Instance)",
+    "N00_007_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_04_Tops_01_CLOTH (Instance)",
+    "N00_007_03_Tops_01_CLOTH_01 (Instance)",
+    "N00_007_03_Tops_01_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "f66438584d",
+    "a487ca6e78",
+    "5f5c91993e",
+    "3d5f248bef",
+    "99014d7340",
+    "741989fe81"
+   ],
+   "shape": [
+    102,
+    1491,
+    2058,
+    2634,
+    5301,
+    8061
+   ],
+   "tags": [
+    "Onepiece",
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p005.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_005_01_Tops_01_CLOTH (Instance)",
+     "N00_007_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_04_Tops_01_CLOTH (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "f66438584d",
+     "a487ca6e78",
+     "5f5c91993e",
+     "3d5f248bef",
+     "99014d7340",
+     "741989fe81"
+    ],
+    "shape": [
+     102,
+     1491,
+     2058,
+     2634,
+     5301,
+     8061
+    ],
+    "tags": [
+     "Onepiece",
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_005",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p005.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "c91b0b0ca1",
+    "85d8c12603"
+   ],
+   "shape": [
+    636,
+    3882
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p005.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "c91b0b0ca1",
+     "85d8c12603"
+    ],
+    "shape": [
+     636,
+     3882
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_005",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p005.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_04 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "cb14ee123e",
+    "3882bec9cf"
+   ],
+   "shape": [
+    618,
+    3954
+   ],
+   "tags": [
+    "Onepiece",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p005.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_04 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "cb14ee123e",
+     "3882bec9cf"
+    ],
+    "shape": [
+     618,
+     3954
+    ],
+    "tags": [
+     "Onepiece",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Neck_005",
+  "slot": "Neck",
+  "mesh": {
+   "slot": "Neck",
+   "file": "p005.vrm",
+   "materials": [
+    "N00_001_02_Accessory_Tie_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "aa521d81e5"
+   ],
+   "shape": [
+    306
+   ],
+   "tags": [
+    "Accessory"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Neck",
+    "file": "p005.vrm",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "aa521d81e5"
+    ],
+    "shape": [
+     306
+    ],
+    "tags": [
+     "Accessory"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_005",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p005.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "9c75d97460"
+   ],
+   "shape": [
+    237
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p005.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "9c75d97460"
+    ],
+    "shape": [
+     237
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_006",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p006.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_04 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "373ed41298",
+    "1863d60ebf",
+    "6628fb586b"
+   ],
+   "shape": [
+    1938,
+    3360,
+    8619
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p006.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_04 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "373ed41298",
+     "1863d60ebf",
+     "6628fb586b"
+    ],
+    "shape": [
+     1938,
+     3360,
+     8619
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_006",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p006.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "5e9b6e83f9",
+    "67ebb6f533"
+   ],
+   "shape": [
+    192,
+    1908
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p006.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "5e9b6e83f9",
+     "67ebb6f533"
+    ],
+    "shape": [
+     192,
+     1908
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_006",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p006.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "6eb2f248a1"
+   ],
+   "shape": [
+    1794
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p006.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "6eb2f248a1"
+    ],
+    "shape": [
+     1794
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Neck_006",
+  "slot": "Neck",
+  "mesh": {
+   "slot": "Neck",
+   "file": "p006.vrm",
+   "materials": [
+    "N00_007_01_Accessory_Tie_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "4819adae89"
+   ],
+   "shape": [
+    618
+   ],
+   "tags": [
+    "Accessory"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Neck",
+    "file": "p006.vrm",
+    "materials": [
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "4819adae89"
+    ],
+    "shape": [
+     618
+    ],
+    "tags": [
+     "Accessory"
+    ]
+   },
+   {
+    "slot": "Neck",
+    "file": "p007.vrm",
+    "materials": [
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "201f65c42c"
+    ],
+    "shape": [
+     618
+    ],
+    "tags": [
+     "Accessory"
+    ]
+   },
+   {
+    "slot": "Neck",
+    "file": "p008.vrm",
+    "materials": [
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "aeb23335f0"
+    ],
+    "shape": [
+     618
+    ],
+    "tags": [
+     "Accessory"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_006",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p006.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_03 (Instance)"
+   ],
+   "textures": [
+    "ca54acb9e6",
+    "e8cd6f2751",
+    "2c6c975064"
+   ],
+   "shape": [
+    93,
+    177,
+    978
+   ],
+   "tags": [
+    "Onepiece",
+    "Onepiece",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p006.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)"
+    ],
+    "textures": [
+     "ca54acb9e6",
+     "e8cd6f2751",
+     "2c6c975064"
+    ],
+    "shape": [
+     93,
+     177,
+     978
+    ],
+    "tags": [
+     "Onepiece",
+     "Onepiece",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_007",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p007.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "73e08a9b18",
+    "8a34e72a1b"
+   ],
+   "shape": [
+    1710,
+    5823
+   ],
+   "tags": [
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p007.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "73e08a9b18",
+     "8a34e72a1b"
+    ],
+    "shape": [
+     1710,
+     5823
+    ],
+    "tags": [
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_007",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p007.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "4ea1d4d41c"
+   ],
+   "shape": [
+    2028
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p007.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "4ea1d4d41c"
+    ],
+    "shape": [
+     2028
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_007",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p007.vrm",
+   "materials": [
+    "N00_007_03_Tops_01_CLOTH (Instance)",
+    "N00_001_02_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "fca3985f06",
+    "d02d60e581"
+   ],
+   "shape": [
+    723,
+    4848
+   ],
+   "tags": [
+    "Tops",
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p007.vrm",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH (Instance)",
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "fca3985f06",
+     "d02d60e581"
+    ],
+    "shape": [
+     723,
+     4848
+    ],
+    "tags": [
+     "Tops",
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_007",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p007.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "34cdde4922",
+    "2e404a996f"
+   ],
+   "shape": [
+    1821,
+    2334
+   ],
+   "tags": [
+    "Onepiece",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p007.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "34cdde4922",
+     "2e404a996f"
+    ],
+    "shape": [
+     1821,
+     2334
+    ],
+    "tags": [
+     "Onepiece",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_008",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p008.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "42a9128bbd"
+   ],
+   "shape": [
+    5709
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p008.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "42a9128bbd"
+    ],
+    "shape": [
+     5709
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_008",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p008.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "e93e224aef"
+   ],
+   "shape": [
+    1854
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p008.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "e93e224aef"
+    ],
+    "shape": [
+     1854
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_008",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p008.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH (Instance)",
+    "N00_001_01_Bottoms_01_CLOTH_02 (Instance)",
+    "N00_007_03_Tops_01_CLOTH (Instance)",
+    "N00_001_01_Bottoms_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "5b288116d0",
+    "777165a08f",
+    "31f65accf6",
+    "e3f3f5f8ee"
+   ],
+   "shape": [
+    501,
+    738,
+    909,
+    2712
+   ],
+   "tags": [
+    "Onepiece",
+    "Bottoms",
+    "Tops",
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p008.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_001_01_Bottoms_01_CLOTH_02 (Instance)",
+     "N00_007_03_Tops_01_CLOTH (Instance)",
+     "N00_001_01_Bottoms_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "5b288116d0",
+     "777165a08f",
+     "31f65accf6",
+     "e3f3f5f8ee"
+    ],
+    "shape": [
+     501,
+     738,
+     909,
+     2712
+    ],
+    "tags": [
+     "Onepiece",
+     "Bottoms",
+     "Tops",
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_008",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p008.vrm",
+   "materials": [
+    "N00_002_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_002_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "020fe6102f",
+    "b58ba66a48"
+   ],
+   "shape": [
+    72,
+    306
+   ],
+   "tags": [
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p008.vrm",
+    "materials": [
+     "N00_002_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "020fe6102f",
+     "b58ba66a48"
+    ],
+    "shape": [
+     72,
+     306
+    ],
+    "tags": [
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_009",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p009.vrm",
+   "materials": [
+    "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_03_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "c8641fd989",
+    "589b65b34c"
+   ],
+   "shape": [
+    2355,
+    10395
+   ],
+   "tags": [
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p009.vrm",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "c8641fd989",
+     "589b65b34c"
+    ],
+    "shape": [
+     2355,
+     10395
+    ],
+    "tags": [
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_009",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p009.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "520c68f08d",
+    "ada6173c2a"
+   ],
+   "shape": [
+    240,
+    1986
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p009.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "520c68f08d",
+     "ada6173c2a"
+    ],
+    "shape": [
+     240,
+     1986
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_009",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p009.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH_04 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_03 (Instance)"
+   ],
+   "textures": [
+    "d07f67eae3",
+    "54db2e3b09",
+    "a58c4dcbf9",
+    "ee638ea29d"
+   ],
+   "shape": [
+    255,
+    996,
+    1224,
+    1422
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p009.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_04 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)"
+    ],
+    "textures": [
+     "d07f67eae3",
+     "54db2e3b09",
+     "a58c4dcbf9",
+     "ee638ea29d"
+    ],
+    "shape": [
+     255,
+     996,
+     1224,
+     1422
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Neck_007",
+  "slot": "Neck",
+  "mesh": {
+   "slot": "Neck",
+   "file": "p009.vrm",
+   "materials": [
+    "N00_007_02_Accessory_Tie_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "ddae67b2dc"
+   ],
+   "shape": [
+    1416
+   ],
+   "tags": [
+    "Accessory"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Neck",
+    "file": "p009.vrm",
+    "materials": [
+     "N00_007_02_Accessory_Tie_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "ddae67b2dc"
+    ],
+    "shape": [
+     1416
+    ],
+    "tags": [
+     "Accessory"
+    ]
+   },
+   {
+    "slot": "Neck",
+    "file": "p010.vrm",
+    "materials": [
+     "N00_007_02_Accessory_Tie_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "ba96c2fcfb"
+    ],
+    "shape": [
+     1416
+    ],
+    "tags": [
+     "Accessory"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_009",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p009.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH (Instance)"
+   ],
+   "textures": [
+    "230a36912c"
+   ],
+   "shape": [
+    177
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p009.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH (Instance)"
+    ],
+    "textures": [
+     "230a36912c"
+    ],
+    "shape": [
+     177
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_010",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p010.vrm",
+   "materials": [
+    "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH (Instance)",
+    "N00_007_03_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "c0626acbc4",
+    "42a9128bbd",
+    "27f8ab4377"
+   ],
+   "shape": [
+    30,
+    5709,
+    7689
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p010.vrm",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "c0626acbc4",
+     "42a9128bbd",
+     "27f8ab4377"
+    ],
+    "shape": [
+     30,
+     5709,
+     7689
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_010",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p010.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "24282fca66",
+    "ace8872d20"
+   ],
+   "shape": [
+    192,
+    2790
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p010.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "24282fca66",
+     "ace8872d20"
+    ],
+    "shape": [
+     192,
+     2790
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_010",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p010.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_001_01_Bottoms_01_CLOTH_02 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+    "N00_001_01_Bottoms_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "3ef78a7417",
+    "4d289a0c52",
+    "9aee74d322",
+    "45a6e6c6e1"
+   ],
+   "shape": [
+    228,
+    330,
+    426,
+    1824
+   ],
+   "tags": [
+    "Tops",
+    "Bottoms",
+    "Tops",
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p010.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_001_01_Bottoms_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_001_01_Bottoms_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "3ef78a7417",
+     "4d289a0c52",
+     "9aee74d322",
+     "45a6e6c6e1"
+    ],
+    "shape": [
+     228,
+     330,
+     426,
+     1824
+    ],
+    "tags": [
+     "Tops",
+     "Bottoms",
+     "Tops",
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_010",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p010.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH (Instance)"
+   ],
+   "textures": [
+    "f413e4103e"
+   ],
+   "shape": [
+    8850
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p010.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH (Instance)"
+    ],
+    "textures": [
+     "f413e4103e"
+    ],
+    "shape": [
+     8850
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Neck_008",
+  "slot": "Neck",
+  "mesh": {
+   "slot": "Neck",
+   "file": "p011.vrm",
+   "materials": [
+    "N00_001_02_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "e4b1c7da06",
+    "a59736c5de"
+   ],
+   "shape": [
+    642,
+    3990
+   ],
+   "tags": [
+    "Accessory",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Neck",
+    "file": "p011.vrm",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "e4b1c7da06",
+     "a59736c5de"
+    ],
+    "shape": [
+     642,
+     3990
+    ],
+    "tags": [
+     "Accessory",
+     "Onepiece"
+    ]
+   },
+   {
+    "slot": "Neck",
+    "file": "p012.vrm",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "68c2a7d4c5",
+     "a59736c5de"
+    ],
+    "shape": [
+     642,
+     3990
+    ],
+    "tags": [
+     "Accessory",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_011",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p011.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "f7a0696185"
+   ],
+   "shape": [
+    1758
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p011.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "f7a0696185"
+    ],
+    "shape": [
+     1758
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_011",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p011.vrm",
+   "materials": [
+    "N00_007_03_Tops_01_CLOTH (Instance)",
+    "N00_003_01_Bottoms_01_CLOTH (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "8a06dba4a4",
+    "ff3b75f4de",
+    "e7f4697877"
+   ],
+   "shape": [
+    192,
+    546,
+    8004
+   ],
+   "tags": [
+    "Tops",
+    "Bottoms",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p011.vrm",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH (Instance)",
+     "N00_003_01_Bottoms_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "8a06dba4a4",
+     "ff3b75f4de",
+     "e7f4697877"
+    ],
+    "shape": [
+     192,
+     546,
+     8004
+    ],
+    "tags": [
+     "Tops",
+     "Bottoms",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_011",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p011.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_03 (Instance)"
+   ],
+   "textures": [
+    "21b8f1d637"
+   ],
+   "shape": [
+    192
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p011.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)"
+    ],
+    "textures": [
+     "21b8f1d637"
+    ],
+    "shape": [
+     192
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_011",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p011.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_04 (Instance)"
+   ],
+   "textures": [
+    "b3d5876992"
+   ],
+   "shape": [
+    330
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p011.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_04 (Instance)"
+    ],
+    "textures": [
+     "b3d5876992"
+    ],
+    "shape": [
+     330
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_012",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p012.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+    "N00_007_03_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "b3d5876992",
+    "0c9a93eaaa"
+   ],
+   "shape": [
+    330,
+    3312
+   ],
+   "tags": [
+    "Onepiece",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p012.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "b3d5876992",
+     "0c9a93eaaa"
+    ],
+    "shape": [
+     330,
+     3312
+    ],
+    "tags": [
+     "Onepiece",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_012",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p012.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "bafafbca58",
+    "fcaf6186ba"
+   ],
+   "shape": [
+    312,
+    1890
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p012.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "bafafbca58",
+     "fcaf6186ba"
+    ],
+    "shape": [
+     312,
+     1890
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_012",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p012.vrm",
+   "materials": [
+    "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_003_01_Bottoms_01_CLOTH (Instance)",
+    "N00_001_02_Bottoms_01_CLOTH (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_04 (Instance)"
+   ],
+   "textures": [
+    "8a06dba4a4",
+    "0e423ddc54",
+    "6dc75823b0",
+    "e7f4697877"
+   ],
+   "shape": [
+    192,
+    624,
+    2946,
+    8004
+   ],
+   "tags": [
+    "Tops",
+    "Bottoms",
+    "Bottoms",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p012.vrm",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_003_01_Bottoms_01_CLOTH (Instance)",
+     "N00_001_02_Bottoms_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_04 (Instance)"
+    ],
+    "textures": [
+     "8a06dba4a4",
+     "0e423ddc54",
+     "6dc75823b0",
+     "e7f4697877"
+    ],
+    "shape": [
+     192,
+     624,
+     2946,
+     8004
+    ],
+    "tags": [
+     "Tops",
+     "Bottoms",
+     "Bottoms",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_012",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p012.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "f1e8bdc638"
+   ],
+   "shape": [
+    6108
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p012.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "f1e8bdc638"
+    ],
+    "shape": [
+     6108
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   },
+   {
+    "slot": "Arm",
+    "file": "p013.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "856606dff4"
+    ],
+    "shape": [
+     6108
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_013",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p013.vrm",
+   "materials": [
+    "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+    "N00_007_03_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "7cfa672171",
+    "b3d5876992",
+    "00f3e1b21a"
+   ],
+   "shape": [
+    36,
+    330,
+    6600
+   ],
+   "tags": [
+    "Tops",
+    "Onepiece",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p013.vrm",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "7cfa672171",
+     "b3d5876992",
+     "00f3e1b21a"
+    ],
+    "shape": [
+     36,
+     330,
+     6600
+    ],
+    "tags": [
+     "Tops",
+     "Onepiece",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_013",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p013.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_03 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "9b595fa3aa",
+    "3382bebf2d",
+    "5837676d42"
+   ],
+   "shape": [
+    84,
+    1722,
+    2592
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p013.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_03 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "9b595fa3aa",
+     "3382bebf2d",
+     "5837676d42"
+    ],
+    "shape": [
+     84,
+     1722,
+     2592
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_013",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p013.vrm",
+   "materials": [
+    "N00_007_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_003_01_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "8a06dba4a4",
+    "0c47588d50"
+   ],
+   "shape": [
+    192,
+    1404
+   ],
+   "tags": [
+    "Tops",
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p013.vrm",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_003_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "8a06dba4a4",
+     "0c47588d50"
+    ],
+    "shape": [
+     192,
+     1404
+    ],
+    "tags": [
+     "Tops",
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Neck_009",
+  "slot": "Neck",
+  "mesh": {
+   "slot": "Neck",
+   "file": "p013.vrm",
+   "materials": [
+    "N00_001_01_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "c8c623029d",
+    "a59736c5de"
+   ],
+   "shape": [
+    276,
+    3990
+   ],
+   "tags": [
+    "Accessory",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Neck",
+    "file": "p013.vrm",
+    "materials": [
+     "N00_001_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "c8c623029d",
+     "a59736c5de"
+    ],
+    "shape": [
+     276,
+     3990
+    ],
+    "tags": [
+     "Accessory",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_014",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p014.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "20d015bec9"
+   ],
+   "shape": [
+    8643
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p014.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "20d015bec9"
+    ],
+    "shape": [
+     8643
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_014",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p014.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "d5660b0d72",
+    "5837676d42"
+   ],
+   "shape": [
+    1518,
+    2592
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p014.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "d5660b0d72",
+     "5837676d42"
+    ],
+    "shape": [
+     1518,
+     2592
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_014",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p014.vrm",
+   "materials": [
+    "N00_007_03_Tops_01_CLOTH (Instance)",
+    "N00_003_01_Bottoms_01_CLOTH (Instance)",
+    "N00_001_02_Bottoms_01_CLOTH (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "8a06dba4a4",
+    "b6e007cc10",
+    "219d4b7957",
+    "ce2e15f08b"
+   ],
+   "shape": [
+    192,
+    579,
+    1470,
+    8004
+   ],
+   "tags": [
+    "Tops",
+    "Bottoms",
+    "Bottoms",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p014.vrm",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH (Instance)",
+     "N00_003_01_Bottoms_01_CLOTH (Instance)",
+     "N00_001_02_Bottoms_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "8a06dba4a4",
+     "b6e007cc10",
+     "219d4b7957",
+     "ce2e15f08b"
+    ],
+    "shape": [
+     192,
+     579,
+     1470,
+     8004
+    ],
+    "tags": [
+     "Tops",
+     "Bottoms",
+     "Bottoms",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Neck_010",
+  "slot": "Neck",
+  "mesh": {
+   "slot": "Neck",
+   "file": "p014.vrm",
+   "materials": [
+    "N00_001_02_Accessory_Tie_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "91718b31f4"
+   ],
+   "shape": [
+    642
+   ],
+   "tags": [
+    "Accessory"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Neck",
+    "file": "p014.vrm",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "91718b31f4"
+    ],
+    "shape": [
+     642
+    ],
+    "tags": [
+     "Accessory"
+    ]
+   },
+   {
+    "slot": "Neck",
+    "file": "p016.vrm",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "a33b2133d3"
+    ],
+    "shape": [
+     642
+    ],
+    "tags": [
+     "Accessory"
+    ]
+   },
+   {
+    "slot": "Neck",
+    "file": "p018.vrm",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "cdbee05cc6"
+    ],
+    "shape": [
+     642
+    ],
+    "tags": [
+     "Accessory"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_013",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p014.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "e5d15d4fb9",
+    "953930dbc0",
+    "c83fe7d781"
+   ],
+   "shape": [
+    138,
+    1326,
+    6516
+   ],
+   "tags": [
+    "Onepiece",
+    "Tops",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p014.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "e5d15d4fb9",
+     "953930dbc0",
+     "c83fe7d781"
+    ],
+    "shape": [
+     138,
+     1326,
+     6516
+    ],
+    "tags": [
+     "Onepiece",
+     "Tops",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_015",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p015.vrm",
+   "materials": [
+    "N00_002_02_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "0898d8967a"
+   ],
+   "shape": [
+    3822
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p015.vrm",
+    "materials": [
+     "N00_002_02_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "0898d8967a"
+    ],
+    "shape": [
+     3822
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_015",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p015.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "12eb4b7a2c"
+   ],
+   "shape": [
+    1986
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p015.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "12eb4b7a2c"
+    ],
+    "shape": [
+     1986
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_015",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p015.vrm",
+   "materials": [
+    "N00_001_02_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "563f008493"
+   ],
+   "shape": [
+    3864
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p015.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "563f008493"
+    ],
+    "shape": [
+     3864
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Neck_011",
+  "slot": "Neck",
+  "mesh": {
+   "slot": "Neck",
+   "file": "p015.vrm",
+   "materials": [
+    "N00_001_01_Accessory_Tie_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "90bb45c3ce"
+   ],
+   "shape": [
+    276
+   ],
+   "tags": [
+    "Accessory"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Neck",
+    "file": "p015.vrm",
+    "materials": [
+     "N00_001_01_Accessory_Tie_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "90bb45c3ce"
+    ],
+    "shape": [
+     276
+    ],
+    "tags": [
+     "Accessory"
+    ]
+   },
+   {
+    "slot": "Neck",
+    "file": "p017.vrm",
+    "materials": [
+     "N00_001_01_Accessory_Tie_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "edfb081706"
+    ],
+    "shape": [
+     276
+    ],
+    "tags": [
+     "Accessory"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Arm_014",
+  "slot": "Arm",
+  "mesh": {
+   "slot": "Arm",
+   "file": "p015.vrm",
+   "materials": [
+    "N00_002_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "b92741c3c6"
+   ],
+   "shape": [
+    438
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Arm",
+    "file": "p015.vrm",
+    "materials": [
+     "N00_002_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "b92741c3c6"
+    ],
+    "shape": [
+     438
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_016",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p016.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "82579f7692",
+    "58e1735dc7",
+    "58beac5788"
+   ],
+   "shape": [
+    789,
+    3030,
+    5685
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p016.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "82579f7692",
+     "58e1735dc7",
+     "58beac5788"
+    ],
+    "shape": [
+     789,
+     3030,
+     5685
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_016",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p016.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "a9b8a95b79"
+   ],
+   "shape": [
+    2544
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p016.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "a9b8a95b79"
+    ],
+    "shape": [
+     2544
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_016",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p016.vrm",
+   "materials": [
+    "N00_001_01_Bottoms_01_CLOTH_02 (Instance)",
+    "N00_001_01_Bottoms_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "23609bae8d",
+    "f6605ec948"
+   ],
+   "shape": [
+    372,
+    1872
+   ],
+   "tags": [
+    "Bottoms",
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p016.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH_02 (Instance)",
+     "N00_001_01_Bottoms_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "23609bae8d",
+     "f6605ec948"
+    ],
+    "shape": [
+     372,
+     1872
+    ],
+    "tags": [
+     "Bottoms",
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_017",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p017.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_007_03_Tops_01_CLOTH_01 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "094e369940",
+    "1ac8edae0a",
+    "bbce41b441",
+    "e50372836c",
+    "1717741064"
+   ],
+   "shape": [
+    1269,
+    1716,
+    1716,
+    2436,
+    8025
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p017.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "094e369940",
+     "1ac8edae0a",
+     "bbce41b441",
+     "e50372836c",
+     "1717741064"
+    ],
+    "shape": [
+     1269,
+     1716,
+     1716,
+     2436,
+     8025
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_017",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p017.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "5cfb9ed85b"
+   ],
+   "shape": [
+    3012
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p017.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "5cfb9ed85b"
+    ],
+    "shape": [
+     3012
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_017",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p017.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "ff397cb4e8",
+    "1d781c97d5",
+    "9bee4448f6"
+   ],
+   "shape": [
+    339,
+    1452,
+    1452
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p017.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "ff397cb4e8",
+     "1d781c97d5",
+     "9bee4448f6"
+    ],
+    "shape": [
+     339,
+     1452,
+     1452
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_018",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p018.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "e46abed168",
+    "bc7c96aeab",
+    "291063fb64"
+   ],
+   "shape": [
+    48,
+    2382,
+    7989
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p018.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "e46abed168",
+     "bc7c96aeab",
+     "291063fb64"
+    ],
+    "shape": [
+     48,
+     2382,
+     7989
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_018",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p018.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "35dbc12fa3"
+   ],
+   "shape": [
+    1800
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p018.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "35dbc12fa3"
+    ],
+    "shape": [
+     1800
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_018",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p018.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH (Instance)"
+   ],
+   "textures": [
+    "4e56222d89"
+   ],
+   "shape": [
+    5988
+   ],
+   "tags": [
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p018.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH (Instance)"
+    ],
+    "textures": [
+     "4e56222d89"
+    ],
+    "shape": [
+     5988
+    ],
+    "tags": [
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_019",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p019.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "cca55aead8"
+   ],
+   "shape": [
+    2304
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p019.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "cca55aead8"
+    ],
+    "shape": [
+     2304
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_019",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p019.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "ca17499fd3",
+    "fa096e02b6"
+   ],
+   "shape": [
+    690,
+    3900
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p019.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "ca17499fd3",
+     "fa096e02b6"
+    ],
+    "shape": [
+     690,
+     3900
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_019",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p019.vrm",
+   "materials": [
+    "N00_001_01_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "cc85b5df03"
+   ],
+   "shape": [
+    2928
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p019.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "cc85b5df03"
+    ],
+    "shape": [
+     2928
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_020",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p020.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "797beb8e8b"
+   ],
+   "shape": [
+    3378
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p020.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "797beb8e8b"
+    ],
+    "shape": [
+     3378
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_020",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p020.vrm",
+   "materials": [
+    "N00_001_02_Bottoms_01_CLOTH_01 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH (Instance)",
+    "N00_001_02_Bottoms_01_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "2b5e47959f",
+    "54cdbc4dec",
+    "0223e641e3"
+   ],
+   "shape": [
+    624,
+    3810,
+    4848
+   ],
+   "tags": [
+    "Bottoms",
+    "Onepiece",
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p020.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH_01 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_001_02_Bottoms_01_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "2b5e47959f",
+     "54cdbc4dec",
+     "0223e641e3"
+    ],
+    "shape": [
+     624,
+     3810,
+     4848
+    ],
+    "tags": [
+     "Bottoms",
+     "Onepiece",
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_020",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p020.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "73be670ce5"
+   ],
+   "shape": [
+    2604
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p020.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "73be670ce5"
+    ],
+    "shape": [
+     2604
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_021",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p021.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "f4c0a18b23",
+    "0f183a6918"
+   ],
+   "shape": [
+    165,
+    7092
+   ],
+   "tags": [
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p021.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "f4c0a18b23",
+     "0f183a6918"
+    ],
+    "shape": [
+     165,
+     7092
+    ],
+    "tags": [
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_021",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p021.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_03 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "ad2926b8df",
+    "59a45adc11",
+    "45b28e8936"
+   ],
+   "shape": [
+    336,
+    1140,
+    2004
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p021.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_03 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "ad2926b8df",
+     "59a45adc11",
+     "45b28e8936"
+    ],
+    "shape": [
+     336,
+     1140,
+     2004
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_021",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p021.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "589ab7952d",
+    "6e68201f33"
+   ],
+   "shape": [
+    1230,
+    1362
+   ],
+   "tags": [
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p021.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "589ab7952d",
+     "6e68201f33"
+    ],
+    "shape": [
+     1230,
+     1362
+    ],
+    "tags": [
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_022",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p022.vrm",
+   "materials": [
+    "N00_007_02_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_007_02_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "fa81ddcae6",
+    "4819adae89",
+    "1ab43af607"
+   ],
+   "shape": [
+    576,
+    618,
+    7650
+   ],
+   "tags": [
+    "Tops",
+    "Accessory",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p022.vrm",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "fa81ddcae6",
+     "4819adae89",
+     "1ab43af607"
+    ],
+    "shape": [
+     576,
+     618,
+     7650
+    ],
+    "tags": [
+     "Tops",
+     "Accessory",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_022",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p022.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_001_02_Bottoms_01_CLOTH (Instance)",
+    "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_04 (Instance)"
+   ],
+   "textures": [
+    "2469038279",
+    "3bbfa61d05",
+    "8b0706c025",
+    "8a27f3967c",
+    "c46b64f0cb"
+   ],
+   "shape": [
+    48,
+    576,
+    1314,
+    1344,
+    1452
+   ],
+   "tags": [
+    "Tops",
+    "Bottoms",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p022.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_001_02_Bottoms_01_CLOTH (Instance)",
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_04 (Instance)"
+    ],
+    "textures": [
+     "2469038279",
+     "3bbfa61d05",
+     "8b0706c025",
+     "8a27f3967c",
+     "c46b64f0cb"
+    ],
+    "shape": [
+     48,
+     576,
+     1314,
+     1344,
+     1452
+    ],
+    "tags": [
+     "Tops",
+     "Bottoms",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_022",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p022.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "4cdbb387aa"
+   ],
+   "shape": [
+    2100
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p022.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "4cdbb387aa"
+    ],
+    "shape": [
+     2100
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_023",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p023.vrm",
+   "materials": [
+    "N00_010_01_Onepiece_00_CLOTH (Instance)",
+    "N00_007_02_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_007_02_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "135ce3cd7b",
+    "fa81ddcae6",
+    "4819adae89",
+    "d1651cac52"
+   ],
+   "shape": [
+    285,
+    576,
+    618,
+    6642
+   ],
+   "tags": [
+    "Onepiece",
+    "Tops",
+    "Accessory",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p023.vrm",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "135ce3cd7b",
+     "fa81ddcae6",
+     "4819adae89",
+     "d1651cac52"
+    ],
+    "shape": [
+     285,
+     576,
+     618,
+     6642
+    ],
+    "tags": [
+     "Onepiece",
+     "Tops",
+     "Accessory",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_023",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p023.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "a9241ec573"
+   ],
+   "shape": [
+    2340
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p023.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "a9241ec573"
+    ],
+    "shape": [
+     2340
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_023",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p023.vrm",
+   "materials": [
+    "N00_001_01_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "8d6460f1c0"
+   ],
+   "shape": [
+    3252
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p023.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "8d6460f1c0"
+    ],
+    "shape": [
+     3252
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_024",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p024.vrm",
+   "materials": [
+    "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "4819adae89",
+    "3f5033978e"
+   ],
+   "shape": [
+    618,
+    8802
+   ],
+   "tags": [
+    "Accessory",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p024.vrm",
+    "materials": [
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "4819adae89",
+     "3f5033978e"
+    ],
+    "shape": [
+     618,
+     8802
+    ],
+    "tags": [
+     "Accessory",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_024",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p024.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "c75381a3d5"
+   ],
+   "shape": [
+    2220
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p024.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "c75381a3d5"
+    ],
+    "shape": [
+     2220
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p025.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "49e7852069"
+    ],
+    "shape": [
+     2220
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_024",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p024.vrm",
+   "materials": [
+    "N00_001_01_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "fe10e796e1"
+   ],
+   "shape": [
+    4872
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p024.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "fe10e796e1"
+    ],
+    "shape": [
+     4872
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p035.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "9cb90d433a"
+    ],
+    "shape": [
+     4872
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p038.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "2f0f7c2e0d"
+    ],
+    "shape": [
+     4872
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p040.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "2985683fcd"
+    ],
+    "shape": [
+     4872
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p042.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "ee796dcf1a"
+    ],
+    "shape": [
+     4872
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p049.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "114756f879"
+    ],
+    "shape": [
+     4872
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_025",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p025.vrm",
+   "materials": [
+    "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "7a0f9989b8",
+    "4b18518237",
+    "db11c91aea"
+   ],
+   "shape": [
+    504,
+    1968,
+    8502
+   ],
+   "tags": [
+    "Accessory",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p025.vrm",
+    "materials": [
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "7a0f9989b8",
+     "4b18518237",
+     "db11c91aea"
+    ],
+    "shape": [
+     504,
+     1968,
+     8502
+    ],
+    "tags": [
+     "Accessory",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_025",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p025.vrm",
+   "materials": [
+    "N00_001_03_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "a92bbc10b1"
+   ],
+   "shape": [
+    2100
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p025.vrm",
+    "materials": [
+     "N00_001_03_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "a92bbc10b1"
+    ],
+    "shape": [
+     2100
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p037.vrm",
+    "materials": [
+     "N00_001_03_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "ab5b796832"
+    ],
+    "shape": [
+     2100
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p039.vrm",
+    "materials": [
+     "N00_001_03_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "2ea1f3d030"
+    ],
+    "shape": [
+     2100
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p041.vrm",
+    "materials": [
+     "N00_001_03_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "81f490899b"
+    ],
+    "shape": [
+     2100
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p043.vrm",
+    "materials": [
+     "N00_001_03_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "0da5525a5c"
+    ],
+    "shape": [
+     2100
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_026",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p026.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "61e946c085",
+    "3e0b9cea11",
+    "8eb4db9e18",
+    "16d048b6aa",
+    "0528e1f0d1"
+   ],
+   "shape": [
+    501,
+    504,
+    1824,
+    5238,
+    7380
+   ],
+   "tags": [
+    "Tops",
+    "Accessory",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p026.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "61e946c085",
+     "3e0b9cea11",
+     "8eb4db9e18",
+     "16d048b6aa",
+     "0528e1f0d1"
+    ],
+    "shape": [
+     501,
+     504,
+     1824,
+     5238,
+     7380
+    ],
+    "tags": [
+     "Tops",
+     "Accessory",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_025",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p026.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "14a22c1dbe"
+   ],
+   "shape": [
+    1710
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p026.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "14a22c1dbe"
+    ],
+    "shape": [
+     1710
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_026",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p026.vrm",
+   "materials": [
+    "N00_001_02_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "5884ad8328"
+   ],
+   "shape": [
+    2340
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p026.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "5884ad8328"
+    ],
+    "shape": [
+     2340
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p027.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "2befc91139"
+    ],
+    "shape": [
+     2340
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p028.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "10542eb430"
+    ],
+    "shape": [
+     2340
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_027",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p027.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "61e946c085",
+    "201f65c42c",
+    "e106146f37",
+    "0528e1f0d1"
+   ],
+   "shape": [
+    501,
+    618,
+    5169,
+    7380
+   ],
+   "tags": [
+    "Tops",
+    "Accessory",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p027.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "61e946c085",
+     "201f65c42c",
+     "e106146f37",
+     "0528e1f0d1"
+    ],
+    "shape": [
+     501,
+     618,
+     5169,
+     7380
+    ],
+    "tags": [
+     "Tops",
+     "Accessory",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_026",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p027.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "99a2e19ffd"
+   ],
+   "shape": [
+    1794
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p027.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "99a2e19ffd"
+    ],
+    "shape": [
+     1794
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_028",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p028.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "61e946c085",
+    "201f65c42c",
+    "ee35f94ff0",
+    "0528e1f0d1"
+   ],
+   "shape": [
+    501,
+    618,
+    4149,
+    7380
+   ],
+   "tags": [
+    "Tops",
+    "Accessory",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p028.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "61e946c085",
+     "201f65c42c",
+     "ee35f94ff0",
+     "0528e1f0d1"
+    ],
+    "shape": [
+     501,
+     618,
+     4149,
+     7380
+    ],
+    "tags": [
+     "Tops",
+     "Accessory",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_027",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p028.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "38a0345d46",
+    "75367f51d3"
+   ],
+   "shape": [
+    162,
+    2010
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p028.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "38a0345d46",
+     "75367f51d3"
+    ],
+    "shape": [
+     162,
+     2010
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_029",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p029.vrm",
+   "materials": [
+    "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "3e0b9cea11",
+    "72d3031fad",
+    "ee35f94ff0",
+    "374da79109"
+   ],
+   "shape": [
+    504,
+    513,
+    4149,
+    7572
+   ],
+   "tags": [
+    "Accessory",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p029.vrm",
+    "materials": [
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "3e0b9cea11",
+     "72d3031fad",
+     "ee35f94ff0",
+     "374da79109"
+    ],
+    "shape": [
+     504,
+     513,
+     4149,
+     7572
+    ],
+    "tags": [
+     "Accessory",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_027",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p029.vrm",
+   "materials": [
+    "N00_001_02_Bottoms_01_CLOTH_01 (Instance)",
+    "N00_001_02_Bottoms_01_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "036dfcfc6e",
+    "58988c7d71"
+   ],
+   "shape": [
+    528,
+    3264
+   ],
+   "tags": [
+    "Bottoms",
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p029.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH_01 (Instance)",
+     "N00_001_02_Bottoms_01_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "036dfcfc6e",
+     "58988c7d71"
+    ],
+    "shape": [
+     528,
+     3264
+    ],
+    "tags": [
+     "Bottoms",
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_028",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p029.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "5571c97e63"
+   ],
+   "shape": [
+    1716
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p029.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "5571c97e63"
+    ],
+    "shape": [
+     1716
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_030",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p030.vrm",
+   "materials": [
+    "N00_007_02_Tops_01_CLOTH_02 (Instance)",
+    "N00_001_02_Accessory_Tie_01_CLOTH_02 (Instance)",
+    "N00_007_02_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "fa81ddcae6",
+    "68c2a7d4c5",
+    "1ab43af607"
+   ],
+   "shape": [
+    576,
+    642,
+    7650
+   ],
+   "tags": [
+    "Tops",
+    "Accessory",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p030.vrm",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH_02 (Instance)",
+     "N00_001_02_Accessory_Tie_01_CLOTH_02 (Instance)",
+     "N00_007_02_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "fa81ddcae6",
+     "68c2a7d4c5",
+     "1ab43af607"
+    ],
+    "shape": [
+     576,
+     642,
+     7650
+    ],
+    "tags": [
+     "Tops",
+     "Accessory",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_029",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p030.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "a403f75de1"
+   ],
+   "shape": [
+    2016
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p030.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "a403f75de1"
+    ],
+    "shape": [
+     2016
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_028",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p030.vrm",
+   "materials": [
+    "N00_001_02_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "b640f5241d"
+   ],
+   "shape": [
+    3264
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p030.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "b640f5241d"
+    ],
+    "shape": [
+     3264
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p031.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "2278a6b129"
+    ],
+    "shape": [
+     3264
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_031",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p031.vrm",
+   "materials": [
+    "N00_001_02_Accessory_Tie_01_CLOTH_02 (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "68c2a7d4c5",
+    "fe3bd4a572"
+   ],
+   "shape": [
+    642,
+    7410
+   ],
+   "tags": [
+    "Accessory",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p031.vrm",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH_02 (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "68c2a7d4c5",
+     "fe3bd4a572"
+    ],
+    "shape": [
+     642,
+     7410
+    ],
+    "tags": [
+     "Accessory",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_030",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p031.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "ccbca10157",
+    "d0fe99a31f"
+   ],
+   "shape": [
+    624,
+    4044
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p031.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "ccbca10157",
+     "d0fe99a31f"
+    ],
+    "shape": [
+     624,
+     4044
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_032",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p032.vrm",
+   "materials": [
+    "N00_001_02_Accessory_Tie_01_CLOTH_02 (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "68c2a7d4c5",
+    "3f5033978e"
+   ],
+   "shape": [
+    642,
+    8802
+   ],
+   "tags": [
+    "Accessory",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p032.vrm",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH_02 (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "68c2a7d4c5",
+     "3f5033978e"
+    ],
+    "shape": [
+     642,
+     8802
+    ],
+    "tags": [
+     "Accessory",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_031",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p032.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "3291e6ff5a",
+    "4c56053a9d"
+   ],
+   "shape": [
+    132,
+    2904
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p032.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "3291e6ff5a",
+     "4c56053a9d"
+    ],
+    "shape": [
+     132,
+     2904
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_029",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p032.vrm",
+   "materials": [
+    "N00_001_02_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "107ba71b99"
+   ],
+   "shape": [
+    4608
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p032.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "107ba71b99"
+    ],
+    "shape": [
+     4608
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p033.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "8e83a932c0"
+    ],
+    "shape": [
+     4608
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p034.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "8fb1dec54a"
+    ],
+    "shape": [
+     4608
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_033",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p033.vrm",
+   "materials": [
+    "N00_001_02_Accessory_Tie_01_CLOTH_02 (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "68c2a7d4c5",
+    "4b18518237",
+    "db11c91aea"
+   ],
+   "shape": [
+    642,
+    1968,
+    8502
+   ],
+   "tags": [
+    "Accessory",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p033.vrm",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH_02 (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "68c2a7d4c5",
+     "4b18518237",
+     "db11c91aea"
+    ],
+    "shape": [
+     642,
+     1968,
+     8502
+    ],
+    "tags": [
+     "Accessory",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_032",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p033.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "28f0c35bf4"
+   ],
+   "shape": [
+    1812
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p033.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "28f0c35bf4"
+    ],
+    "shape": [
+     1812
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_034",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p034.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_02_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "4f87670273",
+    "ba96c2fcfb",
+    "8eb4db9e18",
+    "16d048b6aa",
+    "38a6441477"
+   ],
+   "shape": [
+    429,
+    1416,
+    1824,
+    5238,
+    7128
+   ],
+   "tags": [
+    "Tops",
+    "Accessory",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p034.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_02_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "4f87670273",
+     "ba96c2fcfb",
+     "8eb4db9e18",
+     "16d048b6aa",
+     "38a6441477"
+    ],
+    "shape": [
+     429,
+     1416,
+     1824,
+     5238,
+     7128
+    ],
+    "tags": [
+     "Tops",
+     "Accessory",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_033",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p034.vrm",
+   "materials": [
+    "N00_002_01_Shoes_01_CLOTH (Instance)",
+    "N00_003_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "12138807ef",
+    "28d8b6e1e1"
+   ],
+   "shape": [
+    126,
+    1716
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p034.vrm",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)",
+     "N00_003_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "12138807ef",
+     "28d8b6e1e1"
+    ],
+    "shape": [
+     126,
+     1716
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_035",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p035.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_02_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "4f87670273",
+    "ba96c2fcfb",
+    "453ff72847",
+    "38a6441477"
+   ],
+   "shape": [
+    429,
+    1416,
+    4929,
+    7128
+   ],
+   "tags": [
+    "Tops",
+    "Accessory",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p035.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_02_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "4f87670273",
+     "ba96c2fcfb",
+     "453ff72847",
+     "38a6441477"
+    ],
+    "shape": [
+     429,
+     1416,
+     4929,
+     7128
+    ],
+    "tags": [
+     "Tops",
+     "Accessory",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_034",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p035.vrm",
+   "materials": [
+    "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+    "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "30101af974",
+    "eacc7d7fb3"
+   ],
+   "shape": [
+    114,
+    2454
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p035.vrm",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "30101af974",
+     "eacc7d7fb3"
+    ],
+    "shape": [
+     114,
+     2454
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_036",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p036.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_02_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "4f87670273",
+    "ba96c2fcfb",
+    "13e1f41cc3",
+    "38a6441477"
+   ],
+   "shape": [
+    429,
+    1416,
+    3951,
+    7128
+   ],
+   "tags": [
+    "Tops",
+    "Accessory",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p036.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_02_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "4f87670273",
+     "ba96c2fcfb",
+     "13e1f41cc3",
+     "38a6441477"
+    ],
+    "shape": [
+     429,
+     1416,
+     3951,
+     7128
+    ],
+    "tags": [
+     "Tops",
+     "Accessory",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_035",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p036.vrm",
+   "materials": [
+    "N00_002_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "c879875b19"
+   ],
+   "shape": [
+    762
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p036.vrm",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "c879875b19"
+    ],
+    "shape": [
+     762
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_030",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p036.vrm",
+   "materials": [
+    "N00_001_02_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "d0362c0e3f"
+   ],
+   "shape": [
+    2112
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p036.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "d0362c0e3f"
+    ],
+    "shape": [
+     2112
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_037",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p037.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_02_Accessory_Tie_01_CLOTH (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "7f3ea86795",
+    "ba96c2fcfb",
+    "13e1f41cc3",
+    "d675c524f3"
+   ],
+   "shape": [
+    444,
+    1416,
+    3951,
+    7398
+   ],
+   "tags": [
+    "Tops",
+    "Accessory",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p037.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_02_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "7f3ea86795",
+     "ba96c2fcfb",
+     "13e1f41cc3",
+     "d675c524f3"
+    ],
+    "shape": [
+     444,
+     1416,
+     3951,
+     7398
+    ],
+    "tags": [
+     "Tops",
+     "Accessory",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_036",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p037.vrm",
+   "materials": [
+    "N00_002_01_Shoes_01_CLOTH (Instance)",
+    "N00_003_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "076bfe499e",
+    "e4db4a99d1"
+   ],
+   "shape": [
+    360,
+    528
+   ],
+   "tags": [
+    "Shoes",
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p037.vrm",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)",
+     "N00_003_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "076bfe499e",
+     "e4db4a99d1"
+    ],
+    "shape": [
+     360,
+     528
+    ],
+    "tags": [
+     "Shoes",
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_038",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p038.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "3da7f2b5c5"
+   ],
+   "shape": [
+    8328
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p038.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "3da7f2b5c5"
+    ],
+    "shape": [
+     8328
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p039.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "e67ca9c72e"
+    ],
+    "shape": [
+     8328
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_037",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p039.vrm",
+   "materials": [
+    "N00_001_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "95afc7e5bd"
+   ],
+   "shape": [
+    1620
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p039.vrm",
+    "materials": [
+     "N00_001_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "95afc7e5bd"
+    ],
+    "shape": [
+     1620
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p040.vrm",
+    "materials": [
+     "N00_001_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "0341162d24"
+    ],
+    "shape": [
+     1620
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p041.vrm",
+    "materials": [
+     "N00_001_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "2af9d96eec"
+    ],
+    "shape": [
+     1620
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_039",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p040.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "7082dd5f23"
+   ],
+   "shape": [
+    8331
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p040.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "7082dd5f23"
+    ],
+    "shape": [
+     8331
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_040",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p041.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "68976cfa76"
+   ],
+   "shape": [
+    8697
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p041.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "68976cfa76"
+    ],
+    "shape": [
+     8697
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_041",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p042.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "67c7ea53e1"
+   ],
+   "shape": [
+    8712
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p042.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "67c7ea53e1"
+    ],
+    "shape": [
+     8712
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_038",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p042.vrm",
+   "materials": [
+    "N00_002_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "46cda09f2a"
+   ],
+   "shape": [
+    2280
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p042.vrm",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "46cda09f2a"
+    ],
+    "shape": [
+     2280
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_042",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p043.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "cc30cac637"
+   ],
+   "shape": [
+    4326
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p043.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "cc30cac637"
+    ],
+    "shape": [
+     4326
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_039",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p043.vrm",
+   "materials": [
+    "N00_001_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "2f989033c9"
+   ],
+   "shape": [
+    1218
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p043.vrm",
+    "materials": [
+     "N00_001_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "2f989033c9"
+    ],
+    "shape": [
+     1218
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_043",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p044.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "cd26945efd"
+   ],
+   "shape": [
+    4134
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p044.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "cd26945efd"
+    ],
+    "shape": [
+     4134
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_040",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p044.vrm",
+   "materials": [
+    "N00_002_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "02e84329b7"
+   ],
+   "shape": [
+    1032
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p044.vrm",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "02e84329b7"
+    ],
+    "shape": [
+     1032
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p045.vrm",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "a6b860edf2"
+    ],
+    "shape": [
+     1032
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p046.vrm",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "345be2b636"
+    ],
+    "shape": [
+     1032
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_031",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p044.vrm",
+   "materials": [
+    "N00_001_01_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "102944c3db"
+   ],
+   "shape": [
+    4632
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p044.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "102944c3db"
+    ],
+    "shape": [
+     4632
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_044",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p045.vrm",
+   "materials": [
+    "N00_001_02_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "a587785ea4"
+   ],
+   "shape": [
+    8178
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p045.vrm",
+    "materials": [
+     "N00_001_02_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "a587785ea4"
+    ],
+    "shape": [
+     8178
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p046.vrm",
+    "materials": [
+     "N00_001_02_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "765e771866"
+    ],
+    "shape": [
+     8178
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p047.vrm",
+    "materials": [
+     "N00_001_02_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "61e7b7b82e"
+    ],
+    "shape": [
+     8178
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_032",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p045.vrm",
+   "materials": [
+    "N00_001_01_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "6ae33cd074"
+   ],
+   "shape": [
+    4728
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p045.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "6ae33cd074"
+    ],
+    "shape": [
+     4728
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_033",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p046.vrm",
+   "materials": [
+    "N00_003_01_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "f26c00d0b0"
+   ],
+   "shape": [
+    2994
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p046.vrm",
+    "materials": [
+     "N00_003_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "f26c00d0b0"
+    ],
+    "shape": [
+     2994
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_041",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p047.vrm",
+   "materials": [
+    "N00_002_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "50b9012a4b"
+   ],
+   "shape": [
+    1116
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p047.vrm",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "50b9012a4b"
+    ],
+    "shape": [
+     1116
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p048.vrm",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "f35bcbb483"
+    ],
+    "shape": [
+     1116
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p049.vrm",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "bc4fa2559b"
+    ],
+    "shape": [
+     1116
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_034",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p047.vrm",
+   "materials": [
+    "N00_001_02_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "01a6361779"
+   ],
+   "shape": [
+    1782
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p047.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "01a6361779"
+    ],
+    "shape": [
+     1782
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p048.vrm",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "532ecff695"
+    ],
+    "shape": [
+     1782
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_045",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p048.vrm",
+   "materials": [
+    "N00_001_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "cc9278ce84"
+   ],
+   "shape": [
+    6198
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p048.vrm",
+    "materials": [
+     "N00_001_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "cc9278ce84"
+    ],
+    "shape": [
+     6198
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p049.vrm",
+    "materials": [
+     "N00_001_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "8b6f2ffb53"
+    ],
+    "shape": [
+     6198
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p050.vrm",
+    "materials": [
+     "N00_001_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "455eb9d0d6"
+    ],
+    "shape": [
+     6198
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_042",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p050.vrm",
+   "materials": [
+    "N00_003_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "4f6285551b"
+   ],
+   "shape": [
+    948
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p050.vrm",
+    "materials": [
+     "N00_003_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "4f6285551b"
+    ],
+    "shape": [
+     948
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_035",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p050.vrm",
+   "materials": [
+    "N00_001_01_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "deea86f9e3"
+   ],
+   "shape": [
+    4542
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p050.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "deea86f9e3"
+    ],
+    "shape": [
+     4542
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p051.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "0a10015390"
+    ],
+    "shape": [
+     4542
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   },
+   {
+    "slot": "Bottom",
+    "file": "p052.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "9b71a06804"
+    ],
+    "shape": [
+     4542
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_046",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p051.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "55255fd82e",
+    "c233000dcc"
+   ],
+   "shape": [
+    4509,
+    9771
+   ],
+   "tags": [
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p051.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "55255fd82e",
+     "c233000dcc"
+    ],
+    "shape": [
+     4509,
+     9771
+    ],
+    "tags": [
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_043",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p051.vrm",
+   "materials": [
+    "N00_003_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "98c892fbdd"
+   ],
+   "shape": [
+    996
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p051.vrm",
+    "materials": [
+     "N00_003_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "98c892fbdd"
+    ],
+    "shape": [
+     996
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_047",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p052.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "002f723833"
+   ],
+   "shape": [
+    8388
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p052.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "002f723833"
+    ],
+    "shape": [
+     8388
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_044",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p052.vrm",
+   "materials": [
+    "N00_003_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "8ab580afde"
+   ],
+   "shape": [
+    1002
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p052.vrm",
+    "materials": [
+     "N00_003_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "8ab580afde"
+    ],
+    "shape": [
+     1002
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_048",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p053.vrm",
+   "materials": [
+    "N00_007_03_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "6ae3d55a33"
+   ],
+   "shape": [
+    8808
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p053.vrm",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "6ae3d55a33"
+    ],
+    "shape": [
+     8808
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_045",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p053.vrm",
+   "materials": [
+    "N00_006_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "07b77fe752"
+   ],
+   "shape": [
+    2172
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p053.vrm",
+    "materials": [
+     "N00_006_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "07b77fe752"
+    ],
+    "shape": [
+     2172
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p054.vrm",
+    "materials": [
+     "N00_006_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "fc12a26008"
+    ],
+    "shape": [
+     2172
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_036",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p053.vrm",
+   "materials": [
+    "N00_001_01_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "524edc19a7"
+   ],
+   "shape": [
+    1983
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p053.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "524edc19a7"
+    ],
+    "shape": [
+     1983
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_049",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p054.vrm",
+   "materials": [
+    "N00_002_04_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "e96cb4d408"
+   ],
+   "shape": [
+    2817
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p054.vrm",
+    "materials": [
+     "N00_002_04_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "e96cb4d408"
+    ],
+    "shape": [
+     2817
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_050",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p055.vrm",
+   "materials": [
+    "N00_002_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "5a01c6c29f"
+   ],
+   "shape": [
+    4098
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p055.vrm",
+    "materials": [
+     "N00_002_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "5a01c6c29f"
+    ],
+    "shape": [
+     4098
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_051",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p056.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "d8266e387e"
+   ],
+   "shape": [
+    4464
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p056.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "d8266e387e"
+    ],
+    "shape": [
+     4464
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p057.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "336e4e8529"
+    ],
+    "shape": [
+     4464
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p058.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "e9f8a57fec"
+    ],
+    "shape": [
+     4464
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Shoes_046",
+  "slot": "Shoes",
+  "mesh": {
+   "slot": "Shoes",
+   "file": "p056.vrm",
+   "materials": [
+    "N00_005_01_Shoes_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "bd4b1a9c25"
+   ],
+   "shape": [
+    2196
+   ],
+   "tags": [
+    "Shoes"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Shoes",
+    "file": "p056.vrm",
+    "materials": [
+     "N00_005_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "bd4b1a9c25"
+    ],
+    "shape": [
+     2196
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p057.vrm",
+    "materials": [
+     "N00_005_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "636d8679f9"
+    ],
+    "shape": [
+     2196
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   },
+   {
+    "slot": "Shoes",
+    "file": "p058.vrm",
+    "materials": [
+     "N00_005_01_Shoes_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "edb360d01e"
+    ],
+    "shape": [
+     2196
+    ],
+    "tags": [
+     "Shoes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Bottom_037",
+  "slot": "Bottom",
+  "mesh": {
+   "slot": "Bottom",
+   "file": "p057.vrm",
+   "materials": [
+    "N00_001_01_Bottoms_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "ebadc9b9b8"
+   ],
+   "shape": [
+    3288
+   ],
+   "tags": [
+    "Bottoms"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Bottom",
+    "file": "p057.vrm",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "ebadc9b9b8"
+    ],
+    "shape": [
+     3288
+    ],
+    "tags": [
+     "Bottoms"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_052",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p059.vrm",
+   "materials": [
+    "N00_007_02_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "c1b746b1c9",
+    "ae32776387"
+   ],
+   "shape": [
+    2796,
+    7761
+   ],
+   "tags": [
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p059.vrm",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "c1b746b1c9",
+     "ae32776387"
+    ],
+    "shape": [
+     2796,
+     7761
+    ],
+    "tags": [
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_053",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p060.vrm",
+   "materials": [
+    "N00_007_02_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "108017873e"
+   ],
+   "shape": [
+    9723
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p060.vrm",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "108017873e"
+    ],
+    "shape": [
+     9723
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p061.vrm",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "7746ab6118"
+    ],
+    "shape": [
+     9723
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p062.vrm",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "5fc8a645ba"
+    ],
+    "shape": [
+     9723
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p063.vrm",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "7dd22bf2ea"
+    ],
+    "shape": [
+     9723
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_054",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p064.vrm",
+   "materials": [
+    "N00_007_02_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "a0c2b3b551"
+   ],
+   "shape": [
+    5490
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p064.vrm",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "a0c2b3b551"
+    ],
+    "shape": [
+     5490
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_055",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p065.vrm",
+   "materials": [
+    "N00_005_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "1657cbeaa6"
+   ],
+   "shape": [
+    8952
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p065.vrm",
+    "materials": [
+     "N00_005_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "1657cbeaa6"
+    ],
+    "shape": [
+     8952
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p066.vrm",
+    "materials": [
+     "N00_005_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "b8a7ce07c8"
+    ],
+    "shape": [
+     8952
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p067.vrm",
+    "materials": [
+     "N00_005_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "70f2ce23d7"
+    ],
+    "shape": [
+     8952
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p068.vrm",
+    "materials": [
+     "N00_005_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "e1e2b206b6"
+    ],
+    "shape": [
+     8952
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p069.vrm",
+    "materials": [
+     "N00_005_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "37f1ae342c"
+    ],
+    "shape": [
+     8952
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p070.vrm",
+    "materials": [
+     "N00_005_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "78ae067157"
+    ],
+    "shape": [
+     8952
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p071.vrm",
+    "materials": [
+     "N00_005_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "0db3a115d3"
+    ],
+    "shape": [
+     8952
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p072.vrm",
+    "materials": [
+     "N00_005_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "a3cd105af8"
+    ],
+    "shape": [
+     8952
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p073.vrm",
+    "materials": [
+     "N00_005_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "12b082889d"
+    ],
+    "shape": [
+     8952
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Top_056",
+  "slot": "Top",
+  "mesh": {
+   "slot": "Top",
+   "file": "p074.vrm",
+   "materials": [
+    "N00_004_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "6531decf48"
+   ],
+   "shape": [
+    3678
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Top",
+    "file": "p074.vrm",
+    "materials": [
+     "N00_004_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "6531decf48"
+    ],
+    "shape": [
+     3678
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p075.vrm",
+    "materials": [
+     "N00_004_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "1037da490d"
+    ],
+    "shape": [
+     3678
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p076.vrm",
+    "materials": [
+     "N00_004_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "5db3ed1d7b"
+    ],
+    "shape": [
+     3678
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p077.vrm",
+    "materials": [
+     "N00_004_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "4df411da24"
+    ],
+    "shape": [
+     3678
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p078.vrm",
+    "materials": [
+     "N00_004_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "d6b07752cb"
+    ],
+    "shape": [
+     3678
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p079.vrm",
+    "materials": [
+     "N00_004_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "66a7915657"
+    ],
+    "shape": [
+     3678
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p080.vrm",
+    "materials": [
+     "N00_004_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "3636a24669"
+    ],
+    "shape": [
+     3678
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p081.vrm",
+    "materials": [
+     "N00_004_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "cce96142f3"
+    ],
+    "shape": [
+     3678
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Top",
+    "file": "p082.vrm",
+    "materials": [
+     "N00_004_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "d0fffe2973"
+    ],
+    "shape": [
+     3678
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_001",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d001.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "6d6e1dcfa3"
+   ],
+   "shape": [
+    3558
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d001.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "6d6e1dcfa3"
+    ],
+    "shape": [
+     3558
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_002",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d002.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_04 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)"
+   ],
+   "textures": [
+    "3f2922ed73",
+    "8313977a88",
+    "f1c7d50d0c",
+    "661757abe9"
+   ],
+   "shape": [
+    180,
+    1452,
+    1452,
+    4020
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d002.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_04 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)"
+    ],
+    "textures": [
+     "3f2922ed73",
+     "8313977a88",
+     "f1c7d50d0c",
+     "661757abe9"
+    ],
+    "shape": [
+     180,
+     1452,
+     1452,
+     4020
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_003",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d003.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "7b39cfd826",
+    "1ef230ce59",
+    "99cfee399b",
+    "c5bfe5da15",
+    "6e655e3ae8"
+   ],
+   "shape": [
+    48,
+    108,
+    252,
+    1320,
+    4806
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d003.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "7b39cfd826",
+     "1ef230ce59",
+     "99cfee399b",
+     "c5bfe5da15",
+     "6e655e3ae8"
+    ],
+    "shape": [
+     48,
+     108,
+     252,
+     1320,
+     4806
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_004",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d004.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_04 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH (Instance)",
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "d65d2b5b6b",
+    "9f861e1b28",
+    "2e93ab27a8",
+    "9647acb0b9",
+    "172f97ac92"
+   ],
+   "shape": [
+    372,
+    1452,
+    1644,
+    1722,
+    3054
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Onepiece",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d004.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_04 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "d65d2b5b6b",
+     "9f861e1b28",
+     "2e93ab27a8",
+     "9647acb0b9",
+     "172f97ac92"
+    ],
+    "shape": [
+     372,
+     1452,
+     1644,
+     1722,
+     3054
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Onepiece",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_005",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d005.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)",
+    "N00_002_01_Tops_01_CLOTH_03 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH (Instance)",
+    "N00_002_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_002_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "d948df0c3c",
+    "696a8b30a8",
+    "e7d94d96d9",
+    "8fe1a24651",
+    "f55f63b3c8"
+   ],
+   "shape": [
+    162,
+    240,
+    1350,
+    1380,
+    2577
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Onepiece",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d005.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)",
+     "N00_002_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_002_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "d948df0c3c",
+     "696a8b30a8",
+     "e7d94d96d9",
+     "8fe1a24651",
+     "f55f63b3c8"
+    ],
+    "shape": [
+     162,
+     240,
+     1350,
+     1380,
+     2577
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Onepiece",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_006",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d006.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "89b3b9e110",
+    "c186d534b6",
+    "cc2ce44f38"
+   ],
+   "shape": [
+    285,
+    1410,
+    2424
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d006.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "89b3b9e110",
+     "c186d534b6",
+     "cc2ce44f38"
+    ],
+    "shape": [
+     285,
+     1410,
+     2424
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_007",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d007.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH_04 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "a61e460bc8",
+    "037bbd78e8",
+    "fcd2a8ac94",
+    "e45d33b044"
+   ],
+   "shape": [
+    417,
+    1218,
+    1218,
+    1923
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d007.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_04 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "a61e460bc8",
+     "037bbd78e8",
+     "fcd2a8ac94",
+     "e45d33b044"
+    ],
+    "shape": [
+     417,
+     1218,
+     1218,
+     1923
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_008",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d008.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "f6eb2e15bc"
+   ],
+   "shape": [
+    3336
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d008.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "f6eb2e15bc"
+    ],
+    "shape": [
+     3336
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_009",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d009.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH (Instance)"
+   ],
+   "textures": [
+    "112e6a4f71",
+    "cd1b99a4fb",
+    "b1e1705c8c"
+   ],
+   "shape": [
+    6258,
+    7608,
+    21258
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d009.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH (Instance)"
+    ],
+    "textures": [
+     "112e6a4f71",
+     "cd1b99a4fb",
+     "b1e1705c8c"
+    ],
+    "shape": [
+     6258,
+     7608,
+     21258
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_010",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d010.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH (Instance)"
+   ],
+   "textures": [
+    "3d0211001c",
+    "983928990c"
+   ],
+   "shape": [
+    2970,
+    23640
+   ],
+   "tags": [
+    "Tops",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d010.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH (Instance)"
+    ],
+    "textures": [
+     "3d0211001c",
+     "983928990c"
+    ],
+    "shape": [
+     2970,
+     23640
+    ],
+    "tags": [
+     "Tops",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_011",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d011.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH (Instance)",
+    "N00_002_03_Tops_01_CLOTH_04 (Instance)"
+   ],
+   "textures": [
+    "a5a1c002cd",
+    "d0ec0894ab",
+    "f703dac9f1",
+    "187add2a46",
+    "c52eecf7db"
+   ],
+   "shape": [
+    396,
+    1509,
+    1530,
+    1809,
+    2499
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Onepiece",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d011.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_002_03_Tops_01_CLOTH_04 (Instance)"
+    ],
+    "textures": [
+     "a5a1c002cd",
+     "d0ec0894ab",
+     "f703dac9f1",
+     "187add2a46",
+     "c52eecf7db"
+    ],
+    "shape": [
+     396,
+     1509,
+     1530,
+     1809,
+     2499
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Onepiece",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_012",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d012.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_04 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "43e16526e9",
+    "d69ffbb420",
+    "e2d72f311e",
+    "fd13e70c8b"
+   ],
+   "shape": [
+    477,
+    2367,
+    3336,
+    9132
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d012.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_04 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "43e16526e9",
+     "d69ffbb420",
+     "e2d72f311e",
+     "fd13e70c8b"
+    ],
+    "shape": [
+     477,
+     2367,
+     3336,
+     9132
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_013",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d013.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "7b6debf0c5",
+    "0107819c01",
+    "6536be3b0a",
+    "de783ff1e5",
+    "2324dadad2"
+   ],
+   "shape": [
+    1356,
+    1356,
+    2538,
+    3516,
+    5727
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d013.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "7b6debf0c5",
+     "0107819c01",
+     "6536be3b0a",
+     "de783ff1e5",
+     "2324dadad2"
+    ],
+    "shape": [
+     1356,
+     1356,
+     2538,
+     3516,
+     5727
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_014",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d014.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "38ce116f88",
+    "c88e856a2d",
+    "19c2fb8f8f",
+    "f9998b0da0",
+    "c3479d45dc"
+   ],
+   "shape": [
+    252,
+    1362,
+    2286,
+    2487,
+    6144
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d014.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "38ce116f88",
+     "c88e856a2d",
+     "19c2fb8f8f",
+     "f9998b0da0",
+     "c3479d45dc"
+    ],
+    "shape": [
+     252,
+     1362,
+     2286,
+     2487,
+     6144
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_015",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d015.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)",
+    "N00_002_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_02 (Instance)",
+    "N00_002_01_Tops_01_CLOTH_01 (Instance)",
+    "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "bd5fa9e07f",
+    "aa4514db0b",
+    "95157754b1",
+    "29fe170a05",
+    "0c8ac46c5b"
+   ],
+   "shape": [
+    180,
+    357,
+    966,
+    1500,
+    9414
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Onepiece",
+    "Tops",
+    "Onepiece"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d015.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)",
+     "N00_002_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)",
+     "N00_002_01_Tops_01_CLOTH_01 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "bd5fa9e07f",
+     "aa4514db0b",
+     "95157754b1",
+     "29fe170a05",
+     "0c8ac46c5b"
+    ],
+    "shape": [
+     180,
+     357,
+     966,
+     1500,
+     9414
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Onepiece",
+     "Tops",
+     "Onepiece"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_016",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d016.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)",
+    "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "d21bae6d58",
+    "27c9179a3b",
+    "ef3770feb3",
+    "0a849a6894"
+   ],
+   "shape": [
+    156,
+    300,
+    1404,
+    4656
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d016.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "d21bae6d58",
+     "27c9179a3b",
+     "ef3770feb3",
+     "0a849a6894"
+    ],
+    "shape": [
+     156,
+     300,
+     1404,
+     4656
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_017",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d017.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "48b59751d2",
+    "3159f46dc9",
+    "2e8783bc27"
+   ],
+   "shape": [
+    192,
+    711,
+    11928
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d017.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "48b59751d2",
+     "3159f46dc9",
+     "2e8783bc27"
+    ],
+    "shape": [
+     192,
+     711,
+     11928
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_018",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d018.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_04 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "dc02212b9e",
+    "8e92a308ea",
+    "417b1df2a3",
+    "b2196f5a15"
+   ],
+   "shape": [
+    306,
+    882,
+    4416,
+    8028
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d018.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_04 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "dc02212b9e",
+     "8e92a308ea",
+     "417b1df2a3",
+     "b2196f5a15"
+    ],
+    "shape": [
+     306,
+     882,
+     4416,
+     8028
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_019",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d019.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_04 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "8e180ba423",
+    "5319977126",
+    "6e9c3edac0",
+    "d429c5c1e0"
+   ],
+   "shape": [
+    333,
+    882,
+    4416,
+    8028
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d019.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_04 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "8e180ba423",
+     "5319977126",
+     "6e9c3edac0",
+     "d429c5c1e0"
+    ],
+    "shape": [
+     333,
+     882,
+     4416,
+     8028
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_020",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d020.vrm",
+   "materials": [
+    "N00_002_01_Tops_01_CLOTH_03 (Instance)",
+    "N00_002_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_02_Tops_01_CLOTH (Instance)",
+    "N00_002_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "4a7ea80ea2",
+    "f1d31db86d",
+    "d47dc76152",
+    "3133c2e39a"
+   ],
+   "shape": [
+    1584,
+    1974,
+    2562,
+    4344
+   ],
+   "tags": [
+    "Tops",
+    "Tops",
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d020.vrm",
+    "materials": [
+     "N00_002_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_002_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "4a7ea80ea2",
+     "f1d31db86d",
+     "d47dc76152",
+     "3133c2e39a"
+    ],
+    "shape": [
+     1584,
+     1974,
+     2562,
+     4344
+    ],
+    "tags": [
+     "Tops",
+     "Tops",
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_021",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d021.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "8495e5ed17"
+   ],
+   "shape": [
+    3441
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d021.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "8495e5ed17"
+    ],
+    "shape": [
+     3441
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_022",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d022.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "00d8349a72"
+   ],
+   "shape": [
+    3450
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d022.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "00d8349a72"
+    ],
+    "shape": [
+     3450
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_023",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d023.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "97b1a3c822"
+   ],
+   "shape": [
+    3444
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d023.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "97b1a3c822"
+    ],
+    "shape": [
+     3444
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_024",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d024.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "e9bad88438",
+    "aa5349b5e2"
+   ],
+   "shape": [
+    3441,
+    4893
+   ],
+   "tags": [
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d024.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "e9bad88438",
+     "aa5349b5e2"
+    ],
+    "shape": [
+     3441,
+     4893
+    ],
+    "tags": [
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_025",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d025.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "6cfa1df309",
+    "78e87dc051"
+   ],
+   "shape": [
+    3450,
+    4893
+   ],
+   "tags": [
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d025.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "6cfa1df309",
+     "78e87dc051"
+    ],
+    "shape": [
+     3450,
+     4893
+    ],
+    "tags": [
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_026",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d026.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH (Instance)",
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "74c6e99039",
+    "7d9c4daf11"
+   ],
+   "shape": [
+    3444,
+    4893
+   ],
+   "tags": [
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d026.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "74c6e99039",
+     "7d9c4daf11"
+    ],
+    "shape": [
+     3444,
+     4893
+    ],
+    "tags": [
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_027",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d027.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "153307bfed"
+   ],
+   "shape": [
+    12198
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d027.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "153307bfed"
+    ],
+    "shape": [
+     12198
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Dress",
+    "file": "d028.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "12df1277a8"
+    ],
+    "shape": [
+     12198
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_028",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d029.vrm",
+   "materials": [
+    "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+    "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+   ],
+   "textures": [
+    "3671e2a04e",
+    "d90c6f9790"
+   ],
+   "shape": [
+    4548,
+    12198
+   ],
+   "tags": [
+    "Tops",
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d029.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "3671e2a04e",
+     "d90c6f9790"
+    ],
+    "shape": [
+     4548,
+     12198
+    ],
+    "tags": [
+     "Tops",
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Dress",
+    "file": "d030.vrm",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ],
+    "textures": [
+     "3671e2a04e",
+     "d815721820"
+    ],
+    "shape": [
+     4548,
+     12198
+    ],
+    "tags": [
+     "Tops",
+     "Tops"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "Dress_029",
+  "slot": "Dress",
+  "mesh": {
+   "slot": "Dress",
+   "file": "d031.vrm",
+   "materials": [
+    "N00_002_03_Tops_01_CLOTH (Instance)"
+   ],
+   "textures": [
+    "6ab6b14ac2"
+   ],
+   "shape": [
+    4572
+   ],
+   "tags": [
+    "Tops"
+   ]
+  },
+  "variants": [
+   {
+    "slot": "Dress",
+    "file": "d031.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "6ab6b14ac2"
+    ],
+    "shape": [
+     4572
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Dress",
+    "file": "d032.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "33b16fc2e5"
+    ],
+    "shape": [
+     4572
+    ],
+    "tags": [
+     "Tops"
+    ]
+   },
+   {
+    "slot": "Dress",
+    "file": "d033.vrm",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ],
+    "textures": [
+     "8e3aa628fa"
+    ],
+    "shape": [
+     4572
+    ],
+    "tags": [
+     "Tops"
+    ]
+   }
+  ]
+ }
+]

@@ -12,7 +12,7 @@ namespace
 	/** Rigid accessories that attach to a socket. Every other slot bends with the body. */
 	bool IsStaticSlot(EDressUpSlot Slot)
 	{
-		return Slot == EDressUpSlot::Earrings || Slot == EDressUpSlot::Necklace;
+		return Slot == EDressUpSlot::Earrings;  // VRoid neck pieces (ties, ribbons) bend with the body
 	}
 
 	USkeletalMeshComponent* MakeSkeletal(AActor* Owner, FName Name, USceneComponent* Parent)

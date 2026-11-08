@@ -1,6 +1,6 @@
 # Giydirme Oyunu Yol Haritası
 
-Son güncelleme: 2026-11-05
+Son güncelleme: 2026-11-08
 
 ## Projenin amacı
 
@@ -52,6 +52,36 @@ Oyun cozy bir hava taşır ve hediye olarak yapılıyor, satılmayacak. Karakter
 - VRM aktarımı: `VRM4UAssetToolset.import_vrm_model`, `VRMIMT_MToon`. Asset'ler kaydedilmemiş gelir, `save_assets` gerekir.
 - `CaptureViewport`: `captureTransform` ve `annotations` boş geçilemez. Çıktı dosyaya düşer, `returnValue.image.data` base64'ten PNG'ye çözülür.
 - VRoid'i computer use ile kullanırken erişim adı `VRoidStudio 2.16.0`. `open_application` ikinci kopya açtı, pencereyi öne almak için PowerShell `AppActivate` kullanıldı. Slider'lar sürüklenerek ayarlanıyor, renk kutularına yazılabiliyor.
+
+## VRoid toplu içerik (2026-11-08)
+
+VRoid'in tüm hazır parçaları oyunda: 235 parça, renk/desen varyantlarıyla 303 görünüm.
+Üst 56 (82 görünüm), alt 37 (54), elbise 29 (33), ayakkabı 46 (59), yaka süsü 11 (18),
+kol süsü 14 (15, yeni `Gloves` bölgesi), saç 37, kalın gözlük + 4 şapka.
+Asset'ler `/Game/DressUp/Items/VRoid`, kayıtlar `/Game/DressUp/Data/VRoid/DA_*`,
+ikonlar `/Game/DressUp/UI/Icons/VRoid`. Hepsi `DA_Catalog.AllItems` içinde.
+
+**Hat (yeniden çalıştırılabilir, `SourceAssets/Scripts`):**
+1. VRoid'den dışa aktarım: `vroid_multi_round.py` (dosyalar `SourceAssets/VRoid/presets`, `PROGRESS.md`).
+2. `classify_presets.py` → `items.json`: materyaller vücuttaki konumuna göre bölgelere ayrılır,
+   doku setine göre tekrarlar atılır, aynı mesh'li olanlar varyant olur.
+3. `make_jobs.py` → `jobs.json`; `build_items.py` (Blender, tek oturumda tüm VRM'ler):
+   ayırma + iskelete taşıma + **kıyafet hattı** (saydam yüz silme, vücut ağırlıkları; fix_cloth ile aynı).
+4. `extract_textures.py` (dokular, en fazla 1024), `render_icons.py` (Blender ikonları),
+   `item_coverage.py` (gizlenecek vücut bölgeleri, ışın testi), `make_manifest.py`.
+5. Unreal: `ue_import_items.py` (MCP betiği; manifest `Saved/DressUpImport` altından okunur).
+- **Önemli:** VRoid dokuları Unreal'da `TMGS_NoMipmaps` + `TC_BC7` olmalı. Mipmap'li dokuda
+  VRM4U MToon çok düşük mip seçiyor, kıyafet bulanık görünüyor.
+- **Varyantlar:** `UDressUpItem.Variants` (renk örneği + slot başına materyal). Arayüzde son seçilen
+  parçanın varyantları renk kutularının yerine çıkar (`SetSlotVariant`, kayda da yazılır).
+- **Arayüz:** parça listesi koddan `ScrollBox` içine alınır (`WrapListInScrollBox`).
+- **Test komutları:** `DressUpWear DA_X DA_Y:2 nopanel`, `DressUpGallery` (her kombinin fotoğrafı
+  `Saved/Gallery`, liste logda "GALLERY n"). Galerideki arka çekim karakteri döndürmüyor, ön çekimler geçerli.
+- MCP: 5 dakikayı aşan çağrı istemci tarafında kesilince editördeki MCP eklentisi kilitleniyor;
+  editörü yeniden başlatmak gerekiyor. Betikleri ~4 dakikalık partilere böl.
+
+**Yapılmayanlar:** örnek model kostümleri (A–Z, Dress-up/XWear yolu), dokuya boyalı VRoid çorapları
+(34 adet; vücut dokusu farkından türetilebilir), kulak ve kuyruk.
 
 ## Mevcut durum
 

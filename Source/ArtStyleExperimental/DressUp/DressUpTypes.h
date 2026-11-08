@@ -7,6 +7,7 @@
 
 class UAnimationAsset;
 class UDressUpItem;
+class UMaterialInterface;
 
 /** Where an item is worn. Each slot holds at most one item. */
 UENUM(BlueprintType)
@@ -23,7 +24,9 @@ enum class EDressUpSlot : uint8
 	Glasses,
 	Earrings,
 	Necklace,
-	Hat
+	Hat,
+	/** Gloves, arm warmers and other arm pieces. */
+	Gloves
 };
 
 /**
@@ -72,6 +75,24 @@ struct FDressUpOutfitEntry
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dress Up")
 	FLinearColor Color = FLinearColor::White;
+
+	/** Index into the item's Variants; 0 is the mesh's own look. */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dress Up")
+	int32 Variant = 0;
+};
+
+/** A colour or pattern of an item: one material per mesh material slot, in slot order. */
+USTRUCT(BlueprintType)
+struct FDressUpVariant
+{
+	GENERATED_BODY()
+
+	/** Colour of the swatch the UI shows for this variant. */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dress Up")
+	FLinearColor Swatch = FLinearColor::White;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dress Up")
+	TArray<TObjectPtr<UMaterialInterface>> Materials;
 };
 
 /** A full outfit, used for saving and loading. */

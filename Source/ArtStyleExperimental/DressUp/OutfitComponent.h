@@ -68,6 +68,20 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Outfit")
 	void SetColorForLastSlot(FLinearColor Color);
 
+	/** Switches the item in a slot to one of its Variants. Reset when the item changes. */
+	UFUNCTION(BlueprintCallable, Category = "Outfit")
+	void SetSlotVariant(EDressUpSlot Slot, int32 Variant);
+
+	UFUNCTION(BlueprintCallable, Category = "Outfit")
+	void SetVariantForLastSlot(int32 Variant);
+
+	UFUNCTION(BlueprintPure, Category = "Outfit")
+	int32 GetSlotVariant(EDressUpSlot Slot) const;
+
+	/** The item the player picked most recently, if it is still worn. */
+	UFUNCTION(BlueprintPure, Category = "Outfit")
+	UDressUpItem* GetLastItem() const;
+
 	UFUNCTION(BlueprintPure, Category = "Outfit")
 	FDressUpOutfit GetOutfit() const;
 
@@ -111,6 +125,9 @@ private:
 
 	UPROPERTY()
 	TMap<EDressUpSlot, FLinearColor> SlotColors;
+
+	UPROPERTY()
+	TMap<EDressUpSlot, int32> SlotVariants;
 
 	TOptional<EDressUpSlot> LastSlot;
 };

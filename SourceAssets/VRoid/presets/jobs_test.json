@@ -1,0 +1,90 @@
+[
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\acc_all.vrm",
+  "items": [
+   {
+    "name": "Glasses_Thick",
+    "kind": "rigid",
+    "materials": [
+     "Accessory_GlassesHiFrame_01_MATCAP (Instance)",
+     "Accessory_GlassesHiLens_01_MATCAP (Instance)"
+    ]
+   },
+   {
+    "name": "Hat_Silk",
+    "kind": "rigid",
+    "materials": [
+     "Accessory_SilkHat_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Hat_Straw",
+    "kind": "rigid",
+    "materials": [
+     "Accessory_StrawHat_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Hat_Witch",
+    "kind": "rigid",
+    "materials": [
+     "Accessory_WitchHat_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Hat_Work",
+    "kind": "rigid",
+    "materials": [
+     "Accessory_WorkCap_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p005.vrm",
+  "items": [
+   {
+    "name": "Top_005",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_005_01_Tops_01_CLOTH (Instance)",
+     "N00_007_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_04_Tops_01_CLOTH (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_005",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_005",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_04 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Neck_005",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_005",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ]
+   }
+  ]
+ }
+]

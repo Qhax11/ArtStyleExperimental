@@ -136,7 +136,10 @@ void ADressUpPlayerController::StartDressUp()
 void ADressUpPlayerController::PlayerTick(float DeltaTime)
 {
 	Super::PlayerTick(DeltaTime);
-	UpdateRotation(DeltaTime);
+	if (GalleryOutfits.IsEmpty())
+	{
+		UpdateRotation(DeltaTime);
+	}
 }
 
 void ADressUpPlayerController::UpdateRotation(float DeltaTime)
@@ -306,4 +309,156 @@ void ADressUpMenuController::ShowMenu()
 	InputMode.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
 	SetInputMode(InputMode);
 	SetShowMouseCursor(true);
+}
+
+void ADressUpPlayerController::DressUpWear(const FString& Items)
+{
+	if (!DressUpCharacter)
+	{
+		return;
+	}
+	UOutfitComponent* Outfit = DressUpCharacter->GetOutfit();
+	const UDressUpCatalog* Catalog = DressUpCharacter->GetCatalog();
+	if (!Outfit || !Catalog)
+	{
+		return;
+	}
+	TArray<FString> Names;
+	Items.ParseIntoArrayWS(Names);
+	Outfit->ApplyOutfit(FDressUpOutfit());
+	bool bShowPanel = true;
+	for (const FString& Entry : Names)
+	{
+		if (Entry.Equals(TEXT("nopanel"), ESearchCase::IgnoreCase))
+		{
+			bShowPanel = false;
+			continue;
+		}
+		FString Name = Entry;
+		FString VariantText;
+		Entry.Split(TEXT(":"), &Name, &VariantText);
+		const TObjectPtr<UDressUpItem>* Found = Catalog->AllItems.FindByPredicate([&Name](const UDressUpItem* Item)
+		{
+			return Item && Item->GetName() == Name;
+		});
+		if (!Found)
+		{
+			UE_LOG(LogDressUpGame, Warning, TEXT("DressUpWear: no item %s"), *Name);
+			continue;
+		}
+		Outfit->Equip(*Found);
+		if (!VariantText.IsEmpty())
+		{
+			Outfit->SetSlotVariant((*Found)->Slot, FCString::Atoi(*VariantText));
+		}
+	}
+	if (Panel)
+	{
+		Panel->SetVisibility(bShowPanel ? ESlateVisibility::Visible : ESlateVisibility::Collapsed);
+	}
+}
+
+void ADressUpPlayerController::DressUpGallery()
+{
+	const UDressUpCatalog* Catalog = DressUpCharacter ? DressUpCharacter->GetCatalog() : nullptr;
+	if (!Catalog)
+	{
+		return;
+	}
+	// Items per slot, in catalog order. Dresses get their own outfits, as they block top and bottom.
+	TMap<EDressUpSlot, TArray<UDressUpItem*>> BySlot;
+	for (UDressUpItem* Item : Catalog->AllItems)
+	{
+		if (Item)
+		{
+			BySlot.FindOrAdd(Item->Slot).Add(Item);
+		}
+	}
+	auto Build = [&BySlot](const TArray<EDressUpSlot>& Driving, const TArray<EDressUpSlot>& Riding, TArray<TArray<TObjectPtr<UDressUpItem>>>& Out)
+	{
+		int32 Count = 0;
+		for (EDressUpSlot Slot : Driving)
+		{
+			Count = FMath::Max(Count, BySlot.FindOrAdd(Slot).Num());
+		}
+		for (int32 Index = 0; Index < Count; ++Index)
+		{
+			TArray<TObjectPtr<UDressUpItem>>& Outfit = Out.AddDefaulted_GetRef();
+			for (EDressUpSlot Slot : Driving)
+			{
+				const TArray<UDressUpItem*>& Items = BySlot.FindOrAdd(Slot);
+				if (Items.IsValidIndex(Index))
+				{
+					Outfit.Add(Items[Index]);
+				}
+			}
+			for (EDressUpSlot Slot : Riding)
+			{
+				const TArray<UDressUpItem*>& Items = BySlot.FindOrAdd(Slot);
+				if (Items.Num() > 0)
+				{
+					Outfit.Add(Items[Index % Items.Num()]);
+				}
+			}
+		}
+	};
+	GalleryOutfits.Reset();
+	Build({EDressUpSlot::Top, EDressUpSlot::Bottom, EDressUpSlot::Shoes, EDressUpSlot::Necklace, EDressUpSlot::Gloves, EDressUpSlot::Hair, EDressUpSlot::Socks},
+		{}, GalleryOutfits);
+	Build({EDressUpSlot::Dress, EDressUpSlot::Glasses, EDressUpSlot::Hat}, {EDressUpSlot::Shoes, EDressUpSlot::Hair}, GalleryOutfits);
+	GalleryIndex = 0;
+	if (Panel)
+	{
+		Panel->SetVisibility(ESlateVisibility::Collapsed);
+	}
+	UE_LOG(LogDressUpGame, Log, TEXT("GALLERY start: %d outfits"), GalleryOutfits.Num());
+	GalleryStep();
+}
+
+void ADressUpPlayerController::GalleryStep()
+{
+	if (!DressUpCharacter || !GalleryOutfits.IsValidIndex(GalleryIndex))
+	{
+		UE_LOG(LogDressUpGame, Log, TEXT("GALLERY done"));
+		GalleryOutfits.Reset();
+		if (Panel)
+		{
+			Panel->SetVisibility(ESlateVisibility::Visible);
+		}
+		return;
+	}
+	UOutfitComponent* Outfit = DressUpCharacter->GetOutfit();
+	Outfit->ApplyOutfit(FDressUpOutfit());
+	FString Names;
+	for (UDressUpItem* Item : GalleryOutfits[GalleryIndex])
+	{
+		Outfit->Equip(Item);
+		Names += Item->GetName() + TEXT(" ");
+	}
+	UE_LOG(LogDressUpGame, Log, TEXT("GALLERY %d: %s"), GalleryIndex, *Names);
+	DressUpCharacter->SetActorRotation(DefaultRotation);
+
+	const FString Directory = FPaths::Combine(FPaths::ProjectSavedDir(), TEXT("Gallery"));
+	IFileManager::Get().MakeDirectory(*Directory, true);
+	const int32 Index = GalleryIndex;
+	FTimerDelegate Front = FTimerDelegate::CreateWeakLambda(this, [this, Directory, Index]()
+	{
+		FScreenshotRequest::RequestScreenshot(FPaths::Combine(Directory, FString::Printf(TEXT("G%03d_front.png"), Index)), false, false);
+		FTimerDelegate Back = FTimerDelegate::CreateWeakLambda(this, [this, Directory, Index]()
+		{
+			if (DressUpCharacter)
+			{
+				DressUpCharacter->SetActorRotation(DefaultRotation + FRotator(0.0f, 180.0f, 0.0f));
+			}
+			FTimerDelegate Shot = FTimerDelegate::CreateWeakLambda(this, [this, Directory, Index]()
+			{
+				FScreenshotRequest::RequestScreenshot(FPaths::Combine(Directory, FString::Printf(TEXT("G%03d_back.png"), Index)), false, false);
+				++GalleryIndex;
+				GetWorldTimerManager().SetTimer(GalleryTimer, this, &ADressUpPlayerController::GalleryStep, 0.3f, false);
+			});
+			GetWorldTimerManager().SetTimer(GalleryTimer, Shot, 0.4f, false);
+		});
+		GetWorldTimerManager().SetTimer(GalleryTimer, Back, 0.3f, false);
+	});
+	GetWorldTimerManager().SetTimer(GalleryTimer, Front, 0.8f, false);
 }

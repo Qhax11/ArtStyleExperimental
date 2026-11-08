@@ -3,6 +3,9 @@
 #include "Components/Button.h"
 #include "Components/Image.h"
 #include "Components/PanelWidget.h"
+#include "Components/ScrollBox.h"
+#include "Components/ScrollBoxSlot.h"
+#include "Components/VerticalBoxSlot.h"
 #include "Components/TextBlock.h"
 #include "DressUp/DressUpCharacter.h"
 #include "DressUp/DressUpData.h"
@@ -75,10 +78,11 @@ void UDressUpItemButton::RefreshState()
 
 // --- Colour button ---
 
-void UDressUpColorButton::Setup(FLinearColor InColor, UOutfitComponent* InOutfit)
+void UDressUpColorButton::Setup(FLinearColor InColor, UOutfitComponent* InOutfit, int32 InVariant)
 {
 	Color = InColor;
 	Outfit = InOutfit;
+	Variant = InVariant;
 }
 
 void UDressUpColorButton::NativeConstruct()
@@ -90,7 +94,11 @@ void UDressUpColorButton::NativeConstruct()
 
 void UDressUpColorButton::HandleClicked()
 {
-	if (Outfit)
+	if (Outfit && Variant >= 0)
+	{
+		Outfit->SetVariantForLastSlot(Variant);
+	}
+	else if (Outfit)
 	{
 		Outfit->SetColorForLastSlot(Color);
 	}
@@ -177,16 +185,76 @@ void UDressUpPanel::Setup(UOutfitComponent* InOutfit, UDressUpCatalog* InCatalog
 		TabButtons.Add(Button);
 	}
 
+	bSwatchesBuilt = false;
+	RefreshSwatches();
+	if (Outfit)
+	{
+		Outfit->OnOutfitChanged.AddUniqueDynamic(this, &UDressUpPanel::RefreshSwatches);
+	}
+
+	BuildPoseChips(TabClass);
+	SelectTab(0);
+}
+
+void UDressUpPanel::RefreshSwatches()
+{
+	UClass* ColorClass = ColorButtonClass.LoadSynchronous();
+	if (!Catalog || !ColorClass || !Colors)
+	{
+		return;
+	}
+	UDressUpItem* Item = Outfit ? Outfit->GetLastItem() : nullptr;
+	if (Item && Item->Variants.Num() < 2)
+	{
+		Item = nullptr;
+	}
+	if (bSwatchesBuilt && SwatchItem.Get() == Item)
+	{
+		return;  // Same swatches; rebuilding here would destroy the swatch being clicked.
+	}
+	bSwatchesBuilt = true;
+	SwatchItem = Item;
 	Colors->ClearChildren();
+	if (Item)
+	{
+		for (int32 Index = 0; Index < Item->Variants.Num(); ++Index)
+		{
+			UDressUpColorButton* Swatch = CreateWidget<UDressUpColorButton>(this, ColorClass);
+			Swatch->Setup(Item->Variants[Index].Swatch, Outfit, Index);
+			Colors->AddChild(Swatch);
+		}
+		return;
+	}
 	for (const FLinearColor& Color : Catalog->Palette)
 	{
 		UDressUpColorButton* Swatch = CreateWidget<UDressUpColorButton>(this, ColorClass);
 		Swatch->Setup(Color, Outfit);
 		Colors->AddChild(Swatch);
 	}
+}
 
-	BuildPoseChips(TabClass);
-	SelectTab(0);
+void UDressUpPanel::WrapListInScrollBox()
+{
+	if (!List || Cast<UScrollBox>(List->GetParent()))
+	{
+		return;
+	}
+	UPanelWidget* Parent = List->GetParent();
+	if (!Parent)
+	{
+		return;
+	}
+	const int32 Index = Parent->GetChildIndex(List);
+	UScrollBox* Scroll = NewObject<UScrollBox>(this, TEXT("ListScroll"));
+	Scroll->SetAlwaysShowScrollbar(false);
+	Scroll->SetScrollbarThickness(FVector2D(6.0f, 6.0f));
+	// ReplaceChildAt keeps the slot (size, padding) the list had in the layout.
+	Parent->ReplaceChildAt(Index, Scroll);
+	if (UVerticalBoxSlot* VSlot = Cast<UVerticalBoxSlot>(Scroll->Slot))
+	{
+		VSlot->SetSize(FSlateChildSize(ESlateSizeRule::Fill));
+	}
+	Scroll->AddChild(List);
 }
 
 void UDressUpPanel::BuildPoseChips(UClass* ChipClass)
@@ -243,6 +311,10 @@ void UDressUpPanel::SelectTab(int32 TabIndex)
 	}
 
 	List->ClearChildren();
+	if (UScrollBox* Scroll = Cast<UScrollBox>(List->GetParent()))
+	{
+		Scroll->ScrollToStart();
+	}
 	const FDressUpTab& Tab = TabDefs[TabIndex];
 	for (UDressUpItem* Item : Catalog->AllItems)
 	{
@@ -258,6 +330,7 @@ void UDressUpPanel::SelectTab(int32 TabIndex)
 void UDressUpPanel::NativeConstruct()
 {
 	Super::NativeConstruct();
+	WrapListInScrollBox();
 	ResetBtn->OnClicked.AddUniqueDynamic(this, &UDressUpPanel::HandleReset);
 	if (FinishBtn)
 	{

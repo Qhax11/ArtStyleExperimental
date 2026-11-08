@@ -1,0 +1,8116 @@
+[
+ {
+  "name": "Top_001",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "a55919dbf0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_001",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "9e77d4251e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_001",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "ba93280c78",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Neck_001",
+  "slot": "Neck",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "b73f2bb9a5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_001",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "af58086f4f",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_002",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "33303f42f0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "9d64755409",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_002",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "7856eda71e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "a46fced317",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_002",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "07610f8e51",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Neck_002",
+  "slot": "Neck",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "956b2642a0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "3596e1bc3c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "e22dbe70c7",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_002",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "de37ddf188",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_003",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "135dc5914d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "526c8b8a4f",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_003",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "eb0a223f2c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_003",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "765d7b25a2",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "759fb8aefb",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.623960435,
+      0.708375931
+     ]
+    },
+    {
+     "tex": "b0f4fcf703",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "2a0944f959",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "e194de1d15",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Neck_003",
+  "slot": "Neck",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "a4ead3b00b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_003",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "37c6160a69",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_004",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "8163ea6a8f",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "b96224436e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "58da6a1d63",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_004",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "8f8030db55",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "01a23625fa",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.87962234,
+      0.87962234,
+      0.87962234
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "432b26306c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "0ec7998102",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_004",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "8cdfcfff95",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "62ab5dd233",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Neck_004",
+  "slot": "Neck",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "47d2933cb7",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    },
+    {
+     "tex": "60b7ed8dc4",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_004",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "7cf3b7120e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_005",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "f66438584d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "a487ca6e78",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    },
+    {
+     "tex": "5f5c91993e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.5622014,
+      0.5622014,
+      0.5622014
+     ]
+    },
+    {
+     "tex": "3d5f248bef",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.791298032,
+      0.791298032,
+      0.791298032
+     ]
+    },
+    {
+     "tex": "99014d7340",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    },
+    {
+     "tex": "741989fe81",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_005",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "c91b0b0ca1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "85d8c12603",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_005",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "cb14ee123e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "3882bec9cf",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Neck_005",
+  "slot": "Neck",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "aa521d81e5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_005",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "9c75d97460",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_006",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "373ed41298",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    },
+    {
+     "tex": "1863d60ebf",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    },
+    {
+     "tex": "6628fb586b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_006",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "5e9b6e83f9",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "67ebb6f533",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_006",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "6eb2f248a1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Neck_006",
+  "slot": "Neck",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "4819adae89",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "201f65c42c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "aeb23335f0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_006",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "ca54acb9e6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "e8cd6f2751",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "2c6c975064",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_007",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "73e08a9b18",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "8a34e72a1b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9355064,
+      0.9213922,
+      0.980666339
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_007",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "4ea1d4d41c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_007",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "fca3985f06",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    },
+    {
+     "tex": "d02d60e581",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_007",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "34cdde4922",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.921582043,
+      0.9386859
+     ]
+    },
+    {
+     "tex": "2e404a996f",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_008",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "42a9128bbd",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_008",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "e93e224aef",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_008",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "5b288116d0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    },
+    {
+     "tex": "777165a08f",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    },
+    {
+     "tex": "31f65accf6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    },
+    {
+     "tex": "e3f3f5f8ee",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_008",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "020fe6102f",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "b58ba66a48",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_009",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "c8641fd989",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.5394744,
+      0.7688341,
+      0.776743054
+     ]
+    },
+    {
+     "tex": "589b65b34c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9559735,
+      0.87962234,
+      0.8387991
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_009",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "520c68f08d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "ada6173c2a",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_009",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "d07f67eae3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    },
+    {
+     "tex": "54db2e3b09",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    },
+    {
+     "tex": "a58c4dcbf9",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "ee638ea29d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.921582043,
+      0.9386859
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Neck_007",
+  "slot": "Neck",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "ddae67b2dc",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "ba96c2fcfb",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_009",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "230a36912c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_010",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "c0626acbc4",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    },
+    {
+     "tex": "42a9128bbd",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    },
+    {
+     "tex": "27f8ab4377",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.822785854
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_010",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "24282fca66",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "ace8872d20",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_010",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "3ef78a7417",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "4d289a0c52",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "9aee74d322",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9355064,
+      0.9213922,
+      0.980666339
+     ]
+    },
+    {
+     "tex": "45a6e6c6e1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_010",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "f413e4103e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Neck_008",
+  "slot": "Neck",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "e4b1c7da06",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "a59736c5de",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "68c2a7d4c5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "a59736c5de",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_011",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "f7a0696185",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_011",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "8a06dba4a4",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    },
+    {
+     "tex": "ff3b75f4de",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    },
+    {
+     "tex": "e7f4697877",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_011",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "21b8f1d637",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_011",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "b3d5876992",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_012",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "b3d5876992",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9559735,
+      0.87962234,
+      0.8387991
+     ]
+    },
+    {
+     "tex": "0c9a93eaaa",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.738235056,
+      0.7521215,
+      0.760069
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_012",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "bafafbca58",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "fcaf6186ba",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_012",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "8a06dba4a4",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9559735,
+      0.87962234,
+      0.8387991
+     ]
+    },
+    {
+     "tex": "0e423ddc54",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9559735,
+      0.87962234,
+      0.8387991
+     ]
+    },
+    {
+     "tex": "6dc75823b0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9559735,
+      0.87962234,
+      0.8387991
+     ]
+    },
+    {
+     "tex": "e7f4697877",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_012",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "f1e8bdc638",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9559735,
+      0.87962234,
+      0.8387991
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "856606dff4",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_013",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "7cfa672171",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    },
+    {
+     "tex": "b3d5876992",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    },
+    {
+     "tex": "00f3e1b21a",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.738235056,
+      0.7521215,
+      0.760069
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_013",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "9b595fa3aa",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "3382bebf2d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "5837676d42",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_013",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "8a06dba4a4",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    },
+    {
+     "tex": "0c47588d50",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Neck_009",
+  "slot": "Neck",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "c8c623029d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    },
+    {
+     "tex": "a59736c5de",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_014",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "20d015bec9",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_014",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "d5660b0d72",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "5837676d42",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_014",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "8a06dba4a4",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    },
+    {
+     "tex": "b6e007cc10",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    },
+    {
+     "tex": "219d4b7957",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    },
+    {
+     "tex": "ce2e15f08b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Neck_010",
+  "slot": "Neck",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "91718b31f4",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "a33b2133d3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "cdbee05cc6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_013",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "e5d15d4fb9",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "953930dbc0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "c83fe7d781",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_015",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "0898d8967a",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.921582043,
+      0.9386859
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_015",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "12eb4b7a2c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_015",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "563f008493",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Neck_011",
+  "slot": "Neck",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "90bb45c3ce",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "edfb081706",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Arm_014",
+  "slot": "Arm",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "b92741c3c6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_016",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "82579f7692",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "58e1735dc7",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    },
+    {
+     "tex": "58beac5788",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_016",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "a9b8a95b79",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_016",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "23609bae8d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.623960435,
+      0.708375931
+     ]
+    },
+    {
+     "tex": "f6605ec948",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.921582043,
+      0.9386859
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_017",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "094e369940",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "1ac8edae0a",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "bbce41b441",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "e50372836c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "1717741064",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_017",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "5cfb9ed85b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_017",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "ff397cb4e8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "1d781c97d5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "9bee4448f6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_018",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "e46abed168",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "bc7c96aeab",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "291063fb64",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_018",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "35dbc12fa3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_018",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "4e56222d89",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_019",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "cca55aead8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_019",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "ca17499fd3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    },
+    {
+     "tex": "fa096e02b6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_019",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "cc85b5df03",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_020",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "797beb8e8b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_020",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "2b5e47959f",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    },
+    {
+     "tex": "54cdbc4dec",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    },
+    {
+     "tex": "0223e641e3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_020",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "73be670ce5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_021",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "f4c0a18b23",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    },
+    {
+     "tex": "0f183a6918",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_021",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "ad2926b8df",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9355064,
+      0.9213922,
+      0.980666339
+     ]
+    },
+    {
+     "tex": "59a45adc11",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9355064,
+      0.9213922,
+      0.980666339
+     ]
+    },
+    {
+     "tex": "45b28e8936",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_021",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "589ab7952d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "6e68201f33",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_022",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "fa81ddcae6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "4819adae89",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "1ab43af607",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_022",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "2469038279",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "3bbfa61d05",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    },
+    {
+     "tex": "8b0706c025",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    },
+    {
+     "tex": "8a27f3967c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "c46b64f0cb",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_022",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "4cdbb387aa",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_023",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "135ce3cd7b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "fa81ddcae6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "4819adae89",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "d1651cac52",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_023",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "a9241ec573",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_023",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "8d6460f1c0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9355064,
+      0.9213922,
+      0.980666339
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_024",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "4819adae89",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "3f5033978e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_024",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "c75381a3d5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9559735,
+      0.87962234,
+      0.8387991
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "49e7852069",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.737910569,
+      0.7529423,
+      0.760524631
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_024",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "fe10e796e1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.806952357,
+      0.806952357,
+      0.806952357
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "9cb90d433a",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "2f0f7c2e0d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "2985683fcd",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "ee796dcf1a",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "114756f879",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_025",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "7a0f9989b8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "4b18518237",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "db11c91aea",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.192307174,
+      0.192307174,
+      0.192307174
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_025",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "a92bbc10b1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.806952357,
+      0.806952357,
+      0.806952357
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "ab5b796832",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "2ea1f3d030",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "81f490899b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "0da5525a5c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_026",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "61e946c085",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    },
+    {
+     "tex": "3e0b9cea11",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "8eb4db9e18",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "16d048b6aa",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.177888364,
+      0.177888364,
+      0.177888364
+     ]
+    },
+    {
+     "tex": "0528e1f0d1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_025",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "14a22c1dbe",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_026",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "5884ad8328",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "2befc91139",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "10542eb430",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_027",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "61e946c085",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    },
+    {
+     "tex": "201f65c42c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "e106146f37",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "0528e1f0d1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_026",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "99a2e19ffd",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.921582043,
+      0.9386859
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_028",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "61e946c085",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    },
+    {
+     "tex": "201f65c42c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "ee35f94ff0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "0528e1f0d1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_027",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "38a0345d46",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "75367f51d3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_029",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "3e0b9cea11",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "72d3031fad",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    },
+    {
+     "tex": "ee35f94ff0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "374da79109",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_027",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "036dfcfc6e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    },
+    {
+     "tex": "58988c7d71",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_028",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "5571c97e63",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_030",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "fa81ddcae6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "68c2a7d4c5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "1ab43af607",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_029",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "a403f75de1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_028",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "b640f5241d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "2278a6b129",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_031",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "68c2a7d4c5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "fe3bd4a572",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_030",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "ccbca10157",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "d0fe99a31f",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8518354,
+      0.844462633,
+      0.8752418
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_032",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "68c2a7d4c5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "3f5033978e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_031",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "3291e6ff5a",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "4c56053a9d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_029",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "107ba71b99",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "8e83a932c0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "8fb1dec54a",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_033",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "68c2a7d4c5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "4b18518237",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "db11c91aea",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.665387332,
+      0.665387332,
+      0.665387332
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_032",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "28f0c35bf4",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_034",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "4f87670273",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    },
+    {
+     "tex": "ba96c2fcfb",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "8eb4db9e18",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "16d048b6aa",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.665387332,
+      0.665387332,
+      0.665387332
+     ]
+    },
+    {
+     "tex": "38a6441477",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_033",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "12138807ef",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "28d8b6e1e1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_035",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "4f87670273",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    },
+    {
+     "tex": "ba96c2fcfb",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "453ff72847",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "38a6441477",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_034",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "30101af974",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "eacc7d7fb3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_036",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "4f87670273",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    },
+    {
+     "tex": "ba96c2fcfb",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "13e1f41cc3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "38a6441477",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_035",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "c879875b19",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_030",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "d0362c0e3f",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_037",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "7f3ea86795",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    },
+    {
+     "tex": "ba96c2fcfb",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6514057,
+      0.5972019,
+      0.6307572
+     ]
+    },
+    {
+     "tex": "13e1f41cc3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8962694,
+      0.8962694,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "d675c524f3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.8879232,
+      0.8549927
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_036",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "076bfe499e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "e4db4a99d1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_038",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "3da7f2b5c5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "e67ca9c72e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_037",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "95afc7e5bd",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.830769956,
+      0.745404363,
+      0.701102
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "0341162d24",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "2af9d96eec",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_039",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "7082dd5f23",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_040",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "68976cfa76",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_041",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "67c7ea53e1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_038",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "46cda09f2a",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_042",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "cc30cac637",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_039",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "2f989033c9",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_043",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "cd26945efd",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_040",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "02e84329b7",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6451458,
+      0.623960435,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "a6b860edf2",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6451458,
+      0.623960435,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "345be2b636",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6451458,
+      0.623960435,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_031",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "102944c3db",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_044",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "a587785ea4",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "765e771866",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "61e7b7b82e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_032",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "6ae33cd074",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_033",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "f26c00d0b0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_041",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "50b9012a4b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6451458,
+      0.623960435,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "f35bcbb483",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6451458,
+      0.623960435,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "bc4fa2559b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.6451458,
+      0.623960435,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_034",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "01a6361779",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "532ecff695",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_045",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "cc9278ce84",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "8b6f2ffb53",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "455eb9d0d6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_042",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "4f6285551b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_035",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "deea86f9e3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "0a10015390",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "9b71a06804",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_046",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "55255fd82e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    },
+    {
+     "tex": "c233000dcc",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_043",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "98c892fbdd",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_047",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "002f723833",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_044",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "8ab580afde",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_048",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "6ae3d55a33",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_045",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "07b77fe752",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "fc12a26008",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_036",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "524edc19a7",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_049",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "e96cb4d408",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_050",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "5a01c6c29f",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_051",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "d8266e387e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "336e4e8529",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "e9f8a57fec",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shoes_046",
+  "slot": "Shoes",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "bd4b1a9c25",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "636d8679f9",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "edb360d01e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bottom_037",
+  "slot": "Bottom",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "ebadc9b9b8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9331069,
+      0.620915949,
+      0.71056664
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_052",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "c1b746b1c9",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    },
+    {
+     "tex": "ae32776387",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_053",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "108017873e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "7746ab6118",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "5fc8a645ba",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "7dd22bf2ea",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_054",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "a0c2b3b551",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_055",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "1657cbeaa6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "b8a7ce07c8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "70f2ce23d7",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "e1e2b206b6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "37f1ae342c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "78ae067157",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "0db3a115d3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "a3cd105af8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "12b082889d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Top_056",
+  "slot": "Top",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "6531decf48",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "1037da490d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "5db3ed1d7b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "4df411da24",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "d6b07752cb",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "66a7915657",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "3636a24669",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "cce96142f3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "d0fffe2973",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_001",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "6d6e1dcfa3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_002",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "3f2922ed73",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "8313977a88",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "f1c7d50d0c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "661757abe9",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_003",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "7b39cfd826",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "1ef230ce59",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "99cfee399b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "c5bfe5da15",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "6e655e3ae8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_004",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "d65d2b5b6b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "9f861e1b28",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "2e93ab27a8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "9647acb0b9",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "172f97ac92",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_005",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "d948df0c3c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "696a8b30a8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "e7d94d96d9",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "8fe1a24651",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "f55f63b3c8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_006",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "89b3b9e110",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "c186d534b6",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "cc2ce44f38",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_007",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "a61e460bc8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "037bbd78e8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "fcd2a8ac94",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    },
+    {
+     "tex": "e45d33b044",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301837,
+      0.8445795,
+      0.8171112
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_008",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "f6eb2e15bc",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_009",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "112e6a4f71",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    },
+    {
+     "tex": "cd1b99a4fb",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    },
+    {
+     "tex": "b1e1705c8c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_010",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "3d0211001c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    },
+    {
+     "tex": "983928990c",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.56471163,
+      0.56471163,
+      0.56471163
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_011",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "a5a1c002cd",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "d0ec0894ab",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "f703dac9f1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "187add2a46",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "c52eecf7db",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_012",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "43e16526e9",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    },
+    {
+     "tex": "d69ffbb420",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    },
+    {
+     "tex": "e2d72f311e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    },
+    {
+     "tex": "fd13e70c8b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.921582043,
+      0.9386859
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_013",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "7b6debf0c5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    },
+    {
+     "tex": "0107819c01",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    },
+    {
+     "tex": "6536be3b0a",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    },
+    {
+     "tex": "de783ff1e5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    },
+    {
+     "tex": "2324dadad2",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9386859,
+      0.921582043,
+      0.9822506
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_014",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "38ce116f88",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    },
+    {
+     "tex": "c88e856a2d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    },
+    {
+     "tex": "19c2fb8f8f",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    },
+    {
+     "tex": "f9998b0da0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    },
+    {
+     "tex": "c3479d45dc",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.8468733,
+      0.8148467
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_015",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "bd5fa9e07f",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "aa4514db0b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "95157754b1",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "29fe170a05",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    },
+    {
+     "tex": "0c8ac46c5b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9265419,
+      0.9214459,
+      0.9426585
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_016",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "d21bae6d58",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "27c9179a3b",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "ef3770feb3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "0a849a6894",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_017",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "48b59751d2",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "3159f46dc9",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "2e8783bc27",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.921582043,
+      0.9386859
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_018",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "dc02212b9e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9559735,
+      0.9301109,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "8e92a308ea",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9559735,
+      0.9301109,
+      0.8962694
+     ]
+    },
+    {
+     "tex": "417b1df2a3",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    },
+    {
+     "tex": "b2196f5a15",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.8549927,
+      0.8468733,
+      0.8713672
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_019",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "8e180ba423",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "5319977126",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      0.87962234,
+      0.9130987
+     ]
+    },
+    {
+     "tex": "6e9c3edac0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.921582043,
+      0.9386859
+     ]
+    },
+    {
+     "tex": "d429c5c1e0",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.9301109,
+      0.921582043,
+      0.9386859
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_020",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "4a7ea80ea2",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.760524631,
+      0.686685443,
+      0.6514057
+     ]
+    },
+    {
+     "tex": "f1d31db86d",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.743606269,
+      0.6669671,
+      0.653696954
+     ]
+    },
+    {
+     "tex": "d47dc76152",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.745404363,
+      0.665387332,
+      0.6514057
+     ]
+    },
+    {
+     "tex": "3133c2e39a",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.760069,
+      0.68526876,
+      0.6545836
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_021",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "8495e5ed17",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_022",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "00d8349a72",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_023",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "97b1a3c822",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_024",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "e9bad88438",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    },
+    {
+     "tex": "aa5349b5e2",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_025",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "6cfa1df309",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    },
+    {
+     "tex": "78e87dc051",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_026",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "74c6e99039",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    },
+    {
+     "tex": "7d9c4daf11",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_027",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "153307bfed",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "12df1277a8",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_028",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "3671e2a04e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    },
+    {
+     "tex": "d90c6f9790",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "3671e2a04e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    },
+    {
+     "tex": "d815721820",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dress_029",
+  "slot": "Dress",
+  "kind": "cloth",
+  "variants": [
+   [
+    {
+     "tex": "6ab6b14ac2",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "33b16fc2e5",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ],
+   [
+    {
+     "tex": "8e3aa628fa",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      0.623960435,
+      0.6724432,
+      0.9301109
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Glasses_Thick",
+  "slot": "Glasses",
+  "kind": "rigid",
+  "variants": [
+   [
+    {
+     "tex": "5c8b078abe",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "ec6273c136",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "BLEND",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hat_Silk",
+  "slot": "Hat",
+  "kind": "rigid",
+  "variants": [
+   [
+    {
+     "tex": "7942340327",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hat_Straw",
+  "slot": "Hat",
+  "kind": "rigid",
+  "variants": [
+   [
+    {
+     "tex": "0b81feeabc",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hat_Witch",
+  "slot": "Hat",
+  "kind": "rigid",
+  "variants": [
+   [
+    {
+     "tex": "407ce99270",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hat_Work",
+  "slot": "Hat",
+  "kind": "rigid",
+  "variants": [
+   [
+    {
+     "tex": "8f64f1949e",
+     "normal": null,
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V01",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V02",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V03",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V04",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V05",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V06",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V07",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V08",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V09",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V10",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V11",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V12",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V13",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V14",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V15",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V16",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V17",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "d523110bf3",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V18",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V19",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V20",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V21",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V22",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V23",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V24",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V25",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V26",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V27",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "2dec669364",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V28",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V29",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V30",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V31",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V32",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "72847fc007",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V33",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "72847fc007",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V34",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "72847fc007",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V35",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "72847fc007",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V36",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "72847fc007",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Hair_V37",
+  "slot": "Hair",
+  "kind": "hair",
+  "variants": [
+   [
+    {
+     "tex": "72847fc007",
+     "normal": "a21b30dec2",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "tex": "cc20c204e7",
+     "normal": "cae392c279",
+     "cutoff": 0.5,
+     "alpha": "MASK",
+     "shade": [
+      1,
+      1,
+      1
+     ]
+    }
+   ]
+  ]
+ }
+]

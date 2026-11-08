@@ -1,0 +1,2515 @@
+[
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\acc_all.vrm",
+  "items": [
+   {
+    "name": "Glasses_Thick",
+    "kind": "rigid",
+    "materials": [
+     "Accessory_GlassesHiFrame_01_MATCAP (Instance)",
+     "Accessory_GlassesHiLens_01_MATCAP (Instance)"
+    ]
+   },
+   {
+    "name": "Hat_Silk",
+    "kind": "rigid",
+    "materials": [
+     "Accessory_SilkHat_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Hat_Straw",
+    "kind": "rigid",
+    "materials": [
+     "Accessory_StrawHat_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Hat_Witch",
+    "kind": "rigid",
+    "materials": [
+     "Accessory_WitchHat_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Hat_Work",
+    "kind": "rigid",
+    "materials": [
+     "Accessory_WorkCap_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d001.vrm",
+  "items": [
+   {
+    "name": "Dress_001",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d002.vrm",
+  "items": [
+   {
+    "name": "Dress_002",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_04 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d003.vrm",
+  "items": [
+   {
+    "name": "Dress_003",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d004.vrm",
+  "items": [
+   {
+    "name": "Dress_004",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_04 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d005.vrm",
+  "items": [
+   {
+    "name": "Dress_005",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)",
+     "N00_002_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_002_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d006.vrm",
+  "items": [
+   {
+    "name": "Dress_006",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d007.vrm",
+  "items": [
+   {
+    "name": "Dress_007",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_04 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d008.vrm",
+  "items": [
+   {
+    "name": "Dress_008",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d009.vrm",
+  "items": [
+   {
+    "name": "Dress_009",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d010.vrm",
+  "items": [
+   {
+    "name": "Dress_010",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d011.vrm",
+  "items": [
+   {
+    "name": "Dress_011",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_002_03_Tops_01_CLOTH_04 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d012.vrm",
+  "items": [
+   {
+    "name": "Dress_012",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_04 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d013.vrm",
+  "items": [
+   {
+    "name": "Dress_013",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d014.vrm",
+  "items": [
+   {
+    "name": "Dress_014",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d015.vrm",
+  "items": [
+   {
+    "name": "Dress_015",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)",
+     "N00_002_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)",
+     "N00_002_01_Tops_01_CLOTH_01 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d016.vrm",
+  "items": [
+   {
+    "name": "Dress_016",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d017.vrm",
+  "items": [
+   {
+    "name": "Dress_017",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d018.vrm",
+  "items": [
+   {
+    "name": "Dress_018",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_04 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d019.vrm",
+  "items": [
+   {
+    "name": "Dress_019",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_04 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d020.vrm",
+  "items": [
+   {
+    "name": "Dress_020",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_002_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d021.vrm",
+  "items": [
+   {
+    "name": "Dress_021",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d022.vrm",
+  "items": [
+   {
+    "name": "Dress_022",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d023.vrm",
+  "items": [
+   {
+    "name": "Dress_023",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d024.vrm",
+  "items": [
+   {
+    "name": "Dress_024",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d025.vrm",
+  "items": [
+   {
+    "name": "Dress_025",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d026.vrm",
+  "items": [
+   {
+    "name": "Dress_026",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d027.vrm",
+  "items": [
+   {
+    "name": "Dress_027",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d029.vrm",
+  "items": [
+   {
+    "name": "Dress_028",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\d031.vrm",
+  "items": [
+   {
+    "name": "Dress_029",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h001.vrm",
+  "items": [
+   {
+    "name": "Hair_V01",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h002.vrm",
+  "items": [
+   {
+    "name": "Hair_V02",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h003.vrm",
+  "items": [
+   {
+    "name": "Hair_V03",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h004.vrm",
+  "items": [
+   {
+    "name": "Hair_V04",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h005.vrm",
+  "items": [
+   {
+    "name": "Hair_V05",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h006.vrm",
+  "items": [
+   {
+    "name": "Hair_V06",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h007.vrm",
+  "items": [
+   {
+    "name": "Hair_V07",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h008.vrm",
+  "items": [
+   {
+    "name": "Hair_V08",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h009.vrm",
+  "items": [
+   {
+    "name": "Hair_V09",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h010.vrm",
+  "items": [
+   {
+    "name": "Hair_V10",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h011.vrm",
+  "items": [
+   {
+    "name": "Hair_V11",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h012.vrm",
+  "items": [
+   {
+    "name": "Hair_V12",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h013.vrm",
+  "items": [
+   {
+    "name": "Hair_V13",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h014.vrm",
+  "items": [
+   {
+    "name": "Hair_V14",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h015.vrm",
+  "items": [
+   {
+    "name": "Hair_V15",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h016.vrm",
+  "items": [
+   {
+    "name": "Hair_V16",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h017.vrm",
+  "items": [
+   {
+    "name": "Hair_V17",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h018.vrm",
+  "items": [
+   {
+    "name": "Hair_V18",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h019.vrm",
+  "items": [
+   {
+    "name": "Hair_V19",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h020.vrm",
+  "items": [
+   {
+    "name": "Hair_V20",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h021.vrm",
+  "items": [
+   {
+    "name": "Hair_V21",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h022.vrm",
+  "items": [
+   {
+    "name": "Hair_V22",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h023.vrm",
+  "items": [
+   {
+    "name": "Hair_V23",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h024.vrm",
+  "items": [
+   {
+    "name": "Hair_V24",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h025.vrm",
+  "items": [
+   {
+    "name": "Hair_V25",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h026.vrm",
+  "items": [
+   {
+    "name": "Hair_V26",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h027.vrm",
+  "items": [
+   {
+    "name": "Hair_V27",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h028.vrm",
+  "items": [
+   {
+    "name": "Hair_V28",
+    "kind": "hair",
+    "materials": [
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h029.vrm",
+  "items": [
+   {
+    "name": "Hair_V29",
+    "kind": "hair",
+    "materials": [
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h030.vrm",
+  "items": [
+   {
+    "name": "Hair_V30",
+    "kind": "hair",
+    "materials": [
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h031.vrm",
+  "items": [
+   {
+    "name": "Hair_V31",
+    "kind": "hair",
+    "materials": [
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h032.vrm",
+  "items": [
+   {
+    "name": "Hair_V32",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h033.vrm",
+  "items": [
+   {
+    "name": "Hair_V33",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h034.vrm",
+  "items": [
+   {
+    "name": "Hair_V34",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h035.vrm",
+  "items": [
+   {
+    "name": "Hair_V35",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h036.vrm",
+  "items": [
+   {
+    "name": "Hair_V36",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\h037.vrm",
+  "items": [
+   {
+    "name": "Hair_V37",
+    "kind": "hair",
+    "materials": [
+     "N00_000_00_HairBack_00_HAIR (Instance)",
+     "N00_000_Hair_00_HAIR (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p001.vrm",
+  "items": [
+   {
+    "name": "Top_001",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_001",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_001",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Neck_001",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_001",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p002.vrm",
+  "items": [
+   {
+    "name": "Top_002",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_06 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_002",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_002",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ]
+   },
+   {
+    "name": "Neck_002",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_05 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_04 (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_002",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p003.vrm",
+  "items": [
+   {
+    "name": "Top_003",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_06 (Instance)",
+     "N00_005_01_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_003",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_003",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_04 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_05 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Neck_003",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_003",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p004.vrm",
+  "items": [
+   {
+    "name": "Top_004",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_004",
+    "kind": "cloth",
+    "materials": [
+     "N00_004_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_004",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Neck_004",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Accessory_Tie_01_CLOTH_01 (Instance)",
+     "N00_007_01_Accessory_Tie_01_CLOTH_02 (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_004",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p005.vrm",
+  "items": [
+   {
+    "name": "Top_005",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_005_01_Tops_01_CLOTH (Instance)",
+     "N00_007_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_04_Tops_01_CLOTH (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_005",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_005",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_04 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Neck_005",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_005",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p006.vrm",
+  "items": [
+   {
+    "name": "Top_006",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_04 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_006",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_006",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Neck_006",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_006",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p007.vrm",
+  "items": [
+   {
+    "name": "Top_007",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_007",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_007",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH (Instance)",
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_007",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p008.vrm",
+  "items": [
+   {
+    "name": "Top_008",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_008",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_008",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_001_01_Bottoms_01_CLOTH_02 (Instance)",
+     "N00_007_03_Tops_01_CLOTH (Instance)",
+     "N00_001_01_Bottoms_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_008",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p009.vrm",
+  "items": [
+   {
+    "name": "Top_009",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_009",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_009",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_04 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)"
+    ]
+   },
+   {
+    "name": "Neck_007",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_02_Accessory_Tie_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_009",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p010.vrm",
+  "items": [
+   {
+    "name": "Top_010",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_010",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_010",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_001_01_Bottoms_01_CLOTH_02 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_001_01_Bottoms_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_010",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p011.vrm",
+  "items": [
+   {
+    "name": "Neck_008",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_011",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_011",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH (Instance)",
+     "N00_003_01_Bottoms_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_011",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)"
+    ]
+   },
+   {
+    "name": "Top_011",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_04 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p012.vrm",
+  "items": [
+   {
+    "name": "Top_012",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_012",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_012",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_003_01_Bottoms_01_CLOTH (Instance)",
+     "N00_001_02_Bottoms_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_04 (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_012",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p013.vrm",
+  "items": [
+   {
+    "name": "Top_013",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_013",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_03 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_013",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_003_01_Bottoms_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Neck_009",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p014.vrm",
+  "items": [
+   {
+    "name": "Top_014",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_014",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_014",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH (Instance)",
+     "N00_003_01_Bottoms_01_CLOTH (Instance)",
+     "N00_001_02_Bottoms_01_CLOTH (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_02 (Instance)"
+    ]
+   },
+   {
+    "name": "Neck_010",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_013",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p015.vrm",
+  "items": [
+   {
+    "name": "Top_015",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_02_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_015",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_015",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Neck_011",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Accessory_Tie_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Arm_014",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p016.vrm",
+  "items": [
+   {
+    "name": "Top_016",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_016",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_016",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH_02 (Instance)",
+     "N00_001_01_Bottoms_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p017.vrm",
+  "items": [
+   {
+    "name": "Top_017",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_017",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_017",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p018.vrm",
+  "items": [
+   {
+    "name": "Top_018",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_018",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_018",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p019.vrm",
+  "items": [
+   {
+    "name": "Top_019",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_019",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_019",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p020.vrm",
+  "items": [
+   {
+    "name": "Top_020",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_020",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH_01 (Instance)",
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_001_02_Bottoms_01_CLOTH_02 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_020",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p021.vrm",
+  "items": [
+   {
+    "name": "Top_021",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_021",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_03 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_021",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p022.vrm",
+  "items": [
+   {
+    "name": "Top_022",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_022",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_03_Tops_01_CLOTH_02 (Instance)",
+     "N00_001_02_Bottoms_01_CLOTH (Instance)",
+     "N00_002_03_Tops_01_CLOTH_03 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_01 (Instance)",
+     "N00_002_03_Tops_01_CLOTH_04 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_022",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p023.vrm",
+  "items": [
+   {
+    "name": "Top_023",
+    "kind": "cloth",
+    "materials": [
+     "N00_010_01_Onepiece_00_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_023",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_023",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p024.vrm",
+  "items": [
+   {
+    "name": "Top_024",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_024",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_024",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p025.vrm",
+  "items": [
+   {
+    "name": "Top_025",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_025",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_03_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p026.vrm",
+  "items": [
+   {
+    "name": "Top_026",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_025",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_026",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p027.vrm",
+  "items": [
+   {
+    "name": "Top_027",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_026",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p028.vrm",
+  "items": [
+   {
+    "name": "Top_028",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_027",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p029.vrm",
+  "items": [
+   {
+    "name": "Top_029",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_027",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH_01 (Instance)",
+     "N00_001_02_Bottoms_01_CLOTH_02 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_028",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p030.vrm",
+  "items": [
+   {
+    "name": "Top_030",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH_02 (Instance)",
+     "N00_001_02_Accessory_Tie_01_CLOTH_02 (Instance)",
+     "N00_007_02_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_029",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_028",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p031.vrm",
+  "items": [
+   {
+    "name": "Top_031",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH_02 (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_030",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p032.vrm",
+  "items": [
+   {
+    "name": "Top_032",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH_02 (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_031",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_029",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p033.vrm",
+  "items": [
+   {
+    "name": "Top_033",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Accessory_Tie_01_CLOTH_02 (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_032",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p034.vrm",
+  "items": [
+   {
+    "name": "Top_034",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_02_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_03 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_033",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)",
+     "N00_003_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p035.vrm",
+  "items": [
+   {
+    "name": "Top_035",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_02_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_034",
+    "kind": "cloth",
+    "materials": [
+     "N00_008_01_Shoes_01_CLOTH_02 (Instance)",
+     "N00_008_01_Shoes_01_CLOTH_01 (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p036.vrm",
+  "items": [
+   {
+    "name": "Top_036",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_02_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_035",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_030",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p037.vrm",
+  "items": [
+   {
+    "name": "Top_037",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_02_Accessory_Tie_01_CLOTH (Instance)",
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_036",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)",
+     "N00_003_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p038.vrm",
+  "items": [
+   {
+    "name": "Top_038",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p039.vrm",
+  "items": [
+   {
+    "name": "Shoes_037",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p040.vrm",
+  "items": [
+   {
+    "name": "Top_039",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p041.vrm",
+  "items": [
+   {
+    "name": "Top_040",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p042.vrm",
+  "items": [
+   {
+    "name": "Top_041",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_038",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p043.vrm",
+  "items": [
+   {
+    "name": "Top_042",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_039",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p044.vrm",
+  "items": [
+   {
+    "name": "Top_043",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_040",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_031",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p045.vrm",
+  "items": [
+   {
+    "name": "Top_044",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_032",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p046.vrm",
+  "items": [
+   {
+    "name": "Bottom_033",
+    "kind": "cloth",
+    "materials": [
+     "N00_003_01_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p047.vrm",
+  "items": [
+   {
+    "name": "Shoes_041",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_034",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_02_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p048.vrm",
+  "items": [
+   {
+    "name": "Top_045",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p050.vrm",
+  "items": [
+   {
+    "name": "Shoes_042",
+    "kind": "cloth",
+    "materials": [
+     "N00_003_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_035",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p051.vrm",
+  "items": [
+   {
+    "name": "Top_046",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH_02 (Instance)",
+     "N00_007_01_Tops_01_CLOTH_01 (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_043",
+    "kind": "cloth",
+    "materials": [
+     "N00_003_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p052.vrm",
+  "items": [
+   {
+    "name": "Top_047",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_044",
+    "kind": "cloth",
+    "materials": [
+     "N00_003_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p053.vrm",
+  "items": [
+   {
+    "name": "Top_048",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_03_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_045",
+    "kind": "cloth",
+    "materials": [
+     "N00_006_01_Shoes_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Bottom_036",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p054.vrm",
+  "items": [
+   {
+    "name": "Top_049",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_04_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p055.vrm",
+  "items": [
+   {
+    "name": "Top_050",
+    "kind": "cloth",
+    "materials": [
+     "N00_002_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p056.vrm",
+  "items": [
+   {
+    "name": "Top_051",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   },
+   {
+    "name": "Shoes_046",
+    "kind": "cloth",
+    "materials": [
+     "N00_005_01_Shoes_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p057.vrm",
+  "items": [
+   {
+    "name": "Bottom_037",
+    "kind": "cloth",
+    "materials": [
+     "N00_001_01_Bottoms_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p059.vrm",
+  "items": [
+   {
+    "name": "Top_052",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH (Instance)",
+     "N00_007_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p060.vrm",
+  "items": [
+   {
+    "name": "Top_053",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p064.vrm",
+  "items": [
+   {
+    "name": "Top_054",
+    "kind": "cloth",
+    "materials": [
+     "N00_007_02_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p065.vrm",
+  "items": [
+   {
+    "name": "Top_055",
+    "kind": "cloth",
+    "materials": [
+     "N00_005_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ },
+ {
+  "vrm": "D:\\Projects\\ArtStyleExperimental\\SourceAssets\\VRoid\\presets\\p074.vrm",
+  "items": [
+   {
+    "name": "Top_056",
+    "kind": "cloth",
+    "materials": [
+     "N00_004_01_Tops_01_CLOTH (Instance)"
+    ]
+   }
+  ]
+ }
+]

@@ -4,6 +4,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "DressUp/DressUpData.h"
 #include "Kismet/GameplayStatics.h"
+#include "Materials/MaterialInterface.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogOutfit, Log, All);
 
@@ -120,6 +121,47 @@ void UOutfitComponent::SetColorForLastSlot(FLinearColor Color)
 	}
 }
 
+void UOutfitComponent::SetSlotVariant(EDressUpSlot Slot, int32 Variant)
+{
+	TObjectPtr<UMeshComponent>* Component = SlotComponents.Find(Slot);
+	UDressUpItem* Item = GetEquipped(Slot);
+	if (!Component || !*Component || !Item || !Item->Variants.IsValidIndex(Variant))
+	{
+		return;
+	}
+	ClearMaterialOverrides(*Component);
+	const TArray<TObjectPtr<UMaterialInterface>>& Materials = Item->Variants[Variant].Materials;
+	for (int32 Index = 0; Index < Materials.Num(); ++Index)
+	{
+		if (Materials[Index])
+		{
+			(*Component)->SetMaterial(Index, Materials[Index]);
+		}
+	}
+	SlotColors.Remove(Slot);
+	SlotVariants.Add(Slot, Variant);
+	OnOutfitChanged.Broadcast();
+}
+
+void UOutfitComponent::SetVariantForLastSlot(int32 Variant)
+{
+	if (LastSlot.IsSet())
+	{
+		SetSlotVariant(LastSlot.GetValue(), Variant);
+	}
+}
+
+int32 UOutfitComponent::GetSlotVariant(EDressUpSlot Slot) const
+{
+	const int32* Found = SlotVariants.Find(Slot);
+	return Found ? *Found : 0;
+}
+
+UDressUpItem* UOutfitComponent::GetLastItem() const
+{
+	return LastSlot.IsSet() ? GetEquipped(LastSlot.GetValue()) : nullptr;
+}
+
 FDressUpOutfit UOutfitComponent::GetOutfit() const
 {
 	FDressUpOutfit Outfit;
@@ -127,6 +169,7 @@ FDressUpOutfit UOutfitComponent::GetOutfit() const
 	{
 		FDressUpOutfitEntry& Entry = Outfit.Entries.AddDefaulted_GetRef();
 		Entry.Item = Pair.Value;
+		Entry.Variant = GetSlotVariant(Pair.Key);
 		if (const FLinearColor* Color = SlotColors.Find(Pair.Key))
 		{
 			Entry.bHasColor = true;
@@ -151,6 +194,10 @@ void UOutfitComponent::ApplyOutfit(const FDressUpOutfit& Outfit)
 	RefreshBodyVisibility();
 	for (const FDressUpOutfitEntry& Entry : Outfit.Entries)
 	{
+		if (Entry.Item && Entry.Variant > 0)
+		{
+			SetSlotVariant(Entry.Item->Slot, Entry.Variant);
+		}
 		if (Entry.Item && Entry.bHasColor)
 		{
 			SetSlotColor(Entry.Item->Slot, Entry.Color);
@@ -200,6 +247,7 @@ void UOutfitComponent::EquipInternal(UDressUpItem* Item)
 	}
 	Equipped.Add(Item->Slot, Item);
 	SlotColors.Remove(Item->Slot);
+	SlotVariants.Remove(Item->Slot);
 	ApplyMesh(Item->Slot, Item);
 }
 
@@ -207,6 +255,7 @@ void UOutfitComponent::UnequipInternal(EDressUpSlot Slot)
 {
 	Equipped.Remove(Slot);
 	SlotColors.Remove(Slot);
+	SlotVariants.Remove(Slot);
 	ApplyMesh(Slot, nullptr);
 }
 
