@@ -162,6 +162,21 @@ UDressUpItem* UOutfitComponent::GetLastItem() const
 	return LastSlot.IsSet() ? GetEquipped(LastSlot.GetValue()) : nullptr;
 }
 
+int32 UOutfitComponent::GetLastVariant() const
+{
+	return LastSlot.IsSet() ? GetSlotVariant(LastSlot.GetValue()) : 0;
+}
+
+bool UOutfitComponent::GetLastColor(FLinearColor& OutColor) const
+{
+	const FLinearColor* Found = LastSlot.IsSet() ? SlotColors.Find(LastSlot.GetValue()) : nullptr;
+	if (Found)
+	{
+		OutColor = *Found;
+	}
+	return Found != nullptr;
+}
+
 FDressUpOutfit UOutfitComponent::GetOutfit() const
 {
 	FDressUpOutfit Outfit;

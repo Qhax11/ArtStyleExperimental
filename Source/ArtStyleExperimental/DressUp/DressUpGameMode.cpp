@@ -334,6 +334,15 @@ void ADressUpPlayerController::DressUpWear(const FString& Items)
 			bShowPanel = false;
 			continue;
 		}
+		if (Entry.StartsWith(TEXT("tint=")))
+		{
+			const int32 PaletteIndex = FCString::Atoi(*Entry.Mid(5));
+			if (Catalog->Palette.IsValidIndex(PaletteIndex))
+			{
+				Outfit->SetColorForLastSlot(Catalog->Palette[PaletteIndex]);
+			}
+			continue;
+		}
 		FString Name = Entry;
 		FString VariantText;
 		Entry.Split(TEXT(":"), &Name, &VariantText);

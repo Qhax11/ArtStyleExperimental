@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
+#include "Styling/SlateTypes.h"
 #include "DressUp/DressUpTypes.h"
 #include "DressUpPanel.generated.h"
 
@@ -16,12 +17,18 @@ class UOutfitComponent;
 class UPanelWidget;
 class UTextBlock;
 
-/** Pastel pink-cream colours shared by the wardrobe widgets. */
+/**
+ * Colours shared by the wardrobe widgets. Nothing here is white: white belongs to the clothes
+ * and the white swatch, so white icons stay visible on their tiles.
+ */
 namespace DressUpStyle
 {
-	inline const FLinearColor Cream(1.0f, 0.95f, 0.90f);
-	inline const FLinearColor Pink(0.97f, 0.55f, 0.68f);
-	inline const FLinearColor TextDark(0.30f, 0.17f, 0.22f);
+	inline const FLinearColor Tile(0.693f, 0.366f, 0.497f);
+	inline const FLinearColor Accent(0.397f, 0.050f, 0.150f);
+	inline const FLinearColor TextDark(0.102f, 0.017f, 0.051f);
+	inline const FLinearColor TextLight(1.0f, 0.716f, 0.807f);
+	/** Ring around the selected swatch; dark enough to show on every swatch colour. */
+	inline const FLinearColor SwatchRing(0.10f, 0.01f, 0.04f);
 }
 
 /** One item tile: its icon, with its name as a tooltip. Click to put on or take off. */
@@ -34,10 +41,10 @@ public:
 	void Setup(UDressUpItem* InItem, UOutfitComponent* InOutfit);
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Look")
-	FLinearColor IdleColor = DressUpStyle::Cream;
+	FLinearColor IdleColor = DressUpStyle::Tile;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Look")
-	FLinearColor EquippedColor = DressUpStyle::Pink;
+	FLinearColor EquippedColor = DressUpStyle::Accent;
 
 protected:
 	virtual void NativeConstruct() override;
@@ -79,6 +86,9 @@ public:
 	/** InVariant >= 0 makes the swatch pick that variant instead of tinting. */
 	void Setup(FLinearColor InColor, UOutfitComponent* InOutfit, int32 InVariant = INDEX_NONE);
 
+	/** Shows a ring when this swatch is what the item picked last currently wears. */
+	void RefreshSelected();
+
 protected:
 	virtual void NativeConstruct() override;
 
@@ -91,6 +101,9 @@ private:
 
 	FLinearColor Color = FLinearColor::White;
 	int32 Variant = INDEX_NONE;
+	bool bShownSelected = false;
+	bool bHasBaseStyle = false;
+	FButtonStyle BaseStyle;
 
 	UPROPERTY()
 	TObjectPtr<UOutfitComponent> Outfit;
@@ -108,10 +121,10 @@ public:
 	void SetSelected(bool bSelected);
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Look")
-	FLinearColor IdleColor = DressUpStyle::Cream;
+	FLinearColor IdleColor = DressUpStyle::Tile;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Look")
-	FLinearColor SelectedColor = DressUpStyle::Pink;
+	FLinearColor SelectedColor = DressUpStyle::Accent;
 
 protected:
 	virtual void NativeConstruct() override;
@@ -208,6 +221,9 @@ private:
 
 	UPROPERTY()
 	TArray<TObjectPtr<UDressUpTabButton>> PoseButtons;
+
+	UPROPERTY()
+	TArray<TObjectPtr<UDressUpColorButton>> SwatchButtons;
 
 	TArray<FDressUpTab> TabDefs;
 	int32 CurrentTab = INDEX_NONE;

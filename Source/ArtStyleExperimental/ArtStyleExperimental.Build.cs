@@ -18,26 +18,14 @@ public class ArtStyleExperimental : ModuleRules
 			"StateTreeModule",
 			"GameplayStateTreeModule",
 			"UMG",
-			"Slate"
+			"Slate",
+			"SlateCore"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		PublicIncludePaths.AddRange(new string[] {
-			"ArtStyleExperimental",
-			"ArtStyleExperimental/Variant_Platforming",
-			"ArtStyleExperimental/Variant_Platforming/Animation",
-			"ArtStyleExperimental/Variant_Combat",
-			"ArtStyleExperimental/Variant_Combat/AI",
-			"ArtStyleExperimental/Variant_Combat/Animation",
-			"ArtStyleExperimental/Variant_Combat/Gameplay",
-			"ArtStyleExperimental/Variant_Combat/Interfaces",
-			"ArtStyleExperimental/Variant_Combat/UI",
-			"ArtStyleExperimental/Variant_SideScrolling",
-			"ArtStyleExperimental/Variant_SideScrolling/AI",
-			"ArtStyleExperimental/Variant_SideScrolling/Gameplay",
-			"ArtStyleExperimental/Variant_SideScrolling/Interfaces",
-			"ArtStyleExperimental/Variant_SideScrolling/UI"
+			"ArtStyleExperimental"
 		});
 
 		// Uncomment if you are using Slate UI

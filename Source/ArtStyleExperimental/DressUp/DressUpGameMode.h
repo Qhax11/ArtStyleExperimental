@@ -94,8 +94,8 @@ public:
 
 	/**
 	 * Test shortcut: takes everything off and puts on the named items, e.g.
-	 * "DressUpWear DA_Top_001 DA_Bottom_004:2" (":N" picks variant N). Also hides the wardrobe
-	 * when the list ends with "nopanel", for clean screenshots.
+	 * "DressUpWear DA_Top_001 tint=3 DA_Bottom_004:2" (":N" picks variant N, "tint=N" tints the
+	 * item before it with palette colour N). "nopanel" hides the wardrobe for clean screenshots.
 	 */
 	UFUNCTION(Exec)
 	void DressUpWear(const FString& Items);

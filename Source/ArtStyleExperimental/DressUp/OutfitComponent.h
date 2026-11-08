@@ -82,6 +82,14 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Outfit")
 	UDressUpItem* GetLastItem() const;
 
+	/** Variant of the item picked last. */
+	UFUNCTION(BlueprintPure, Category = "Outfit")
+	int32 GetLastVariant() const;
+
+	/** Tint of the item picked last; false when it has none. */
+	UFUNCTION(BlueprintPure, Category = "Outfit")
+	bool GetLastColor(FLinearColor& OutColor) const;
+
 	UFUNCTION(BlueprintPure, Category = "Outfit")
 	FDressUpOutfit GetOutfit() const;
 

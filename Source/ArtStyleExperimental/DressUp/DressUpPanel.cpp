@@ -90,6 +90,50 @@ void UDressUpColorButton::NativeConstruct()
 	Super::NativeConstruct();
 	Btn->OnClicked.AddUniqueDynamic(this, &UDressUpColorButton::HandleClicked);
 	Btn->SetBackgroundColor(Color);
+	RefreshSelected();
+}
+
+void UDressUpColorButton::RefreshSelected()
+{
+	if (!Btn)
+	{
+		return;
+	}
+	bool bSelected = false;
+	if (Outfit && Outfit->GetLastItem())
+	{
+		if (Variant >= 0)
+		{
+			bSelected = Outfit->GetLastVariant() == Variant;
+		}
+		else
+		{
+			FLinearColor Worn;
+			bSelected = Outfit->GetLastColor(Worn) && Worn.Equals(Color);
+		}
+	}
+	if (bSelected == bShownSelected)
+	{
+		return;
+	}
+	bShownSelected = bSelected;
+
+	if (!bHasBaseStyle)
+	{
+		BaseStyle = Btn->GetStyle();
+		bHasBaseStyle = true;
+	}
+	FButtonStyle Style = BaseStyle;
+	if (bSelected)
+	{
+		for (FSlateBrush* Brush : {&Style.Normal, &Style.Hovered, &Style.Pressed})
+		{
+			Brush->OutlineSettings.Width = 4.0f;
+			Brush->OutlineSettings.Color = FSlateColor(DressUpStyle::SwatchRing);
+		}
+	}
+	Btn->SetStyle(Style);
+	Btn->SetRenderScale(FVector2D(bSelected ? 1.12f : 1.0f));
 }
 
 void UDressUpColorButton::HandleClicked()
@@ -130,7 +174,7 @@ void UDressUpTabButton::SetSelected(bool bSelected)
 	}
 	if (Label)
 	{
-		Label->SetColorAndOpacity(FSlateColor(bSelected ? FLinearColor::White : DressUpStyle::TextDark));
+		Label->SetColorAndOpacity(FSlateColor(bSelected ? DressUpStyle::TextLight : DressUpStyle::TextDark));
 	}
 }
 
@@ -208,28 +252,38 @@ void UDressUpPanel::RefreshSwatches()
 	{
 		Item = nullptr;
 	}
-	if (bSwatchesBuilt && SwatchItem.Get() == Item)
+	// Same swatches: only their rings change. Rebuilding would destroy the swatch being clicked.
+	if (!bSwatchesBuilt || SwatchItem.Get() != Item)
 	{
-		return;  // Same swatches; rebuilding here would destroy the swatch being clicked.
-	}
-	bSwatchesBuilt = true;
-	SwatchItem = Item;
-	Colors->ClearChildren();
-	if (Item)
-	{
-		for (int32 Index = 0; Index < Item->Variants.Num(); ++Index)
+		bSwatchesBuilt = true;
+		SwatchItem = Item;
+		Colors->ClearChildren();
+		SwatchButtons.Reset();
+		auto AddSwatch = [this, ColorClass](const FLinearColor& Color, int32 Variant)
 		{
 			UDressUpColorButton* Swatch = CreateWidget<UDressUpColorButton>(this, ColorClass);
-			Swatch->Setup(Item->Variants[Index].Swatch, Outfit, Index);
+			Swatch->Setup(Color, Outfit, Variant);
 			Colors->AddChild(Swatch);
+			SwatchButtons.Add(Swatch);
+		};
+		if (Item)
+		{
+			for (int32 Index = 0; Index < Item->Variants.Num(); ++Index)
+			{
+				AddSwatch(Item->Variants[Index].Swatch, Index);
+			}
 		}
-		return;
+		else
+		{
+			for (const FLinearColor& Color : Catalog->Palette)
+			{
+				AddSwatch(Color, INDEX_NONE);
+			}
+		}
 	}
-	for (const FLinearColor& Color : Catalog->Palette)
+	for (UDressUpColorButton* Swatch : SwatchButtons)
 	{
-		UDressUpColorButton* Swatch = CreateWidget<UDressUpColorButton>(this, ColorClass);
-		Swatch->Setup(Color, Outfit);
-		Colors->AddChild(Swatch);
+		Swatch->RefreshSelected();
 	}
 }
 
