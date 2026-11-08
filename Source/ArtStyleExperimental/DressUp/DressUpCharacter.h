@@ -12,8 +12,10 @@ class UDressUpBody;
 class UDressUpCatalog;
 class UDressUpItem;
 class UMeshComponent;
+class UDressUpNameTag;
 class UOutfitComponent;
 class USkeletalMeshComponent;
+class UWidgetComponent;
 
 UCLASS()
 class ARTSTYLEEXPERIMENTAL_API ADressUpCharacter : public AActor
@@ -48,6 +50,13 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Dress Up")
 	void ReturnToIdle();
 
+	/** Shows the name above the head, or hides it when the name is empty. */
+	UFUNCTION(BlueprintCallable, Category = "Dress Up")
+	void ShowNameTag(const FString& Name);
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up")
+	TSoftClassPtr<UDressUpNameTag> NameTagClass = TSoftClassPtr<UDressUpNameTag>(FSoftObjectPath(TEXT("/Game/DressUp/UI/WBP_NameTag.WBP_NameTag_C")));
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up")
 	TSoftObjectPtr<UDressUpBody> Body = TSoftObjectPtr<UDressUpBody>(FSoftObjectPath(TEXT("/Game/DressUp/Data/DA_Body_evrar.DA_Body_evrar")));
 
@@ -76,6 +85,10 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<UOutfitComponent> Outfit;
+
+	/** Follows the head; always faces the camera at a fixed size. */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	TObjectPtr<UWidgetComponent> NameTag;
 
 private:
 	void FreezePose();

@@ -55,6 +55,11 @@ void ADressUpPlayerController::SetupInputComponent()
 
 void ADressUpPlayerController::TogglePauseMenu()
 {
+	if (NamePrompt && NamePrompt->GetVisibility() == ESlateVisibility::Visible)
+	{
+		NamePrompt->Close();
+		return;
+	}
 	if (PauseMenu && PauseMenu->IsInViewport())
 	{
 		// Escape first closes the settings pop-up, then the menu.
@@ -85,6 +90,37 @@ void ADressUpPlayerController::ClosePauseMenu()
 		PauseMenu->RemoveFromParent();
 	}
 	SetPause(false);
+}
+
+void ADressUpPlayerController::AskPlayerName()
+{
+	if (!NamePrompt)
+	{
+		NamePrompt = UDressUpNamePrompt::Create(this);
+	}
+	if (NamePrompt)
+	{
+		NamePrompt->Ask([WeakThis = TWeakObjectPtr<ADressUpPlayerController>(this)]()
+		{
+			const UDressUpSettingsSubsystem* SettingsSystem = WeakThis.IsValid() ? UDressUpSettingsSubsystem::Get(WeakThis.Get()) : nullptr;
+			if (SettingsSystem && WeakThis->DressUpCharacter)
+			{
+				WeakThis->DressUpCharacter->ShowNameTag(SettingsSystem->GetPlayerName());
+			}
+		});
+	}
+}
+
+void ADressUpPlayerController::DressUpForgetName()
+{
+	if (UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this))
+	{
+		SettingsSystem->SetPlayerName(FString());
+	}
+	if (DressUpCharacter)
+	{
+		DressUpCharacter->ShowNameTag(FString());
+	}
 }
 
 void ADressUpPlayerController::StartDressUp()
@@ -130,6 +166,19 @@ void ADressUpPlayerController::StartDressUp()
 		SetInputMode(InputMode);
 	}
 	SetShowMouseCursor(true);
+
+	// The menu asks first; this covers starting the level directly, as in the editor.
+	if (const UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this))
+	{
+		if (SettingsSystem->HasPlayerName())
+		{
+			DressUpCharacter->ShowNameTag(SettingsSystem->GetPlayerName());
+		}
+		else
+		{
+			AskPlayerName();
+		}
+	}
 	UE_LOG(LogDressUpGame, Log, TEXT("Dress-up UI ready"));
 }
 
@@ -185,6 +234,8 @@ void ADressUpPlayerController::Finish()
 	{
 		Panel->SetVisibility(ESlateVisibility::Collapsed);
 	}
+	// The final camera is close: the name would sit half out of frame, depending on the pose.
+	DressUpCharacter->ShowNameTag(FString());
 
 	FDressUpFinalPose Pose;
 	const UDressUpCatalog* Catalog = DressUpCharacter->GetCatalog();
@@ -266,6 +317,11 @@ void ADressUpPlayerController::Replay()
 		Panel->SetVisibility(ESlateVisibility::SelfHitTestInvisible);
 	}
 	bFinished = false;
+	const UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this);
+	if (SettingsSystem && DressUpCharacter)
+	{
+		DressUpCharacter->ShowNameTag(SettingsSystem->GetPlayerName());
+	}
 }
 
 // --- Main menu level ---

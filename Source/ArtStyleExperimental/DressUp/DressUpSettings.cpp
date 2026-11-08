@@ -78,6 +78,16 @@ void UDressUpSettingsSubsystem::SetFullscreen(bool bFullscreen)
 	Save();
 }
 
+void UDressUpSettingsSubsystem::SetPlayerName(const FString& Name)
+{
+	if (!Settings)
+	{
+		return;
+	}
+	Settings->PlayerName = Name.TrimStartAndEnd();
+	Save();
+}
+
 void UDressUpSettingsSubsystem::ApplyAudio(const UObject* WorldContext)
 {
 	if (!Settings)

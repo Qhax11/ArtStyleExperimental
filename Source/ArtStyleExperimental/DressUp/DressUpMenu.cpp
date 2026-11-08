@@ -2,7 +2,9 @@
 
 #include "Components/Button.h"
 #include "Components/CheckBox.h"
+#include "Components/EditableTextBox.h"
 #include "Components/Slider.h"
+#include "Components/TextBlock.h"
 #include "DressUp/DressUpGameMode.h"
 #include "DressUp/DressUpSettings.h"
 #include "Kismet/GameplayStatics.h"
@@ -95,6 +97,83 @@ void UDressUpSettingsPanel::HandleFullscreen(bool bChecked)
 	}
 }
 
+// --- Name prompt ---
+
+UDressUpNamePrompt* UDressUpNamePrompt::Create(APlayerController* Owner)
+{
+	const TSoftClassPtr<UDressUpNamePrompt> PromptClass(FSoftObjectPath(TEXT("/Game/DressUp/UI/WBP_NamePrompt.WBP_NamePrompt_C")));
+	UClass* LoadedClass = PromptClass.LoadSynchronous();
+	if (!Owner || !LoadedClass)
+	{
+		return nullptr;
+	}
+	UDressUpNamePrompt* Prompt = CreateWidget<UDressUpNamePrompt>(Owner, LoadedClass);
+	Prompt->AddToViewport(20);
+	return Prompt;
+}
+
+void UDressUpNamePrompt::NativeConstruct()
+{
+	Super::NativeConstruct();
+	NameInput->OnTextChanged.AddUniqueDynamic(this, &UDressUpNamePrompt::HandleTextChanged);
+	NameInput->OnTextCommitted.AddUniqueDynamic(this, &UDressUpNamePrompt::HandleTextCommitted);
+	ConfirmBtn->OnClicked.AddUniqueDynamic(this, &UDressUpNamePrompt::HandleConfirm);
+}
+
+void UDressUpNamePrompt::Ask(TFunction<void()> InOnConfirmed)
+{
+	OnConfirmed = MoveTemp(InOnConfirmed);
+	const UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this);
+	const FText Current = FText::FromString(SettingsSystem ? SettingsSystem->GetPlayerName() : FString());
+	NameInput->SetText(Current);
+	HandleTextChanged(Current);
+	Open();
+	NameInput->SetKeyboardFocus();
+}
+
+void UDressUpNamePrompt::HandleTextChanged(const FText& Text)
+{
+	const FString Name = Text.ToString();
+	if (Name.Len() > MaxNameLength)
+	{
+		NameInput->SetText(FText::FromString(Name.Left(MaxNameLength)));
+	}
+	ConfirmBtn->SetIsEnabled(!Name.TrimStartAndEnd().IsEmpty());
+}
+
+void UDressUpNamePrompt::HandleTextCommitted(const FText& Text, ETextCommit::Type CommitType)
+{
+	if (CommitType == ETextCommit::OnEnter)
+	{
+		HandleConfirm();
+	}
+}
+
+void UDressUpNamePrompt::HandleConfirm()
+{
+	const FString Name = NameInput->GetText().ToString().TrimStartAndEnd();
+	if (Name.IsEmpty())
+	{
+		return;
+	}
+	if (UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this))
+	{
+		SettingsSystem->SetPlayerName(Name);
+	}
+	Close();
+	if (OnConfirmed)
+	{
+		OnConfirmed();
+	}
+}
+
+// --- Name tag ---
+
+void UDressUpNameTag::SetName(const FString& Name)
+{
+	NameText->SetText(FText::FromString(Name));
+}
+
 // --- Main menu ---
 
 void UDressUpMainMenu::NativeConstruct()
@@ -109,6 +188,34 @@ void UDressUpMainMenu::NativeConstruct()
 }
 
 void UDressUpMainMenu::HandleStart()
+{
+	const UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this);
+	if (SettingsSystem && SettingsSystem->HasPlayerName())
+	{
+		OpenGame();
+		return;
+	}
+	if (!NamePrompt)
+	{
+		NamePrompt = UDressUpNamePrompt::Create(GetOwningPlayer());
+	}
+	if (!NamePrompt)
+	{
+		OpenGame();
+		return;
+	}
+	Settings->Close();
+	Credits->Close();
+	NamePrompt->Ask([WeakThis = TWeakObjectPtr<UDressUpMainMenu>(this)]()
+	{
+		if (WeakThis.IsValid())
+		{
+			WeakThis->OpenGame();
+		}
+	});
+}
+
+void UDressUpMainMenu::OpenGame()
 {
 	UGameplayStatics::OpenLevelBySoftObjectPtr(this, GameLevel);
 }
@@ -138,6 +245,10 @@ void UDressUpPauseMenu::NativeConstruct()
 	ResumeBtn->OnClicked.AddUniqueDynamic(this, &UDressUpPauseMenu::HandleResume);
 	SettingsBtn->OnClicked.AddUniqueDynamic(this, &UDressUpPauseMenu::HandleSettings);
 	MainMenuBtn->OnClicked.AddUniqueDynamic(this, &UDressUpPauseMenu::HandleMainMenu);
+	if (NameBtn)
+	{
+		NameBtn->OnClicked.AddUniqueDynamic(this, &UDressUpPauseMenu::HandleChangeName);
+	}
 	QuitBtn->OnClicked.AddUniqueDynamic(this, &UDressUpPauseMenu::HandleQuit);
 	Settings->Close();
 }
@@ -163,6 +274,14 @@ void UDressUpPauseMenu::HandleResume()
 void UDressUpPauseMenu::HandleSettings()
 {
 	Settings->Open();
+}
+
+void UDressUpPauseMenu::HandleChangeName()
+{
+	if (ADressUpPlayerController* Controller = Cast<ADressUpPlayerController>(GetOwningPlayer()))
+	{
+		Controller->AskPlayerName();
+	}
 }
 
 void UDressUpPauseMenu::HandleMainMenu()

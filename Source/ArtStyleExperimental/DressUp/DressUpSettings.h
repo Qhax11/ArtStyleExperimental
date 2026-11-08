@@ -1,4 +1,4 @@
-// Player settings (volumes, fullscreen), saved to disk and applied in every level.
+// Player settings (volumes, fullscreen, name), saved to disk and applied in every level.
 
 #pragma once
 
@@ -34,6 +34,10 @@ public:
 
 	UPROPERTY()
 	bool bFullscreen = true;
+
+	/** Empty until the player has given a name. */
+	UPROPERTY()
+	FString PlayerName;
 };
 
 /**
@@ -61,6 +65,16 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Settings")
 	void SetFullscreen(bool bFullscreen);
+
+	UFUNCTION(BlueprintPure, Category = "Settings")
+	FString GetPlayerName() const { return Settings ? Settings->PlayerName : FString(); }
+
+	UFUNCTION(BlueprintPure, Category = "Settings")
+	bool HasPlayerName() const { return !GetPlayerName().IsEmpty(); }
+
+	/** Trims and saves the name. An empty name means the game asks again. */
+	UFUNCTION(BlueprintCallable, Category = "Settings")
+	void SetPlayerName(const FString& Name);
 
 	/** Writes the volumes into the sound classes. Called on start and whenever a volume changes. */
 	UFUNCTION(BlueprintCallable, Category = "Settings", meta = (WorldContext = "WorldContext"))

@@ -78,6 +78,7 @@ ikonlar `/Game/DressUp/UI/Icons/VRoid`. Hepsi `DA_Catalog.AllItems` içinde.
 - **Arayüz renkleri:** Beyaz yalnızca kıyafetlerde ve beyaz renk düğmesinde kalır (Şamil, 2026-11-08), beyaz ikonlar kutuda kaybolmasın diye. Kutu ve çip renkleri `DressUpStyle` içinde, panel zemini `WBP_DressUp` içinde. Seçili renk düğmesi koyu halka alır ve büyür (`UDressUpColorButton::RefreshSelected`).
 - **Sıralama:** Sekme içi sıra `DA_Catalog.AllItems` sırasıdır. Benzer parçalar ikonlara bakılarak art arda dizildi; liste `SourceAssets/VRoid/presets/catalog_order.py` içinde. Yeni parça eklenince oraya da yazılmalı, betik eksik parçada durur.
 - **İsimler:** Parça isimleri `SourceAssets/VRoid/presets/catalog_names.py` içinde. `ue_import_items.py` manifest'teki numaralı adları yazar, yeniden aktarımdan sonra isimler bu listeden tekrar uygulanmalı.
+- **Döndürme ipucu:** `WBP_DressUp` içinde `RotateHint` (sağ alt, tıklamaları geçirir, panelle birlikte gizlenir). İkon `SourceAssets/Scripts/make_rotate_icon.py` ile çizilir.
 - **Derleme:** Modül `SlateCore`'a bağlıdır (`FButtonStyle`).
 - **Test komutları:** `DressUpWear DA_X DA_Y:2 nopanel`, `DressUpGallery` (her kombinin fotoğrafı
   `Saved/Gallery`, liste logda "GALLERY n"). Galerideki arka çekim karakteri döndürmüyor, ön çekimler geçerli.

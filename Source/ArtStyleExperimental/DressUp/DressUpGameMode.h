@@ -12,6 +12,7 @@ class UDressUpItem;
 class ADressUpCharacter;
 class UDressUpFinalScreen;
 class UDressUpMainMenu;
+class UDressUpNamePrompt;
 class UDressUpPanel;
 class UDressUpPauseMenu;
 
@@ -82,6 +83,14 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Dress Up")
 	void ClosePauseMenu();
 
+	/** Opens the name prompt; the name above the character updates when it is confirmed. */
+	UFUNCTION(BlueprintCallable, Category = "Dress Up")
+	void AskPlayerName();
+
+	/** Test shortcut: forgets the saved name, so the next start asks again. */
+	UFUNCTION(Exec)
+	void DressUpForgetName();
+
 	/** Console shortcuts for testing the finale. */
 	UFUNCTION(Exec)
 	void DressUpFinish() { Finish(); }
@@ -91,6 +100,9 @@ public:
 
 	UFUNCTION(Exec)
 	void DressUpReplay() { Replay(); }
+
+	UFUNCTION(Exec)
+	void DressUpPause() { TogglePauseMenu(); }
 
 	/**
 	 * Test shortcut: takes everything off and puts on the named items, e.g.
@@ -139,6 +151,9 @@ private:
 
 	UPROPERTY()
 	TObjectPtr<UDressUpPauseMenu> PauseMenu;
+
+	UPROPERTY()
+	TObjectPtr<UDressUpNamePrompt> NamePrompt;
 
 	UPROPERTY()
 	TObjectPtr<ADressUpCharacter> DressUpCharacter;
