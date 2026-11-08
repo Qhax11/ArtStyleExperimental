@@ -3,9 +3,7 @@
 #include "Animation/AnimationAsset.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/StaticMeshComponent.h"
-#include "Components/WidgetComponent.h"
 #include "DressUp/DressUpData.h"
-#include "DressUp/DressUpMenu.h"
 #include "DressUp/OutfitComponent.h"
 #include "TimerManager.h"
 
@@ -55,15 +53,6 @@ ADressUpCharacter::ADressUpCharacter()
 	}
 
 	Outfit = CreateDefaultSubobject<UOutfitComponent>(TEXT("Outfit"));
-
-	NameTag = CreateDefaultSubobject<UWidgetComponent>(TEXT("NameTag"));
-	NameTag->SetupAttachment(BodyMesh, TEXT("J_Bip_C_Head"));
-	NameTag->SetRelativeLocation(FVector(0.0f, 0.0f, 34.0f));
-	NameTag->SetWidgetSpace(EWidgetSpace::Screen);
-	NameTag->SetDrawAtDesiredSize(true);
-	NameTag->SetPivot(FVector2D(0.5f, 1.0f));
-	NameTag->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-	NameTag->SetVisibility(false);
 }
 
 void ADressUpCharacter::BeginPlay()
@@ -98,27 +87,6 @@ void ADressUpCharacter::BeginPlay()
 		Outfit->DefaultItems = LoadedCatalog->DefaultItems;
 	}
 	Outfit->ResetToDefault();
-}
-
-void ADressUpCharacter::ShowNameTag(const FString& Name)
-{
-	if (Name.IsEmpty())
-	{
-		NameTag->SetVisibility(false);
-		return;
-	}
-	if (!NameTag->GetWidgetClass())
-	{
-		NameTag->SetWidgetClass(NameTagClass.LoadSynchronous());
-	}
-	NameTag->InitWidget();
-	if (UDressUpNameTag* Tag = Cast<UDressUpNameTag>(NameTag->GetUserWidgetObject()))
-	{
-		Tag->SetName(Name);
-		// The tag must not catch the mouse, or dragging across it would not turn the character.
-		Tag->SetVisibility(ESlateVisibility::HitTestInvisible);
-	}
-	NameTag->SetVisibility(true);
 }
 
 void ADressUpCharacter::SetIdle(UAnimationAsset* Anim)

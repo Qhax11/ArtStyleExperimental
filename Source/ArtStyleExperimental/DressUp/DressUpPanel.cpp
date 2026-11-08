@@ -302,8 +302,8 @@ void UDressUpPanel::WrapListInScrollBox()
 	UScrollBox* Scroll = NewObject<UScrollBox>(this, TEXT("ListScroll"));
 	Scroll->SetAlwaysShowScrollbar(false);
 	Scroll->SetScrollbarThickness(FVector2D(6.0f, 6.0f));
-	// ReplaceChildAt keeps the slot (size, padding) the list had in the layout.
-	Parent->ReplaceChildAt(Index, Scroll);
+	// The list's slot is the template, so the scroll box keeps its size and padding in the layout.
+	Parent->InsertChildAt(Index, Scroll, List->Slot);
 	if (UVerticalBoxSlot* VSlot = Cast<UVerticalBoxSlot>(Scroll->Slot))
 	{
 		VSlot->SetSize(FSlateChildSize(ESlateSizeRule::Fill));
@@ -381,10 +381,29 @@ void UDressUpPanel::SelectTab(int32 TabIndex)
 	}
 }
 
+void UDressUpPanel::SetPlayerName(const FString& Name)
+{
+	if (NameText)
+	{
+		NameText->SetText(FText::FromString(Name));
+	}
+	if (NameHud)
+	{
+		// The name must not catch the mouse, or dragging across it would not turn the character.
+		NameHud->SetVisibility(Name.IsEmpty() ? ESlateVisibility::Collapsed : ESlateVisibility::HitTestInvisible);
+	}
+}
+
+void UDressUpPanel::NativeOnInitialized()
+{
+	Super::NativeOnInitialized();
+	// Must run before the Slate tree is built: InsertChildAt does not update a live one.
+	WrapListInScrollBox();
+}
+
 void UDressUpPanel::NativeConstruct()
 {
 	Super::NativeConstruct();
-	WrapListInScrollBox();
 	ResetBtn->OnClicked.AddUniqueDynamic(this, &UDressUpPanel::HandleReset);
 	if (FinishBtn)
 	{

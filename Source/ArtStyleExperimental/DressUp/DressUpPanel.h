@@ -161,6 +161,9 @@ public:
 	/** Loops one of the catalog's idle options on the character. */
 	void SelectIdle(int32 IdleIndex);
 
+	/** Shows the player's name on the HUD, or hides it when the name is empty. */
+	void SetPlayerName(const FString& Name);
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Dress Up")
 	TSoftClassPtr<UDressUpItemButton> ItemButtonClass = TSoftClassPtr<UDressUpItemButton>(FSoftObjectPath(TEXT("/Game/DressUp/UI/WBP_ItemButton.WBP_ItemButton_C")));
 
@@ -171,6 +174,7 @@ public:
 	TSoftClassPtr<UDressUpTabButton> TabButtonClass = TSoftClassPtr<UDressUpTabButton>(FSoftObjectPath(TEXT("/Game/DressUp/UI/WBP_TabButton.WBP_TabButton_C")));
 
 protected:
+	virtual void NativeOnInitialized() override;
 	virtual void NativeConstruct() override;
 
 	/** Holds the tab headers. */
@@ -193,6 +197,13 @@ protected:
 
 	UPROPERTY(meta = (BindWidgetOptional))
 	TObjectPtr<UButton> FinishBtn;
+
+	/** Frame of the player's name; hidden while there is no name. */
+	UPROPERTY(meta = (BindWidgetOptional))
+	TObjectPtr<UWidget> NameHud;
+
+	UPROPERTY(meta = (BindWidgetOptional))
+	TObjectPtr<UTextBlock> NameText;
 
 private:
 	UFUNCTION()

@@ -103,9 +103,9 @@ void ADressUpPlayerController::AskPlayerName()
 		NamePrompt->Ask([WeakThis = TWeakObjectPtr<ADressUpPlayerController>(this)]()
 		{
 			const UDressUpSettingsSubsystem* SettingsSystem = WeakThis.IsValid() ? UDressUpSettingsSubsystem::Get(WeakThis.Get()) : nullptr;
-			if (SettingsSystem && WeakThis->DressUpCharacter)
+			if (SettingsSystem && WeakThis->Panel)
 			{
-				WeakThis->DressUpCharacter->ShowNameTag(SettingsSystem->GetPlayerName());
+				WeakThis->Panel->SetPlayerName(SettingsSystem->GetPlayerName());
 			}
 		});
 	}
@@ -117,9 +117,9 @@ void ADressUpPlayerController::DressUpForgetName()
 	{
 		SettingsSystem->SetPlayerName(FString());
 	}
-	if (DressUpCharacter)
+	if (Panel)
 	{
-		DressUpCharacter->ShowNameTag(FString());
+		Panel->SetPlayerName(FString());
 	}
 }
 
@@ -170,13 +170,13 @@ void ADressUpPlayerController::StartDressUp()
 	// The menu asks first; this covers starting the level directly, as in the editor.
 	if (const UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this))
 	{
-		if (SettingsSystem->HasPlayerName())
-		{
-			DressUpCharacter->ShowNameTag(SettingsSystem->GetPlayerName());
-		}
-		else
+		if (!SettingsSystem->HasPlayerName())
 		{
 			AskPlayerName();
+		}
+		else if (Panel)
+		{
+			Panel->SetPlayerName(SettingsSystem->GetPlayerName());
 		}
 	}
 	UE_LOG(LogDressUpGame, Log, TEXT("Dress-up UI ready"));
@@ -234,8 +234,6 @@ void ADressUpPlayerController::Finish()
 	{
 		Panel->SetVisibility(ESlateVisibility::Collapsed);
 	}
-	// The final camera is close: the name would sit half out of frame, depending on the pose.
-	DressUpCharacter->ShowNameTag(FString());
 
 	FDressUpFinalPose Pose;
 	const UDressUpCatalog* Catalog = DressUpCharacter->GetCatalog();
@@ -317,11 +315,6 @@ void ADressUpPlayerController::Replay()
 		Panel->SetVisibility(ESlateVisibility::SelfHitTestInvisible);
 	}
 	bFinished = false;
-	const UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this);
-	if (SettingsSystem && DressUpCharacter)
-	{
-		DressUpCharacter->ShowNameTag(SettingsSystem->GetPlayerName());
-	}
 }
 
 // --- Main menu level ---

@@ -167,13 +167,6 @@ void UDressUpNamePrompt::HandleConfirm()
 	}
 }
 
-// --- Name tag ---
-
-void UDressUpNameTag::SetName(const FString& Name)
-{
-	NameText->SetText(FText::FromString(Name));
-}
-
 // --- Main menu ---
 
 void UDressUpMainMenu::NativeConstruct()

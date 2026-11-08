@@ -83,7 +83,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Dress Up")
 	void ClosePauseMenu();
 
-	/** Opens the name prompt; the name above the character updates when it is confirmed. */
+	/** Opens the name prompt; the name on the HUD updates when it is confirmed. */
 	UFUNCTION(BlueprintCallable, Category = "Dress Up")
 	void AskPlayerName();
 

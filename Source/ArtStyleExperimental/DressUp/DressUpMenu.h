@@ -105,20 +105,6 @@ private:
 	TFunction<void()> OnConfirmed;
 };
 
-/** The name floating above the character's head. */
-UCLASS(Abstract)
-class ARTSTYLEEXPERIMENTAL_API UDressUpNameTag : public UUserWidget
-{
-	GENERATED_BODY()
-
-public:
-	void SetName(const FString& Name);
-
-protected:
-	UPROPERTY(meta = (BindWidget))
-	TObjectPtr<UTextBlock> NameText;
-};
-
 /** The title screen: start, settings, credits, quit. The pop-ups are child widgets, hidden at start. */
 UCLASS(Abstract)
 class ARTSTYLEEXPERIMENTAL_API UDressUpMainMenu : public UUserWidget
