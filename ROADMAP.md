@@ -75,6 +75,10 @@ ikonlar `/Game/DressUp/UI/Icons/VRoid`. Hepsi `DA_Catalog.AllItems` içinde.
 - **Varyantlar:** `UDressUpItem.Variants` (renk örneği + slot başına materyal). Arayüzde son seçilen
   parçanın varyantları renk kutularının yerine çıkar (`SetSlotVariant`, kayda da yazılır).
 - **Arayüz:** parça listesi koddan `ScrollBox` içine alınır (`WrapListInScrollBox`).
+- **Arayüz renkleri:** Beyaz yalnızca kıyafetlerde ve beyaz renk düğmesinde kalır (Şamil, 2026-11-08), beyaz ikonlar kutuda kaybolmasın diye. Kutu ve çip renkleri `DressUpStyle` içinde, panel zemini `WBP_DressUp` içinde. Seçili renk düğmesi koyu halka alır ve büyür (`UDressUpColorButton::RefreshSelected`).
+- **Sıralama:** Sekme içi sıra `DA_Catalog.AllItems` sırasıdır. Benzer parçalar ikonlara bakılarak art arda dizildi; liste `SourceAssets/VRoid/presets/catalog_order.py` içinde. Yeni parça eklenince oraya da yazılmalı, betik eksik parçada durur.
+- **İsimler:** Parça isimleri `SourceAssets/VRoid/presets/catalog_names.py` içinde. `ue_import_items.py` manifest'teki numaralı adları yazar, yeniden aktarımdan sonra isimler bu listeden tekrar uygulanmalı.
+- **Derleme:** Modül `SlateCore`'a bağlıdır (`FButtonStyle`).
 - **Test komutları:** `DressUpWear DA_X DA_Y:2 nopanel`, `DressUpGallery` (her kombinin fotoğrafı
   `Saved/Gallery`, liste logda "GALLERY n"). Galerideki arka çekim karakteri döndürmüyor, ön çekimler geçerli.
 - MCP: 5 dakikayı aşan çağrı istemci tarafında kesilince editördeki MCP eklentisi kilitleniyor;
@@ -276,7 +280,7 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] `LVL_DressUp`: sabit kamera, karakter sağda. Başlangıcı C++ `ADressUpGameMode` / `ADressUpPlayerController` yapıyor (kamera, fare, arayüz).
 - [x] Pastel stüdyo: krem zemin, pembe fon (`StudioBackdrop`), açık pembe halı (`StudioRug`), sıcak yönlü ışık. Materyaller `/Game/DressUp/Scene/MI_Studio_*`.
 - [ ] Cozy dekor (en sona; yüzde gölge sorunu yok, Şamil 2026-11-06)
-- [x] Idle animasyon: Mixamo'dan iki döngüsel bekleme (`SourceAssets/Mixamo/Idle_A.fbx` 8.3 sn, `Idle_B.fbx` 16.6 sn), `SourceAssets/Scripts/export_mixamo_fbx.py` ile karaktere aktarıldı (iki iskelet de T-pozda; kemik başına dünya dönüş farkı, kalça boy oranıyla). `DA_Body_evrar.IdleAnim` = `/Game/DressUp/Core/Anim/Idle/SK_Idle_A_Anim`. B'yi denemek için aynı alanı değiştir.
+- [x] Idle animasyon: Mixamo'dan iki döngüsel bekleme (`SourceAssets/Mixamo/Idle_A.fbx` 8.3 sn; ikincisi `Idle_B.fbx` silindi), `SourceAssets/Scripts/export_mixamo_fbx.py` ile karaktere aktarıldı (iki iskelet de T-pozda; kemik başına dünya dönüş farkı, kalça boy oranıyla). `DA_Body_evrar.IdleAnim` = `/Game/DressUp/Core/Anim/Idle/SK_Idle_A_Anim`. B ("Salınım") Şamil'in isteğiyle 2026-11-08'de projeden silindi, A çok daha iyi görünüyordu.
 - [x] VRoid'in resmî ücretsiz VRMA paketi (`VRMA_MotionPack`, 7 hareket) karakterin iskeletine alındı: `/Game/DressUp/Core/Anim/Motions/SK_VRMA_0X_Anim`. Yol: `SourceAssets/Scripts/export_vrma_fbx.py` (Blender VRM eklentisi VRMA'yı iskelete uygular, `prepare_armature` sonrası aynı deformasyon yeniden yazılır), FBX `import_animations=True` ile alınır. Hareketler: 01 tüm vücut, 02 selam, 03 V işareti, 04 ateş, 05 dönme, 06 model pozu, 07 çömelme. Kredi: "Character animation credits to pixiv Inc.'s VRoid Project". VRM4U'nun doğrudan aldığı deneme `/Game/DressUp/Core/Anim/VRMA` kendi iskeletinde, işe yaramıyor; editör kapalıyken diskten silinecek.
 - [x] Oyun başlangıcı ve Sıfırla: kıyafetsiz, saçsız, iç çamaşırıyla (Şamil'in isteği, 2026-11-06). Katalogdaki `DefaultItems` boş.
 
@@ -290,7 +294,7 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] Parça ikonları otomatik: parça yeşil fon önünde çekilir, `SourceAssets/Scripts/make_icons.py` saydam 256px PNG'ye çevirir, `/Game/DressUp/UI/Icons` altına alınıp `UDressUpItem.Icon`'a bağlanır. Yeni parça eklenince aynı yol tekrarlanır.
 - [x] Sekmeli arayüz fareyle denendi, çalışıyor (2026-11-06). Çorap `Alt` sekmesinde; sekmeler katalogda tanımlı.
 - [x] Fareyle döndürme: sahneye basılı tutup yatay sürükleyince karakter yaw ekseninde döner, bırakınca en kısa yoldan kameraya bakan açısına yumuşakça döner (`ADressUpPlayerController::UpdateRotation`, ayarlar `RotateDegreesPerPixel` 0.4, `ReturnSpeed` 5). Giriş modu "Game and UI": arayüz tıklamaları döndürmez. Şamil fareyle denedi, çalışıyor (2026-11-06).
-- [x] "Bitir" düğmesi ve "Duruş" çipleri (katalogdaki `IdleOptions`: Rahat, Salınım, Dik duruş)
+- [x] "Bitir" düğmesi ve "Duruş" çipleri (katalogdaki `IdleOptions`: Rahat, Dik duruş)
 
 ### 8. Finalize ekranı
 

@@ -21,6 +21,11 @@ if len(args) >= 4:
     jobs = jobs[int(args[2]):int(args[2]) + int(args[3])]
 os.makedirs(out_dir, exist_ok=True)
 SIZE = 256
+# Emission + ambient + sun must stay below 1 on a white texture, or white clothes clip to pure
+# white and lose their folds and patterns.
+EMISSION = 0.5
+AMBIENT = 0.2
+SUN_ENERGY = 0.8
 
 
 def clean(name):
@@ -47,7 +52,7 @@ def flat_material(src):
     tint.blend_type = "MULTIPLY"
     tint.inputs[0].default_value = 1.0
     tint.inputs[7].default_value = factor
-    emit.inputs["Strength"].default_value = 0.75
+    emit.inputs["Strength"].default_value = EMISSION
     if image is not None:
         tex = nt.nodes.new("ShaderNodeTexImage")
         tex.image = image
@@ -84,11 +89,11 @@ def setup_scene():
     scene.view_settings.view_transform = "Standard"
     world = bpy.data.worlds.new("IconWorld")
     world.use_nodes = True
-    world.node_tree.nodes["Background"].inputs["Color"].default_value = (0.6, 0.6, 0.6, 1)
-    world.node_tree.nodes["Background"].inputs["Strength"].default_value = 0.6
+    world.node_tree.nodes["Background"].inputs["Color"].default_value = (1, 1, 1, 1)
+    world.node_tree.nodes["Background"].inputs["Strength"].default_value = AMBIENT
     scene.world = world
     sun = bpy.data.lights.new("Sun", "SUN")
-    sun.energy = 2.0
+    sun.energy = SUN_ENERGY
     sun_obj = bpy.data.objects.new("Sun", sun)
     sun_obj.rotation_euler = (math.radians(50), 0, math.radians(-30))
     scene.collection.objects.link(sun_obj)
