@@ -3,9 +3,9 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class ArtStyleExperimentalEditorTarget : TargetRules
+public class DressUpEditorTarget : TargetRules
 {
-	public ArtStyleExperimentalEditorTarget(TargetInfo Target) : base(Target)
+	public DressUpEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V7;

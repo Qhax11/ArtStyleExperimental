@@ -3,7 +3,10 @@
 For every source VRM it does what retarget_costume_fbx.py and fix_cloth_fbx.py do for a
 single item, so every clothing item still goes through the cloth pipeline:
 
-  1. faces of the item's materials are copied out of the VRM meshes,
+  1. faces of the item's materials are copied out of the VRM meshes and moved down by the
+     source's lift (VRoid raises the whole model by the heel height of the shoes it wears, so
+     a top from such an export sits up to 3 cm high on evrar: sleeves flare out when the arms
+     come down and the bust pokes through). Shoes keep their place, so heels stay on the floor,
   2. bones the body skeleton lacks are merged into the nearest body bone,
   3. (clothing) faces whose texture is fully transparent are deleted,
   4. (clothing) vertices near the skin take the body's skin weights (3 cm full, 10 cm none),
@@ -26,7 +29,7 @@ import time
 
 import bmesh
 import bpy
-from mathutils import Vector
+from mathutils import Matrix, Vector
 from mathutils.bvhtree import BVHTree
 from mathutils.geometry import barycentric_transform
 
@@ -64,6 +67,8 @@ def build_vrm(job):
     bpy.ops.import_scene.vrm(filepath=job["vrm"])
     new_objs = set(bpy.data.objects) - before_objs
     costume_arm = next(o for o in new_objs if o.type == "ARMATURE")
+    lift = (costume_arm.matrix_world @ costume_arm.data.bones["J_Bip_C_Hips"].head_local).z - (
+        reference.matrix_world @ reference.data.bones["J_Bip_C_Hips"].head_local).z
     sources = [o for o in new_objs if o.type == "MESH"]
     by_name = {}
     for mat in set(bpy.data.materials) - before_mats:
@@ -139,6 +144,9 @@ def build_vrm(job):
             bpy.ops.object.join()
         obj = pieces[0]
         me = obj.data
+        item_lift = 0.0 if item["name"].startswith("Shoes") else lift
+        if item_lift:
+            me.transform(Matrix.Translation((0.0, 0.0, -item_lift)))
 
         # Transparent faces (clothing only).
         removed = 0
@@ -201,7 +209,7 @@ def build_vrm(job):
             if mod.type == "ARMATURE":
                 mod.object = reference
         obj.name = obj.data.name = item["name"]
-        built.append((obj, item, removed))
+        built.append((obj, item, removed, item_lift))
 
     for obj in sources + [costume_arm]:
         bpy.data.objects.remove(obj)
@@ -209,7 +217,7 @@ def build_vrm(job):
     body = bpy.data.objects["BodyOnly"]
 
     tree = None
-    for obj, item, removed in built:
+    for obj, item, removed, item_lift in built:
         me = obj.data
         note = ""
         if item["kind"] == "cloth":
@@ -265,7 +273,7 @@ def build_vrm(job):
             use_mesh_modifiers=False, primary_bone_axis="Y", secondary_bone_axis="X",
             axis_forward="-Y", axis_up="Z")
         print(f"BUILD {item['name']}: verts={len(me.vertices)} z=[{min(zs):.1f},{max(zs):.1f}]"
-              f" slots={[m.name for m in me.materials]}{note}")
+              f" lift={item_lift * 100:.1f}cm slots={[m.name for m in me.materials]}{note}")
 
 
 for job in jobs:

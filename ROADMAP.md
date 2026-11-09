@@ -90,7 +90,11 @@ ikonlar `/Game/DressUp/UI/Icons/VRoid`. Hepsi `DA_Catalog.AllItems` içinde.
 
 ## Mevcut durum
 
-- UE 5.8, `ArtStyleExperimental` projesi, içerik `/Game/DressUp/` altında
+- UE 5.8, `DressUp.uproject` (hedefler `DressUp` / `DressUpEditor`, 2026-11-09'da adı değişti), içerik `/Game/DressUp/` altında.
+  C++ modülü ve klasör adı `ArtStyleExperimental` olarak kaldı: modülü yeniden adlandırmak her asset'teki
+  `/Script/ArtStyleExperimental` sınıf yolunu kırardı.
+- Oyun ikonu `Build/Windows/Application.ico`, açılış görseli `Content/Splash/Splash.bmp`; ikisi de
+  `SourceAssets/Scripts/make_app_icon.py` ile çizilir.
 - VRM4U plugin'i `Plugins/VRM4U` içinde kurulu (5.8 sürümü, v1.2026.10.17)
 - Model VRoid Studio ile hazırlandı (`evrar.vroid`, Şamil kaydetti), benzerlik ayarları henüz bitmedi
 - VRM dosyası: `SourceAssets/VRoid/evrar.vrm`

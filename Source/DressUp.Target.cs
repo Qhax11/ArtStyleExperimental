@@ -3,9 +3,9 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class ArtStyleExperimentalTarget : TargetRules
+public class DressUpTarget : TargetRules
 {
-	public ArtStyleExperimentalTarget(TargetInfo Target) : base(Target)
+	public DressUpTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V7;
