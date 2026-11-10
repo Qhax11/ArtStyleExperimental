@@ -3,6 +3,7 @@
 #include "Animation/AnimationAsset.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "DressUp/DressUpAnimInstance.h"
 #include "DressUp/DressUpData.h"
 #include "DressUp/OutfitComponent.h"
 #include "TimerManager.h"
@@ -69,10 +70,15 @@ void ADressUpCharacter::BeginPlay()
 		}
 		BodyRegions->SetSkinnedAssetAndUpdate(BodyData->RegionMesh, false);
 		BodyRegions->SetLeaderPoseComponent(BodyMesh);
+		// Animations play through our instance so the feet can be pointed for shoes.
+		BodyMesh->SetAnimationMode(EAnimationMode::AnimationBlueprint);
+		BodyMesh->SetAnimInstanceClass(UDressUpAnimInstance::StaticClass());
 		SetIdle(ShowcaseIdle ? ShowcaseIdle.Get() : BodyData->IdleAnim.Get());
 	}
 	LoadedCatalog = Catalog.LoadSynchronous();
 
+	BaseBodyZ = BodyMesh->GetRelativeLocation().Z;
+	Outfit->OnOutfitChanged.AddUniqueDynamic(this, &ADressUpCharacter::HandleOutfitChanged);
 	Outfit->Initialize(BodyMesh, BodyRegions);
 	for (const TPair<EDressUpSlot, TObjectPtr<UMeshComponent>>& Pair : SlotMeshes)
 	{
@@ -89,6 +95,31 @@ void ADressUpCharacter::BeginPlay()
 	Outfit->ResetToDefault();
 }
 
+void ADressUpCharacter::HandleOutfitChanged()
+{
+	const UDressUpItem* Shoes = Outfit->GetEquipped(EDressUpSlot::Shoes);
+	FVector Location = BodyMesh->GetRelativeLocation();
+	Location.Z = BaseBodyZ + (Shoes ? Shoes->SoleHeight : 0.0f);
+	// Every item mesh is attached to the body, so they all move with it.
+	BodyMesh->SetRelativeLocation(Location);
+	if (UDressUpAnimInstance* Anim = Cast<UDressUpAnimInstance>(BodyMesh->GetAnimInstance()))
+	{
+		Anim->FootPitch = Shoes ? Shoes->FootPitch : 0.0f;
+	}
+}
+
+void ADressUpCharacter::PlayBodyAnimation(UAnimationAsset* Anim, bool bLoop)
+{
+	if (UDressUpAnimInstance* Instance = Cast<UDressUpAnimInstance>(BodyMesh->GetAnimInstance()))
+	{
+		Instance->Play(Anim, bLoop);
+	}
+	else
+	{
+		BodyMesh->PlayAnimation(Anim, bLoop);
+	}
+}
+
 void ADressUpCharacter::SetIdle(UAnimationAsset* Anim)
 {
 	CurrentIdle = Anim;
@@ -101,7 +132,7 @@ void ADressUpCharacter::ReturnToIdle()
 	BodyMesh->bPauseAnims = false;
 	if (CurrentIdle)
 	{
-		BodyMesh->PlayAnimation(CurrentIdle, true);
+		PlayBodyAnimation(CurrentIdle, true);
 	}
 }
 
@@ -113,7 +144,7 @@ void ADressUpCharacter::PlayFinalPose(const FDressUpFinalPose& Pose)
 	}
 	GetWorldTimerManager().ClearTimer(PoseTimer);
 	BodyMesh->bPauseAnims = false;
-	BodyMesh->PlayAnimation(Pose.Anim, false);
+	PlayBodyAnimation(Pose.Anim, false);
 	if (Pose.HoldTime >= 0.0f)
 	{
 		GetWorldTimerManager().SetTimer(PoseTimer, this, &ADressUpCharacter::FreezePose, FMath::Max(Pose.HoldTime, 0.01f), false);

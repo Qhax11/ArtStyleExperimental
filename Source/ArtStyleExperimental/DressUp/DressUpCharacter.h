@@ -80,6 +80,16 @@ protected:
 private:
 	void FreezePose();
 
+	/** Plays on the body through UDressUpAnimInstance, so the shoe foot pose stays on top. */
+	void PlayBodyAnimation(UAnimationAsset* Anim, bool bLoop);
+
+	/** Raises the body by the worn shoes' sole height and points the feet as they need. */
+	UFUNCTION()
+	void HandleOutfitChanged();
+
+	/** The body's height in the level, before any sole is added. */
+	float BaseBodyZ = 0.0f;
+
 	UPROPERTY()
 	TObjectPtr<UDressUpCatalog> LoadedCatalog;
 

@@ -80,6 +80,20 @@ ikonlar `/Game/DressUp/UI/Icons/VRoid`. Hepsi `DA_Catalog.AllItems` içinde.
 - **İsimler:** Parça isimleri `SourceAssets/VRoid/presets/catalog_names.py` içinde. `ue_import_items.py` manifest'teki numaralı adları yazar, yeniden aktarımdan sonra isimler bu listeden tekrar uygulanmalı.
 - **Döndürme ipucu:** `WBP_DressUp` içinde `RotateHint` (sağ alt, tıklamaları geçirir, panelle birlikte gizlenir). İkon `SourceAssets/Scripts/make_rotate_icon.py` ile çizilir.
 - **Derleme:** Modül `SlateCore`'a bağlıdır (`FButtonStyle`).
+- **VRoid yükseltmesi (2026-11-10):** VRoid, ayakkabı giydirince bütün modeli taban kalınlığı kadar
+  (0,1–3,1 cm) yükseltip öyle dışa aktarıyor. `build_items.py` her parçayı kaynağının kalça farkı kadar
+  indirir. Düzeltilmeden önce üstlerin kolları dışa açılıyor, göğüs kumaşı delip çıkıyordu.
+- **Ayakkabılar:** VRoid ayakkabı içinde ayağı bilekten öne eğiyor (38 VRM'de 7,8°, 3'ünde 6–6,3°,
+  5'inde 0). Hat ayakkabıyı düz ayağa çevirir, ayağa yakın yüzeyleri sıklaştırıp derinin 2 mm dışına
+  iter. Oyunda `UDressUpItem.SoleHeight` kadar karakter yükselir, `FootPitch` kadar ayak eğilir
+  (`UDressUpAnimInstance`; gövde animasyonları artık `PlayBodyAnimation` ile bu sınıftan oynar).
+  `item_coverage.py` ayakkabıda derinin hemen altındaki yüzeyi de örtü sayar.
+- **Kontrol betikleri:** `check_sleeves.py`, `sleeve_offset.py`, `render_fit.py` (Blender'da kollar
+  inik görüntü).
+- **Oyuncu adı:** Başlat'ta bir kez sorulur (`WBP_NamePrompt`), `DressUpSettings` kaydında saklanır,
+  ESC menüsünde "İsmi değiştir". Ekranın üstünde `WBP_DressUp` içindeki `NameHud` gösterir
+  (karaktere bağlı değil, panelle gizlenir). Test: `DressUpForgetName`.
+- **Proje adı:** `DressUp.uproject`, ikon `Build/Windows/Application.ico`, açılış `Content/Splash/Splash.bmp`.
 - **Test komutları:** `DressUpWear DA_X DA_Y:2 nopanel`, `DressUpGallery` (her kombinin fotoğrafı
   `Saved/Gallery`, liste logda "GALLERY n"). Galerideki arka çekim karakteri döndürmüyor, ön çekimler geçerli.
 - MCP: 5 dakikayı aşan çağrı istemci tarafında kesilince editördeki MCP eklentisi kilitleniyor;

@@ -13,7 +13,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..")
 # Items made before the VRoid batch.
 EARLIER = {"Top_Tshirt": "Beyaz tişört", "Top_HoodieG": "Mavi kapüşonlu", "Bottom_Shorts": "Siyah şort",
            "Bottom_ShortsG": "Desenli şort", "Dress_BlackO": "Siyah elbise", "Socks_O": "Beyaz çorap",
-           "Shoes_Sneakers": "Spor ayakkabı", "Shoes_MaryJaneO": "Siyah bağcıklı", "Hair_Default": "Kısa saç",
+           "Shoes_Sneakers": "Spor ayakkabı", "Hair_Default": "Kısa saç",
            "Hair_Long": "Uzun saç", "Glasses_Thin": "İnce çerçeveli gözlük", "Hat_Cap": "Kep"}
 
 TOP = {
@@ -118,7 +118,6 @@ SIMILAR = {
     "Siyah teknolojik kostüm": "Dress_009 Dress_010",
     "Siyah-beyaz ayakkabı": "Shoes_007 Shoes_008",
     "Topuklu ve bacak ısıtıcı": "Shoes_013 Shoes_014",
-    "Siyah bağcıklı": "Shoes_MaryJaneO Shoes_034",
     "Beyaz sandalet": "Shoes_042 Shoes_044",
     "Kahverengi bot": "Shoes_022 Shoes_020",
     "Teknolojik bot": "Shoes_016 Shoes_017",

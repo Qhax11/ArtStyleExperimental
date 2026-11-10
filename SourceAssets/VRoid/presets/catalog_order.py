@@ -84,7 +84,7 @@ ORDER = {
         # Heels and straps
         *nums("Shoes", "011 012 009 029 027"),
         # Leg warmers over heels, ribbons up the leg
-        *nums("Shoes", "013 014"), "Shoes_MaryJaneO", *nums("Shoes", "034 023"),
+        *nums("Shoes", "013 014"), *nums("Shoes", "034 023"),
         # Sandals
         *nums("Shoes", "042 044 043 041 040 035 036"),
         # Ankle boots
@@ -117,12 +117,17 @@ ORDER = {
 }
 
 
+# Kept on disk but left out of the catalog. Shoes_MaryJaneO: the first test shoe, same design as
+# Shoes_034 but built before the shoe fit step (2026-11-10).
+RETIRED = ("Shoes_MaryJaneO",)
+
+
 def main():
     data = os.path.join(ROOT, "Content", "DressUp", "Data")
     paths = {}
     for folder, base in ((data, "/Game/DressUp/Data"), (os.path.join(data, "VRoid"), "/Game/DressUp/Data/VRoid")):
         for f in os.listdir(folder):
-            if f.startswith("DA_") and f.endswith(".uasset") and f[:-7] not in ("DA_Catalog", "DA_Body_evrar"):
+            if f.startswith("DA_") and f.endswith(".uasset") and f[:-7] not in ("DA_Catalog", "DA_Body_evrar")                     and f[3:-7] not in RETIRED:
                 paths[f[3:-7]] = f"{base}/{f[:-7]}.{f[:-7]}"
     order = [name for group in ORDER.values() for name in group]
     missing = sorted(set(paths) - set(order))

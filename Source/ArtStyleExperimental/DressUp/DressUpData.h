@@ -42,6 +42,17 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Mesh")
 	FTransform Offset;
 
+	/**
+	 * Shoes: sole thickness in cm. The character is raised by this while the shoes are worn, as
+	 * VRoid does, so the foot stands on the insole and the sole on the floor.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Mesh", meta = (ClampMin = "0", Units = "cm"))
+	float SoleHeight = 0.0f;
+
+	/** Shoes: degrees the feet are pointed (toes down) while worn; VRoid shoes are shaped for ~8. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Mesh", meta = (Units = "deg"))
+	float FootPitch = 0.0f;
+
 	/** Colours the UI offers for this item. Empty means the shared palette. */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Look")
 	TArray<FLinearColor> ColorOptions;

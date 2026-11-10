@@ -6,11 +6,13 @@ single item, so every clothing item still goes through the cloth pipeline:
   1. faces of the item's materials are copied out of the VRM meshes and moved down by the
      source's lift (VRoid raises the whole model by the heel height of the shoes it wears, so
      a top from such an export sits up to 3 cm high on evrar: sleeves flare out when the arms
-     come down and the bust pokes through). Shoes keep their place, so heels stay on the floor,
+     come down and the bust pokes through). Shoes move down too; the game raises the character
+     by the same amount while they are worn (UDressUpItem.SoleHeight), as VRoid does,
   2. bones the body skeleton lacks are merged into the nearest body bone,
   3. (clothing) faces whose texture is fully transparent are deleted,
-  4. (clothing) vertices near the skin take the body's skin weights (3 cm full, 10 cm none),
-  5. the item is exported as FBX on the prepared body armature (centimetres, identity bones).
+  4. (shoes) vertices under the skin are pushed out to it, so the bare foot does not poke through,
+  5. (clothing) vertices near the skin take the body's skin weights (3 cm full, 10 cm none),
+  6. the item is exported as FBX on the prepared body armature (centimetres, identity bones).
 
 Hair and VRoid accessories (hats, glasses) skip steps 3 and 4, as before.
 Material slots are renamed <Item>_M<i> in the order given, so Unreal slot names are stable.
@@ -22,6 +24,7 @@ jobs.json: [{"vrm": path, "items": [{"name": "Top_001", "kind": "cloth|hair|rigi
 """
 import array
 import json
+import math
 import os
 import re
 import sys
@@ -39,6 +42,10 @@ from vroid_fbx_common import BONE_RENAMES, prepare_armature  # noqa: E402
 REFERENCE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "VRoid", "parts_full",
                          "evrar_full_parts.blend")
 NEAR, FAR = 3.0, 10.0
+# Shoes: VRoid keeps the foot flatter inside shoes than evrar's bare foot, so the toes and instep
+# poke through. Shoe vertices under the skin (or closer than this, cm) are pushed out to it.
+SHOE_GAP = 0.2
+SHOE_REACH = 4.0  # cm; only vertices this close to the body are moved
 
 args = sys.argv[sys.argv.index("--") + 1:]
 jobs = json.load(open(args[0]))
@@ -144,7 +151,7 @@ def build_vrm(job):
             bpy.ops.object.join()
         obj = pieces[0]
         me = obj.data
-        item_lift = 0.0 if item["name"].startswith("Shoes") else lift
+        item_lift = lift
         if item_lift:
             me.transform(Matrix.Translation((0.0, 0.0, -item_lift)))
 
@@ -234,6 +241,51 @@ def build_vrm(job):
                 triangles = [[v.index for v in f.verts] for f in body_bm.faces]
                 positions = [v.co.copy() for v in body_bm.verts]
                 body_bm.free()
+            pushed = 0
+            pitch = item.get("foot_pitch", 0.0)
+            if pitch:
+                # VRoid points the foot inside shoes; the game does that with the foot bone
+                # (UDressUpItem.FootPitch), so the shoe is turned back to the flat bare foot here.
+                # How much a vertex turns follows how much the body point under it is foot.
+                ankles = {side: armature.data.bones[f"J_Bip_{side}_Foot"].head_local.copy()
+                          for side in ("L", "R")}
+                back = Matrix.Rotation(math.radians(-pitch), 3, "X")
+                for v in me.vertices:
+                    hit, _, face_index, _ = tree.find_nearest(v.co)
+                    if hit is None:
+                        continue
+                    a_, b_, c_ = triangles[face_index]
+                    bary = barycentric_transform(hit, positions[a_], positions[b_], positions[c_],
+                                                 Vector((1, 0, 0)), Vector((0, 1, 0)), Vector((0, 0, 1)))
+                    foot = 0.0
+                    for corner, part in zip((a_, b_, c_), bary):
+                        foot += max(part, 0.0) * sum(w for bone, w in body_weights[corner].items()
+                                                     if "Foot" in bone or "Toe" in bone)
+                    if foot <= 0.0:
+                        continue
+                    ankle = min(ankles.values(), key=lambda p: (p - v.co).length)
+                    turned = ankle + back @ (v.co - ankle)
+                    v.co = v.co.lerp(turned, min(foot, 1.0))
+                me.update()
+            if item["name"].startswith("Shoes"):
+                # Densify the shoe near the foot first, so the skin cannot poke through between
+                # the few vertices of a toe box once they are pushed out.
+                bm = bmesh.new()
+                bm.from_mesh(me)
+                near = set()
+                for edge in bm.edges:
+                    if any(tree.find_nearest(v.co)[3] < SHOE_REACH for v in edge.verts):
+                        near.add(edge)
+                bmesh.ops.subdivide_edges(bm, edges=list(near), cuts=2, use_grid_fill=True)
+                bmesh.ops.triangulate(bm, faces=[f for f in bm.faces if len(f.verts) > 4])
+                bm.to_mesh(me)
+                bm.free()
+                for v in me.vertices:
+                    hit, normal, _, distance = tree.find_nearest(v.co)
+                    if hit is not None and distance < SHOE_REACH and (v.co - hit).dot(normal) < SHOE_GAP:
+                        v.co = hit + normal * SHOE_GAP
+                        pushed += 1
+                me.update()
             cloth_groups = {g.index: g.name for g in obj.vertex_groups}
             new_weights = []
             near_count = far_count = 0
@@ -261,6 +313,10 @@ def build_vrm(job):
                     group = obj.vertex_groups.get(bone) or obj.vertex_groups.new(name=bone)
                     group.add([index], weight, "REPLACE")
             note = f" transparent_removed={removed} body={near_count} own={far_count}"
+            if pushed:
+                note += f" pushed_out={pushed}"
+            if pitch:
+                note += f" foot_pitch={pitch:.1f}"
         zs = [v.co.z for v in me.vertices]
         bpy.ops.object.select_all(action="DESELECT")
         armature.select_set(True)

@@ -105,6 +105,10 @@ for name in names:
             covered[region] += 1
     shares = {r: covered[r] / total[r] for r in REGIONS if total[r]}
     hidden = [r for r in REGIONS if shares.get(r, 0) >= HIDE_AT]
+    if name.startswith("Shoes"):
+        # build_items.py fits shoes around the bare foot, so nothing needs hiding; hiding the foot
+        # left a gap at the heel where the shoe's opening dips below the region's edge.
+        hidden = []
     result[name] = {"hidden": hidden, "shares": {r: round(s, 3) for r, s in shares.items() if s > 0.02}}
     print("COVER", name, hidden, result[name]["shares"])
     for obj in new:
