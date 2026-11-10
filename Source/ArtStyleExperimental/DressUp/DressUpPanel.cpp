@@ -11,6 +11,8 @@
 #include "DressUp/DressUpData.h"
 #include "DressUp/DressUpGameMode.h"
 #include "DressUp/OutfitComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "Sound/SoundBase.h"
 
 // --- Item button ---
 
@@ -59,11 +61,48 @@ void UDressUpItemButton::NativeDestruct()
 	Super::NativeDestruct();
 }
 
+namespace
+{
+	/** Sound family of a slot; matches the wardrobe tabs. SourceAssets/Scripts/make_sfx.py makes them. */
+	const TCHAR* SoundFamily(EDressUpSlot Slot)
+	{
+		switch (Slot)
+		{
+		case EDressUpSlot::Top:
+		case EDressUpSlot::Outer:
+			return TEXT("Top");
+		case EDressUpSlot::Bottom:
+			return TEXT("Bottom");
+		case EDressUpSlot::Dress:
+			return TEXT("Dress");
+		case EDressUpSlot::Shoes:
+		case EDressUpSlot::Socks:
+			return TEXT("Shoes");
+		case EDressUpSlot::Hair:
+			return TEXT("Hair");
+		default:
+			return TEXT("Accessory");
+		}
+	}
+
+	/** Plays /Game/DressUp/Audio/SFX/SFX_<Family>_On or _Off (routed to SC_Effects). */
+	void PlayItemSound(const UObject* WorldContext, EDressUpSlot Slot, bool bPutOn)
+	{
+		const FString Name = FString::Printf(TEXT("SFX_%s_%s"), SoundFamily(Slot), bPutOn ? TEXT("On") : TEXT("Off"));
+		const TSoftObjectPtr<USoundBase> Sound(FSoftObjectPath(FString::Printf(TEXT("/Game/DressUp/Audio/SFX/%s.%s"), *Name, *Name)));
+		if (USoundBase* Loaded = Sound.LoadSynchronous())
+		{
+			UGameplayStatics::PlaySound2D(WorldContext, Loaded);
+		}
+	}
+}
+
 void UDressUpItemButton::HandleClicked()
 {
 	if (Outfit && Item)
 	{
 		Outfit->Toggle(Item);
+		PlayItemSound(this, Item->Slot, Outfit->IsEquipped(Item));
 	}
 }
 

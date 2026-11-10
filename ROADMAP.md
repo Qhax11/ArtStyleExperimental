@@ -93,6 +93,9 @@ ikonlar `/Game/DressUp/UI/Icons/VRoid`. Hepsi `DA_Catalog.AllItems` içinde.
 - **Oyuncu adı:** Başlat'ta bir kez sorulur (`WBP_NamePrompt`), `DressUpSettings` kaydında saklanır,
   ESC menüsünde "İsmi değiştir". Ekranın üstünde `WBP_DressUp` içindeki `NameHud` gösterir
   (karaktere bağlı değil, panelle gizlenir). Test: `DressUpForgetName`.
+- **Kıyafet sesleri:** `SourceAssets/Scripts/make_sfx.py` (numpy ile sentez) her sekme için giyme ve çıkarma
+  sesi üretir (`SourceAssets/Audio/sfx`, dinleme sayfası `preview.html`). `ue_import_sfx.py` editörde
+  `py` komutuyla `/Game/DressUp/Audio/SFX`'e alır, `SC_Effects`'e bağlar. Çalma: `DressUpPanel.cpp` `PlayItemSound`.
 - **Proje adı:** `DressUp.uproject`, ikon `Build/Windows/Application.ico`, açılış `Content/Splash/Splash.bmp`.
 - **Test komutları:** `DressUpWear DA_X DA_Y:2 nopanel`, `DressUpGallery` (her kombinin fotoğrafı
   `Saved/Gallery`, liste logda "GALLERY n"). Galerideki arka çekim karakteri döndürmüyor, ön çekimler geçerli.
@@ -334,6 +337,11 @@ En riskli adım, sistemden önce doğrulanır.
 
 - [ ] Paketleme
 - [ ] Hedef bilgisayarda test
+- [ ] Lumen kararı (Şamil, 2026-11-10: şimdilik kalsın). Şablondan açık kaldı; toon materyalleri
+  yüzünden karaktere katkısı az, yalnızca sahnenin seken ışığını veriyor. Ekran izleri kapalı
+  (`DefaultEngine.ini`, beyaz kıyafetler zemine hale yapıyordu). Hedef bilgisayar zorlanırsa
+  Lumen'i tamamen kapat ve ışığı yeniden kur: kapatınca gölge lacivert-siyah, sahne düz kalıyor;
+  gökyüzü ışığı, gölge rengi ve SSAO ayarlanmalı.
 
 ## Kıyafet kaynakları
 
