@@ -62,6 +62,10 @@ def make_mi(item, v, i, s):
     sh = s['shade']
     t(MI + 'set_vector_parameter', {'instance': mi, 'name': 'mtoon_ShadeColor',
                                     'value': {'r': sh[0], 'g': sh[1], 'b': sh[2], 'a': 1}})
+    col = s.get('color', [1, 1, 1])
+    if min(col) < 0.999:
+        t(MI + 'set_vector_parameter', {'instance': mi, 'name': 'mtoon_Color',
+                                        'value': {'r': col[0], 'g': col[1], 'b': col[2], 'a': 1}})
     if s.get('alpha') == 'MASK':
         t(MI + 'set_scalar_parameter', {'instance': mi, 'name': 'mtoon_Cutoff', 'value': s.get('cutoff', 0.5)})
     if s.get('normal'):

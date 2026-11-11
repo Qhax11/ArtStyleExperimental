@@ -16,7 +16,7 @@ TArray<FDressUpTab> DressUp::DefaultTabs()
 		return Tab;
 	};
 	return {
-		Make(TEXT("Üst"), {EDressUpSlot::Top, EDressUpSlot::Outer}),
+		Make(TEXT("Üst"), {EDressUpSlot::Top}),
 		Make(TEXT("Alt"), {EDressUpSlot::Bottom, EDressUpSlot::Socks}),
 		Make(TEXT("Elbise"), {EDressUpSlot::Dress}),
 		Make(TEXT("Ayakkabı"), {EDressUpSlot::Shoes}),

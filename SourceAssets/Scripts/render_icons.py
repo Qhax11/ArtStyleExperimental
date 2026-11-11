@@ -12,7 +12,7 @@ import sys
 
 import bmesh
 import bpy
-from mathutils import Vector
+from mathutils import Matrix, Vector
 
 args = sys.argv[sys.argv.index("--") + 1:]
 jobs = json.load(open(args[0]))
@@ -105,6 +105,60 @@ def setup_scene():
     return cam
 
 
+MIN_ISLAND = 8  # vertices
+
+
+def one_arm(pieces):
+    """Arm pieces come in pairs at the two ends of a T-pose, so they render tiny. Keep the left
+    arm only and turn it 45 degrees, so a long glove fills the square diagonally."""
+    kept = []
+    for obj in pieces:
+        me = obj.data
+        bm = bmesh.new()
+        bm.from_mesh(me)
+        world = obj.matrix_world
+        doomed = [f for f in bm.faces if (world @ f.calc_center_median()).x < 0]
+        if len(doomed) == len(bm.faces):
+            bm.free()
+            bpy.data.objects.remove(obj)
+            continue
+        bmesh.ops.delete(bm, geom=doomed, context="FACES")
+        bmesh.ops.delete(bm, geom=[v for v in bm.verts if not v.link_faces], context="VERTS")
+        # VRoid leaves stray single triangles (e.g. at the shoulder) that would widen the framing.
+        bm.verts.ensure_lookup_table()
+        seen, stray = set(), []
+        for start in bm.verts:
+            if start.index in seen:
+                continue
+            island, stack = [], [start]
+            while stack:
+                v = stack.pop()
+                if v.index in seen:
+                    continue
+                seen.add(v.index)
+                island.append(v)
+                stack += [e.other_vert(v) for e in v.link_edges]
+            if len(island) < MIN_ISLAND:
+                stray += island
+        bmesh.ops.delete(bm, geom=stray, context="VERTS")
+        if not bm.faces:
+            bm.free()
+            bpy.data.objects.remove(obj)
+            continue
+        bm.to_mesh(me)
+        bm.free()
+        kept.append(obj)
+    if not kept:
+        return kept
+    pts = [o.matrix_world @ v.co for o in kept for v in o.data.vertices]
+    centre = sum(pts, Vector()) / len(pts)
+    turn = Matrix.Translation(centre) @ Matrix.Rotation(math.radians(45), 4, "Y") @ Matrix.Translation(-centre)
+    for obj in kept:
+        obj.matrix_world = turn @ obj.matrix_world
+    bpy.context.view_layer.update()
+    return kept
+
+
 def render_job(job):
     bpy.ops.wm.read_homefile(use_empty=True)
     cam = setup_scene()
@@ -143,6 +197,10 @@ def render_job(job):
             pieces.append(obj)
         if not pieces:
             continue
+        if item["name"].startswith("Arm"):
+            pieces = one_arm(pieces)
+            if not pieces:
+                continue
         # Evaluated (posed, shape-keyed) positions for framing.
         dg = bpy.context.evaluated_depsgraph_get()
         pts = []

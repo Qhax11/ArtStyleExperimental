@@ -83,15 +83,21 @@ scene.camera = cam
 cam.location = centre + Vector((0, -top * 5, 0))
 cam.rotation_euler = (math.radians(90), 0, 0)
 
-for n, path in enumerate(fbxs):
-    before = set(bpy.data.objects)
-    bpy.ops.import_scene.fbx(filepath=path)
-    new = set(bpy.data.objects) - before
-    arm = next(o for o in new if o.type == "ARMATURE")
-    mesh = next(o for o in new if o.type == "MESH")
-    mesh.data.materials.clear()
-    mesh.data.materials.append(cloth)
-    pose(arm)
+under = flat("Under", (0.95, 0.95, 0.97, 1))
+for n, column in enumerate(fbxs):
+    # "a.fbx+b.fbx": several items on at once; the last one is drawn lilac, the others white.
+    paths = column.split("+")
+    new = set()
+    for k, path in enumerate(paths):
+        before = set(bpy.data.objects)
+        bpy.ops.import_scene.fbx(filepath=path)
+        added = set(bpy.data.objects) - before
+        new |= added
+        arm = next(o for o in added if o.type == "ARMATURE")
+        mesh = next(o for o in added if o.type == "MESH")
+        mesh.data.materials.clear()
+        mesh.data.materials.append(cloth if k == len(paths) - 1 else under)
+        pose(arm)
     scene.render.filepath = os.path.join(out_dir, f"fit_{n}.png")
     bpy.ops.render.render(write_still=True)
     for o in new:

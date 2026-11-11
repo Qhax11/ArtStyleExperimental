@@ -49,7 +49,9 @@ def material_info(path, name, out_dir):
     tex = m["pbrMetallicRoughness"]["baseColorTexture"]["index"]
     info = {"tex": save_tex(doc, data, bin_off, tex, out_dir), "normal": None,
             "cutoff": m.get("alphaCutoff", 0.5), "alpha": m.get("alphaMode", "OPAQUE"),
-            "shade": [1.0, 1.0, 1.0]}
+            "shade": [1.0, 1.0, 1.0],
+            # Some VRoid clothes keep a white texture and get their colour here (the grey cardigan).
+            "color": m["pbrMetallicRoughness"].get("baseColorFactor", [1.0, 1.0, 1.0, 1.0])[:3]}
     mt = m.get("extensions", {}).get("VRMC_materials_mtoon", {})
     if "shadeColorFactor" in mt:
         info["shade"] = mt["shadeColorFactor"]

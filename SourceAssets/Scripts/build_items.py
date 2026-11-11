@@ -10,7 +10,8 @@ single item, so every clothing item still goes through the cloth pipeline:
      by the same amount while they are worn (UDressUpItem.SoleHeight), as VRoid does,
   2. bones the body skeleton lacks are merged into the nearest body bone,
   3. (clothing) faces whose texture is fully transparent are deleted,
-  4. (shoes) vertices under the skin are pushed out to it, so the bare foot does not poke through,
+  4. (shoes) vertices under the skin are pushed out to it, so the bare foot does not poke through;
+     (jackets, "outer": true) moved out a little so a shirt fits under them,
   5. (clothing) vertices near the skin take the body's skin weights (3 cm full, 10 cm none),
   6. the item is exported as FBX on the prepared body armature (centimetres, identity bones).
 
@@ -46,6 +47,12 @@ NEAR, FAR = 3.0, 10.0
 # poke through. Shoe vertices under the skin (or closer than this, cm) are pushed out to it.
 SHOE_GAP = 0.2
 SHOE_REACH = 4.0  # cm; only vertices this close to the body are moved
+# Jackets worn over a top (items with "outer": true, slot Outer): VRoid shapes every top about the
+# same distance from the skin, so a jacket is moved out by OUTER_LIFT and kept at least OUTER_MIN
+# from the skin; the shirt under it then cannot poke through. The lift fades out by OUTER_REACH.
+OUTER_LIFT = 0.6   # cm
+OUTER_MIN = 1.4    # cm
+OUTER_REACH = 8.0  # cm
 
 args = sys.argv[sys.argv.index("--") + 1:]
 jobs = json.load(open(args[0]))
@@ -266,6 +273,18 @@ def build_vrm(job):
                     ankle = min(ankles.values(), key=lambda p: (p - v.co).length)
                     turned = ankle + back @ (v.co - ankle)
                     v.co = v.co.lerp(turned, min(foot, 1.0))
+                me.update()
+            if item.get("outer"):
+                for v in me.vertices:
+                    hit, normal, _, distance = tree.find_nearest(v.co)
+                    if hit is None or distance > OUTER_REACH:
+                        continue
+                    height = (v.co - hit).dot(normal)
+                    fade = 1.0 - max(distance - OUTER_REACH / 2, 0.0) / (OUTER_REACH / 2)
+                    wanted = max(height + OUTER_LIFT * fade, OUTER_MIN * fade, height)
+                    if wanted > height:
+                        v.co = hit + normal * wanted + (v.co - hit - normal * height)
+                        pushed += 1
                 me.update()
             if item["name"].startswith("Shoes"):
                 # Densify the shoe near the foot first, so the skin cannot poke through between

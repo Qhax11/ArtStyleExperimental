@@ -103,6 +103,20 @@ ikonlar `/Game/DressUp/UI/Icons/VRoid`. Hepsi `DA_Catalog.AllItems` içinde.
 - **Müzik:** "Lofi Hip Hop Loop" (omfgdude, OpenGameArt, CC0; `SourceAssets/Audio/music/SOURCE.txt`).
   `ue_import_music.py` ile `/Game/DressUp/Audio/Music/MUS_Lofi` (döngü, `SC_Music`).
   `UDressUpSettingsSubsystem::StartMusic` başlatır; sahne değişince kesilmez, duraklatmada da çalar.
+- **Ceketler (katmanlı, 2026-11-11, deneme; katalogdan çıkarıldı):** Üç ceket az kaldı ve hangi üstün
+  hangi cekete uyduğu arayüzde görünmüyordu; daha çok ceket gelince açılacak (asset'ler duruyor,
+  `catalog_order.py` RETIRED). Açarken: arayüzde uyumsuz üstleri belli et. VRoid'de ayrı ceket kategorisi yok; ceketler üstün
+  içindeki gömlekle tek parça, ama materyallere ayrılıyor. `Outer_046` (bej trençkot), `Outer_028`
+  (açık krem blazer), `Outer_025` (gri hırka): kaynak üstün yalnızca dış materyalleri, `build_items.py`
+  `"outer": true` ile vücuttan `OUTER_LIFT`/`OUTER_MIN` kadar dışarı alınır. "Ceket" sekmesi (`Outer`
+  yuvası) üstü çıkarmaz, üstüne giyilir. Gömlek ve bluzla iyi; geniş kısa kollu tişörtün kolu omuzda
+  taşıyor (tişörtün kendi kol bükülmesi). Malzeme: kaynak üstün MI'ları.
+  Sığmayan üstler: `check_layers.py` her ceket-üst/elbise çiftini kollar inik ölçer; ceketin örttüğü
+  yerde üstün %18'den fazlası dışarıdaysa çakışır. Liste ceketin `ClashingItems` alanında; çakışan
+  parça giyilince diğeri çıkar (`UOutfitComponent::EquipInternal`, iki yönlü).
+- **Renk çarpanı:** Bazı VRoid kıyafetleri beyaz dokuyla gelip rengini `baseColorFactor`'dan alıyor
+  (gri hırka). Artık `extract_textures.py` bunu "color" olarak yazar, `ue_import_items.py` `mtoon_Color`'a
+  koyar. Mevcut dört parça (Top_025, 026, 033, 034) elle düzeltildi.
 - **Proje adı:** `DressUp.uproject`, ikon `Build/Windows/Application.ico`, açılış `Content/Splash/Splash.bmp`.
 - **Test komutları:** `DressUpWear DA_X DA_Y:2 nopanel`, `DressUpGallery` (her kombinin fotoğrafı
   `Saved/Gallery`, liste logda "GALLERY n"). Galerideki arka çekim karakteri döndürmüyor, ön çekimler geçerli.
@@ -273,8 +287,8 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] `BP_DressUpCharacter`
 - [x] Bölge engelleme kuralları (iki yönlü: elbise üstü çıkarır, üst de elbiseyi çıkarır)
 - [ ] Kombin kaydetme ve yükleme
-- [ ] Renk seçenekleri (alan var, mantık yok; Aşama 5)
-- [ ] `OnOutfitChanged` henüz test edilmedi, arayüz bağlanınca doğrulanacak. Fonksiyonun adı `GetEquippedItem` oldu, testte çalıştı.
+- [x] Renk seçenekleri: ortak palet ve parça varyantları (renk kutuları, `SetSlotVariant`)
+- [x] `OnOutfitChanged`: parça düğmeleri ve karakterin taban yüksekliği bunu dinliyor, çalışıyor.
 
 **Tamamlanma ölçütü:** Arayüz olmadan `Equip` ve `Unequip` çağrılarıyla parçalar değişiyor, elbise üst ve altı çıkarıyor. Karşılandı; test sürücüsü `/Game/DressUp/Core/Test/BP_OutfitTestDriver`.
 
@@ -336,14 +350,30 @@ En riskli adım, sistemden önce doğrulanır.
 
 - [ ] Toplam 15-20 parça (liste Şamil'den gelecek)
 - [ ] Kişisel dokunuşlar: onun gerçek kıyafetlerine benzeyen parçalar, en sevdiği renkler, gizli seçenekler
-- [ ] Ses, müzik, kıyafet değiştirme efekti
+- [x] Ses, müzik, kıyafet değiştirme efekti (2026-11-11: sentez efektler, Lofi müzik)
 - [ ] Yüz benzerliğinin son ayarları
 - [ ] En son: göz kırpma (VRoid yüzü morph target ile çalışıyor, kodla rastgele aralıklarla). Şamil 2026-11-06: en sona.
 
 ### 10. Teslim
 
-- [ ] Paketleme
+- [x] Paketleme (Şamil paketliyor; `Package.bat`, hedef `DressUp`)
 - [ ] Hedef bilgisayarda test
+- [ ] Vücut değişirse kıyafetleri uyarlama (Şamil, 2026-11-11: şimdilik kalsın). Yüz, saç, göz, ten
+  değişikliği kıyafeti bozmaz; boy, göğüs, kalça, kol ve bacak kalınlığı bozar. Yollar: (1) VRoid'den
+  130 civarı dosyayı yeniden dışa aktar, en doğru ama saatler sürer; (2) önerilen: eski ve yeni vücudu
+  VRoid UV'leri üzerinden eşleyip her kıyafet köşesini altındaki deri kadar kaydır ("Surface Deform"
+  mantığı, Blender'da dakikalar), kol ve göğüs ölçüm betikleriyle kontrol et, sorunlu bol parçaları
+  (1) ile tamamla; (3) Unreal'da kemik boyu farkı kendiliğinden taşınır, kalınlık farkı taşınmaz;
+  (4) kumaş simülasyonu, parça başına güzel ama 235 parça için yavaş.
+- [ ] BOOTH'tan ek kıyafet (Şamil, 2026-11-11: en sona). Teknik: VRoid dokuları (VRoid kalıplarına
+  desen) hatta doğrudan girer (VRoid'de evrar'a giydir, dışa aktar, `build_items.py`); XWear 3D kıyafetler
+  daha detaylı ama lilToon ve yüksek poligon, uyarlama ister. Lisans: incelenen ücretsizlerin hepsi
+  "ticari serbest, yeniden dağıtım yasak", oyuna gömme açıkça yazmıyor; ticari oyunda yalnızca "oyunda
+  kullanım serbest" diyenler ya da yapımcıdan izin. Adaylar: ShopSlope near-future set
+  (booth.pm/ja/items/1548851), よいどれ屋 maid texture (3248862), さめのワークス traveler (yayından kalkmış),
+  VRoid Avatar Cafe apron (XWear, VN3, vroid.booth.pm/items/6235667), CLCT for DRESS (VRoid resmi, ticari
+  serbest; muhtemelen VRoid hazırlarında zaten var, kontrol et). Ayrıca VRoid hazır kıyafetlerinin ticari
+  oyundaki resmi kuralı netleştirilmeli.
 - [ ] Lumen kararı (Şamil, 2026-11-10: şimdilik kalsın). Şablondan açık kaldı; toon materyalleri
   yüzünden karaktere katkısı az, yalnızca sahnenin seken ışığını veriyor. Ekran izleri kapalı
   (`DefaultEngine.ini`, beyaz kıyafetler zemine hale yapıyordu). Hedef bilgisayar zorlanırsa

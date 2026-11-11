@@ -69,6 +69,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Rules")
 	TArray<EDressUpSlot> BlockedSlots;
 
+	/**
+	 * Items that cannot be worn together with this one, e.g. tops too big to go under a jacket.
+	 * Works both ways: putting either on takes the other off, so listing it on one side is enough.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Rules")
+	TArray<TObjectPtr<UDressUpItem>> ClashingItems;
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Rules")
 	EBagType BagType = EBagType::None;
 };

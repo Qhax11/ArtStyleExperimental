@@ -255,7 +255,8 @@ void UOutfitComponent::EquipInternal(UDressUpItem* Item)
 	for (EDressUpSlot Slot : Worn)
 	{
 		const UDressUpItem* Other = GetEquipped(Slot);
-		if (Other && Other->BlockedSlots.Contains(Item->Slot))
+		if (Other && (Other->BlockedSlots.Contains(Item->Slot)
+			|| Item->ClashingItems.Contains(Other) || Other->ClashingItems.Contains(Item)))
 		{
 			UnequipInternal(Slot);
 		}

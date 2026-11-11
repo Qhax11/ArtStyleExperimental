@@ -119,7 +119,8 @@ ORDER = {
 
 # Kept on disk but left out of the catalog. Shoes_MaryJaneO: the first test shoe, same design as
 # Shoes_034 but built before the shoe fit step (2026-11-10).
-RETIRED = ("Shoes_MaryJaneO",)
+# Outer_*: the three layered jackets, out until more jackets come (Şamil, 2026-11-11).
+RETIRED = ("Shoes_MaryJaneO", "Outer_046", "Outer_028", "Outer_025")
 
 
 def main():
