@@ -6,6 +6,7 @@
 #include "DressUp/DressUpData.h"
 #include "DressUp/DressUpGameMode.h"
 #include "DressUp/OutfitComponent.h"
+#include "DressUp/DressUpSound.h"
 
 FText DressUp::PickMessage(const UDressUpCatalog* Catalog, const UOutfitComponent* Outfit)
 {
@@ -76,6 +77,7 @@ void UDressUpFinalScreen::HandlePhoto()
 
 void UDressUpFinalScreen::HandleReplay()
 {
+	DressUp::PlayClick(this);
 	if (Controller)
 	{
 		Controller->Replay();

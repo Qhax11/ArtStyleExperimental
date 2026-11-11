@@ -7,6 +7,7 @@
 #include "Components/TextBlock.h"
 #include "DressUp/DressUpGameMode.h"
 #include "DressUp/DressUpSettings.h"
+#include "DressUp/DressUpSound.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 
@@ -38,6 +39,7 @@ void UDressUpPopup::Close()
 
 void UDressUpPopup::HandleClose()
 {
+	DressUp::PlayClick(this);
 	Close();
 }
 
@@ -151,6 +153,7 @@ void UDressUpNamePrompt::HandleTextCommitted(const FText& Text, ETextCommit::Typ
 
 void UDressUpNamePrompt::HandleConfirm()
 {
+	DressUp::PlayClick(this);
 	const FString Name = NameInput->GetText().ToString().TrimStartAndEnd();
 	if (Name.IsEmpty())
 	{
@@ -182,6 +185,7 @@ void UDressUpMainMenu::NativeConstruct()
 
 void UDressUpMainMenu::HandleStart()
 {
+	DressUp::PlayClick(this);
 	const UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this);
 	if (SettingsSystem && SettingsSystem->HasPlayerName())
 	{
@@ -215,18 +219,21 @@ void UDressUpMainMenu::OpenGame()
 
 void UDressUpMainMenu::HandleSettings()
 {
+	DressUp::PlayClick(this);
 	Credits->Close();
 	Settings->Open();
 }
 
 void UDressUpMainMenu::HandleCredits()
 {
+	DressUp::PlayClick(this);
 	Settings->Close();
 	Credits->Open();
 }
 
 void UDressUpMainMenu::HandleQuit()
 {
+	DressUp::PlayClick(this);
 	QuitGame(this);
 }
 
@@ -258,6 +265,7 @@ bool UDressUpPauseMenu::CloseSettings()
 
 void UDressUpPauseMenu::HandleResume()
 {
+	DressUp::PlayClick(this);
 	if (ADressUpPlayerController* Controller = Cast<ADressUpPlayerController>(GetOwningPlayer()))
 	{
 		Controller->ClosePauseMenu();
@@ -266,11 +274,13 @@ void UDressUpPauseMenu::HandleResume()
 
 void UDressUpPauseMenu::HandleSettings()
 {
+	DressUp::PlayClick(this);
 	Settings->Open();
 }
 
 void UDressUpPauseMenu::HandleChangeName()
 {
+	DressUp::PlayClick(this);
 	if (ADressUpPlayerController* Controller = Cast<ADressUpPlayerController>(GetOwningPlayer()))
 	{
 		Controller->AskPlayerName();
@@ -279,6 +289,7 @@ void UDressUpPauseMenu::HandleChangeName()
 
 void UDressUpPauseMenu::HandleMainMenu()
 {
+	DressUp::PlayClick(this);
 	if (APlayerController* Controller = GetOwningPlayer())
 	{
 		Controller->SetPause(false);
@@ -288,5 +299,6 @@ void UDressUpPauseMenu::HandleMainMenu()
 
 void UDressUpPauseMenu::HandleQuit()
 {
+	DressUp::PlayClick(this);
 	QuitGame(this);
 }

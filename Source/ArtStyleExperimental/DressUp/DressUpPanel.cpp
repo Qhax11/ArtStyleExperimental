@@ -11,8 +11,8 @@
 #include "DressUp/DressUpData.h"
 #include "DressUp/DressUpGameMode.h"
 #include "DressUp/OutfitComponent.h"
-#include "Kismet/GameplayStatics.h"
-#include "Sound/SoundBase.h"
+#include "DressUp/DressUpSound.h"
+#include "TimerManager.h"
 
 // --- Item button ---
 
@@ -85,15 +85,11 @@ namespace
 		}
 	}
 
-	/** Plays /Game/DressUp/Audio/SFX/SFX_<Family>_On or _Off (routed to SC_Effects). */
+	/** Plays SFX_<Family>_On or _Off. */
 	void PlayItemSound(const UObject* WorldContext, EDressUpSlot Slot, bool bPutOn)
 	{
-		const FString Name = FString::Printf(TEXT("SFX_%s_%s"), SoundFamily(Slot), bPutOn ? TEXT("On") : TEXT("Off"));
-		const TSoftObjectPtr<USoundBase> Sound(FSoftObjectPath(FString::Printf(TEXT("/Game/DressUp/Audio/SFX/%s.%s"), *Name, *Name)));
-		if (USoundBase* Loaded = Sound.LoadSynchronous())
-		{
-			UGameplayStatics::PlaySound2D(WorldContext, Loaded);
-		}
+		const FString Name = FString::Printf(TEXT("%s_%s"), SoundFamily(Slot), bPutOn ? TEXT("On") : TEXT("Off"));
+		DressUp::PlaySound(WorldContext, *Name);
 	}
 }
 
@@ -177,6 +173,7 @@ void UDressUpColorButton::RefreshSelected()
 
 void UDressUpColorButton::HandleClicked()
 {
+	DressUp::PlaySound(this, TEXT("UI_Color"));
 	if (Outfit && Variant >= 0)
 	{
 		Outfit->SetVariantForLastSlot(Variant);
@@ -219,6 +216,7 @@ void UDressUpTabButton::SetSelected(bool bSelected)
 
 void UDressUpTabButton::HandleClicked()
 {
+	DressUp::PlaySound(this, TEXT("UI_Tab"));
 	if (OnChosen)
 	{
 		OnChosen(Index);
@@ -448,6 +446,39 @@ void UDressUpPanel::NativeConstruct()
 	{
 		FinishBtn->OnClicked.AddUniqueDynamic(this, &UDressUpPanel::HandleFinish);
 	}
+	if (RotateHint && GetWorld())
+	{
+		RotateHint->SetRenderTransformPivot(FVector2D(0.5f, 0.5f));
+		HintClock = 0.0f;
+		GetWorld()->GetTimerManager().SetTimer(HintTimer, this, &UDressUpPanel::PulseRotateHint, 1.0f / 30.0f, true);
+	}
+}
+
+void UDressUpPanel::NativeDestruct()
+{
+	if (GetWorld())
+	{
+		GetWorld()->GetTimerManager().ClearTimer(HintTimer);
+	}
+	Super::NativeDestruct();
+}
+
+void UDressUpPanel::PulseRotateHint()
+{
+	if (!RotateHint)
+	{
+		return;
+	}
+	HintClock += 1.0f / 30.0f;
+	// The first pulse comes a couple of seconds in, then one every HintPulseInterval.
+	const float Phase = FMath::Fmod(HintClock + HintPulseInterval - 2.0f, HintPulseInterval);
+	float Scale = 1.0f;
+	if (Phase < HintPulseDuration)
+	{
+		const float Bump = FMath::Sin(PI * Phase / HintPulseDuration);
+		Scale += HintPulseGrowth * Bump * Bump;
+	}
+	RotateHint->SetRenderScale(FVector2D(Scale, Scale));
 }
 
 void UDressUpPanel::HandleFinish()
@@ -460,6 +491,7 @@ void UDressUpPanel::HandleFinish()
 
 void UDressUpPanel::HandleReset()
 {
+	DressUp::PlayClick(this);
 	if (Outfit)
 	{
 		Outfit->ResetToDefault();

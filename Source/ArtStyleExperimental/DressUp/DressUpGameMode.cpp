@@ -8,6 +8,7 @@
 #include "DressUp/DressUpSettings.h"
 #include "DressUp/DressUpPanel.h"
 #include "DressUp/OutfitComponent.h"
+#include "DressUp/DressUpSound.h"
 #include "EngineUtils.h"
 #include "HAL/FileManager.h"
 #include "Misc/DateTime.h"
@@ -39,6 +40,7 @@ void ADressUpPlayerController::BeginPlay()
 	if (UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this))
 	{
 		SettingsSystem->ApplyAudio(this);
+		SettingsSystem->StartMusic(this);
 	}
 }
 
@@ -230,6 +232,7 @@ void ADressUpPlayerController::Finish()
 		return;
 	}
 	bFinished = true;
+	DressUp::PlaySound(this, TEXT("Finish"));
 	if (Panel)
 	{
 		Panel->SetVisibility(ESlateVisibility::Collapsed);
@@ -279,6 +282,7 @@ FString ADressUpPlayerController::PhotoDirectory()
 
 void ADressUpPlayerController::TakePhoto()
 {
+	DressUp::PlaySound(this, TEXT("Photo"));
 	const FString Directory = PhotoDirectory();
 	IFileManager::Get().MakeDirectory(*Directory, true);
 	const FString Name = FString::Printf(TEXT("Dolap_%s.png"), *FDateTime::Now().ToString(TEXT("%Y%m%d_%H%M%S")));
@@ -340,6 +344,7 @@ void ADressUpMenuController::BeginPlay()
 	if (UDressUpSettingsSubsystem* SettingsSystem = UDressUpSettingsSubsystem::Get(this))
 	{
 		SettingsSystem->ApplyAudio(this);
+		SettingsSystem->StartMusic(this);
 	}
 }
 

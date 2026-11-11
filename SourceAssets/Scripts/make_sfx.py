@@ -173,7 +173,27 @@ SOUNDS = {
     "Accessory_On": lambda: mix(1.0, (0, bell(note("A6"), 0.8, 0.6, 1.2)),
                                 *sparkle(0.07, 3, ("E7", "G7", "C8"), 0.05, 0.3)),
     "Accessory_Off": lambda: mix(0.8, (0, bell(note("E6"), 0.6, 0.45, 0.8)), (0.09, bell(note("C6"), 0.6, 0.35, 0.6))),
+    # Interface.
+    # Wardrobe tab: a soft wooden "tok" with a hint of paper.
+    "UI_Tab": lambda: mix(0.3, (0, bubble(420, 620, 0.06, 0.8)), (0, band_noise(0.05, 3000, 2000, amp=0.15, attack=0.003))),
+    # Colour swatch: a little bloop with a high sparkle.
+    "UI_Color": lambda: mix(0.6, (0, bubble(650, 1250, 0.07, 0.8)), (0.05, bell(note("E7"), 0.4, 0.18, 0.4))),
+    # Any other button: the softest pop.
+    "UI_Click": lambda: mix(0.2, (0, bubble(380, 560, 0.045, 0.7))),
+    # Finish: harp run up and a shower of sparkles.
+    "Finish": lambda: mix(2.2, *[(i * 0.08, pluck(note(n), 1.0, 0.5)) for i, n in enumerate(("C5", "E5", "G5", "C6", "E6"))],
+                          (0.4, bell(note("G6"), 1.2, 0.45)),
+                          *sparkle(0.48, 7, ("E7", "C7", "G7", "A6", "D7", "C8", "G6"), 0.07, 0.3)),
+    # Photo: a camera shutter, "ch-chk", then a tiny ding.
+    "Photo": lambda: mix(0.8, (0, band_noise(0.03, 3500, 2500, width=0.5, amp=0.9, attack=0.001, shape=3)),
+                         (0.008, tap(2200, 0.35)),
+                         (0.075, band_noise(0.04, 2200, 1500, width=0.5, amp=0.7, attack=0.001, shape=3)),
+                         (0.08, tap(1500, 0.3)), (0.18, bell(note("C7"), 0.5, 0.2, 0.4))),
 }
+
+# Perceived level of each sound (RMS of its loud part). Taking off sits below putting on,
+# interface clicks below both, the finish fanfare on top.
+LOUDNESS = {"UI_Tab": 0.06, "UI_Color": 0.06, "UI_Click": 0.05, "Finish": 0.12, "Photo": 0.09}
 
 
 def to_wav_bytes(sig):
@@ -195,9 +215,8 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
     rows = []
     for name, make in SOUNDS.items():
-        quiet = name.endswith("_Off")
-        # Taking off sits a little lower than putting on.
-        data = to_wav_bytes(finish(reverb(make()), loudness=0.08 if quiet else 0.11))
+        loudness = LOUDNESS.get(name, 0.08 if name.endswith("_Off") else 0.11)
+        data = to_wav_bytes(finish(reverb(make()), loudness=loudness))
         open(os.path.join(out_dir, f"SFX_{name}.wav"), "wb").write(data)
         rows.append((name, base64.b64encode(data).decode()))
         print("SFX", name, f"{len(data) / 2 / SR:.2f}s")
@@ -208,6 +227,8 @@ def main():
         cells.append(f'<div class="row"><span>{label}</span>'
                      f'<button onclick="play(\'{cat}_On\')">Giy</button>'
                      f'<button class="off" onclick="play(\'{cat}_Off\')">Çıkar</button></div>')
+    for key, label in (("UI_Tab", "Sekme"), ("UI_Color", "Renk"), ("UI_Click", "Düğme"), ("Finish", "Bitir"), ("Photo", "Fotoğraf")):
+        cells.append(f'<div class="row"><span>{label}</span><button onclick="play(&quot;{key}&quot;)">Çal</button></div>')
     audio = "".join(f'<audio id="{n}" src="data:audio/wav;base64,{b}"></audio>' for n, b in rows)
     html = f"""<!doctype html><html lang="tr"><head><meta charset="utf-8"><title>Dolap sesleri</title>
 <meta name="viewport" content="width=device-width,initial-scale=1"><style>

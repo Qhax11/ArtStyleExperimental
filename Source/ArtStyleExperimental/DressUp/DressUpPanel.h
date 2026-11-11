@@ -176,6 +176,7 @@ public:
 protected:
 	virtual void NativeOnInitialized() override;
 	virtual void NativeConstruct() override;
+	virtual void NativeDestruct() override;
 
 	/** Holds the tab headers. */
 	UPROPERTY(meta = (BindWidget))
@@ -205,6 +206,21 @@ protected:
 	UPROPERTY(meta = (BindWidgetOptional))
 	TObjectPtr<UTextBlock> NameText;
 
+	/** "Drag to turn" hint, bottom right. It pulses now and then so it gets noticed. */
+	UPROPERTY(meta = (BindWidgetOptional))
+	TObjectPtr<UWidget> RotateHint;
+
+	/** Seconds between pulses of the rotate hint, and how long one pulse lasts. */
+	UPROPERTY(EditAnywhere, Category = "Dress Up|Hint")
+	float HintPulseInterval = 7.0f;
+
+	UPROPERTY(EditAnywhere, Category = "Dress Up|Hint")
+	float HintPulseDuration = 1.0f;
+
+	/** How much the hint grows at the top of a pulse (0.15 = 15%). */
+	UPROPERTY(EditAnywhere, Category = "Dress Up|Hint")
+	float HintPulseGrowth = 0.15f;
+
 private:
 	UFUNCTION()
 	void HandleReset();
@@ -217,6 +233,11 @@ private:
 	/** Shows the variants of the item picked last, or the shared palette when it has none. */
 	UFUNCTION()
 	void RefreshSwatches();
+
+	void PulseRotateHint();
+
+	FTimerHandle HintTimer;
+	float HintClock = 0.0f;
 
 	/** Puts the item list in a scroll box when the layout did not. */
 	void WrapListInScrollBox();

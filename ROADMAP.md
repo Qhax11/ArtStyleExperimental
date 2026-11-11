@@ -95,7 +95,14 @@ ikonlar `/Game/DressUp/UI/Icons/VRoid`. Hepsi `DA_Catalog.AllItems` içinde.
   (karaktere bağlı değil, panelle gizlenir). Test: `DressUpForgetName`.
 - **Kıyafet sesleri:** `SourceAssets/Scripts/make_sfx.py` (numpy ile sentez) her sekme için giyme ve çıkarma
   sesi üretir (`SourceAssets/Audio/sfx`, dinleme sayfası `preview.html`). `ue_import_sfx.py` editörde
-  `py` komutuyla `/Game/DressUp/Audio/SFX`'e alır, `SC_Effects`'e bağlar. Çalma: `DressUpPanel.cpp` `PlayItemSound`.
+  `py` komutuyla `/Game/DressUp/Audio/SFX`'e alır, `SC_Effects`'e bağlar. Çalma: `DressUp::PlaySound`
+  (`DressUpSound.h`). Arayüz: `UI_Tab` (sekme ve duruş), `UI_Color` (renk), `UI_Click` (diğer düğmeler),
+  `Finish` (Bitir), `Photo` (fotoğraf).
+- **Döndürme ipucu nabzı:** `UDressUpPanel::PulseRotateHint`, 7 sn'de bir 1 sn boyunca %15 büyür
+  (`HintPulseInterval/Duration/Growth`).
+- **Müzik:** "Lofi Hip Hop Loop" (omfgdude, OpenGameArt, CC0; `SourceAssets/Audio/music/SOURCE.txt`).
+  `ue_import_music.py` ile `/Game/DressUp/Audio/Music/MUS_Lofi` (döngü, `SC_Music`).
+  `UDressUpSettingsSubsystem::StartMusic` başlatır; sahne değişince kesilmez, duraklatmada da çalar.
 - **Proje adı:** `DressUp.uproject`, ikon `Build/Windows/Application.ico`, açılış `Content/Splash/Splash.bmp`.
 - **Test komutları:** `DressUpWear DA_X DA_Y:2 nopanel`, `DressUpGallery` (her kombinin fotoğrafı
   `Saved/Gallery`, liste logda "GALLERY n"). Galerideki arka çekim karakteri döndürmüyor, ön çekimler geçerli.

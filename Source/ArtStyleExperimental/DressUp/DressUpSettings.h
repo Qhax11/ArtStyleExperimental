@@ -7,6 +7,8 @@
 #include "Subsystems/GameInstanceSubsystem.h"
 #include "DressUpSettings.generated.h"
 
+class UAudioComponent;
+class USoundBase;
 class USoundClass;
 
 UENUM(BlueprintType)
@@ -82,6 +84,17 @@ public:
 
 	static UDressUpSettingsSubsystem* Get(const UObject* WorldContext);
 
+	/**
+	 * Starts the background music if it is not playing yet. It lives on across level changes
+	 * (menu to game and back) and keeps playing in the pause menu.
+	 */
+	UFUNCTION(BlueprintCallable, Category = "Settings", meta = (WorldContext = "WorldContext"))
+	void StartMusic(const UObject* WorldContext);
+
+	/** Looping track on SC_Music. SourceAssets/Audio/music/SOURCE.txt says where it is from. */
+	UPROPERTY(EditAnywhere, Category = "Settings")
+	TSoftObjectPtr<USoundBase> Music = TSoftObjectPtr<USoundBase>(FSoftObjectPath(TEXT("/Game/DressUp/Audio/Music/MUS_Lofi.MUS_Lofi")));
+
 	UPROPERTY(EditAnywhere, Category = "Settings")
 	TSoftObjectPtr<USoundClass> MasterClass = TSoftObjectPtr<USoundClass>(FSoftObjectPath(TEXT("/Game/DressUp/Audio/SC_Master.SC_Master")));
 
@@ -97,6 +110,9 @@ private:
 
 	UPROPERTY()
 	TObjectPtr<UDressUpSettingsSave> Settings;
+
+	UPROPERTY()
+	TObjectPtr<UAudioComponent> MusicComponent;
 
 	TWeakObjectPtr<const UObject> LastWorldContext;
 

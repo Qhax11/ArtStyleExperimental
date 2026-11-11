@@ -4,6 +4,8 @@
 #include "Engine/World.h"
 #include "GameFramework/GameUserSettings.h"
 #include "Kismet/GameplayStatics.h"
+#include "Components/AudioComponent.h"
+#include "Sound/SoundBase.h"
 #include "Sound/SoundClass.h"
 
 void UDressUpSettingsSubsystem::Initialize(FSubsystemCollectionBase& Collection)
@@ -41,6 +43,27 @@ float UDressUpSettingsSubsystem::GetVolume(EDressUpVolume Channel) const
 		return Settings->EffectsVolume;
 	default:
 		return Settings->MasterVolume;
+	}
+}
+
+void UDressUpSettingsSubsystem::StartMusic(const UObject* WorldContext)
+{
+	if (MusicComponent && MusicComponent->IsPlaying())
+	{
+		return;
+	}
+	USoundBase* Track = Music.LoadSynchronous();
+	if (!Track || !WorldContext)
+	{
+		return;
+	}
+	// Persists across level transitions, so the menu-to-game load does not restart the song.
+	MusicComponent = UGameplayStatics::CreateSound2D(WorldContext, Track, 1.0f, 1.0f, 0.0f, nullptr, true, false);
+	if (MusicComponent)
+	{
+		// Keeps playing while the game is paused for the pause menu.
+		MusicComponent->bIsUISound = true;
+		MusicComponent->FadeIn(2.0f);
 	}
 }
 
