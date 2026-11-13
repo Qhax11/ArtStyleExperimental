@@ -11,6 +11,10 @@ looks along -Y from +Y.
   SM_PetalsGround   petals strewn on the ground and on the podium
   SM_FlowerClump    grass tuft with small white and pink flowers
   SM_Stone          small rounded stone
+  SM_Winter_Podium     the podium under snow, a few stones showing
+  SM_Winter_SnowPile   low lumpy heap of snow
+  SM_Winter_SnowBush   round bush with snow on top
+  SM_Winter_Snowflake  six-armed flake, for falling snow
 """
 import math
 import os
@@ -89,7 +93,12 @@ def add_petal(b, matrix, tint):
 PETAL_PINKS = [(0.98, 0.72, 0.80), (0.96, 0.78, 0.86), (1.0, 0.84, 0.89), (0.94, 0.66, 0.76)]
 
 
-def make_podium():
+SNOW = (0.97, 0.98, 1.0)
+SNOW_SHADE = (0.86, 0.89, 0.97)
+
+
+def make_podium(name="SM_Podium", snow=0.0):
+    """snow: share of the stones covered by snow (the rest show through)."""
     b = Builder()
     seg = 48
     rings = [0.0, 0.30, 0.52, PODIUM_R - 0.05, PODIUM_R]
@@ -103,7 +112,7 @@ def make_podium():
     for r in range(len(rings) - 1):
         stones = 1 if r == 0 else (12 if r == 1 else 20)
         band = (0.93, 0.86, 0.83) if r == 2 else cream
-        stone_cols = [colour(band, 0.035) for _ in range(stones)]
+        stone_cols = [colour(SNOW, 0.02) if rng.random() < snow else colour(band, 0.035) for _ in range(stones)]
         for i in range(seg):
             rgba = stone_cols[i * stones // seg]
             a0 = 2 * math.pi * i / seg
@@ -115,7 +124,7 @@ def make_podium():
                         p(rings[r + 1], heights[r + 1], a1), p(rings[r], heights[r], a1)], rgba)
     # Rounded rim down to the ground.
     side = [(PODIUM_R, PODIUM_H - 0.012), (PODIUM_R + 0.008, PODIUM_H - 0.025), (PODIUM_R + 0.012, 0.0)]
-    rim = colour((0.88, 0.80, 0.78))
+    rim = colour(SNOW_SHADE) if snow > 0 else colour((0.88, 0.80, 0.78))
     for i in range(seg):
         a0 = 2 * math.pi * i / seg
         a1 = 2 * math.pi * (i + 1) / seg
@@ -124,7 +133,7 @@ def make_podium():
             b.face([Vector((r0 * math.cos(a0), r0 * math.sin(a0), h0)), Vector((r0 * math.cos(a1), r0 * math.sin(a1), h0)),
                     Vector((r1 * math.cos(a1), r1 * math.sin(a1), h1)), Vector((r1 * math.cos(a0), r1 * math.sin(a0), h1))], rim)
     bmesh.ops.remove_doubles(b.bm, verts=b.bm.verts, dist=0.0001)
-    return b.finish("SM_Podium")
+    return b.finish(name)
 
 
 def make_petal():
@@ -214,13 +223,97 @@ def make_stone():
     return obj
 
 
+def lumpy(name, radius, squash, colours, subdiv=2, wobble=0.12, flat_bottom=0.0):
+    """A soft heap: an icosphere squashed and wobbled, cut flat at the ground."""
+    bm = bmesh.new()
+    bmesh.ops.create_icosphere(bm, subdivisions=subdiv, radius=radius)
+    for v in bm.verts:
+        v.co.z *= squash
+        v.co *= 1.0 + rng.uniform(-wobble, wobble)
+        v.co.z = max(v.co.z, flat_bottom)
+    col = bm.loops.layers.color.new("Col")
+    top = max(v.co.z for v in bm.verts)
+    for f in bm.faces:
+        # Lighter on top, the shade colour lower down.
+        hgt = f.calc_center_median().z / max(top, 1e-4)
+        rgba = colour(colours[0] if hgt > 0.45 else colours[1], 0.02)
+        for loop in f.loops:
+            loop[col] = rgba
+    for f in bm.faces:
+        f.smooth = True  # snow is soft, not faceted
+    me = bpy.data.meshes.new(name)
+    bm.normal_update()
+    bm.to_mesh(me)
+    bm.free()
+    obj = bpy.data.objects.new(name, me)
+    bpy.context.scene.collection.objects.link(obj)
+    return obj
+
+
+def make_snow_pile():
+    return lumpy("SM_Winter_SnowPile", 0.10, 0.38, (SNOW, SNOW_SHADE), subdiv=3, wobble=0.06)
+
+
+def make_snow_bush():
+    """Dark green lumps with snow caps."""
+    bm = bmesh.new()
+    col = bm.loops.layers.color.new("Col")
+    for _ in range(5):
+        tmp = bmesh.new()
+        r = rng.uniform(0.09, 0.14)
+        bmesh.ops.create_icosphere(tmp, subdivisions=2, radius=r)
+        off = Vector((rng.uniform(-0.12, 0.12), rng.uniform(-0.08, 0.08), r * 0.7 + rng.uniform(0, 0.08)))
+        for v in tmp.verts:
+            v.co = v.co * (1.0 + rng.uniform(-0.1, 0.1)) + off
+        me_tmp = bpy.data.meshes.new("tmp")
+        tmp.to_mesh(me_tmp)
+        tmp.free()
+        start = len(bm.faces)
+        bm.from_mesh(me_tmp)
+        bpy.data.meshes.remove(me_tmp)
+        bm.faces.ensure_lookup_table()
+        for f in bm.faces[start:]:
+            n = f.normal if f.normal.length > 0 else Vector((0, 0, 1))
+            rgba = colour(SNOW, 0.02) if f.calc_center_median().z > off.z + r * 0.25 else colour((0.36, 0.52, 0.42), 0.06)
+            for loop in f.loops:
+                loop[col] = rgba
+    for v in bm.verts:
+        v.co.z = max(v.co.z, 0.0)
+    for f in bm.faces:
+        f.smooth = True
+    me = bpy.data.meshes.new("SM_Winter_SnowBush")
+    bm.normal_update()
+    bm.to_mesh(me)
+    bm.free()
+    obj = bpy.data.objects.new("SM_Winter_SnowBush", me)
+    bpy.context.scene.collection.objects.link(obj)
+    return obj
+
+
+def make_snowflake():
+    """Flat six-armed star, 5 cm, white."""
+    b = Builder()
+    white = colour(SNOW)
+    for k in range(6):
+        a = math.pi / 3 * k
+        d = Vector((math.cos(a), math.sin(a), 0))
+        side = Vector((-d.y, d.x, 0)) * 0.003
+        b.face([side * 1.5, d * 0.025 + side, d * 0.025 - side, -side * 1.5], white)
+        mid = d * 0.014
+        for t in (1, -1):
+            br = Vector((math.cos(a + t * 0.8), math.sin(a + t * 0.8), 0)) * 0.008
+            b.face([mid - side, mid + br, mid + side], white)
+    return b.finish("SM_Winter_Snowflake")
+
+
 bpy.ops.wm.read_homefile(use_empty=True)
-objs = [make_podium(), make_petal(), make_petals_ground(), make_flower_clump(), make_stone()]
+objs = [make_podium(), make_petal(), make_petals_ground(), make_flower_clump(), make_stone(),
+        make_podium("SM_Winter_Podium", snow=0.8), make_snow_pile(), make_snow_bush(), make_snowflake()]
 for obj in objs:
     bpy.ops.object.select_all(action="DESELECT")
     obj.select_set(True)
     bpy.context.view_layer.objects.active = obj
     path = os.path.join(out_dir, obj.name + ".fbx")
-    bpy.ops.export_scene.fbx(filepath=path, use_selection=True, mesh_smooth_type="FACE",
+    bpy.ops.export_scene.fbx(filepath=path, use_selection=True, mesh_smooth_type="FACE" if not obj.name.startswith("SM_Winter_Snow") or obj.name.endswith("flake") else "EDGE",
                              colors_type="SRGB", add_leaf_bones=False, bake_anim=False)
     print("PROP", obj.name, len(obj.data.vertices), [round(v, 3) for v in obj.dimensions])

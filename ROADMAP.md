@@ -328,8 +328,8 @@ En riskli adım, sistemden önce doğrulanır.
   - Sahnede `Scene` klasöründe: Backdrop, Ground, Prop_* yuvaları, Effect, LightRig. Her aktörün "Preview Scene" alanı editörde o mekânı gösterir.
   - İçerik `Content/DressUp/Scene/Common` (M_SceneBackdrop, M_SceneGround, M_Prop, SM_Podium, SM_Stone) ve `Scene/Spring` (DA_Scene_Spring, T_Spring_Backdrop, MI_Spring_Ground, yaprak ve çiçek mesh'leri).
   - Koddaki bütün asset yolları Project Settings > Game > Dress Up'a taşındı (`UDressUpProjectSettings`, `DefaultGame.ini`). Kod klasörleri: Core, Game, Character, UI, Scene.
-  - Zemin: tek büyük plane (`Ground`, 32x16 m), `M_SceneGroundView`: her noktası, o an çizen kameradan bakınca arkasında kalan fon pikselini gösterir (fonun önünde görünmez cam gibi); kamera nereden bakarsa baksın, final yaklaşmasında da, fonla birebir aynı. Karakterin çevresinde aynı görüntü ışık alır ve gölgeyi taşır (`LitInner/LitOuter`, `LitGlow/LitLight`). Fon kartının yeri `Scene/Common/MPC_SceneProjection`'da; fon taşınırsa yeniden yazılmalı. Kameralar 16:9'a sabit değil; fon editörde 2:1'e kadar kaplayacak şekilde bir kez yerleşir (`CoverAspect`).
-  - Kalan: ilkbahar Niagara yaprak efekti (editörde birlikte), zemin dokusu (ChatGPT), yaz/sonbahar/kış, final ekranında mekân cümlesi. `MI_Studio_*` eski stüdyodan kaldı, kullanılmıyor.
+  - Zemin: tek büyük plane (`Ground`, 32x16 m), `M_SceneGroundProjected`: fon resmi sahne kamerasının açısından zemine yansıtılır (resmin kendi zemini); karakterin çevresinde aynı resim ışık alır ve gölgeyi taşır (`LitInner/LitOuter`, `LitGlow/LitLight`). Yansıtma ölçüleri `Scene/Common/MPC_SceneProjection`'da; sahne kamerası ya da fon taşınırsa yeniden yazılmalı. "O anki kameradan yansıtma" denendi (yaklaşmada kayma olmasın diye), editörde zemin boş göründüğü için geri alındı. Final kamerası görüş açısı 90° (zoom yok). Kameralar 16:9'a sabit değil; fon editörde 2:1'e kadar kaplayacak şekilde bir kez yerleşir (`CoverAspect`).
+  - Kış eklendi (2026-11-14): `Scene/Winter` (DA_Scene_Winter, T_Winter_Backdrop, MI_Winter_Ground, karlı podyum, kar yığını, karlı çalı, kar tanesi mesh'i); obje mesh'leri `make_scene_props.py`'de. Katalogda İlkbahar, Kış. Kalan: Niagara yaprak ve kar efektleri (editörde birlikte), yaz/sonbahar, final ekranında mekân cümlesi. `MI_Studio_*` eski stüdyodan kaldı, kullanılmıyor.
 - [x] Idle animasyon: Mixamo'dan iki döngüsel bekleme (`SourceAssets/Mixamo/Idle_A.fbx` 8.3 sn; ikincisi `Idle_B.fbx` silindi), `SourceAssets/Scripts/export_mixamo_fbx.py` ile karaktere aktarıldı (iki iskelet de T-pozda; kemik başına dünya dönüş farkı, kalça boy oranıyla). `DA_Body_evrar.IdleAnim` = `/Game/DressUp/Core/Anim/Idle/SK_Idle_A_Anim`. B ("Salınım") Şamil'in isteğiyle 2026-11-08'de projeden silindi, A çok daha iyi görünüyordu.
 - [x] VRoid'in resmî ücretsiz VRMA paketi (`VRMA_MotionPack`, 7 hareket) karakterin iskeletine alındı: `/Game/DressUp/Core/Anim/Motions/SK_VRMA_0X_Anim`. Yol: `SourceAssets/Scripts/export_vrma_fbx.py` (Blender VRM eklentisi VRMA'yı iskelete uygular, `prepare_armature` sonrası aynı deformasyon yeniden yazılır), FBX `import_animations=True` ile alınır. Hareketler: 01 tüm vücut, 02 selam, 03 V işareti, 04 ateş, 05 dönme, 06 model pozu, 07 çömelme. Kredi: "Character animation credits to pixiv Inc.'s VRoid Project". VRM4U'nun doğrudan aldığı deneme `/Game/DressUp/Core/Anim/VRMA` kendi iskeletinde, işe yaramıyor; editör kapalıyken diskten silinecek.
 - [x] Oyun başlangıcı ve Sıfırla: kıyafetsiz, saçsız, iç çamaşırıyla (Şamil'in isteği, 2026-11-06). Katalogdaki `DefaultItems` boş.
@@ -360,6 +360,11 @@ En riskli adım, sistemden önce doğrulanır.
 - [x] Ses, müzik, kıyafet değiştirme efekti (2026-11-11: sentez efektler, Lofi müzik)
 - [ ] Yüz benzerliğinin son ayarları
 - [ ] En son: göz kırpma (VRoid yüzü morph target ile çalışıyor, kodla rastgele aralıklarla). Şamil 2026-11-06: en sona.
+
+### 9b. Kombinlerim (en sona, Şamil 2026-11-13)
+
+- [ ] Kombini kaydetme: giyilen parçalar, renk ve varyantlar, mekân ve ad ile kaydedilir; "Kombinlerim" ekranında küçük resimleriyle listelenir, tıklayınca giyilir, silinebilir. Altyapının bir kısmı hazır: `UOutfitComponent::GetOutfit/ApplyOutfit/SaveOutfit/LoadOutfit` tek bir kayıt yuvasıyla çalışıyor; birden çok kombin, küçük resim ve mekân eklenecek.
+- [ ] İleride: kombin oylama gibi sosyal özellikler (kapsamı sonra konuşulacak).
 
 ### 10. Teslim
 
